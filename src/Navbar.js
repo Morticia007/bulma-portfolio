@@ -36,8 +36,8 @@ function Navbar() {
             <Link to='about' className='navbar-item'>
               About
             </Link>
-            <Link to='projects' className='navbar-item'>
-              Projects
+            <Link to='work' className='navbar-item'>
+              Work
             </Link>
             <Link to='contact' className='navbar-item'>
               Contact
