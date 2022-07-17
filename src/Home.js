@@ -2,15 +2,14 @@ import React from 'react';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Content from './Content';
-import Project from './Project';
+import Projects from './Projects';
 
 
 function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
-      <Project />
+      <Projects />
     </>
   );
 }
