@@ -1,6 +1,4 @@
 import Home from './Home';
-import Footer from './Footer';
-import Navbar from './Navbar';
 
 import {  Routes, Route } from 'react-router-dom';
 
