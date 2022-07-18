@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Splash from './assets/splash-1.png';
 import Splash2 from './assets/splash-2.png';
 import RightHand from './assets/right-hand-color.png';
-import TaskFlows from './assets/taskflows.png'
+import TaskFlows from './assets/taskflows.png';
 import MappingJourney from './assets/mappingjourney.png';
 
 const projectContentList = [
@@ -347,8 +347,7 @@ function Work() {
           </div>
           <hr />
         </div>
-        <div className='container-fluid'>
-          
+        <div id='wireframes' className='container-fluid'>
           <section id='splash' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h1 className='has-text-centered'>Wireframes</h1>
@@ -377,7 +376,6 @@ function Work() {
 
           <section id='feed' style={{ marginBottom: 100 }}>
             <div className='content'>
-              <h1 className='has-text-centered'>Wireframes</h1>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Feed Screen
               </h2>
@@ -463,28 +461,18 @@ function Work() {
                     src='https://i.ibb.co/T0sKjrP/Splash.png'
                   />
                 </div>
-                <div>
-                  <h2 className='has-text-centered'>Mockup 2</h2>
-                  <img
-                    alt='project 11'
-                    height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
-                  />
-                </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <p>Lo-Fi</p>
                   <p>Option to customize screen based on user type.</p>
                   <p>Mockup 1</p>
                   <p>Option to customize screen based on user type.</p>
-                  <p>Mockup 2</p>
-                  <p>Option to customize screen based on user type.</p>
                 </div>
               </div>
             </div>
           </section>
 
-           <section id='activity' style={{ marginBottom: 100 }}>
+          <section id='activity' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Activity Screen
@@ -506,8 +494,49 @@ function Work() {
                     src='https://i.ibb.co/T0sKjrP/Splash.png'
                   />
                 </div>
+
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <p>Lo-Fi</p>
+                  <p>Option to customize screen based on user type.</p>
+                  <p>Mockup 1</p>
+                  <p>Option to customize screen based on user type.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id='interactive-prototype' style={{ marginBottom: 100 }}>
+            <div className='content'>
+              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                Interactive Prototype
+              </h2>
+              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
-                  <h2 className='has-text-centered'>Mockup 2</h2>
+                  <h2 className='has-text-centered'>Prototype 1</h2>
+                  <img
+                    alt='project 9'
+                    height='500'
+                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Prototype 2</h2>
+                  <img
+                    alt='project 10'
+                    height='500'
+                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Prototype 3</h2>
+                  <img
+                    alt='project 11'
+                    height='500'
+                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Prototype 4</h2>
                   <img
                     alt='project 11'
                     height='500'
@@ -516,17 +545,18 @@ function Work() {
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <p>Lo-Fi</p>
+                  <p>Prototype 1</p>
                   <p>Option to customize screen based on user type.</p>
-                  <p>Mockup 1</p>
+                  <p>Prototype 2</p>
                   <p>Option to customize screen based on user type.</p>
-                  <p>Mockup 2</p>
+                  <p>Prototype 3</p>
+                  <p>Option to customize screen based on user type.</p>
+                  <p>Prototype 4</p>
                   <p>Option to customize screen based on user type.</p>
                 </div>
               </div>
             </div>
           </section>
-        
         </div>
         <hr />
         <section className='container'>
