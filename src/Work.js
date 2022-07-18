@@ -669,6 +669,9 @@ function Work() {
                 </p>
               </div>
             </div>
+            <div>
+              <img alt="testing" src={require('./assets/user-testing-research-13.png')} />
+            </div>
             <hr />
           </div>
         </section>
