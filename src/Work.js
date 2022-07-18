@@ -81,7 +81,7 @@ function Work() {
           <h2>WEEK 1 | RESEARCH</h2>
           <p>
             To understand my participants and how I could help, I needed to
-            determine their level of mind body connection  I needed to know how
+            determine their level of mind body connection I needed to know how
             they live - what impacts them day to day. I needed to know if the
             weight gain was triggered by something. - As a mortician there is a
             question always looming in my mind - What Happened?
@@ -91,7 +91,7 @@ function Work() {
             wrenching all at the same time. I found during my research they all
             had a lot in common. This broke my heart. And on some level I can
             understand exactly how they must feel. I had a ton of good cries
-            during this phase of my project. 
+            during this phase of my project.
           </p>
           <p>
             I was right about the triggering event, but it wasn’t what I thought
@@ -227,6 +227,57 @@ function Work() {
           <div className='columns'>
             <div className='column'>
               <h1>Design Evolution</h1>
+
+              <h3>Feature Prioritization</h3>
+              <ul>
+                <li>Onboarding</li>
+                <p>Splash screen with CTA/ sign up </p>
+                <li>Home/Feed screen</li>
+                <p>
+                  To see community feed, create post, edit communities they see
+                  in feed,
+                </p>
+                <li>Hamburger Dropdown</li>
+                <p>Footer nested inside to save "real estate" </p>
+                <li>Profile Screen</li>
+                <p>For all community, saved, chat, and comment features </p>
+                <li>Activities Screen</li>
+                <p>
+                  Integration with fitness applications they use to see all
+                  thier data in one place, with ability to share in the forums
+                  to discuss progress.
+                </p>
+                <li>Community "Toggle" Screen</li>
+                <p>
+                  Ability to toggle on or off certain communities in order to
+                  have more control of their experience.
+                </p>
+                <li>Settings Screen</li>
+                <p>
+                  Navigate to all account editing settings. Profile, anonymous
+                  profile, communities, and devices
+                </p>
+                <li>Edit Profile Screen</li>
+                <p>Ability to edit user profile, and anonymous profile</p>
+                <li>Posting Overlay</li>
+                <p>
+                  Ability to post, with multiple type of post options feature
+                  and cross post feature.
+                </p>
+              </ul>
+              <p>
+                Users expressed enthusiasm for Wif and were very helpful in
+                their feedback. They were able to to provide great insight and
+                could relate to why I decided to build this product.With some
+                being users of similar apps, they were able to provide
+                thoughtful feedback as I progressed through the designs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className='content container'>
+          <div className='columns'>
+            <div className='column'>
               <h3>Forum MVP</h3>
               <ul>
                 <li>Onboarding</li>
@@ -276,6 +327,25 @@ function Work() {
           </div>
           <hr />
         </div>
+        <div className='content container'>
+          <div className='columns'>
+            <div className='column'>
+              <h3>User Mapping Journey</h3>
+              <img alt='user mapping journey' src='users testing' />
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div className='content container'>
+          <div className='columns'>
+            <div className='column'>
+              <h3>User Task Flows</h3>
+              <img alt='user task flows' src='users tasking' />
+            </div>
+          </div>
+          <hr />
+        </div>
+
         <div className='container-fluid'>
           <section style={{ marginBottom: 100 }}>
             <div className='content'>
