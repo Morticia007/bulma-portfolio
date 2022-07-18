@@ -670,7 +670,10 @@ function Work() {
               </div>
             </div>
             <div>
-              <img alt="testing" src={require('./assets/user-testing-research-13.png')} />
+              <img
+                alt='testing'
+                src={require('./assets/user-testing-research-13.png')}
+              />
             </div>
             <hr />
           </div>
@@ -683,25 +686,81 @@ function Work() {
               provided additional feedback to explore.
             </p>
           </div>
+          <img src={require('./assets/user-testing-research-14.png')} />
         </section>
         <hr />
         <section className='container'>
           <div className='content'>
-            <h1>USABILITY REVISION RESULTS</h1>
+            <h1>USABILITY REVISION</h1>
             <p>
               Some Users expressed interest in developing the app and have
               provided additional feedback to explore.
             </p>
           </div>
+          <img src={require('./assets/redesign-4.png')} />
+          <img src={require('./assets/redesign-5.png')} />
+          <img src={require('./assets/redesign-6.png')} />
+        </section>
+        <hr />
+        <section className='container'>
+          <div className='content'>
+            <h1>RESULTS</h1>
+            <p>
+              Some Users expressed interest in developing the app and have
+              provided additional feedback to explore.
+            </p>
+          </div>
+          <img src={require('./assets/results.png')} />
         </section>
         <hr />
         <section className='container'>
           <div className='content'>
             <h1>LESSONS LEARNED</h1>
-            <p>
-              Some Users expressed interest in developing the app and have
-              provided additional feedback to explore.
-            </p>
+            <div className='content container'>
+              <div className='columns'>
+                <div className='column'>
+                  
+                  <ul>
+               
+                    <li>Hamburger Dropdown</li>
+                    <p>Footer nested inside to save "real estate" </p>
+                    <li>Profile Screen</li>
+                    <p>For all community, saved, chat, and comment features </p>
+                    <li>Activities Screen</li>
+                    <p>
+                      Integration with fitness applications they use to see all
+                      thier data in one place, with ability to share in the
+                      forums to discuss progress.
+                    </p>
+                    <li>Community "Toggle" Screen</li>
+                    <p>
+                      Ability to toggle on or off certain communities in order
+                      to have more control of their experience.
+                    </p>
+                    <li>Settings Screen</li>
+                    <p>
+                      Navigate to all account editing settings. Profile,
+                      anonymous profile, communities, and devices
+                    </p>
+                    <li>Edit Profile Screen</li>
+                    <p>Ability to edit user profile, and anonymous profile</p>
+                    <li>Posting Overlay</li>
+                    <p>
+                      Ability to post, with multiple type of post options
+                      feature and cross post feature.
+                    </p>
+                  </ul>
+                  <p>
+                    Users expressed enthusiasm for Wif and were very helpful in
+                    their feedback. They were able to to provide great insight
+                    and could relate to why I decided to build this product.With
+                    some being users of similar apps, they were able to provide
+                    thoughtful feedback as I progressed through the designs.
+                  </p>
+                </div>
+              </div>
+              <hr />
+            </div>
           </div>
         </section>
       </section>
