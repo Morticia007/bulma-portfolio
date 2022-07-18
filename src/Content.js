@@ -11,7 +11,7 @@ function Content({ heading, firstP, secondP }) {
       className='container-fluid content is-medium'>
       <div className='columns'>
         <h2 className='column'>{heading}</h2>
-        <p className='column is-size-4'>{firstP}</p>
+        <p  style={{fontWeight: 700 }}className='column is-size-6'>{firstP}</p>
       </div>
       <div className='columns'>
         <div className='column'></div>
