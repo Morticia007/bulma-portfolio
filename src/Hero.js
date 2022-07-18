@@ -2,21 +2,28 @@ import React from 'react';
 
 function Hero() {
   return (
-    <section class='hero is-large container'>
+    <section className='hero is-large container'>
       <div className='hero-body'>
         <div className='content'>
           <h1 className='title has-text-centered block'>
             Hi! Glad you made it!
           </h1>
         </div>
-        <p className='subtitle'>
-          I’m based in Dallas Texas. I enjoy working with holistic, health and
-          wellness, sports, music, and art companies to create user centric
-          products. My background isn’t typical, its very deep and meaningful,
-          in ways that are unknown to most until they have to meet their
-          mortician, in one of the hardest moments life can deal you.
-        </p>
-       {/* <p className='subtitle'>
+        <div className='columns'>
+          <div className='column is-half is-offset-one-quarter has-text-left bloc'>
+            <p className='subtitle'>
+              I’m based in Dallas Texas. I enjoy working with holistic, health
+              and wellness, sports, music, and art companies to create user
+              centric products.
+            </p>
+            <p className='subtitle'>
+              My background isn’t typical, its very deep and meaningful, in ways
+              that are unknown to most until they have to meet their mortician,
+              in one of the hardest moments life can deal you.
+            </p>
+          </div>
+        </div>
+        {/* <p className='subtitle'>
           My background isn’t typical, its very deep and meaningful, in ways
           that are unknown to most until they have to meet their Mortician, in
           one of the hardest moments life can deal you.

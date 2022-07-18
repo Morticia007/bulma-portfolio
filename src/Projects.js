@@ -36,7 +36,9 @@ const projectList = [
 function Projects() {
   return (
     <section style={{ marginTop: 80 }} className='container'>
-      <h1 className='title has-text-centered'>Projects</h1>
+      <h1 style={{ marginBottom: 80 }} className='title has-text-centered'>
+        Projects
+      </h1>
       <div className='columns'>
         {projectList.map((item) => (
           <Project {...item} />

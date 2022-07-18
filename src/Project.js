@@ -12,7 +12,7 @@ function Project({
   return (
     <div className='column'>
       <h3 className='subtitle'>
-        <Link style={{ color: 'inherit' }} to={projectPage}>
+        <Link style={{ color: 'black', fontWeight: 700 }} to={projectPage}>
           {projectName}
         </Link>
       </h3>
