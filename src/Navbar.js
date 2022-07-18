@@ -11,7 +11,7 @@ function Navbar() {
         <div className='navbar-brand'>
           <a className='navbar-item' href='https://linkedin.com'>
             <img
-              alt='logo'
+              alt='logos'
               style={{ maxHeight: 1400 }}
               src='https://uploads-ssl.webflow.com/62cfb7ce6b0d2a63aebe4954/62d3b19da73d908a4899505e_Vector.svg'
               width='200'
