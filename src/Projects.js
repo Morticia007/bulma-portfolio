@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from './Project';
-import Frame from './assets/frame.png';
+import Desktop from './assets/desktop-2.png';
 import ComingSoon from './assets/coming-soon-1.jpg';
 import ComingSoon2 from './assets/coming-soon-2.jpg';
 
@@ -8,7 +8,7 @@ const projectList = [
   {
     projectName: 'WIF',
     projectRole: `UX/UI Designer • Product Designer • Researcher`,
-    projectImage: Frame,
+    projectImage: Desktop,
     projectSummary: `This responsive mobile web app is a personal project that provides community forums for those struggling to lose weight.`,
     projectGoal: `Learn how to empower and improve health and fitness through community forums for long time strugglers. `,
     projectPage: 'work',
