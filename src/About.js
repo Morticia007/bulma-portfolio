@@ -3,22 +3,17 @@ function About() {
   return (
     <div className='content is-large'>
       <div style={{ color: 'white', background: '#609497', padding: 60 }}>
-        <h3
-          className='has-text-left'
-          style={{
-            marginBottom: 80,
-            marginTop: 80,
-            color: 'white',
-            background: '#609497',
-          }}>
-          Jacquelyn Hagman
-        </h3>
-        <p style={{ maxWidth: 750 }}>
-          Guided by my sense of justice, I use my empathy and courage to stand
-          up for the user to protect their interest when delivering useful
-          products. Whether it be for clean living, creation, or learning, I am
-          passionate and want to see users succeed with their quest in life.
-        </p>
+        <div className='columns'>
+          <h3
+            className='column has-text-centered is-half is-offset-one-quarter'
+            style={{ color: 'white' }}>
+            Guided by my sense of justice, I use my empathy and courage to stand
+            up for the user to protect their interest when delivering useful
+            products. Whether it be for clean living, creation, or learning, I
+            am passionate and want to see users succeed with their quest in
+            life.
+          </h3>
+        </div>
       </div>
       <div style={{ padding: 60 }}>
         <h1 style={{ marginBottom: 80, marginTop: 80 }}>About Me</h1>
