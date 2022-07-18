@@ -260,18 +260,18 @@ function Work() {
                 <div style={{ maxWidth: 800 }}>
                   <ul>
                     <li>Community forums</li>
-                    <p>Solving for: Loss of community/ Lonliness/ Price</p>
+                    <p>Solving for: Loss of community/ lonliness/ price.</p>
                     <li>Account creation</li>
                     <p>Solving for: Loss of Community.</p>
                     <li>Ease of navigation</li>
-                    <p> Solving for success </p>
+                    <p> Solving for success. </p>
                     <li>Posting Capabilities</li>
-                    <p>Solving for lack of connection/community</p>
+                    <p>Solving for lack of connection/community.</p>
                     <li>Integration</li>
                     <p>
                       Solving for ease of use and being able to share progress
                       with their community, having all progress data in one
-                      place/ Short cuts.
+                      place/ short cuts.
                     </p>
                   </ul>
                 </div>
@@ -287,17 +287,19 @@ function Work() {
                 <div style={{ maxWidth: 800 }}>
                   <ul>
                     <li>Onboarding</li>
-                    <p>Splash screen with CTA/ sign up </p>
+                    <p>Splash screen with CTA/ sign up. </p>
                     <li>Home/Feed screen</li>
                     <p>
                       {' '}
                       To see community feed, create post, edit communities they
-                      see in feed,
+                      see in feed.
                     </p>
                     <li>Hamburger Dropdown</li>
-                    <p>Footer nested inside to save "real estate" </p>
+                    <p>Footer nested inside to save "real estate". </p>
                     <li>Profile Screen</li>
-                    <p>For all community, saved, chat, and comment features </p>
+                    <p>
+                      For all community, saved, chat, and comment features.{' '}
+                    </p>
                     <li>Activities Screen</li>
                     <p>
                       Integration with fitness applications they use to see all
@@ -311,11 +313,11 @@ function Work() {
                     </p>
                     <li>Settings Screen</li>
                     <p>
-                      Navigate to all account editing settings. Profile,
-                      anonymous profile, communities, and devices
+                      Navigate to all account editing settings.
+                      Profile,anonymous profile, communities, and devices.
                     </p>
                     <li>Edit Profile Screen</li>
-                    <p>Ability to edit user profile, and anonymous profile</p>
+                    <p>Ability to edit user profile, and anonymous profile.</p>
                     <li>Posting Overlay</li>
                     <p>
                       Ability to post, with multiple type of post options
@@ -499,9 +501,18 @@ function Work() {
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 400 }}>
                     <p>Lo-Fi</p>
-                    <p>Option to customize screen based on user type.</p>
+                    <p>
+                      Originally I designed this screen for users personal posts
+                      to live in, as I was using established forums like reddit,
+                      and instagram for inspiration.
+                    </p>
                     <p>Mockup 1</p>
-                    <p>Option to customize screen based on user type.</p>
+                    <p>
+                      During iteration I decided to clean it up and give the
+                      user another level of control, to be able to chose if they
+                      want to see those things by adjusting it to a menu. this
+                      was also to cut down on clutter and not confuse the user..
+                    </p>
                   </div>
                 </div>
               </div>
@@ -536,9 +547,20 @@ function Work() {
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 400 }}>
                     <p>Lo-Fi</p>
-                    <p>Option to customize screen based on user type.</p>
+                    <p>
+                      This screen was a free for all at fist, I hadn't
+                      established what content would be most appropriate for the
+                      functionality.
+                    </p>
                     <p>Mockup 1</p>
-                    <p>Option to customize screen based on user type.</p>
+                    <p>
+                      As all of the screens evolved, the activity screen seemed
+                      to just take form itself. Being that it is for discussion,
+                      I looked back into my research participants and what
+                      seemed important for them, also looking at what other
+                      applications they would be using, the data that could be
+                      possible and added them respectfully.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -590,14 +612,14 @@ function Work() {
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 350 }}>
-                    <p>Prototype 1</p>
-                    <p>Option to customize screen based on user type.</p>
-                    <p>Prototype 2</p>
-                    <p>Option to customize screen based on user type.</p>
-                    <p>Prototype 3</p>
-                    <p>Option to customize screen based on user type.</p>
-                    <p>Prototype 4</p>
-                    <p>Option to customize screen based on user type.</p>
+                    <p>1. Community Toggle Screen</p>
+                    <p>Interactive toggle screen for user content management.</p>
+                    <p>2. Account Settings Screen</p>
+                    <p>Edit all account settings, and device integration.</p>
+                    <p>3. Edit Profile Screen</p>
+                    <p>Profile customization.</p>
+                    <p>Post Screen/Overlay</p>
+                    <p>Crosspost capability.</p>
                   </div>
                 </div>
               </div>
@@ -611,71 +633,74 @@ function Work() {
               <div className='column'>
                 <h3>Usability Testing</h3>
                 <h4>Objectives</h4>
-                 <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 800 }}>
-                <ul>
-                  <li>Onboarding</li>
-                  <p>Splash screen with CTA/ sign up </p>
-                  <li>Home/Feed screen</li>
-                  <p>
-                    To see community feed, create post, edit communities they
-                    see in feed,
-                  </p>
-                  <li>Hamburger Dropdown</li>
-                  <p>Footer nested inside to save "real estate" </p>
-                  <li>Profile Screen</li>
-                  <p>For all community, saved, chat, and comment features </p>
-                  <li>Activities Screen</li>
-                  <p>
-                    Integration with fitness applications they use to see all
-                    thier data in one place, with ability to share in the forums
-                    to discuss progress.
-                  </p>
-                </ul>
-                <h4>Usability Testing Feedback Analysis</h4>
-                <ul>
-                  <li>Community "Toggle" Screen</li>
-                  <p>
-                    Ability to toggle on or off certain communities in order to
-                    have more control of their experience.
-                  </p>
-                  <li>Settings Screen</li>
-                  <p>
-                    Navigate to all account editing settings. Profile, anonymous
-                    profile, communities, and devices
-                  </p>
-                  <li>Edit Profile Screen</li>
-                  <p>Ability to edit user profile, and anonymous profile</p>
-                  <li>Posting Overlay</li>
-                  <p>
-                    Ability to post, with multiple type of post options feature
-                    and cross post feature.
-                  </p>
-                </ul>
-                <h4>Recommendations for Iteration</h4>
-                <ul>
-                  <li>
-                    Community "Toggle" Screen
-                    <ol>
-                      <li>asd</li>
-                      <li>asd</li>
-                    </ol>
-                  </li>
-                  <li>
-                    Settings Screen
-                    <ol>
-                      <li>asd</li>
-                    </ol>
-                  </li>
-                </ul>
-                <p>
-                  Users expressed enthusiasm for Wif and were very helpful in
-                  their feedback. They were able to to provide great insight and
-                  could relate to why I decided to build this product.With some
-                  being users of similar apps, they were able to provide
-                  thoughtful feedback as I progressed through the designs.
-                </p>
-                </div>
+                    <ul>
+                      <li>Onboarding</li>
+                      <p>Splash screen with CTA/ sign up </p>
+                      <li>Home/Feed screen</li>
+                      <p>
+                        To see community feed, create post, edit communities
+                        they see in feed,
+                      </p>
+                      <li>Hamburger Dropdown</li>
+                      <p>Footer nested inside to save "real estate" </p>
+                      <li>Profile Screen</li>
+                      <p>
+                        For all community, saved, chat, and comment features{' '}
+                      </p>
+                      <li>Activities Screen</li>
+                      <p>
+                        Integration with fitness applications they use to see
+                        all thier data in one place, with ability to share in
+                        the forums to discuss progress.
+                      </p>
+                    </ul>
+                    <h4>Usability Testing Feedback Analysis</h4>
+                    <ul>
+                      <li>Community "Toggle" Screen</li>
+                      <p>
+                        Ability to toggle on or off certain communities in order
+                        to have more control of their experience.
+                      </p>
+                      <li>Settings Screen</li>
+                      <p>
+                        Navigate to all account editing settings. Profile,
+                        anonymous profile, communities, and devices
+                      </p>
+                      <li>Edit Profile Screen</li>
+                      <p>Ability to edit user profile, and anonymous profile</p>
+                      <li>Posting Overlay</li>
+                      <p>
+                        Ability to post, with multiple type of post options
+                        feature and cross post feature.
+                      </p>
+                    </ul>
+                    <h4>Recommendations for Iteration</h4>
+                    <ul>
+                      <li>
+                        Community "Toggle" Screen
+                        <ol>
+                          <li>asd</li>
+                          <li>asd</li>
+                        </ol>
+                      </li>
+                      <li>
+                        Settings Screen
+                        <ol>
+                          <li>asd</li>
+                        </ol>
+                      </li>
+                    </ul>
+                    <p>
+                      Users expressed enthusiasm for Wif and were very helpful
+                      in their feedback. They were able to to provide great
+                      insight and could relate to why I decided to build this
+                      product.With some being users of similar apps, they were
+                      able to provide thoughtful feedback as I progressed
+                      through the designs.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -729,45 +754,50 @@ function Work() {
             <div className='content container'>
               <div className='columns'>
                 <div className='column'>
-                   <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 800 }}>
-                  <ul>
-                    <li>Hamburger Dropdown</li>
-                    <p>Footer nested inside to save "real estate" </p>
-                    <li>Profile Screen</li>
-                    <p>For all community, saved, chat, and comment features </p>
-                    <li>Activities Screen</li>
-                    <p>
-                      Integration with fitness applications they use to see all
-                      thier data in one place, with ability to share in the
-                      forums to discuss progress.
-                    </p>
-                    <li>Community "Toggle" Screen</li>
-                    <p>
-                      Ability to toggle on or off certain communities in order
-                      to have more control of their experience.
-                    </p>
-                    <li>Settings Screen</li>
-                    <p>
-                      Navigate to all account editing settings. Profile,
-                      anonymous profile, communities, and devices
-                    </p>
-                    <li>Edit Profile Screen</li>
-                    <p>Ability to edit user profile, and anonymous profile</p>
-                    <li>Posting Overlay</li>
-                    <p>
-                      Ability to post, with multiple type of post options
-                      feature and cross post feature.
-                    </p>
-                  </ul>
-                  <p>
-                    Users expressed enthusiasm for Wif and were very helpful in
-                    their feedback. They were able to to provide great insight
-                    and could relate to why I decided to build this product.With
-                    some being users of similar apps, they were able to provide
-                    thoughtful feedback as I progressed through the designs.
-                  </p>
-                  </div>
+                  <div style={{ display: 'flex', flexDirection: 'column' }}>
+                    <div style={{ maxWidth: 800 }}>
+                      <ul>
+                        <li>Hamburger Dropdown</li>
+                        <p>Footer nested inside to save "real estate" </p>
+                        <li>Profile Screen</li>
+                        <p>
+                          For all community, saved, chat, and comment features{' '}
+                        </p>
+                        <li>Activities Screen</li>
+                        <p>
+                          Integration with fitness applications they use to see
+                          all thier data in one place, with ability to share in
+                          the forums to discuss progress.
+                        </p>
+                        <li>Community "Toggle" Screen</li>
+                        <p>
+                          Ability to toggle on or off certain communities in
+                          order to have more control of their experience.
+                        </p>
+                        <li>Settings Screen</li>
+                        <p>
+                          Navigate to all account editing settings. Profile,
+                          anonymous profile, communities, and devices
+                        </p>
+                        <li>Edit Profile Screen</li>
+                        <p>
+                          Ability to edit user profile, and anonymous profile
+                        </p>
+                        <li>Posting Overlay</li>
+                        <p>
+                          Ability to post, with multiple type of post options
+                          feature and cross post feature.
+                        </p>
+                      </ul>
+                      <p>
+                        Users expressed enthusiasm for Wif and were very helpful
+                        in their feedback. They were able to to provide great
+                        insight and could relate to why I decided to build this
+                        product.With some being users of similar apps, they were
+                        able to provide thoughtful feedback as I progressed
+                        through the designs.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
