@@ -1,5 +1,6 @@
 import React from 'react';
 import Content from './Content';
+import Cards from './Cards';
 import { v4 as uuidv4 } from 'uuid';
 
 const projectContentList = [
@@ -66,7 +67,7 @@ function Work() {
           </div>
         </div>
       </section>
-
+      <hr />
       <section className='container'>
         {projectContentList.map((item) => (
           <Content key={item.id} {...item} />
@@ -91,84 +92,26 @@ function Work() {
           </p>
         </div>
         <div className='columns'>
-          <div className='column'>
-            <div class='card'>
-              <div class='card-content'>
-                <div class='content'>
-                  <div>
-                    <ul className='block'>
-                      <h1>Noom</h1>
-                      <h2 className='block'>Advantages</h2>
-
-                      <li>15 Years</li>
-                      <li>Coaches</li>
-                      <li>Behavioral Science</li>
-                    </ul>
-                  </div>
-                  <div className='block'>
-                    <ul className='block'>
-                      <h2>Disadvantages</h2>
-                      <li>Expensive</li>
-                      <li>Difficult to Cancel</li>
-                      <li>Promotes Diet Cultur</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='column'>
-            <div class='card'>
-              <div class='card-content'>
-                <div class='content'>
-                  <div>
-                    <ul className='block'>
-                      <h1>Noom</h1>
-                      <h2 className='block'>Advantages</h2>
-
-                      <li>15 Years</li>
-                      <li>Coaches</li>
-                      <li>Behavioral Science</li>
-                    </ul>
-                  </div>
-                  <div className='block'>
-                    <ul className='block'>
-                      <h2>Disadvantages</h2>
-                      <li>Expensive</li>
-                      <li>Difficult to Cancel</li>
-                      <li>Promotes Diet Cultur</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='column'>
-            <div class='card'>
-              <div class='card-content'>
-                <div class='content'>
-                  <div>
-                    <ul className='block'>
-                      <h1>Noom</h1>
-                      <h2 className='block'>Advantages</h2>
-
-                      <li>15 Years</li>
-                      <li>Coaches</li>
-                      <li>Behavioral Science</li>
-                    </ul>
-                  </div>
-                  <div className='block'>
-                    <ul className='block'>
-                      <h2>Disadvantages</h2>
-                      <li>Expensive</li>
-                      <li>Difficult to Cancel</li>
-                      <li>Promotes Diet Cultur</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Cards />
+        </div>
+        <hr />
+        <div class='content is-normal'>
+          <h1 className='has-text-centered'>BREAKING DOWN THE PROCESS</h1>
+          <h2>WEEK 2 | RESEARCH</h2>
+          <p>
+            To understand the competitive landscape and how users interact with
+            financial and productivity travel tools, I identified popular
+            currency apps to compare features, observed users interacting with
+            those apps, and developed a set of personas.
+          </p>
+          <p>
+            I identified three currency conversion apps based on most frequently
+            downloaded apps in the Apple App Store, online reviews, and
+            suggestions from frequent travelers. I observed my users as they
+            played with the apps and walked through each of the screens with
+            them to better understand what they liked, their pain points, and
+            ideas for enhancements.
+          </p>
         </div>
       </section>
     </div>
