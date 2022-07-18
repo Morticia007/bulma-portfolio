@@ -16,7 +16,7 @@ function Hero() {
           in ways that are unknown to most until they have to meet their
           Mortician, in one of the hardest moments life can deal you.
         </p>
-        <p className='subtitle'>
+       {/* <p className='subtitle'>
           My background isn’t typical, its very deep and meaningful, in ways
           that are unknown to most until they have to meet their Mortician, in
           one of the hardest moments life can deal you.
@@ -33,7 +33,7 @@ function Hero() {
           being ready to take on anything and learn. This is my superpower and
           also the core strength that drives my passion for Ux design. If you’d
           like to know more, I’d love to connect.
-        </p>
+  </p> */}
       </div>
     </section>
   );

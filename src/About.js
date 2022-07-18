@@ -2,7 +2,7 @@ import React from 'react';
 function About() {
   return (
     <div className='content is-large'>
-      <div style={{ color: 'white', background: '#326669', padding: 60 }}>
+      <div style={{ color: 'white', background: '#609497', padding: 60 }}>
         <h1
           className='has-text-left'
           style={{

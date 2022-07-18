@@ -269,8 +269,7 @@ function Work() {
               <p>
                 Users expressed enthusiasm for Wif and were very helpful in 
                 their feedback. They were able to to provide great insight and could relate to why I decided 
-                to build this product. 
-                users of similar apps, they were able to provide thoughtful
+                to build this product.With some being users of similar apps, they were able to provide thoughtful
                 feedback as I progressed through the designs.
               </p>
             </div>
