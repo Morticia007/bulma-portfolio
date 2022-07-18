@@ -80,19 +80,27 @@ function Work() {
           <h1 className='has-text-centered'>BREAKING DOWN THE PROCESS</h1>
           <h2>WEEK 1 | RESEARCH</h2>
           <p>
-            To understand the competitive landscape and how users interact with
-            financial and productivity travel tools, I identified popular
-            currency apps to compare features, observed users interacting with
-            those apps, and developed a set of personas.
+            To understand my participants and how I could help, I needed to determine their level of mind body connection 
+            I needed to know how they live - what impacts them day to day.
+            I needed to know if the weight gain was triggered by something.
+            - As a mortician there is a question always looming in my mind - What Happened?
           </p>
           <p>
-            I identified three currency conversion apps based on most frequently
-            downloaded apps in the Apple App Store, online reviews, and
-            suggestions from frequent travelers. I observed my users as they
-            played with the apps and walked through each of the screens with
-            them to better understand what they liked, their pain points, and
-            ideas for enhancements.
+          Getting to know my research participants was exciting and heart wrenching all at the same time. 
+           I found during my research they all  had a lot in common. This broke my heart. 
+           And on some level I can understand exactly how they must feel. 
+           I had a ton of good cries during this phase of my project. 
+    
+
           </p>
+          I was right about the triggering event, but it wasn’t what I thought it would be. 
+           I thought it was going to be the death of a loved one. It wasn’t! 
+           It was moving, which is a loss if you lose your community like my participants reported. 
+           There’s an aspect of grief here that sometimes is overlooked, but I want to bring it to life.
+           We all grieve over losses. No matter what they are. I have found that we don’t let ourselves grieve properly, 
+           and then loneliness and depression kick in. Usually we associated it with something else going on and try to mask it. 
+           With my participants, they associated food with comfort to help their pain
+          <p></p>
         </div>
         <div className='columns'>
           <Cards />
@@ -102,18 +110,15 @@ function Work() {
           <h1 className='has-text-centered'>BREAKING DOWN THE PROCESS</h1>
           <h2>WEEK 2 | RESEARCH</h2>
           <p>
-            To understand the competitive landscape and how users interact with
-            financial and productivity travel tools, I identified popular
-            currency apps to compare features, observed users interacting with
-            those apps, and developed a set of personas.
+             To understand the competitive landscape and how users interact with
+             weight loss applications, I looked at two companies my research
+             participants mentioned and one I knew that had the functionaity that my participants 
+             made clear were important to them.
           </p>
           <p>
-            I identified three currency conversion apps based on most frequently
-            downloaded apps in the Apple App Store, online reviews, and
-            suggestions from frequent travelers. I observed my users as they
-            played with the apps and walked through each of the screens with
-            them to better understand what they liked, their pain points, and
-            ideas for enhancements.
+            I identified a some more common patterns my participants had in this areana as well:
+            Weight loss apps are stressful, too expensive, needs features, and too confusing.
+
           </p>
         </div>
       </section>
@@ -124,18 +129,27 @@ function Work() {
             <div className='column'>
               <h1>Darkos story</h1>
               <p>
-                Darkos story Darko has just arrived at McDonalds () and is line
-                at the currency exchange counter at Beijing's busy airport. When
-                searching through his wallet, he realizes she has leftover Euros
-                and GBP from a recent trip. It's almost his turn and he wants to
-                know how many Euros and GBP he has in Chinese Yuan so he feels
-                confident he isn't getting ripped off at the currency exchange
-                counter.
-              </p>
+              As a person dealing with weight gain and isolation, I want to have access to a community, 
+              where I can meet people just like me. People who struggle with weight, loneliness and lack of
+               motivation. So we can all be accountability partners and a support system for each other,
+              in our journey together
+            </p>
+            <p> As you can see Darko needs
+                1. community 
+                2. accountability partner
+                3. support
+                4. people going through the same thing  
+                </p>
+                <p>
+                His frustrations are 
+                1. Loneliness
+                2. guilt
+                3. food association
+            </p>
             </div>
             <div className='column'>
               <img
-                alt='project image'
+                alt='project'
                 src='https://i.ibb.co/NT8Q5DQ/darko.png'
               />
             </div>
