@@ -7,7 +7,7 @@ function Navbar() {
     <div className='container-fluid'>
       <nav
         style={{ background: '#a6b8c6' }}
-        className='navbar is-spaced is-dark'
+        className='navbar is-spaced is-light'
         role='navigation'
         aria-label='main navigation'>
         <div className='navbar-brand'>

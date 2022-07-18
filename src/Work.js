@@ -3,6 +3,7 @@ import Content from './Content';
 import Cards from './Cards';
 import { v4 as uuidv4 } from 'uuid';
 import Splash from './assets/Splash.png';
+import Splash2 from './assets/Splash2.png';
 
 const projectContentList = [
   {
@@ -288,18 +289,17 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Lo-Fi</h2>
                   <img
-                    alt='Splash`'
-                    style={{ maxHeight: 1400 }}
+                    style={{ height: 700 }}
+                    alt='Splash'
                     src={Splash}
-                    width='400'
                   />
                 </div>
                 <div>
                   <h2 className='has-text-centered'>Mockup</h2>
                   <img
-                    alt='project 4'
-                    height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    style={{ height: 700 }}
+                    alt='Splash2'
+                    src={Splash2}
                   />
                 </div>
 
