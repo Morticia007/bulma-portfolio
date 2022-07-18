@@ -83,32 +83,37 @@ function Work() {
         <div class='content is-normal'>
           <h1 className='has-text-centered'>BREAKING DOWN THE PROCESS</h1>
           <h2>WEEK 1 | RESEARCH</h2>
-          <p>
-            To understand my participants and how I could help, I needed to
-            determine their level of mind body connection I needed to know how
-            they live - what impacts them day to day. I needed to know if the
-            weight gain was triggered by something. - As a mortician there is a
-            question always looming in my mind - What Happened?
-          </p>
-          <p>
-            Getting to know my research participants was exciting and heart
-            wrenching all at the same time. I found during my research they all
-            had a lot in common. This broke my heart. And on some level I can
-            understand exactly how they must feel. I had a ton of good cries
-            during this phase of my project.
-          </p>
-          <p>
-            I was right about the triggering event, but it wasn’t what I thought
-            it would be. I thought it was going to be the death of a loved one.
-            It wasn’t! It was moving, which is a loss if you lose your community
-            like my participants reported. There’s an aspect of grief here that
-            sometimes is overlooked, but I want to bring it to life. We all
-            grieve over losses. No matter what they are. I have found that we
-            don’t let ourselves grieve properly, and then loneliness and
-            depression kicks in. Usually, we associated it with something else
-            going on and try to mask it. With my participants, they associated
-            food with comfort to help ease their pain.
-          </p>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ maxWidth: 800 }}>
+              <p>
+                To understand my participants and how I could help, I needed to
+                determine their level of mind body connection I needed to know
+                how they live - what impacts them day to day. I needed to know
+                if the weight gain was triggered by something. - As a mortician
+                there is a question always looming in my mind - What Happened?
+              </p>
+              <p>
+                Getting to know my research participants was exciting and heart
+                wrenching all at the same time. I found during my research they
+                all had a lot in common. This broke my heart. And on some level
+                I can understand exactly how they must feel. I had a ton of good
+                cries during this phase of my project.
+              </p>
+              <p>
+                I was right about the triggering event, but it wasn’t what I
+                thought it would be. I thought it was going to be the death of a
+                loved one. It wasn’t! It was moving, which is a loss if you lose
+                your community like my participants reported. There’s an aspect
+                of grief here that sometimes is overlooked, but I want to bring
+                it to life. We all grieve over losses. No matter what they are.
+                I have found that we don’t let ourselves grieve properly, and
+                then loneliness and depression kicks in. Usually, we associated
+                it with something else going on and try to mask it. With my
+                participants, they associated food with comfort to help ease
+                their pain.
+              </p>
+            </div>
+          </div>
         </div>
         <div className='content container'>
           <div className='columns'>
@@ -145,17 +150,22 @@ function Work() {
         <hr />
         <div class='content is-normal'>
           <h2>WEEK 2 | RESEARCH</h2>
-          <p>
-            To understand the competitive landscape and how users interact with
-            weight loss applications, I looked at two companies my research
-            participants mentioned and one I knew that had the functionaity that
-            my participants made clear were important to them.
-          </p>
-          <p>
-            I identified a some common patterns my participants had in this
-            areana as well: Weight loss apps are stressful, too expensive, needs
-            features, and too confusing.
-          </p>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ maxWidth: 800 }}>
+              <p>
+                To understand the competitive landscape and how users interact
+                with weight loss applications, I looked at two companies my
+                research participants mentioned and one I knew that had the
+                functionaity that my participants made clear were important to
+                them.
+              </p>
+              <p>
+                I identified a some common patterns my participants had in this
+                areana as well: Weight loss apps are stressful, too expensive,
+                needs features, and too confusing.
+              </p>
+            </div>
+          </div>
         </div>
         <div className='columns'>
           <Cards />
@@ -169,27 +179,32 @@ function Work() {
             <div className='columns'>
               <div className='column'>
                 <h1>Pivot</h1>
-                <p>
-                  As I was reviewing all the data I had gathered I made a huge
-                  discovery. If the potential users pain points were lack of
-                  community, loneliness, and coping mechanisms and their pain
-                  points with applications for weightloss were that weight loss
-                  apps are stressful, too expensive, need more features, and are
-                  too confusing, then I had to make a major decision. Do I try
-                  to recreate a noom or weight watchers and hope to make it
-                  better?
-                </p>
-                <p>
-                  I needed to revisit the original problem statement. At this
-                  point we alreadu know at least one of my assumptions had been
-                  debunked by the research. I needed a new problem statement
-                  that aligned more with the evolving scope of my project.
-                </p>
-                <p>
-                  while keeping in mind the big questions. What can I do to
-                  create community, bring people together, and not have to
-                  charge them for it?
-                </p>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ maxWidth: 800 }}>
+                    <p>
+                      As I was reviewing all the data I had gathered I made a
+                      huge discovery. If the potential users pain points were
+                      lack of community, loneliness, and coping mechanisms and
+                      their pain points with applications for weightloss were
+                      that weight loss apps are stressful, too expensive, need
+                      more features, and are too confusing, then I had to make a
+                      major decision. Do I try to recreate a noom or weight
+                      watchers and hope to make it better?
+                    </p>
+                    <p>
+                      I needed to revisit the original problem statement. At
+                      this point we alreadu know at least one of my assumptions
+                      had been debunked by the research. I needed a new problem
+                      statement that aligned more with the evolving scope of my
+                      project.
+                    </p>
+                    <p>
+                      while keeping in mind the big questions. What can I do to
+                      create community, bring people together, and not have to
+                      charge them for it?
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -197,13 +212,17 @@ function Work() {
             <div className='columns'>
               <div className='column'>
                 <h1>Problem Statement Revised</h1>
-                <p>
-                  People who are overweight have had a significant life change,
-                  where they moved, lost their community, or were affected by
-                  covid isolation. They struggle with loneliness, depression,
-                  and a loss of accountability, which all lead to lack of
-                  motivation.
-                </p>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ maxWidth: 800 }}>
+                    <p>
+                      People who are overweight have had a significant life
+                      change, where they moved, lost their community, or were
+                      affected by covid isolation. They struggle with
+                      loneliness, depression, and a loss of accountability,
+                      which all lead to lack of motivation.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -211,17 +230,21 @@ function Work() {
             <div className='columns'>
               <div className='column'>
                 <h1>Proposed Solution</h1>
-                <p>
-                  Let's reference our proto persona first before we get to the
-                  possible solution - Darko used Reddit and Discord. Both of
-                  those are somewhat of a community.
-                </p>
-                <p>
-                  I decided based on everything I had learned up to now, to
-                  build a forum specifically for people who are overweight and
-                  struggle with loneliness, eating disorders, lack of community
-                  and/support.
-                </p>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ maxWidth: 600 }}>
+                    <p>
+                      Let's reference our proto persona first before we get to
+                      the possible solution - Darko used Reddit and Discord.
+                      Both of those are somewhat of a community.
+                    </p>
+                    <p>
+                      I decided based on everything I had learned up to now, to
+                      build a forum specifically for people who are overweight
+                      and struggle with loneliness, eating disorders, lack of
+                      community and/support.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -233,49 +256,26 @@ function Work() {
               <h1>Design Evolution</h1>
 
               <h3>Feature Prioritization</h3>
-              <ul>
-                <li>Onboarding</li>
-                <p>Splash screen with CTA/ sign up </p>
-                <li>Home/Feed screen</li>
-                <p>
-                  To see community feed, create post, edit communities they see
-                  in feed,
-                </p>
-                <li>Hamburger Dropdown</li>
-                <p>Footer nested inside to save "real estate" </p>
-                <li>Profile Screen</li>
-                <p>For all community, saved, chat, and comment features </p>
-                <li>Activities Screen</li>
-                <p>
-                  Integration with fitness applications they use to see all
-                  thier data in one place, with ability to share in the forums
-                  to discuss progress.
-                </p>
-                <li>Community "Toggle" Screen</li>
-                <p>
-                  Ability to toggle on or off certain communities in order to
-                  have more control of their experience.
-                </p>
-                <li>Settings Screen</li>
-                <p>
-                  Navigate to all account editing settings. Profile, anonymous
-                  profile, communities, and devices
-                </p>
-                <li>Edit Profile Screen</li>
-                <p>Ability to edit user profile, and anonymous profile</p>
-                <li>Posting Overlay</li>
-                <p>
-                  Ability to post, with multiple type of post options feature
-                  and cross post feature.
-                </p>
-              </ul>
-              <p>
-                Users expressed enthusiasm for Wif and were very helpful in
-                their feedback. They were able to to provide great insight and
-                could relate to why I decided to build this product.With some
-                being users of similar apps, they were able to provide
-                thoughtful feedback as I progressed through the designs.
-              </p>
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ maxWidth: 800 }}>
+                  <ul>
+                    <li>Community forums</li>
+                    <p>Solving for: Loss of community/ Lonliness/ Price</p>
+                    <li>Account creation</li>
+                    <p>Solving for: Loss of Community.</p>
+                    <li>Ease of navigation</li>
+                    <p> Solving for success </p>
+                    <li>Posting Capabilities</li>
+                    <p>Solving for lack of connection/community</p>
+                    <li>Integration</li>
+                    <p>
+                      Solving for ease of use and being able to share progress
+                      with their community, having all progress data in one
+                      place/ Short cuts.
+                    </p>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -283,50 +283,56 @@ function Work() {
           <div className='columns'>
             <div className='column'>
               <h3>Forum MVP</h3>
-              <ul>
-                <li>Onboarding</li>
-                <p>Splash screen with CTA/ sign up </p>
-                <li>Home/Feed screen</li>
-                <p>
-                  {' '}
-                  To see community feed, create post, edit communities they see
-                  in feed,
-                </p>
-                <li>Hamburger Dropdown</li>
-                <p>Footer nested inside to save "real estate" </p>
-                <li>Profile Screen</li>
-                <p>For all community, saved, chat, and comment features </p>
-                <li>Activities Screen</li>
-                <p>
-                  Integration with fitness applications they use to see all
-                  thier data in one place, with ability to share in the forums
-                  to discuss progress.
-                </p>
-                <li>Community "Toggle" Screen</li>
-                <p>
-                  Ability to toggle on or off certain communities in order to
-                  have more control of their experience.
-                </p>
-                <li>Settings Screen</li>
-                <p>
-                  Navigate to all account editing settings. Profile, anonymous
-                  profile, communities, and devices
-                </p>
-                <li>Edit Profile Screen</li>
-                <p>Ability to edit user profile, and anonymous profile</p>
-                <li>Posting Overlay</li>
-                <p>
-                  Ability to post, with multiple type of post options feature
-                  and cross post feature.
-                </p>
-              </ul>
-              <p>
-                Users expressed enthusiasm for Wif and were very helpful in
-                their feedback. They were able to to provide great insight and
-                could relate to why I decided to build this product.With some
-                being users of similar apps, they were able to provide
-                thoughtful feedback as I progressed through the designs.
-              </p>
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ maxWidth: 800 }}>
+                  <ul>
+                    <li>Onboarding</li>
+                    <p>Splash screen with CTA/ sign up </p>
+                    <li>Home/Feed screen</li>
+                    <p>
+                      {' '}
+                      To see community feed, create post, edit communities they
+                      see in feed,
+                    </p>
+                    <li>Hamburger Dropdown</li>
+                    <p>Footer nested inside to save "real estate" </p>
+                    <li>Profile Screen</li>
+                    <p>For all community, saved, chat, and comment features </p>
+                    <li>Activities Screen</li>
+                    <p>
+                      Integration with fitness applications they use to see all
+                      thier data in one place, with ability to share in the
+                      forums to discuss progress.
+                    </p>
+                    <li>Community "Toggle" Screen</li>
+                    <p>
+                      Ability to toggle on or off certain communities in order
+                      to have more control of their experience.
+                    </p>
+                    <li>Settings Screen</li>
+                    <p>
+                      Navigate to all account editing settings. Profile,
+                      anonymous profile, communities, and devices
+                    </p>
+                    <li>Edit Profile Screen</li>
+                    <p>Ability to edit user profile, and anonymous profile</p>
+                    <li>Posting Overlay</li>
+                    <p>
+                      Ability to post, with multiple type of post options
+                      feature and cross post feature.
+                    </p>
+                  </ul>
+                  <p>
+                    I felt as if I needed to design a fair amount of screens
+                    since a forum has many facets and complexities under the
+                    hood. I also needed to keep my users at the forefront and
+                    make sure the experience was not only smooth, but to keep in
+                    mind the impact I could make by giving them more control
+                    over what forums they want to be active in, and the ability
+                    to pass on forums that they had no interet in.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
           <hr />
@@ -605,6 +611,8 @@ function Work() {
               <div className='column'>
                 <h3>Usability Testing</h3>
                 <h4>Objectives</h4>
+                 <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ maxWidth: 800 }}>
                 <ul>
                   <li>Onboarding</li>
                   <p>Splash screen with CTA/ sign up </p>
@@ -667,6 +675,8 @@ function Work() {
                   being users of similar apps, they were able to provide
                   thoughtful feedback as I progressed through the designs.
                 </p>
+                </div>
+                </div>
               </div>
             </div>
             <div>
@@ -719,9 +729,9 @@ function Work() {
             <div className='content container'>
               <div className='columns'>
                 <div className='column'>
-                  
+                   <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ maxWidth: 800 }}>
                   <ul>
-               
                     <li>Hamburger Dropdown</li>
                     <p>Footer nested inside to save "real estate" </p>
                     <li>Profile Screen</li>
@@ -757,6 +767,8 @@ function Work() {
                     some being users of similar apps, they were able to provide
                     thoughtful feedback as I progressed through the designs.
                   </p>
+                  </div>
+                  </div>
                 </div>
               </div>
               <hr />
