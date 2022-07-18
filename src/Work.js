@@ -101,9 +101,9 @@ function Work() {
             sometimes is overlooked, but I want to bring it to life. We all
             grieve over losses. No matter what they are. I have found that we
             don’t let ourselves grieve properly, and then loneliness and
-            depression kick in. Usually we associated it with something else
+            depression kicks in. Usually, we associated it with something else
             going on and try to mask it. With my participants, they associated
-            food with comfort to help their pain
+            food with comfort to help ease their pain.
           </p>
         </div>
         <div className='content container'>
@@ -148,7 +148,7 @@ function Work() {
             my participants made clear were important to them.
           </p>
           <p>
-            I identified a some more common patterns my participants had in this
+            I identified a some common patterns my participants had in this
             areana as well: Weight loss apps are stressful, too expensive, needs
             features, and too confusing.
           </p>
