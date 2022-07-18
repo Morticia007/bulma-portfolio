@@ -109,23 +109,23 @@ function Work() {
         <div className='content container'>
           <div className='columns'>
             <div className='column'>
-              <h1>Darkos story</h1>
+              <h1>Darko's Story</h1>
               <p>
                 As a person dealing with weight gain and isolation, I want to
                 have access to a community, where I can meet people just like
                 me. People who struggle with weight, loneliness and lack of
                 motivation. So we can all be accountability partners and a
-                support system for each other, in our journey together
+                support system for each other, in our journey together.
               </p>
               <p>
-                As you can see Darko needs:
+                As you can see Darko needs
                 <ol>
                   <li>community</li>
                   <li>accountability partner</li>
                   <li>support</li>
                   <li>people going through the same thing</li>
                 </ol>
-                His frustrations are:
+                His frustrations are
                 <ol>
                   <li>loneliness </li>
                   <li>guilt</li>
