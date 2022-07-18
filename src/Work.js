@@ -52,7 +52,7 @@ function Work() {
     <div>
       <section className='hero is-medium'>
         <img
-          alt='project image'
+          alt='project 2'
           src='https://lh3.googleusercontent.com/W-psuZhv0zJiwCfK5OGAZxoSCXBvz-jaZS_-IEA2n63JWyXqbjqifrnoQiRYYuDJBvoUdf6S8BLrzSyX3NFqxpC1b8owB2_v-1RmxowqhNw_VgQRK34PPdrUzdg7hQjgg4h2_QBXl6eeH8uKnb8VWtVi7hKELuXVxpNdwZfKphs1zag1r0SskA4epEcCGb1nbCsUFjfFEyPODUslvgVd0zHQFi1Y_3_cuHZG37_f_4b6P-Y-15lQ8WxOKhNlXQ1AVtcms1CnRGFf1dQWbGn6HL_6w2cVCHGLk5G1O5mFeaI9TF-2wg7r9Z7h_F6nYHCoqZJhaG0Mk0grP3y2iDaoP4jbMHr2W0wvm4mPHkogi1K8dmsdJbRNDvFb6qVCihU8aLnF8Da83it9iNU48hGZizRiv3-h7pUq09M6JtQ5ZJMt8J5IgYzsTSNchamvCI_dSb2tdiKjfpoa7OOA8zLofeQMP4_cQmkZR3Fc1FZ1QqVTntbCrfcdQUfHPho1Ga65WYW5U2Lp3dUn5hhpPiB0-3bkgSS61aXporfYX9OjVso_cyu2wWdA3UR-3Xw_y284Rkv4BqAVtA0RGUWBqxMuVNnknSam0gZ_odKHBvl9eXyjmSfEvq-U_wJLMM0PW7kVmRWG21u6G6gDxCKAh5QFe1ZDZDBEfAulzM-Xp9M7tEp8BCIpD5meAD9dZksbLO1ZQPg-tvBFu9j3beW11-zH_w9m9fC2LAxncb8lMcsX7rHlgFwpIoBesck=w1292-h969-no?authuser=0'
         />
         <div className='hero-body'>
@@ -176,7 +176,7 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Lo-Fi</h2>
                   <img
-                    alt='project image'
+                    alt='project 3'
                     height='500'
                     src='https://i.ibb.co/T0sKjrP/Splash.png'
                   />
@@ -184,7 +184,7 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Mockup</h2>
                   <img
-                    alt='project image'
+                    alt='project 4'
                     height='500'
                     src='https://i.ibb.co/T0sKjrP/Splash.png'
                   />
@@ -209,7 +209,7 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Lo-Fi</h2>
                   <img
-                    alt='project image'
+                    alt='project 5'
                     height='500'
                     src='https://i.ibb.co/T0sKjrP/Splash.png'
                   />
@@ -217,7 +217,7 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Mockup</h2>
                   <img
-                    alt='project image'
+                    alt='project 6'
                     height='500'
                     src='https://i.ibb.co/T0sKjrP/Splash.png'
                   />
@@ -242,7 +242,7 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Lo-Fi</h2>
                   <img
-                    alt='project image'
+                    alt='project 7'
                     height='500'
                     src='https://i.ibb.co/T0sKjrP/Splash.png'
                   />
@@ -250,7 +250,7 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Mockup</h2>
                   <img
-                    alt='project image'
+                    alt='project 8'
                     height='500'
                     src='https://i.ibb.co/T0sKjrP/Splash.png'
                   />
@@ -273,7 +273,7 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Lo-Fi</h2>
                   <img
-                    alt='project image'
+                    alt='project 9'
                     height='500'
                     src='https://i.ibb.co/T0sKjrP/Splash.png'
                   />
@@ -281,7 +281,7 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Mockup 1</h2>
                   <img
-                    alt='project image'
+                    alt='project 10'
                     height='500'
                     src='https://i.ibb.co/T0sKjrP/Splash.png'
                   />
@@ -289,7 +289,7 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Mockup 2</h2>
                   <img
-                    alt='project image'
+                    alt='project 11'
                     height='500'
                     src='https://i.ibb.co/T0sKjrP/Splash.png'
                   />

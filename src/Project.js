@@ -17,7 +17,7 @@ function Project() {
         can communicate and distribute information.
       </p>
       <img
-        alt='project image'
+        alt='project 1'
         style={{ marginTop: 50 }}
         src='https://static.wixstatic.com/media/c71ab0_edd148e25f364c65b7e1e3080b1fbf0d~mv2_d_1200_1200_s_2.png/v1/fill/w_317,h_317,al_c,q_85,usm_2.00_1.00_0.00,enc_auto/Cambio_TN.png'
       />
