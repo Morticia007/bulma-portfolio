@@ -8,12 +8,10 @@ function Project({ projectName, projectRole, projectImage, projectSummary, proje
         {projectRole}
       </h4>
       <p style={{ marginBottom: 30 }}>
-        <span style={{ fontWeight: 700 }}>Summary:</span> 
-        {projectSummary}
+        <span style={{ fontWeight: 700 }}>Summary:</span> {projectSummary}
       </p>
       <p>
-        <span style={{ fontWeight: 700 }}>Goal:</span> 
-        {projectGoal}
+        <span style={{ fontWeight: 700 }}>Goal:</span> {projectGoal}
       </p>
       <img
         alt='Multiple iPhone sceens showing the WIF App'
