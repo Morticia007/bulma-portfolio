@@ -114,6 +114,118 @@ function Work() {
           </p>
         </div>
       </section>
+      <section>
+        <hr />
+        <div className='content container'>
+          <div className='columns'>
+            <div className='column'>
+              <h1>Darkos story</h1>
+              <p>
+                Darkos story Darko has just arrived at McDonalds () and is line
+                at the currency exchange counter at Beijing's busy airport. When
+                searching through his wallet, he realizes she has leftover Euros
+                and GBP from a recent trip. It's almost his turn and he wants to
+                know how many Euros and GBP he has in Chinese Yuan so he feels
+                confident he isn't getting ripped off at the currency exchange
+                counter.
+              </p>
+            </div>
+            <div className='column'>
+              <img src='https://i.ibb.co/NT8Q5DQ/darko.png' />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div className='content container'>
+          <div className='columns'>
+            <div className='column'>
+              <h1>Design Evolution</h1>
+              <ul>
+                <li>Onboarding</li>
+                <p>3-screen onboarding to provide brief overview of</p>
+                <li>Home/Feed Page</li>
+                <p>3-screen onboarding to provide brief overview of</p>
+                <li>About profile</li>
+                <p>3-screen onboarding to provide brief overview of</p>
+              </ul>
+              <p>
+                Users expressed enthusiasm for Cambio and were thoughtful in
+                their feedback. They were able to relate to the challenges faced
+                with multicurrency calculations and leftover change. As frequent
+                users of similar apps, they were able to provide thoughtful
+                feedback as I progressed through the designs.
+              </p>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div className='container-fluid'>
+          <section style={{ marginBottom: 100 }}>
+            <div className='content'>
+              <h1 className='has-text-centered'>Wireframes</h1>
+              <h2 className='has-text-centered'>Onboarding Screens</h2>
+              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
+                <img height='500' src='https://i.ibb.co/wpYsP9D/Splash-H.png' />
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <p>Option to customize screen based on user type.</p>
+                  <p>Option to customize screen based on user type.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section style={{ marginBottom: 100 }}>
+            <div className='content'>
+              <h2 className='has-text-centered block'>Onboarding Screens</h2>
+              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
+                <img height='500' src='https://i.ibb.co/wpYsP9D/Splash-H.png' />
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <p>Option to customize screen based on user type.</p>
+                  <p>Option to customize screen based on user type.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section style={{ marginBottom: 100 }}>
+            <div className='content'>
+              <h2 className='has-text-centered'>Onboarding Screens</h2>
+              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
+                <img height='500' src='https://i.ibb.co/wpYsP9D/Splash-H.png' />
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <p>Option to customize screen based on user type.</p>
+                  <p>Option to customize screen based on user type.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section style={{ marginBottom: 100 }}>
+            <div className='content'>
+              <h2 className='has-text-centered'>Onboarding Screens</h2>
+              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
+                <img height='500' src='https://i.ibb.co/wpYsP9D/Splash-H.png' />
+                <img height='500' src='https://i.ibb.co/wpYsP9D/Splash-H.png' />
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <p>Option to customize screen based on user type.</p>
+                  <p>Option to customize screen based on user type.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <hr />
+        <section className='container'>
+          <div className='content'>
+            <h1>LESSONS LEARNED</h1>
+            <p>
+              Some Users expressed interest in developing the app and have
+              provided additional feedback to explore.
+            </p>
+          </div>
+        </section>
+      </section>
     </div>
   );
 }
