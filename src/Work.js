@@ -7,6 +7,8 @@ import Splash2 from './assets/splash-2.png';
 import RightHand from './assets/right-hand-color.png';
 import TaskFlows from './assets/taskflows.png';
 import MappingJourney from './assets/mappingjourney.png';
+import FeedLoFi from './assets/feed-lofi.png';
+import FeedHiFi from './assets/feed-hifi.png';
 
 const projectContentList = [
   {
@@ -365,10 +367,15 @@ function Work() {
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <p>Lo-Fi</p>
-                  <p>Option to customize screen based on user type.</p>
-                  <p>Mockup</p>
-                  <p>Option to customize screen based on user type.</p>
+                  <div style={{ maxWidth: 400 }}>
+                    <p>Lo-Fi</p>
+                    <p>Splash screen with large call to action.</p>
+                    <p>Mockup</p>
+                    <p>
+                      A few simple changes to the design, to keep it simple with
+                      plenty of white space with a clear route to the CTA
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -383,25 +390,32 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Lo-Fi</h2>
                   <img
+                    style={{ maxHeight: 700 }}
                     alt='project 5'
                     height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    src={FeedLoFi}
                   />
                 </div>
                 <div>
                   <h2 className='has-text-centered'>Mockup</h2>
                   <img
+                    style={{ maxHeight: 700 }}
                     alt='project 6'
                     height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    src={FeedHiFi}
                   />
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <p>Lo-Fi</p>
-                  <p>Option to customize screen based on user type.</p>
-                  <p>Mockup</p>
-                  <p>Option to customize screen based on user type.</p>
+                  <div style={{ maxWidth: 400 }}>
+                    <p>Lo-Fi</p>
+                    <p>User home/feed.</p>
+                    <p>Mockup</p>
+                    <p>
+                      Added a better navigation function with the segment
+                      changer element.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -416,24 +430,36 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Lo-Fi</h2>
                   <img
+                    style={{ maxHeight: 700 }}
                     alt='project 7'
                     height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    src={require('./assets/hamburger-lofi.png')}
                   />
                 </div>
                 <div>
                   <h2 className='has-text-centered'>Mockup</h2>
                   <img
+                    style={{ maxHeight: 700 }}
                     alt='project 8'
                     height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    src={require('./assets/hamburger-hifi.png')}
                   />
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <p>Lo-Fi</p>
-                  <p>Option to customize screen based on user type.</p>
-                  <p>Mockup</p>
-                  <p>Option to customize screen based on user type.</p>
+                  <div style={{ maxWidth: 400 }}>
+                    <p>Lo-Fi</p>
+                    <p>
+                      Originally I had planned for this to be main navigation.
+                      So I placed everything I could think of that could posibly
+                      go into this screen, in order to come back and delegate
+                      and clean up during iteration .
+                    </p>
+                    <p>Mockup</p>
+                    <p>
+                      Cleaned this up significantly when I chose to use the
+                      segment picker navigation route.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -448,25 +474,29 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Lo-Fi</h2>
                   <img
+                    style={{ maxHeight: 700 }}
                     alt='project 9'
                     height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    src={require('./assets/profile-lofi.png')}
                   />
                 </div>
                 <div>
                   <h2 className='has-text-centered'>Mockup 1</h2>
                   <img
+                    style={{ maxHeight: 700 }}
                     alt='project 10'
                     height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    src={require('./assets/profile-hifi.png')}
                   />
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <p>Lo-Fi</p>
-                  <p>Option to customize screen based on user type.</p>
-                  <p>Mockup 1</p>
-                  <p>Option to customize screen based on user type.</p>
+                  <div style={{ maxWidth: 400 }}>
+                    <p>Lo-Fi</p>
+                    <p>Option to customize screen based on user type.</p>
+                    <p>Mockup 1</p>
+                    <p>Option to customize screen based on user type.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -481,25 +511,29 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Lo-Fi</h2>
                   <img
+                    style={{ maxHeight: 700 }}
                     alt='project 9'
                     height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    src={require('./assets/activity-lofi.png')}
                   />
                 </div>
                 <div>
                   <h2 className='has-text-centered'>Mockup 1</h2>
                   <img
+                    style={{ maxHeight: 700 }}
                     alt='project 10'
                     height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    src={require('./assets/activity-hifi.png')}
                   />
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <p>Lo-Fi</p>
-                  <p>Option to customize screen based on user type.</p>
-                  <p>Mockup 1</p>
-                  <p>Option to customize screen based on user type.</p>
+                  <div style={{ maxWidth: 400 }}>
+                    <p>Lo-Fi</p>
+                    <p>Option to customize screen based on user type.</p>
+                    <p>Mockup 1</p>
+                    <p>Option to customize screen based on user type.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -514,50 +548,149 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Prototype 1</h2>
                   <img
+                    style={{ maxHeight: 700 }}
                     alt='project 9'
                     height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    src={require('./assets/communities-hifi.png')}
                   />
                 </div>
                 <div>
                   <h2 className='has-text-centered'>Prototype 2</h2>
                   <img
+                    style={{ maxHeight: 700 }}
                     alt='project 10'
                     height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    src={require('./assets/settings-hifi.png')}
                   />
                 </div>
                 <div>
                   <h2 className='has-text-centered'>Prototype 3</h2>
                   <img
+                    style={{ maxHeight: 700 }}
                     alt='project 11'
                     height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    src={require('./assets/editprofile-hifi.png')}
                   />
                 </div>
                 <div>
                   <h2 className='has-text-centered'>Prototype 4</h2>
                   <img
+                    style={{ maxHeight: 700 }}
                     alt='project 11'
                     height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    src={require('./assets/postoverlay-hifi.png')}
                   />
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <p>Prototype 1</p>
-                  <p>Option to customize screen based on user type.</p>
-                  <p>Prototype 2</p>
-                  <p>Option to customize screen based on user type.</p>
-                  <p>Prototype 3</p>
-                  <p>Option to customize screen based on user type.</p>
-                  <p>Prototype 4</p>
-                  <p>Option to customize screen based on user type.</p>
+                  <div style={{ maxWidth: 350 }}>
+                    <p>Prototype 1</p>
+                    <p>Option to customize screen based on user type.</p>
+                    <p>Prototype 2</p>
+                    <p>Option to customize screen based on user type.</p>
+                    <p>Prototype 3</p>
+                    <p>Option to customize screen based on user type.</p>
+                    <p>Prototype 4</p>
+                    <p>Option to customize screen based on user type.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
         </div>
+        <hr />
+        <section id='usability-testing'>
+          <div className='content container'>
+            <div className='columns'>
+              <div className='column'>
+                <h3>Usability Testing</h3>
+                <h4>Objectives</h4>
+                <ul>
+                  <li>Onboarding</li>
+                  <p>Splash screen with CTA/ sign up </p>
+                  <li>Home/Feed screen</li>
+                  <p>
+                    To see community feed, create post, edit communities they
+                    see in feed,
+                  </p>
+                  <li>Hamburger Dropdown</li>
+                  <p>Footer nested inside to save "real estate" </p>
+                  <li>Profile Screen</li>
+                  <p>For all community, saved, chat, and comment features </p>
+                  <li>Activities Screen</li>
+                  <p>
+                    Integration with fitness applications they use to see all
+                    thier data in one place, with ability to share in the forums
+                    to discuss progress.
+                  </p>
+                </ul>
+                <h4>Usability Testing Feedback Analysis</h4>
+                <ul>
+                  <li>Community "Toggle" Screen</li>
+                  <p>
+                    Ability to toggle on or off certain communities in order to
+                    have more control of their experience.
+                  </p>
+                  <li>Settings Screen</li>
+                  <p>
+                    Navigate to all account editing settings. Profile, anonymous
+                    profile, communities, and devices
+                  </p>
+                  <li>Edit Profile Screen</li>
+                  <p>Ability to edit user profile, and anonymous profile</p>
+                  <li>Posting Overlay</li>
+                  <p>
+                    Ability to post, with multiple type of post options feature
+                    and cross post feature.
+                  </p>
+                </ul>
+                <h4>Recommendations for Iteration</h4>
+                <ul>
+                  <li>
+                    Community "Toggle" Screen
+                    <ol>
+                      <li>asd</li>
+                      <li>asd</li>
+                    </ol>
+                  </li>
+                  <li>
+                    Settings Screen
+                    <ol>
+                      <li>asd</li>
+                    </ol>
+                  </li>
+                </ul>
+                <p>
+                  Users expressed enthusiasm for Wif and were very helpful in
+                  their feedback. They were able to to provide great insight and
+                  could relate to why I decided to build this product.With some
+                  being users of similar apps, they were able to provide
+                  thoughtful feedback as I progressed through the designs.
+                </p>
+              </div>
+            </div>
+            <hr />
+          </div>
+        </section>
+        <section className='container'>
+          <div className='content'>
+            <h1>USABILITY SOLUTION</h1>
+            <p>
+              Some Users expressed interest in developing the app and have
+              provided additional feedback to explore.
+            </p>
+          </div>
+        </section>
+        <hr />
+        <section className='container'>
+          <div className='content'>
+            <h1>USABILITY REVISION RESULTS</h1>
+            <p>
+              Some Users expressed interest in developing the app and have
+              provided additional feedback to explore.
+            </p>
+          </div>
+        </section>
         <hr />
         <section className='container'>
           <div className='content'>
