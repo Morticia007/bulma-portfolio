@@ -62,7 +62,8 @@ function Work() {
                 style={{
                   marginBottom: 80,
                   marginTop: 80,
-                }}>
+                }}
+              >
                 Wellness Intention Forums - WIF
               </h1>
               <p>A Community For Those Who Need It Most</p>
@@ -166,19 +167,25 @@ function Work() {
               <div className='column'>
                 <h1>Pivot</h1>
                 <p>
-                  As I was reviewing all the data I had gathered I made a huge discovery. If the potential users pain points
-                  were lack of community, loneliness, and coping mechanisms and their pain points with applications for weightloss 
-                  were that weight loss apps are stressful, too expensive, need more 
-                  features, and are too confusing, then I had to make a major decision. Do I try to recreate a noom or weight watchers
-                   and hope to make it better? 
+                  As I was reviewing all the data I had gathered I made a huge
+                  discovery. If the potential users pain points were lack of
+                  community, loneliness, and coping mechanisms and their pain
+                  points with applications for weightloss were that weight loss
+                  apps are stressful, too expensive, need more features, and are
+                  too confusing, then I had to make a major decision. Do I try
+                  to recreate a noom or weight watchers and hope to make it
+                  better?
                 </p>
                 <p>
-                  I needed to revisit the original problem statement. At this point we alreadu know at least one of my assumptions had been 
-                  debunked by the research. I needed a new problem statement that aligned more with the evolving scope of my project. 
+                  I needed to revisit the original problem statement. At this
+                  point we alreadu know at least one of my assumptions had been
+                  debunked by the research. I needed a new problem statement
+                  that aligned more with the evolving scope of my project.
                 </p>
                 <p>
-                  while keeping in mind the big questions.  What can I do to create community, bring people together, and not have to charge them for it?
-
+                  while keeping in mind the big questions. What can I do to
+                  create community, bring people together, and not have to
+                  charge them for it?
                 </p>
               </div>
             </div>
@@ -188,8 +195,11 @@ function Work() {
               <div className='column'>
                 <h1>Problem Statement Revised</h1>
                 <p>
-                People who are overweight have had a significant life change, where they moved, lost their community, or were affected by covid isolation. 
-                They struggle with loneliness, depression, and a loss of accountability, which all lead to lack of motivation.
+                  People who are overweight have had a significant life change,
+                  where they moved, lost their community, or were affected by
+                  covid isolation. They struggle with loneliness, depression,
+                  and a loss of accountability, which all lead to lack of
+                  motivation.
                 </p>
               </div>
             </div>
@@ -199,12 +209,15 @@ function Work() {
               <div className='column'>
                 <h1>Proposed Solution</h1>
                 <p>
-                Let's reference our proto persona first before we get to the possible solution - Darko used Reddit and Discord.
-                Both of those are somewhat of a community.
+                  Let's reference our proto persona first before we get to the
+                  possible solution - Darko used Reddit and Discord. Both of
+                  those are somewhat of a community.
                 </p>
                 <p>
-                 I decided based on everything I had learned up to now, to build a forum specifically for people who are overweight and struggle 
-                with loneliness, eating disorders, lack of community and/support.
+                  I decided based on everything I had learned up to now, to
+                  build a forum specifically for people who are overweight and
+                  struggle with loneliness, eating disorders, lack of community
+                  and/support.
                 </p>
               </div>
             </div>
@@ -215,18 +228,48 @@ function Work() {
           <div className='columns'>
             <div className='column'>
               <h1>Design Evolution</h1>
+              <h3>Forum MVP</h3>
               <ul>
                 <li>Onboarding</li>
-                <p>3-screen onboarding to provide brief overview of</p>
-                <li>Home/Feed Page</li>
-                <p>3-screen onboarding to provide brief overview of</p>
-                <li>About profile</li>
-                <p>3-screen onboarding to provide brief overview of</p>
+                <p>Splash screen with CTA/ sign up </p>
+                <li>Home/Feed screen</li>
+                <p>
+                  {' '}
+                  To see community feed, create post, edit communities they see
+                  in feed,
+                </p>
+                <li>Hamburger Dropdown</li>
+                <p>Footer nested inside to save "real estate" </p>
+                <li>Profile Screen</li>
+                <p>For all community, saved, chat, and comment features </p>
+                <li>Activities Screen</li>
+                <p>
+                  Integration with fitness applications they use to see all
+                  thier data in one place, with ability to share in the forums
+                  to discuss progress.
+                </p>
+                <li>Community "Toggle" Screen</li>
+                <p>
+                  Ability to toggle on or off certain communities in order to have more control of their 
+                  experience.
+                </p>
+                <li>Settings Screen</li>
+                <p>
+                  Navigate to all account editing settings. Profile, anonymous profile, communities, and devices
+                </p>
+                <li>Edit Profile Screen</li>
+                <p>
+                  Ability to edit user profile, and anonymous profile  
+                </p>
+                <li>Posting Overlay</li>
+                <p>
+                  Ability to post, with multiple type of post options feature and cross post feature.
+                </p>
               </ul>
               <p>
-                Users expressed enthusiasm for Cambio and were thoughtful in
-                their feedback. They were able to relate to the challenges faced
-                with multicurrency calculations and leftover change. As frequent
+                Users expressed enthusiasm for Wif and were very helpful in 
+                their feedback. They were able to to provide great insight and could relate to why I decided 
+                to build this product. 
                 users of similar apps, they were able to provide thoughtful
                 feedback as I progressed through the designs.
               </p>
