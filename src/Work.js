@@ -80,82 +80,125 @@ function Work() {
           <h1 className='has-text-centered'>BREAKING DOWN THE PROCESS</h1>
           <h2>WEEK 1 | RESEARCH</h2>
           <p>
-            To understand my participants and how I could help, I needed to determine their level of mind body connection 
-            I needed to know how they live - what impacts them day to day.
-            I needed to know if the weight gain was triggered by something.
-            - As a mortician there is a question always looming in my mind - What Happened?
+            To understand my participants and how I could help, I needed to
+            determine their level of mind body connection  I needed to know how
+            they live - what impacts them day to day. I needed to know if the
+            weight gain was triggered by something. - As a mortician there is a
+            question always looming in my mind - What Happened?
           </p>
           <p>
-          Getting to know my research participants was exciting and heart wrenching all at the same time. 
-           I found during my research they all  had a lot in common. This broke my heart. 
-           And on some level I can understand exactly how they must feel. 
-           I had a ton of good cries during this phase of my project. 
-    
-
-          </p>
-          I was right about the triggering event, but it wasn’t what I thought it would be. 
-           I thought it was going to be the death of a loved one. It wasn’t! 
-           It was moving, which is a loss if you lose your community like my participants reported. 
-           There’s an aspect of grief here that sometimes is overlooked, but I want to bring it to life.
-           We all grieve over losses. No matter what they are. I have found that we don’t let ourselves grieve properly, 
-           and then loneliness and depression kick in. Usually we associated it with something else going on and try to mask it. 
-           With my participants, they associated food with comfort to help their pain
-          <p></p>
-        </div>
-        <div className='columns'>
-          <Cards />
-        </div>
-        <hr />
-        <div class='content is-normal'>
-          <h1 className='has-text-centered'>BREAKING DOWN THE PROCESS</h1>
-          <h2>WEEK 2 | RESEARCH</h2>
-          <p>
-             To understand the competitive landscape and how users interact with
-             weight loss applications, I looked at two companies my research
-             participants mentioned and one I knew that had the functionaity that my participants 
-             made clear were important to them.
+            Getting to know my research participants was exciting and heart
+            wrenching all at the same time. I found during my research they all
+            had a lot in common. This broke my heart. And on some level I can
+            understand exactly how they must feel. I had a ton of good cries
+            during this phase of my project. 
           </p>
           <p>
-            I identified a some more common patterns my participants had in this areana as well:
-            Weight loss apps are stressful, too expensive, needs features, and too confusing.
-
+            I was right about the triggering event, but it wasn’t what I thought
+            it would be. I thought it was going to be the death of a loved one.
+            It wasn’t! It was moving, which is a loss if you lose your community
+            like my participants reported. There’s an aspect of grief here that
+            sometimes is overlooked, but I want to bring it to life. We all
+            grieve over losses. No matter what they are. I have found that we
+            don’t let ourselves grieve properly, and then loneliness and
+            depression kick in. Usually we associated it with something else
+            going on and try to mask it. With my participants, they associated
+            food with comfort to help their pain
           </p>
         </div>
-      </section>
-      <section>
-        <hr />
         <div className='content container'>
           <div className='columns'>
             <div className='column'>
               <h1>Darkos story</h1>
               <p>
-              As a person dealing with weight gain and isolation, I want to have access to a community, 
-              where I can meet people just like me. People who struggle with weight, loneliness and lack of
-               motivation. So we can all be accountability partners and a support system for each other,
-              in our journey together
-            </p>
-            <p> As you can see Darko needs
-                1. community 
-                2. accountability partner
-                3. support
-                4. people going through the same thing  
-                </p>
-                <p>
-                His frustrations are 
-                1. Loneliness
-                2. guilt
-                3. food association
-            </p>
+                As a person dealing with weight gain and isolation, I want to
+                have access to a community, where I can meet people just like
+                me. People who struggle with weight, loneliness and lack of
+                motivation. So we can all be accountability partners and a
+                support system for each other, in our journey together
+              </p>
+              <p>
+                As you can see Darko needs:
+                <ol>
+                  <li>community</li>
+                  <li>accountability partner</li>
+                  <li>support</li>
+                  <li>people going through the same thing</li>
+                </ol>
+                His frustrations are:
+                <ol>
+                  <li>loneliness </li>
+                  <li>guilt</li>
+                  <li>food association</li>
+                </ol>
+              </p>
             </div>
             <div className='column'>
-              <img
-                alt='project'
-                src='https://i.ibb.co/NT8Q5DQ/darko.png'
-              />
+              <img alt='project' src='https://i.ibb.co/NT8Q5DQ/darko.png' />
             </div>
           </div>
         </div>
         <hr />
+        <div class='content is-normal'>
+          <h2>WEEK 2 | RESEARCH</h2>
+          <p>
+            To understand the competitive landscape and how users interact with
+            weight loss applications, I looked at two companies my research
+            participants mentioned and one I knew that had the functionaity that
+            my participants made clear were important to them.
+          </p>
+          <p>
+            I identified a some more common patterns my participants had in this
+            areana as well: Weight loss apps are stressful, too expensive, needs
+            features, and too confusing.
+          </p>
+        </div>
+        <div className='columns'>
+          <Cards />
+        </div>
+        <hr />
+      </section>
+      <section>
+        <hr />
+        <section>
+          <div className='content container'>
+            <div className='columns'>
+              <div className='column'>
+                <h1>Pivot</h1>
+                <p>
+                  As a person dealing with weight gain and isolation, I want to
+                  have access to a community, where I can meet people just like
+                  me. People who struggle with weight, loneliness and lack of
+                  motivation. So we can all be accountability partners and a
+                  support system for each other, in our journey together
+                </p>
+                <p>
+                  As you can see Darko needs 1. community 2. accountability
+                  partner 3. support 4. people going through the same thing  
+                </p>
+                <p>
+                  His frustrations are 1. Loneliness 2. guilt 3. food
+                  association
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className='content container'>
+            <div className='columns'>
+              <div className='column'>
+                <h1>Pivot</h1>
+                <p>
+                  As a person dealing with weight gain and isolation, I want to
+                  have access to a community, where I can meet people just like
+                  me. People who struggle with weight, loneliness and lack of
+                  motivation. So we can all be accountability partners and a
+                  support system for each other, in our journey together
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </section>
         <div className='content container'>
           <div className='columns'>
             <div className='column'>
