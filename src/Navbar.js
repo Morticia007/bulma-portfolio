@@ -9,14 +9,16 @@ function Navbar() {
         role='navigation'
         aria-label='main navigation'>
         <div className='navbar-brand'>
-          <a className='navbar-item' href='https://bulma.io'>
+          <a className='navbar-item' href=''>
             <img
+              alt="logo"
               style={{ maxHeight: 1400 }}
               src='https://uploads-ssl.webflow.com/62cfb7ce6b0d2a63aebe4954/62d3b19da73d908a4899505e_Vector.svg'
               width='200'
             />
           </a>
           <a
+            href=""
             role='button'
             className='navbar-burger'
             aria-label='menu'
