@@ -6,12 +6,14 @@ function Content({ heading, firstP, secondP }) {
       style={{
         background:
           heading.toLowerCase() === 'executive summary' ? '#fafafa' : 'white',
-          padding: 30,
+        padding: 30,
       }}
       className='container-fluid content is-medium'>
       <div className='columns'>
         <h2 className='column'>{heading}</h2>
-        <p  style={{fontWeight: 700 }}className='column is-size-6'>{firstP}</p>
+        <p style={{ fontWeight: 700 }} className='column is-size-6'>
+          {firstP}
+        </p>
       </div>
       <div className='columns'>
         <div className='column'></div>
