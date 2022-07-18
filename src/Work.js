@@ -163,12 +163,23 @@ function Work() {
           <section style={{ marginBottom: 100 }}>
             <div className='content'>
               <h1 className='has-text-centered'>Wireframes</h1>
-              <h2 className='has-text-centered'>Onboarding Screens</h2>
+              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                Onboarding Screens
+              </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
-                <img height='500' src='https://i.ibb.co/wpYsP9D/Splash-H.png' />
+                <div>
+                  <h2 className='has-text-centered'>Lo-Fi</h2>
+                  <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Mockup</h2>
+                  <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
+                </div>
+
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <p>Lo-Fi</p>
                   <p>Option to customize screen based on user type.</p>
+                  <p>Mockup</p>
                   <p>Option to customize screen based on user type.</p>
                 </div>
               </div>
@@ -176,12 +187,48 @@ function Work() {
           </section>
           <section style={{ marginBottom: 100 }}>
             <div className='content'>
-              <h2 className='has-text-centered block'>Onboarding Screens</h2>
+              <h1 className='has-text-centered'>Wireframes</h1>
+              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                Onboarding Screens
+              </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
-                <img height='500' src='https://i.ibb.co/wpYsP9D/Splash-H.png' />
+                <div>
+                  <h2 className='has-text-centered'>Lo-Fi</h2>
+                  <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Mockup</h2>
+                  <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
+                </div>
+
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <p>Lo-Fi</p>
                   <p>Option to customize screen based on user type.</p>
+                  <p>Mockup</p>
+                  <p>Option to customize screen based on user type.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section style={{ marginBottom: 100 }}>
+            <div className='content'>
+              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                Onboarding Screens
+              </h2>
+              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                <div>
+                  <h2 className='has-text-centered'>Lo-Fi</h2>
+                  <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Mockup</h2>
+                  <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <p>Lo-Fi</p>
+                  <p>Option to customize screen based on user type.</p>
+                  <p>Mockup</p>
                   <p>Option to customize screen based on user type.</p>
                 </div>
               </div>
@@ -189,26 +236,29 @@ function Work() {
           </section>
           <section style={{ marginBottom: 100 }}>
             <div className='content'>
-              <h2 className='has-text-centered'>Onboarding Screens</h2>
+              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                Onboarding Screens
+              </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
-                <img height='500' src='https://i.ibb.co/wpYsP9D/Splash-H.png' />
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <p>Option to customize screen based on user type.</p>
-                  <p>Option to customize screen based on user type.</p>
+                <div>
+                  <h2 className='has-text-centered'>Lo-Fi</h2>
+                  <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
                 </div>
-              </div>
-            </div>
-          </section>
-          <section style={{ marginBottom: 100 }}>
-            <div className='content'>
-              <h2 className='has-text-centered'>Onboarding Screens</h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
-                <img height='500' src='https://i.ibb.co/wpYsP9D/Splash-H.png' />
-                <img height='500' src='https://i.ibb.co/wpYsP9D/Splash-H.png' />
+                <div>
+                  <h2 className='has-text-centered'>Mockup 1</h2>
+                  <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Mockup 2</h2>
+                  <img height='500' src='https://i.ibb.co/T0sKjrP/Splash.png' />
+                </div>
+
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <p>Lo-Fi</p>
                   <p>Option to customize screen based on user type.</p>
+                  <p>Mockup 1</p>
+                  <p>Option to customize screen based on user type.</p>
+                  <p>Mockup 2</p>
                   <p>Option to customize screen based on user type.</p>
                 </div>
               </div>
