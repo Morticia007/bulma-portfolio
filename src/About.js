@@ -42,19 +42,19 @@ function About() {
         </p>
       </div>
       <hr />
-      <div style={{ padding: 60 }}>
-        <h1 style={{ marginBottom: 80, marginTop: 80 }}>Education</h1>
+      <div style={{ padding: 40 }}>
+        <h1 style={{ marginBottom: 40, marginTop: 40 }}>Education</h1>
         <div className='block'>
-          <p className='title'>GENERAL ASSSEMBY UX BOOTCAMP</p>
-          <p className='subtitle'>GENERAL ASSSEMBY UX BOOTCAMP</p>
+          <h3 className='subtitle'>GENERAL ASSSEMBY UX BOOTCAMP</h3>
+          <p className='subtitle'>April 2019 - July 2019P</p>
         </div>
         <div className='block'>
-          <p className='title'>NEWCAMP FULLSTACK DEVELOPER BOOTCAMP</p>
+          <h3 className='subtitle'>NEWCAMP FULLSTACK DEVELOPER BOOTCAMP</h3>
           <p className='subtitle'>November 2020 - May 2021</p>
         </div>
         <div className='block'>
-          <p className='title'>DESIGN LAB UX/UI ACADEMY</p>
-          <p className='subtitle'>May 2022 -Present</p>
+          <h3 className='subtitle'>DESIGN LAB UX/UI ACADEMY</h3>
+          <p className='subtitle'>May 2022 - Present</p>
         </div>
       </div>
     </div>

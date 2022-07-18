@@ -6,7 +6,7 @@ function Hero() {
       <div className='hero-body'>
         <div className='content'>
           <h1 className='title has-text-centered block'>
-            Hi! I'm Jacquelyn!
+            Hi! Glad you made it!
           </h1>
         </div>
         <p className='subtitle'>
@@ -14,7 +14,7 @@ function Hero() {
           wellness, sports, music, and art companies to create user centric
           products. My background isn’t typical, its very deep and meaningful,
           in ways that are unknown to most until they have to meet their
-          Mortician, in one of the hardest moments life can deal you.
+          mortician, in one of the hardest moments life can deal you.
         </p>
        {/* <p className='subtitle'>
           My background isn’t typical, its very deep and meaningful, in ways
