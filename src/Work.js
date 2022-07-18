@@ -331,7 +331,7 @@ function Work() {
                     make sure the experience was not only smooth, but to keep in
                     mind the impact I could make by giving them more control
                     over what forums they want to be active in, and the ability
-                    to pass on forums that they had no interet in.
+                    to pass on forums that they had no interest in.
                   </p>
                 </div>
               </div>
@@ -511,7 +511,7 @@ function Work() {
                       During iteration I decided to clean it up and give the
                       user another level of control, to be able to chose if they
                       want to see those things by adjusting it to a menu. this
-                      was also to cut down on clutter and not confuse the user..
+                      was also to cut down on clutter and not confuse the user.
                     </p>
                   </div>
                 </div>
@@ -613,7 +613,9 @@ function Work() {
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 350 }}>
                     <p>1. Community Toggle Screen</p>
-                    <p>Interactive toggle screen for user content management.</p>
+                    <p>
+                      Interactive toggle screen for user content management.
+                    </p>
                     <p>2. Account Settings Screen</p>
                     <p>Edit all account settings, and device integration.</p>
                     <p>3. Edit Profile Screen</p>
@@ -636,69 +638,62 @@ function Work() {
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 800 }}>
                     <ul>
-                      <li>Onboarding</li>
-                      <p>Splash screen with CTA/ sign up </p>
-                      <li>Home/Feed screen</li>
+                      <li>Determine if termonology makes sense</li>
+                      <p>Is it human? </p>
+                      <li>Determine if user/task flow is easy</li>
+                      <p>Can they complete tasks?</p>
+                      <li>Determine accesibility</li>
+                      <p>Can they see everything? </p>
+                      <li>Determine if navigation is easy</li>
+                      <p>Can they navigate?</p>
                       <p>
-                        To see community feed, create post, edit communities
-                        they see in feed,
-                      </p>
-                      <li>Hamburger Dropdown</li>
-                      <p>Footer nested inside to save "real estate" </p>
-                      <li>Profile Screen</li>
-                      <p>
-                        For all community, saved, chat, and comment features{' '}
-                      </p>
-                      <li>Activities Screen</li>
-                      <p>
-                        Integration with fitness applications they use to see
-                        all thier data in one place, with ability to share in
-                        the forums to discuss progress.
+                        Each usability testing participant was given 5 tasks to
+                        determine, if all of the objectives listed above could
+                        be validated.
                       </p>
                     </ul>
                     <h4>Usability Testing Feedback Analysis</h4>
                     <ul>
-                      <li>Community "Toggle" Screen</li>
+                      <li>Couldn’t find edit communities</li>
                       <p>
-                        Ability to toggle on or off certain communities in order
-                        to have more control of their experience.
+                        Seemed to get stuck on the viewing now dropdown when tasked to edit communities.
                       </p>
-                      <li>Settings Screen</li>
+                      <li>
+                        Confused by the plus icon in the floating button for
+                        posting
+                      </li>
                       <p>
-                        Navigate to all account editing settings. Profile,
-                        anonymous profile, communities, and devices
+                        When tasked to create a post, were reluctant to choose the floating button. Once given 
+                        help they reported they figured it was what they were supposed to do, but were thrown off
+                        by the plus icon on the floating button.
                       </p>
-                      <li>Edit Profile Screen</li>
-                      <p>Ability to edit user profile, and anonymous profile</p>
-                      <li>Posting Overlay</li>
+                      <li>Were attracted to the viewing now dropdown</li>
+                      <p>Thats Great! Except when that's not the place you were hoping they would chosee when tasked with
+                        something other than finding the viewing now dropdown.</p>
+                      <li>Reported to really enjoy the experience despite the few small fumbles</li>
                       <p>
-                        Ability to post, with multiple type of post options
-                        feature and cross post feature.
+                        I was pleased by the feedback I got overall. The participants liked the look and simplicity of the 
+                        web app. They validated many functions and gave me great feedback on the objectives that didn't make it to validation. 
                       </p>
                     </ul>
                     <h4>Recommendations for Iteration</h4>
                     <ul>
                       <li>
-                        Community "Toggle" Screen
+                        Filter Bar Revision
                         <ol>
-                          <li>asd</li>
-                          <li>asd</li>
+                          <li>Edit Communities</li>
+                          <li>Viewing Now</li>
                         </ol>
                       </li>
                       <li>
-                        Settings Screen
+                        Button Revision
                         <ol>
-                          <li>asd</li>
+                          <li>Change Icon</li>
                         </ol>
                       </li>
                     </ul>
                     <p>
-                      Users expressed enthusiasm for Wif and were very helpful
-                      in their feedback. They were able to to provide great
-                      insight and could relate to why I decided to build this
-                      product.With some being users of similar apps, they were
-                      able to provide thoughtful feedback as I progressed
-                      through the designs.
+                     The next steps in my usability research are just easier to show than tell. 
                     </p>
                   </div>
                 </div>
@@ -717,8 +712,7 @@ function Work() {
           <div className='content'>
             <h1>USABILITY SOLUTION</h1>
             <p>
-              Some Users expressed interest in developing the app and have
-              provided additional feedback to explore.
+             Below are the solutions I put in place to move the Home/Feed Screen into the revision phase.
             </p>
           </div>
           <img src={require('./assets/user-testing-research-14.png')} />
@@ -728,8 +722,8 @@ function Work() {
           <div className='content'>
             <h1>USABILITY REVISION</h1>
             <p>
-              Some Users expressed interest in developing the app and have
-              provided additional feedback to explore.
+              Below are the stages of revision. Screen featured throughout this stage is the Home/Feed Screen.
+              Main concentration is on the Filter Bar and Floating Button.
             </p>
           </div>
           <img src={require('./assets/redesign-4.png')} />
@@ -741,8 +735,7 @@ function Work() {
           <div className='content'>
             <h1>RESULTS</h1>
             <p>
-              Some Users expressed interest in developing the app and have
-              provided additional feedback to explore.
+             Results during further usability testing achieved the validation label I was going for. Results below.
             </p>
           </div>
           <img src={require('./assets/results.png')} />
@@ -757,46 +750,28 @@ function Work() {
                   <div style={{ display: 'flex', flexDirection: 'column' }}>
                     <div style={{ maxWidth: 800 }}>
                       <ul>
-                        <li>Hamburger Dropdown</li>
-                        <p>Footer nested inside to save "real estate" </p>
-                        <li>Profile Screen</li>
+                        <li>Agile design is the only way to go!</li>
+                        <p>Feedback and iteration is the most important part of design, when you are user centric. Without the feedback, my 
+                          project may have not tested as well as it did.  </p>
+                        <li>Pivoting is definitely a real thing!</li>
                         <p>
-                          For all community, saved, chat, and comment features{' '}
+                          Knowing when, why, and how is the hard part. Luckily I am a pattern person and was able to see
+                          that there was much more of a need for community than another weight loss application.
                         </p>
-                        <li>Activities Screen</li>
+                        <li>Framimg research questions correctly will be the gold in your sifting pan.</li>
                         <p>
-                          Integration with fitness applications they use to see
-                          all thier data in one place, with ability to share in
-                          the forums to discuss progress.
+                          This is what I will take more time to research and understand for future projects.
                         </p>
-                        <li>Community "Toggle" Screen</li>
+                        <li>Test</li>
+                      
+                        <li>Test</li>
+                     
+                        <li>Re-test</li>
                         <p>
-                          Ability to toggle on or off certain communities in
-                          order to have more control of their experience.
-                        </p>
-                        <li>Settings Screen</li>
-                        <p>
-                          Navigate to all account editing settings. Profile,
-                          anonymous profile, communities, and devices
-                        </p>
-                        <li>Edit Profile Screen</li>
-                        <p>
-                          Ability to edit user profile, and anonymous profile
-                        </p>
-                        <li>Posting Overlay</li>
-                        <p>
-                          Ability to post, with multiple type of post options
-                          feature and cross post feature.
+                          Don't ever sell yourself short or make assumptions that back you into a place in 
+                          your project you can't come back from.
                         </p>
                       </ul>
-                      <p>
-                        Users expressed enthusiasm for Wif and were very helpful
-                        in their feedback. They were able to to provide great
-                        insight and could relate to why I decided to build this
-                        product.With some being users of similar apps, they were
-                        able to provide thoughtful feedback as I progressed
-                        through the designs.
-                      </p>
                     </div>
                   </div>
                 </div>
