@@ -1,24 +1,26 @@
-import React from "react";
+import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from './assets/logo-5.png';
 
 function Navbar() {
   return (
     <div className='container-fluid'>
       <nav
-        className='navbar is-spaced'
+        style={{ background: '#a6b8c6' }}
+        className='navbar is-spaced is-dark'
         role='navigation'
         aria-label='main navigation'>
         <div className='navbar-brand'>
           <a className='navbar-item' href='https://linkedin.com'>
             <img
-              alt='logos'
+              alt='logo`'
               style={{ maxHeight: 1400 }}
-              src='https://uploads-ssl.webflow.com/62cfb7ce6b0d2a63aebe4954/62d3b19da73d908a4899505e_Vector.svg'
-              width='200'
+              src={logo}
+              width='400'
             />
           </a>
           <a
-            href="https://linkedin.com"
+            href='https://linkedin.com'
             role='button'
             className='navbar-burger'
             aria-label='menu'
@@ -49,6 +51,6 @@ function Navbar() {
       </nav>
     </div>
   );
-};
+}
 
 export default Navbar;
