@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Project({ projectImage }) {
+  console.log(projectImage)
   return (
     <div className='column'>
       <h3 className='subtitle'>WIF UX/UI Design</h3>
@@ -18,7 +19,7 @@ function Project({ projectImage }) {
       </p>
       <img
         alt='Multiple iPhone sceens showing the WIF App'
-        style={{ marginTop: 50, marginLeft: -20 }}
+        style={{ marginTop:  projectImage.includes('Frame') ? 100 : 50, marginLeft: -20 }}
         src={projectImage}
       />
     </div>
