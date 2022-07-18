@@ -2,6 +2,7 @@ import React from 'react';
 import Content from './Content';
 import Cards from './Cards';
 import { v4 as uuidv4 } from 'uuid';
+import Splash from './assets/Splash.png';
 
 const projectContentList = [
   {
@@ -62,8 +63,7 @@ function Work() {
                 style={{
                   marginBottom: 80,
                   marginTop: 80,
-                }}
-              >
+                }}>
                 Wellness Intention Forums - WIF
               </h1>
               <p>A Community For Those Who Need It Most</p>
@@ -250,27 +250,28 @@ function Work() {
                 </p>
                 <li>Community "Toggle" Screen</li>
                 <p>
-                  Ability to toggle on or off certain communities in order to have more control of their 
-                  experience.
+                  Ability to toggle on or off certain communities in order to
+                  have more control of their experience.
                 </p>
                 <li>Settings Screen</li>
                 <p>
-                  Navigate to all account editing settings. Profile, anonymous profile, communities, and devices
+                  Navigate to all account editing settings. Profile, anonymous
+                  profile, communities, and devices
                 </p>
                 <li>Edit Profile Screen</li>
-                <p>
-                  Ability to edit user profile, and anonymous profile  
-                </p>
+                <p>Ability to edit user profile, and anonymous profile</p>
                 <li>Posting Overlay</li>
                 <p>
-                  Ability to post, with multiple type of post options feature and cross post feature.
+                  Ability to post, with multiple type of post options feature
+                  and cross post feature.
                 </p>
               </ul>
               <p>
-                Users expressed enthusiasm for Wif and were very helpful in 
-                their feedback. They were able to to provide great insight and could relate to why I decided 
-                to build this product.With some being users of similar apps, they were able to provide thoughtful
-                feedback as I progressed through the designs.
+                Users expressed enthusiasm for Wif and were very helpful in
+                their feedback. They were able to to provide great insight and
+                could relate to why I decided to build this product.With some
+                being users of similar apps, they were able to provide
+                thoughtful feedback as I progressed through the designs.
               </p>
             </div>
           </div>
@@ -287,9 +288,10 @@ function Work() {
                 <div>
                   <h2 className='has-text-centered'>Lo-Fi</h2>
                   <img
-                    alt='project 3'
-                    height='500'
-                    src='https://i.ibb.co/T0sKjrP/Splash.png'
+                    alt='Splash`'
+                    style={{ maxHeight: 1400 }}
+                    src={Splash}
+                    width='400'
                   />
                 </div>
                 <div>
