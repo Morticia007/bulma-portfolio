@@ -1,25 +1,26 @@
 import React from 'react';
 
-function Project({ projectImage }) {
-  console.log(projectImage)
+function Project({ projectName, projectRole, projectImage, projectSummary, projectGoal }) {
   return (
     <div className='column'>
-      <h3 className='subtitle'>WIF UX/UI Design</h3>
+      <h3 className='subtitle'>{projectName}</h3>
       <h4 className='subtitle' style={{ fontStyle: 'italic' }}>
-        Project Manager • Product Designer • Researcher
+        {projectRole}
       </h4>
       <p style={{ marginBottom: 30 }}>
-        <span style={{ fontWeight: 700 }}>Summary:</span> This SharePoint
-        project was to build a firm-wide communication portal for business
-        support and administrative professionals.
+        <span style={{ fontWeight: 700 }}>Summary:</span> 
+        {projectSummary}
       </p>
       <p>
-        <span style={{ fontWeight: 700 }}>Goal:</span> Learn how the business
-        can communicate and distribute information.
+        <span style={{ fontWeight: 700 }}>Goal:</span> 
+        {projectGoal}
       </p>
       <img
         alt='Multiple iPhone sceens showing the WIF App'
-        style={{ marginTop:  projectImage.includes('Frame') ? 100 : 50, marginLeft: -20 }}
+        style={{
+          marginTop: projectImage.includes('Frame') ? 100 : 50,
+          marginLeft: -20,
+        }}
         src={projectImage}
       />
     </div>
