@@ -1,9 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Project({ projectName, projectRole, projectImage, projectSummary, projectGoal }) {
+function Project({
+  projectName,
+  projectRole,
+  projectImage,
+  projectSummary,
+  projectGoal,
+  projectPage,
+}) {
   return (
     <div className='column'>
-      <h3 className='subtitle'>{projectName}</h3>
+      <h3 className='subtitle'>
+        <Link style={{ color: 'inherit' }} to={projectPage}>
+          {projectName}
+        </Link>
+      </h3>
       <h4 className='subtitle' style={{ fontStyle: 'italic' }}>
         {projectRole}
       </h4>
@@ -17,7 +29,7 @@ function Project({ projectName, projectRole, projectImage, projectSummary, proje
         alt='Multiple iPhone sceens showing the WIF App'
         style={{
           marginTop: projectImage.includes('Frame') ? 100 : 50,
-          marginLeft: -20,
+          marginLeft: projectImage.includes('Frame') ? -13 : null,
         }}
         src={projectImage}
       />

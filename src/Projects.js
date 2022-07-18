@@ -6,25 +6,30 @@ import ComingSoon2 from './assets/pexels-vie-studio-4439444 2.jpg';
 
 const projectList = [
   {
-    projectName: 'WIF UX/UI Design',
-    projectRole: ` Project Manager • Product Designer • Researcher`,
+    projectName: 'WIF',
+    projectRole: `UX/UI Designer • Product Designer • Researcher`,
     projectImage: Frame,
-    projectSummary: `This SharePoint project was to build a firm-wide communication portal for business support and administrative professionals.`,
-    projectGoal: `Learn how the business can communicate and distribute information.`,
+    projectSummary: `This responsive mobile web app is a personal project that provides community forums for those struggling to lose weight.`,
+    projectGoal: `Learn how to empower and improve health and fitness through community forums for long time strugglers. `,
+    projectPage: 'work',
   },
   {
     projectName: 'ComingSoon',
-    projectRole: ` Project Manager • Product Designer • Researcher`,
+    projectRole: `UX/UI Designer • Product Designer • Researcher`,
     projectImage: ComingSoon,
-    projectSummary: `This SharePoint project was to build a firm-wide communication portal for business support and administrative professionals.`,
-    projectGoal: `Learn how the business can communicate and distribute information.`,
+    projectSummary: `This project is coming soon This project is coming soon This project is coming soon This project is coming soon`,
+    projectGoal:
+      'Learn how to empower and improve health and fitness through community forums for long time strugglers.',
+    projectPage: '',
   },
   {
     projectName: 'ComingSoon2',
-    projectRole: ` Project Manager • Product Designer • Researcher`,
+    projectRole: `UX/UI Designer • Product Designer • Researcher`,
     projectImage: ComingSoon2,
-    projectSummary: `This SharePoint project was to build a firm-wide communication portal for business support and administrative professionals.`,
-    projectGoal: `Learn how the business can communicate and distribute information.`,
+    projectSummary: `This project is coming soon This project is coming soon This project is coming soon This project is coming soon`,
+    projectGoal:
+      'Learn how to empower and improve health and fitness through community forums for long time strugglers.',
+    projectPage: '',
   },
 ];
 
