@@ -3,16 +3,16 @@ function About() {
   return (
     <div className='content is-large'>
       <div style={{ color: 'white', background: '#609497', padding: 60 }}>
-        <h1
+        <h3
           className='has-text-left'
           style={{
             marginBottom: 80,
             marginTop: 80,
             color: 'white',
-            background: '#326669',
+            background: '#609497',
           }}>
           Jacquelyn Hagman
-        </h1>
+        </h3>
         <p style={{ maxWidth: 750 }}>
           Guided by my sense of justice, I use my empathy and courage to stand
           up for the user to protect their interest when delivering useful
