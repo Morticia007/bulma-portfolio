@@ -166,19 +166,19 @@ function Work() {
               <div className='column'>
                 <h1>Pivot</h1>
                 <p>
-                  As a person dealing with weight gain and isolation, I want to
-                  have access to a community, where I can meet people just like
-                  me. People who struggle with weight, loneliness and lack of
-                  motivation. So we can all be accountability partners and a
-                  support system for each other, in our journey together
+                  As I was reviewing all the data I had gathered I made a huge discovery. If the potential users pain points
+                  were lack of community, loneliness, and coping mechanisms and their pain points with applications for weightloss 
+                  were that weight loss apps are stressful, too expensive, need more 
+                  features, and are too confusing, then I had to make a major decision. Do I try to recreate a noom or weight watchers
+                   and hope to make it better? 
                 </p>
                 <p>
-                  As you can see Darko needs 1. community 2. accountability
-                  partner 3. support 4. people going through the same thing  
+                  I needed to revisit the original problem statement. At this point we alreadu know at least one of my assumptions had been 
+                  debunked by the research. I needed a new problem statement that aligned more with the evolving scope of my project. 
                 </p>
                 <p>
-                  His frustrations are 1. Loneliness 2. guilt 3. food
-                  association
+                  while keeping in mind the big questions.  What can I do to create community, bring people together, and not have to charge them for it?
+
                 </p>
               </div>
             </div>
@@ -186,13 +186,25 @@ function Work() {
           <div className='content container'>
             <div className='columns'>
               <div className='column'>
-                <h1>Pivot</h1>
+                <h1>Problem Statement Revised</h1>
                 <p>
-                  As a person dealing with weight gain and isolation, I want to
-                  have access to a community, where I can meet people just like
-                  me. People who struggle with weight, loneliness and lack of
-                  motivation. So we can all be accountability partners and a
-                  support system for each other, in our journey together
+                People who are overweight have had a significant life change, where they moved, lost their community, or were affected by covid isolation. 
+                They struggle with loneliness, depression, and a loss of accountability, which all lead to lack of motivation.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className='content container'>
+            <div className='columns'>
+              <div className='column'>
+                <h1>Proposed Solution</h1>
+                <p>
+                Let's reference our proto persona first before we get to the possible solution - Darko used Reddit and Discord.
+                Both of those are somewhat of a community.
+                </p>
+                <p>
+                 I decided based on everything I had learned up to now, to build a forum specifically for people who are overweight and struggle 
+                with loneliness, eating disorders, lack of community and/support.
                 </p>
               </div>
             </div>
