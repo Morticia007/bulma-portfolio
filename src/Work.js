@@ -648,15 +648,18 @@ function Work() {
                       <p>Can they see everything? </p>
                       <li>Determine if navigation is easy</li>
                       <p>Can they navigate?</p>
-                      <p>
-                        Each usability testing participant was given 5 tasks to
-                        determine if all of the objectives listed above could be
-                        validated.
-                      </p>
+                      
+                      <h6>
+                        Each usability testing participant was given 5 tasks
+                         to determine if all of the objectives listed above could
+                         be validated.   
+                      </h6>
                     </ul>
                     <h4>Usability Testing Feedback Analysis</h4>
                     <ul>
-                      <li>Couldn’t find edit communities</li>
+                      <li>
+                        Couldn’t find edit communities section in filter bar
+                      </li>
                       <p>
                         Seemed to get stuck on the viewing now dropdown when
                         tasked to edit communities.
@@ -668,18 +671,18 @@ function Work() {
                       <p>
                         When tasked to create a post, were reluctant to choose
                         the floating button. Once given help they reported they
-                        figured it was what they were supposed to do, but were
+                        thought it was what they were supposed to do, but were
                         thrown off by the plus icon on the floating button.
                       </p>
                       <li>Were attracted to the viewing now dropdown</li>
                       <p>
                         Thats Great! Except when that's not the place you were
-                        hoping they would chosee when tasked with something
-                        other than finding the viewing now dropdown.
+                        hoping they would chose when tasked with something other
+                        than finding the viewing now dropdown.
                       </p>
                       <li>
                         Reported to really enjoy the experience despite the few
-                        small fumbles
+                        small fumbles.
                       </li>
                       <p>
                         I was pleased by the feedback I got overall. The
@@ -770,9 +773,9 @@ function Work() {
                         <li>Agile design is the only way to go!</li>
                         <p>
                           Feedback and iteration is the most important part of
-                          design, when you are user centric. Without the
+                          design when you are user centric. Without the
                           feedback, my project may have not tested as well as it
-                          did.{' '}
+                          did.
                         </p>
                         <li>Pivoting is definitely a real thing!</li>
                         <p>
@@ -800,6 +803,40 @@ function Work() {
                           come back from.
                         </p>
                       </ul>
+                      <hr />
+                      <section className='container'>
+                        <div className='content'>
+                          <h1> Next steps</h1>
+                          <ul>
+                            <li>Back to user research </li>
+                            <p>
+                              To see if I can uncover more golden information
+                              and dig into why the "Anonymous cConfessions" idea
+                              sparked curiosity in so many people along the
+                              project journey.
+                            </p>
+                            <li>
+                              Revisit and design the "Anonymous Confessions"
+                              functionality
+                            </li>
+                            <p>
+                              I haven't made it a priority to discuss this part
+                              of the application even though you have seen a
+                              couple hints about it along the way, it is
+                              something that wasn't essential for MVP but upon
+                              mentioning it randomly to people I got a lot of
+                              positve feedback. It seemed to spark curiosity
+                            </p>
+                            <li>Test</li>
+                            <li>Iterate</li>
+                            <li>Test some more</li>
+                            <p>
+                              If you'd like to know more about this project, I'd
+                              love to connect.{' '}
+                            </p>
+                          </ul>
+                        </div>
+                      </section>
                     </div>
                   </div>
                 </div>
