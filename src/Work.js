@@ -738,7 +738,7 @@ function Work() {
              Results during further usability testing achieved the validation label I was going for. Results below.
             </p>
           </div>
-          <img src={require('./assets/results.png')} />
+          <img src={require('./assets/results-1.png')} />
         </section>
         <hr />
         <section className='container'>
