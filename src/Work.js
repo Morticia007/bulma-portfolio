@@ -52,8 +52,8 @@ const projectContentList = [
     id: uuidv4(),
     heading: 'Understanding The User',
     firstP:
-      'As someone who lost her mother to cancer, and had struggled with her weight for years prior to that Then as fate would would tell my story, I fell in love with a man who has struggled with weight on and off, but this time (in his life) he had gained an uncontrollable amount and labeled obese. It was very easy for me to identify with the user, and even felt such a huge commitment to them, not to mention the, sometimes overwhelming, emotional connection.',
-    secondP: `I identified people with the hardship of struggling with weight loss, people looking for help. My interviews were with people who were struggling at present with weight loss or who had in the past, and regained it. I also identified people who had struggled in the past, lost the weight, and have kept it off for 6 or more months.`,
+      'As someone who lost her mother to cancer, who had struggled with her weight for years prior to that, I am very invested in health. Then as fate would unravel my story, I fell in love with a man who has struggled with weight on and off. At this time in his life, he had gained an uncontrollable amount and was labeled obese. It was very easy for me to identify with the user. I felt such a huge commitment to them, along with an overwhelming emotional connection.',
+    secondP: `I identified people whom were struggling at present with weight loss or had in the past, but had regained the weight. I also identified people who had struggled in the past, but managed to keep it off for 6 or more months.`,
   },
 ];
 
@@ -90,10 +90,16 @@ function Work() {
             <div style={{ maxWidth: 800 }}>
               <p>
                 To understand my participants and how I could help, I needed to
-                determine their level of mind body connection I needed to know
-                how they live - what impacts them day to day. I needed to know
-                if the weight gain was triggered by something. - As a mortician
-                there is a question always looming in my mind - What Happened?
+                determine their level of mind body connection. I needed to know:
+                <ul>
+                  <li>How they live</li>
+                  <li>What impacts them day to day</li>
+                  <li>If the weight gain was triggered by something</li>
+                </ul>
+                <p>
+                  As a mortician there is a question always looming in my mind.
+                  What Happened?
+                </p>
               </p>
               <p>
                 Getting to know my research participants was exciting and heart
@@ -711,13 +717,13 @@ function Work() {
                         </ol>
                       </li>
                     </ul>
-                      <div style={{ display: 'flex', flexDirection: 'column' }}>
-              <div style={{ maxWidth: 700 }}>
-                    <h4>
-                      The next steps in my usability research are just easier to
-                      show than tell.
-                    </h4>
-                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'column' }}>
+                      <div style={{ maxWidth: 700 }}>
+                        <h4>
+                          The next steps in my usability research are just
+                          easier to show than tell.
+                        </h4>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -735,13 +741,13 @@ function Work() {
         <section className='container'>
           <div className='content'>
             <h1>USABILITY SOLUTION</h1>
-             <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ display: 'flex', flexDirection: 'column' }}>
               <div style={{ maxWidth: 700 }}>
-            <h4>
-              Below are the solutions I put in place to move the Home/Feed
-              Screen into the revision phase.
-            </h4>
-            </div>
+                <h4>
+                  Below are the solutions I put in place to move the Home/Feed
+                  Screen into the revision phase.
+                </h4>
+              </div>
             </div>
           </div>
           <img src={require('./assets/user-testing-research-14.png')} />
@@ -768,13 +774,13 @@ function Work() {
         <section className='container'>
           <div className='content'>
             <h1>RESULTS</h1>
-              <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ display: 'flex', flexDirection: 'column' }}>
               <div style={{ maxWidth: 700 }}>
-            <h4>
-              Results during further usability testing achieved the validation
-              label I was going for. Results below.
-            </h4>
-            </div>
+                <h4>
+                  Results during further usability testing achieved the
+                  validation label I was going for. Results below.
+                </h4>
+              </div>
             </div>
           </div>
           <img src={require('./assets/results-1.png')} />
