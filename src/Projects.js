@@ -22,7 +22,7 @@ const projectList = [
     projectImage: ComingSoon,
     projectSummary: `This project is coming soon This project is coming soon This project is coming soon This project is coming soon`,
     projectGoal:
-      'Learn how to empower and improve health and fitness through community forums for long time strugglers.',
+      'Learn how to empower people and improve life through digital products.',
     projectPage: '',
   },
   {
@@ -32,7 +32,7 @@ const projectList = [
     projectImage: ComingSoon2,
     projectSummary: `This project is coming soon This project is coming soon This project is coming soon This project is coming soon`,
     projectGoal:
-      'Learn how to empower and improve health and fitness through community forums for long time strugglers.',
+      'Learn how to empower people and improve life through digital products.',
     projectPage: '',
   },
 ];
