@@ -649,11 +649,11 @@ function Work() {
                       <p>Can they see everything? </p>
                       <li>Determine if navigation is easy</li>
                       <p>Can they navigate?</p>
-                      
+
                       <h6>
-                        Each usability testing participant was given 5 tasks
-                         to determine if all of the objectives listed above could
-                         be validated.   
+                        Each usability testing participant was given 5 tasks to
+                        determine if all of the objectives listed above could be
+                        validated.
                       </h6>
                     </ul>
                     <h4>Usability Testing Feedback Analysis</h4>
@@ -709,10 +709,14 @@ function Work() {
                         </ol>
                       </li>
                     </ul>
-                    <p>
+                      <div style={{ display: 'flex', flexDirection: 'column' }}>
+              <div style={{ maxWidth: 700 }}>
+                    <h4>
                       The next steps in my usability research are just easier to
                       show than tell.
-                    </p>
+                    </h4>
+                    </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -729,10 +733,14 @@ function Work() {
         <section className='container'>
           <div className='content'>
             <h1>USABILITY SOLUTION</h1>
-            <p>
+             <div style={{ display: 'flex', flexDirection: 'column' }}>
+              <div style={{ maxWidth: 700 }}>
+            <h4>
               Below are the solutions I put in place to move the Home/Feed
               Screen into the revision phase.
-            </p>
+            </h4>
+            </div>
+            </div>
           </div>
           <img src={require('./assets/user-testing-research-14.png')} />
         </section>
@@ -740,11 +748,15 @@ function Work() {
         <section className='container'>
           <div className='content'>
             <h1>USABILITY REVISION</h1>
-            <p>
-              Below are the stages of revision. Screen featured throughout this
-              stage is the Home/Feed Screen. Main concentration is on the Filter
-              Bar and Floating Button.
-            </p>
+            <div style={{ display: 'flex', flexDirection: 'column' }}>
+              <div style={{ maxWidth: 750 }}>
+                <h4>
+                  Below are the stages of revision. Screen featured throughout
+                  this stage is the Home/Feed Screen. Main concentration is on
+                  the Filter Bar and Floating Button.
+                </h4>
+              </div>
+            </div>
           </div>
           <img src={require('./assets/redesign-4.png')} />
           <img src={require('./assets/redesign-5.png')} />
@@ -754,10 +766,14 @@ function Work() {
         <section className='container'>
           <div className='content'>
             <h1>RESULTS</h1>
-            <p>
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+              <div style={{ maxWidth: 700 }}>
+            <h4>
               Results during further usability testing achieved the validation
               label I was going for. Results below.
-            </p>
+            </h4>
+            </div>
+            </div>
           </div>
           <img src={require('./assets/results-1.png')} />
         </section>
@@ -769,7 +785,7 @@ function Work() {
               <div className='columns'>
                 <div className='column'>
                   <div style={{ display: 'flex', flexDirection: 'column' }}>
-                    <div style={{ maxWidth: 800 }}>
+                    <div style={{ maxWidth: 700 }}>
                       <ul>
                         <li>Agile design is the only way to go!</li>
                         <p>
