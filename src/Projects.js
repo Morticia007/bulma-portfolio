@@ -3,9 +3,11 @@ import Project from './Project';
 import Desktop from './assets/desktop-2.png';
 import ComingSoon from './assets/coming-soon-1.jpg';
 import ComingSoon2 from './assets/coming-soon-2.jpg';
+import { v4 as uuidv4 } from 'uuid';
 
 const projectList = [
   {
+    id: uuidv4(),
     projectName: 'WIF',
     projectRole: `UX/UI Designer • Product Designer • Researcher`,
     projectImage: Desktop,
@@ -14,6 +16,7 @@ const projectList = [
     projectPage: 'work',
   },
   {
+    id: uuidv4(),
     projectName: 'ComingSoon',
     projectRole: `UX/UI Designer • Product Designer • Researcher`,
     projectImage: ComingSoon,
@@ -23,6 +26,7 @@ const projectList = [
     projectPage: '',
   },
   {
+    id: uuidv4(),
     projectName: 'ComingSoon2',
     projectRole: `UX/UI Designer • Product Designer • Researcher`,
     projectImage: ComingSoon2,
@@ -41,7 +45,7 @@ function Projects() {
       </h1>
       <div className='columns'>
         {projectList.map((item) => (
-          <Project {...item} />
+          <Project key={item.id} {...item} />
         ))}
       </div>
     </section>
