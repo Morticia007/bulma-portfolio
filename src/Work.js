@@ -785,7 +785,7 @@ function Work() {
                           loss application.
                         </p>
                         <li>
-                          Framimg research questions correctly will be the gold
+                          Framing research questions correctly will be the gold
                           in your sifting pan.
                         </li>
                         <p>
@@ -811,7 +811,7 @@ function Work() {
                             <li>Back to user research </li>
                             <p>
                               To see if I can uncover more golden information
-                              and dig into why the "Anonymous cConfessions" idea
+                              and dig into why the "Anonymous Confessions" idea
                               sparked curiosity in so many people along the
                               project journey.
                             </p>
@@ -832,7 +832,7 @@ function Work() {
                             <li>Test some more</li>
                             <p>
                               If you'd like to know more about this project, I'd
-                              love to connect.{' '}
+                              love to connect.
                             </p>
                           </ul>
                         </div>
