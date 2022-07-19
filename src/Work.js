@@ -193,15 +193,15 @@ function Work() {
                     </p>
                     <p>
                       I needed to revisit the original problem statement. At
-                      this point we alreadu know at least one of my assumptions
+                      this point we already know at least one of my assumptions
                       had been debunked by the research. I needed a new problem
                       statement that aligned more with the evolving scope of my
                       project.
                     </p>
                     <p>
-                      while keeping in mind the big questions. What can I do to
-                      create community, bring people together, and not have to
-                      charge them for it?
+                      All the while keeping in mind the new problem statement.
+                      What can I do to create community, bring people together,
+                      and not have to charge them?
                     </p>
                   </div>
                 </div>
@@ -290,7 +290,6 @@ function Work() {
                     <p>Splash screen with CTA/ sign up. </p>
                     <li>Home/Feed screen</li>
                     <p>
-                      {' '}
                       To see community feed, create post, edit communities they
                       see in feed.
                     </p>
@@ -302,9 +301,9 @@ function Work() {
                     </p>
                     <li>Activities Screen</li>
                     <p>
-                      Integration with fitness applications they use to see all
-                      thier data in one place, with ability to share in the
-                      forums to discuss progress.
+                      Integration with fitness applications potential users
+                      already have to see all thier data in one place, with
+                      ability to share in the forums to discuss progress.
                     </p>
                     <li>Community "Toggle" Screen</li>
                     <p>
@@ -380,8 +379,9 @@ function Work() {
                     <p>Splash screen with large call to action.</p>
                     <p>Mockup</p>
                     <p>
-                      A few simple changes to the design, to keep it simple with
-                      plenty of white space with a clear route to the CTA
+                      I made a few simple changes to the design to keep it
+                      simple with plenty of white space, and a clear route to
+                      the CTA
                     </p>
                   </div>
                 </div>
@@ -612,16 +612,18 @@ function Work() {
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 350 }}>
-                    <p>1. Community Toggle Screen</p>
-                    <p>
-                      Interactive toggle screen for user content management.
-                    </p>
-                    <p>2. Account Settings Screen</p>
-                    <p>Edit all account settings, and device integration.</p>
-                    <p>3. Edit Profile Screen</p>
-                    <p>Profile customization.</p>
-                    <p>Post Screen/Overlay</p>
-                    <p>Crosspost capability.</p>
+                    <ol>
+                      <li>Community Toggle Screen:</li>
+                      <p>
+                        Interactive toggle screen for user content management.
+                      </p>
+                      <li>Account Settings Screen:</li>
+                      <p>Edit all account settings, and device integration.</p>
+                      <li>Edit Profile Screen:</li>
+                      <p>Profile customization.</p>
+                      <li>Post Screen/Overlay:</li>
+                      <p>Crosspost capability.</p>
+                    </ol>
                   </div>
                 </div>
               </div>
@@ -648,32 +650,43 @@ function Work() {
                       <p>Can they navigate?</p>
                       <p>
                         Each usability testing participant was given 5 tasks to
-                        determine, if all of the objectives listed above could
-                        be validated.
+                        determine if all of the objectives listed above could be
+                        validated.
                       </p>
                     </ul>
                     <h4>Usability Testing Feedback Analysis</h4>
                     <ul>
                       <li>Couldn’t find edit communities</li>
                       <p>
-                        Seemed to get stuck on the viewing now dropdown when tasked to edit communities.
+                        Seemed to get stuck on the viewing now dropdown when
+                        tasked to edit communities.
                       </p>
                       <li>
                         Confused by the plus icon in the floating button for
                         posting
                       </li>
                       <p>
-                        When tasked to create a post, were reluctant to choose the floating button. Once given 
-                        help they reported they figured it was what they were supposed to do, but were thrown off
-                        by the plus icon on the floating button.
+                        When tasked to create a post, were reluctant to choose
+                        the floating button. Once given help they reported they
+                        figured it was what they were supposed to do, but were
+                        thrown off by the plus icon on the floating button.
                       </p>
                       <li>Were attracted to the viewing now dropdown</li>
-                      <p>Thats Great! Except when that's not the place you were hoping they would chosee when tasked with
-                        something other than finding the viewing now dropdown.</p>
-                      <li>Reported to really enjoy the experience despite the few small fumbles</li>
                       <p>
-                        I was pleased by the feedback I got overall. The participants liked the look and simplicity of the 
-                        web app. They validated many functions and gave me great feedback on the objectives that didn't make it to validation. 
+                        Thats Great! Except when that's not the place you were
+                        hoping they would chosee when tasked with something
+                        other than finding the viewing now dropdown.
+                      </p>
+                      <li>
+                        Reported to really enjoy the experience despite the few
+                        small fumbles
+                      </li>
+                      <p>
+                        I was pleased by the feedback I got overall. The
+                        participants liked the look and simplicity of the web
+                        app. They validated many functions and gave me great
+                        feedback on the objectives that didn't make it to
+                        validation.
                       </p>
                     </ul>
                     <h4>Recommendations for Iteration</h4>
@@ -693,7 +706,8 @@ function Work() {
                       </li>
                     </ul>
                     <p>
-                     The next steps in my usability research are just easier to show than tell. 
+                      The next steps in my usability research are just easier to
+                      show than tell.
                     </p>
                   </div>
                 </div>
@@ -712,7 +726,8 @@ function Work() {
           <div className='content'>
             <h1>USABILITY SOLUTION</h1>
             <p>
-             Below are the solutions I put in place to move the Home/Feed Screen into the revision phase.
+              Below are the solutions I put in place to move the Home/Feed
+              Screen into the revision phase.
             </p>
           </div>
           <img src={require('./assets/user-testing-research-14.png')} />
@@ -722,8 +737,9 @@ function Work() {
           <div className='content'>
             <h1>USABILITY REVISION</h1>
             <p>
-              Below are the stages of revision. Screen featured throughout this stage is the Home/Feed Screen.
-              Main concentration is on the Filter Bar and Floating Button.
+              Below are the stages of revision. Screen featured throughout this
+              stage is the Home/Feed Screen. Main concentration is on the Filter
+              Bar and Floating Button.
             </p>
           </div>
           <img src={require('./assets/redesign-4.png')} />
@@ -735,7 +751,8 @@ function Work() {
           <div className='content'>
             <h1>RESULTS</h1>
             <p>
-             Results during further usability testing achieved the validation label I was going for. Results below.
+              Results during further usability testing achieved the validation
+              label I was going for. Results below.
             </p>
           </div>
           <img src={require('./assets/results-1.png')} />
@@ -751,25 +768,36 @@ function Work() {
                     <div style={{ maxWidth: 800 }}>
                       <ul>
                         <li>Agile design is the only way to go!</li>
-                        <p>Feedback and iteration is the most important part of design, when you are user centric. Without the feedback, my 
-                          project may have not tested as well as it did.  </p>
+                        <p>
+                          Feedback and iteration is the most important part of
+                          design, when you are user centric. Without the
+                          feedback, my project may have not tested as well as it
+                          did.{' '}
+                        </p>
                         <li>Pivoting is definitely a real thing!</li>
                         <p>
-                          Knowing when, why, and how is the hard part. Luckily I am a pattern person and was able to see
-                          that there was much more of a need for community than another weight loss application.
+                          Knowing when, why, and how is the hard part. Luckily I
+                          am a pattern person and was able to see that there was
+                          much more of a need for community than another weight
+                          loss application.
                         </p>
-                        <li>Framimg research questions correctly will be the gold in your sifting pan.</li>
+                        <li>
+                          Framimg research questions correctly will be the gold
+                          in your sifting pan.
+                        </li>
                         <p>
-                          This is what I will take more time to research and understand for future projects.
+                          This is what I will take more time to research and
+                          understand for future projects.
                         </p>
                         <li>Test</li>
-                      
+
                         <li>Test</li>
-                     
+
                         <li>Re-test</li>
                         <p>
-                          Don't ever sell yourself short or make assumptions that back you into a place in 
-                          your project you can't come back from.
+                          Don't ever sell yourself short or make assumptions
+                          that back you into a place in your project you can't
+                          come back from.
                         </p>
                       </ul>
                     </div>
