@@ -197,7 +197,8 @@ function Work() {
                   <div style={{ maxWidth: 800 }}>
                     <p>
                       As I was reviewing all the data I had gathered I made a
-                      huge discovery. If the potential users pain points were
+                      huge discovery.
+                      <p>If the potential users pain points were</p>
                       <ul>
                         <li>lack of community</li>
                         <li>loneliness</li>
