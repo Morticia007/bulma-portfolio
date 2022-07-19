@@ -170,8 +170,13 @@ function Work() {
               </p>
               <p>
                 I identified a some common patterns my participants had in this
-                areana as well: Weight loss apps are stressful, too expensive,
-                needs features, and too confusing.
+                areana as well.
+                <ul>
+                  <li>Weight loss apps are stressful</li>
+                  <li>Weight loss apps are too expensive</li>
+                  <li>Weight loss apps need more features</li>
+                  <li>Weight loss apps are too confusing</li>
+                </ul>
               </p>
             </div>
           </div>
@@ -193,12 +198,24 @@ function Work() {
                     <p>
                       As I was reviewing all the data I had gathered I made a
                       huge discovery. If the potential users pain points were
-                      lack of community, loneliness, and coping mechanisms and
-                      their pain points with applications for weightloss were
-                      that weight loss apps are stressful, too expensive, need
-                      more features, and are too confusing, then I had to make a
-                      major decision. Do I try to recreate a noom or weight
-                      watchers and hope to make it better?
+                      <ul>
+                        <li>lack of community</li>
+                        <li>loneliness</li>
+                        <li>coping mechanisms</li>
+                      </ul>
+                      And their pain points with applications for weight loss
+                      were
+                      <ul>
+                        <li>stressful</li>
+                        <li>expensive</li>
+                        <li>need more features</li>
+                        <li>too confusing</li>
+                      </ul>
+                      <p>Then I had to make a major decision.</p>
+                      <p>
+                        Do I try to recreate a noom or weight watchers and hope
+                        to make it better?
+                      </p>
                     </p>
                     <p>
                       I needed to revisit the original problem statement. At
