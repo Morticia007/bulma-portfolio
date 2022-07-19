@@ -33,11 +33,13 @@ const projectContentList = [
     heading: 'Initial Problem Statement',
     firstP:
       'People who are overweight do not have the knowledge around how their body works, their behaviors, and/or the better nutrition decisions to correct the issue.',
-    secondP: `When I began my research, I had some assumptions. After my interviews I realized there was much more to this, more than I could have ever imagined.
+     secondP: `When I began my research, I had some assumptions.
+   
     1. Despite all the weight loss apps and calorie counter apps on the market today, certain people still struggle.
     2. We need to change the whole approach to weight loss.
     3. This will focus on helping the user figure out why they are overweight
     After my interviews I realized there was much more to this, more than I could have ever imagined.`,
+
   },
   {
     id: uuidv4(),
