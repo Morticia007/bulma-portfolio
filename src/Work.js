@@ -15,7 +15,8 @@ const projectContentList = [
     id: uuidv4(),
     heading: 'Executive Summary',
     firstP:
-      'I used my experience and challenges with helping people with weight loss as a starting point for my research. My initial hypothesis evolved as I began to understand my users and their varying needs. My initial hypothesis was based on my experience with, a variety of people I had helped over the years and my want to understand why so many people struggle.',
+       'As a personal project, I designed WIF as web app forum. It helps the many people who struggle with wight loss to connect with and build supports systems within the forum in order to help increase community and accountability.'
+
     secondP:
       'I committed to completing this, with an open mind, to find out how I could help this niche of folks and build something useful. This was a steep learning curve for me, as it was my first official project as a Ux/Ui Designer.',
   },
