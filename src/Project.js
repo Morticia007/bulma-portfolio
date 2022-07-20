@@ -11,6 +11,16 @@ function Project({
 }) {
   return (
     <div className='column'>
+      <Link to={projectPage}>
+        <img
+          alt='Multiple iPhone sceens showing the WIF App'
+          style={{
+            marginTop: projectImage.includes('Frame') ? 100 : 50,
+            marginLeft: projectImage.includes('Frame') ? -13 : null,
+          }}
+          src={projectImage}
+        />
+      </Link>
       <h3 className='subtitle'>
         <Link style={{ color: 'black', fontWeight: 700 }} to={projectPage}>
           {projectName}
@@ -25,14 +35,6 @@ function Project({
       <p>
         <span style={{ fontWeight: 700 }}>Goal:</span> {projectGoal}
       </p>
-      <img
-        alt='Multiple iPhone sceens showing the WIF App'
-        style={{
-          marginTop: projectImage.includes('Frame') ? 100 : 50,
-          marginLeft: projectImage.includes('Frame') ? -13 : null,
-        }}
-        src={projectImage}
-      />
     </div>
   );
 }
