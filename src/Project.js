@@ -18,6 +18,7 @@ function Project({
           style={{
             marginTop: projectImage.includes('Frame') ? 100 : 50,
             marginLeft: projectImage.includes('Frame') ? -13 : null,
+            paddingBottom: 16,
           }}
           src={projectImage}
         />
