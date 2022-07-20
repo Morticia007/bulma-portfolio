@@ -1,0 +1,10 @@
+img {
+  max-width: 100%;
+  cursor: pointer;
+  filter: brightness(100%);
+  transition: filter 1s ease;
+}
+
+img:hover {
+  filter: brightness(50%);
+}

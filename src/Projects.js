@@ -1,8 +1,8 @@
 import React from 'react';
 import Project from './Project';
 import Desktop from './assets/desktop-2.png';
-import ComingSoon from './assets/coming-soon-1.jpg';
-import ComingSoon2 from './assets/coming-soon-2.jpg';
+import ComingSoon from './assets/coming-soon-1.png';
+import ComingSoon2 from './assets/coming-soon-2.png';
 import { v4 as uuidv4 } from 'uuid';
 
 const projectList = [
