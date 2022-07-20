@@ -15,7 +15,7 @@ const projectContentList = [
     id: uuidv4(),
     heading: 'Executive Summary',
     firstP:
-       'As a personal project, I designed WIF as web app forum. It helps the many people who struggle with weight loss to connect with and build supports systems within the forum in order to help increase community and accountability.',
+      'As a personal project, I designed WIF as web app forum. It helps the many people who struggle with weight loss to connect with and build supports systems within the forum in order to help increase community and accountability.',
 
     secondP:
       'I committed to completing this, with an open mind, to find out how I could help this niche of folks and build something useful. This was a steep learning curve for me, as it was my first official project as a Ux/Ui Designer.',
@@ -33,13 +33,12 @@ const projectContentList = [
     heading: 'Initial Problem Statement',
     firstP:
       'People who are overweight do not have the knowledge around how their body works, their behaviors, and/or the better nutrition decisions to correct the issue.',
-     secondP: `When I began my research, I had some assumptions.
+    secondP: `When I began my research, I had some assumptions.
    
     1. Despite all the weight loss apps and calorie counter apps on the market today, certain people still struggle.
     2. We need to change the whole approach to weight loss.
     3. This will focus on helping the user figure out why they are overweight
     After my interviews I realized there was much more to this, more than I could have ever imagined.`,
-
   },
   {
     id: uuidv4(),
@@ -69,7 +68,8 @@ function Work() {
                 style={{
                   marginBottom: 80,
                   marginTop: 80,
-                }}>
+                }}
+              >
                 Wellness Intention Forums - WIF
               </h1>
               <p>A Community For Those Who Need It Most</p>
@@ -84,10 +84,10 @@ function Work() {
         ))}
 
         <div class='content is-normal'>
-          <h1 className='has-text-centered'>BREAKING DOWN THE PROCESS</h1>
-          <h2>WEEK 1 | RESEARCH</h2>
-          <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <div style={{ maxWidth: 800 }}>
+          <div className='columns'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
+              <h1>BREAKING DOWN THE PROCESS</h1>
+              <h2>WEEK 1 | RESEARCH</h2>
               <p>
                 To understand my participants and how I could help, I needed to
                 determine their level of mind body connection. I needed to know:
@@ -124,6 +124,7 @@ function Work() {
             </div>
           </div>
         </div>
+
         <div className='content container'>
           <div className='columns'>
             <div className='column'>
@@ -157,27 +158,32 @@ function Work() {
           </div>
         </div>
         <hr />
+
         <div class='content is-normal'>
-          <h2>WEEK 2 | RESEARCH</h2>
-          <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <div style={{ maxWidth: 800 }}>
-              <p>
-                To understand the competitive landscape and how users interact
-                with weight loss applications, I looked at two companies my
-                research participants mentioned and one I knew that had the
-                functionaity that my participants made clear were important to
-                them.
-              </p>
-              <p>
-                I identified a some common patterns my participants had in this
-                areana as well.
-                <ul>
-                  <li>Weight loss apps are stressful</li>
-                  <li>Weight loss apps are too expensive</li>
-                  <li>Weight loss apps need more features</li>
-                  <li>Weight loss apps are too confusing</li>
-                </ul>
-              </p>
+          <div className='columns'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
+              <h2>WEEK 2 | RESEARCH</h2>
+              <div>
+                <div style={{ maxWidth: 840 }}>
+                  <p>
+                    To understand the competitive landscape and how users
+                    interact with weight loss applications, I looked at two
+                    companies my research participants mentioned and one I knew
+                    that had the functionaity that my participants made clear
+                    were important to them.
+                  </p>
+                  <p>
+                    I identified a some common patterns my participants had in
+                    this areana as well.
+                    <ul>
+                      <li>Weight loss apps are stressful</li>
+                      <li>Weight loss apps are too expensive</li>
+                      <li>Weight loss apps need more features</li>
+                      <li>Weight loss apps are too confusing</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -194,7 +200,7 @@ function Work() {
               <div className='column'>
                 <h1>Pivot</h1>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 800 }}>
+                  <div style={{ maxWidth: 840 }}>
                     <p>
                       As I was reviewing all the data I had gathered I made a
                       huge discovery.
@@ -240,7 +246,7 @@ function Work() {
               <div className='column'>
                 <h1>Problem Statement Revised</h1>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 800 }}>
+                  <div style={{ maxWidth: 840 }}>
                     <p>
                       People who are overweight have had a significant life
                       change, where they moved, lost their community, or were
@@ -284,7 +290,7 @@ function Work() {
 
               <h3>Feature Prioritization</h3>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <div style={{ maxWidth: 800 }}>
+                <div style={{ maxWidth: 840 }}>
                   <ul>
                     <li>Community forums</li>
                     <p>Solving for: Loss of community/ lonliness/ price.</p>
@@ -311,7 +317,7 @@ function Work() {
             <div className='column'>
               <h3>Forum MVP</h3>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <div style={{ maxWidth: 800 }}>
+                <div style={{ maxWidth: 840 }}>
                   <ul>
                     <li>Onboarding</li>
                     <p>Splash screen with CTA/ sign up. </p>
@@ -665,7 +671,7 @@ function Work() {
                 <h3>Usability Testing</h3>
                 <h4>Objectives</h4>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 800 }}>
+                  <div style={{ maxWidth: 840 }}>
                     <ul>
                       <li>Determine if termonology makes sense</li>
                       <p>Is it human? </p>
