@@ -1,13 +1,15 @@
-import React from "react";
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <div className='container-fluid'>
       <nav
+        style={{ height: 96 }}
         className='navbar is-spaced'
         role='navigation'
-        aria-label='main navigation'>
+        aria-label='main navigation'
+      >
         <div className='navbar-brand'>
           <a className='navbar-item' href='https://linkedin.com'>
             <img
@@ -18,19 +20,24 @@ function Navbar() {
             />
           </a>
           <a
-            href="https://linkedin.com"
+            href='https://linkedin.com'
             role='button'
             className='navbar-burger'
             aria-label='menu'
             aria-expanded='false'
-            data-target='navbarBasicExample'>
+            data-target='navbarBasicExample'
+          >
             <span aria-hidden='true'></span>
             <span aria-hidden='true'></span>
             <span aria-hidden='true'></span>
           </a>
         </div>
 
-        <div id='navbarBasicExample' className='navbar-menu'>
+        <div
+          style={{ fontWeight: 500 }}
+          id='navbarBasicExample'
+          className='navbar-menu'
+        >
           <div className='navbar-end'>
             <Link to='/' className='navbar-item'>
               Home
@@ -49,6 +56,6 @@ function Navbar() {
       </nav>
     </div>
   );
-};
+}
 
 export default Navbar;
