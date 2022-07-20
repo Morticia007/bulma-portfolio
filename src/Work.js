@@ -197,9 +197,9 @@ function Work() {
         <section>
           <div className='content container'>
             <div className='columns'>
-              <div className='column'>
+              <div className='column is-half is-offset-one-quarter has-text-left'>
                 <h1>Pivot</h1>
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div>
                   <div style={{ maxWidth: 840 }}>
                     <p>
                       As I was reviewing all the data I had gathered I made a
@@ -243,7 +243,7 @@ function Work() {
           </div>
           <div className='content container'>
             <div className='columns'>
-              <div className='column'>
+              <div className='column is-half is-offset-one-quarter has-text-left'>
                 <h1>Problem Statement Revised</h1>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 840 }}>
@@ -261,9 +261,9 @@ function Work() {
           </div>
           <div className='content container'>
             <div className='columns'>
-              <div className='column'>
+              <div className='column is-half is-offset-one-quarter has-text-left'>
                 <h1>Proposed Solution</h1>
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div>
                   <div style={{ maxWidth: 600 }}>
                     <p>
                       Let's reference our proto persona first before we get to
@@ -285,11 +285,11 @@ function Work() {
         </section>
         <div className='content container'>
           <div className='columns'>
-            <div className='column'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
               <h1>Design Evolution</h1>
 
               <h3>Feature Prioritization</h3>
-              <div style={{ display: 'flex', flexDirection: 'column' }}>
+              <div>
                 <div style={{ maxWidth: 840 }}>
                   <ul>
                     <li>Community forums</li>
@@ -314,9 +314,9 @@ function Work() {
         </div>
         <div className='content container'>
           <div className='columns'>
-            <div className='column'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>Forum MVP</h3>
-              <div style={{ display: 'flex', flexDirection: 'column' }}>
+              <div>
                 <div style={{ maxWidth: 840 }}>
                   <ul>
                     <li>Onboarding</li>
