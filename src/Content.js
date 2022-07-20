@@ -10,8 +10,8 @@ function Content({ heading, firstP, secondP }) {
       }}
       className='container-fluid content is-medium'>
       <div className='columns'>
-        <h2 className='column'>{heading}</h2>
-        <p style={{ fontWeight: 700 }} className='column is-size-6'>
+        <h2 style={{ fontSize: '1.2rem' }} className='column'>{heading}</h2>
+        <p className='column is-size-6'>
           {firstP}
         </p>
       </div>
