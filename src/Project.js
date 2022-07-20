@@ -1,25 +1,37 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Project() {
+function Project({
+  projectName,
+  projectRole,
+  projectImage,
+  projectSummary,
+  projectGoal,
+  projectPage,
+}) {
   return (
     <div className='column'>
-      <h3 className='subtitle'>WIF UX/UI Design</h3>
+      <h3 className='subtitle'>
+        <Link style={{ color: 'black', fontWeight: 700 }} to={projectPage}>
+          {projectName}
+        </Link>
+      </h3>
       <h4 className='subtitle' style={{ fontStyle: 'italic' }}>
-        Project Manager • Product Designer • Researcher
+        {projectRole}
       </h4>
       <p style={{ marginBottom: 30 }}>
-        <span style={{ fontWeight: 700 }}>Summary:</span> This SharePoint
-        project was to build a firm-wide communication portal for business
-        support and administrative professionals.
+        <span style={{ fontWeight: 700 }}>Summary:</span> {projectSummary}
       </p>
       <p>
-        <span style={{ fontWeight: 700 }}>Goal:</span> Learn how the business
-        can communicate and distribute information.
+        <span style={{ fontWeight: 700 }}>Goal:</span> {projectGoal}
       </p>
       <img
-        alt='project 1'
-        style={{ marginTop: 50 }}
-        src='https://static.wixstatic.com/media/c71ab0_edd148e25f364c65b7e1e3080b1fbf0d~mv2_d_1200_1200_s_2.png/v1/fill/w_317,h_317,al_c,q_85,usm_2.00_1.00_0.00,enc_auto/Cambio_TN.png'
+        alt='Multiple iPhone sceens showing the WIF App'
+        style={{
+          marginTop: projectImage.includes('Frame') ? 100 : 50,
+          marginLeft: projectImage.includes('Frame') ? -13 : null,
+        }}
+        src={projectImage}
       />
     </div>
   );

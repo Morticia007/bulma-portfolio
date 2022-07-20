@@ -46,7 +46,7 @@ function Cards() {
               <div className='block'>
                 <ul className='block'>
                   <h2>Disadvantages</h2>
-                  <li>Couldn't compete with big Tech companies</li>
+                  <li>Couldn't compete with big tech companies</li>
                   <li>Couldn't identify a sustainable businesss model</li>
                   <li>Forced out of business</li>
                 </ul>
