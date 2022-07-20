@@ -15,9 +15,8 @@ function Navbar() {
           <a className='navbar-item' href='https://linkedin.com'>
             <img
               alt='logo`'
-              style={{ maxHeight: 1400 }}
+              style={{ maxHeight: 96 }}
               src={logo}
-              width='400'
             />
           </a>
           <a
