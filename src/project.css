@@ -1,10 +1,10 @@
-img {
+.darkend-image {
   max-width: 100%;
   cursor: pointer;
   filter: brightness(100%);
   transition: filter 1s ease;
 }
 
-img:hover {
+.darkend-image:hover {
   filter: brightness(50%);
 }

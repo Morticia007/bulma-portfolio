@@ -14,8 +14,10 @@ function Project({
     <div className='column'>
       <Link to={projectPage}>
         <img
+        className='darkend-image'
           alt='Multiple iPhone sceens showing the WIF App'
           style={{
+            
             marginTop: projectImage.includes('Frame') ? 100 : 50,
             marginLeft: projectImage.includes('Frame') ? -13 : null,
             paddingBottom: 16,
