@@ -373,7 +373,7 @@ function Work() {
         </div>
         <div className='content container'>
           <div className='columns'>
-            <div className='column'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Flow</h3>
               <img alt='user mapping journey' src={MappingJourney} />
             </div>
