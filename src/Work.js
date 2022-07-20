@@ -382,7 +382,7 @@ function Work() {
         </div>
         <div className='content container'>
           <div className='columns'>
-            <div className='column'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Task Flows</h3>
               <img alt='user task flows' src={TaskFlows} />
             </div>
