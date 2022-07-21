@@ -878,9 +878,6 @@ function Work() {
                               mentioning it randomly to people I got a lot of
                               positve feedback. It seemed to spark curiosity
                             </p>
-                            <li>Test</li>
-                            <li>Iterate</li>
-                            <li>Test some more</li>
                             <p>
                               If you'd like to know more about this project, I'd
                               love to connect.
