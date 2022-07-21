@@ -1,10 +1,6 @@
 import React from 'react';
 import Education from './Education';
-// Guided by my sense of justice, I use my empathy and courage to stand
-// up for the user to protect their interest when delivering useful
-// products. Whether it be for clean living, creation, or learning, I
-// am passionate and want to see users succeed with their quest in
-// life.
+
 function About() {
   return (
     <div className='content is-medium'>
