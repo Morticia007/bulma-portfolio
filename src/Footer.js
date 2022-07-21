@@ -62,7 +62,7 @@ function Footer() {
           }}
           href='https://uxplanet.org/why-dribbble-behance-are-no-longer-suitable-for-product-designers-c29566b2ccf4'
         >
-          Image Liscense Info
+          Image License Info
         </a>
       </div>
     </footer>
