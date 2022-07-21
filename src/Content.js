@@ -12,13 +12,13 @@ function Content({ heading, firstP, secondP }) {
     >
       <div className='columns'>
         <h2 className='column'>{heading}</h2>
-        <p style={{ fontSize: '1.2rem' }} className='column is-size-6'>
+        <p style={{ fontSize: 20 }} className='column'>
           {firstP}
         </p>
       </div>
       <div className='columns'>
         <div className='column'></div>
-        <p style={{ fontSize: '1.2rem' }} className='column is-size-6'>
+        <p style={{ fontSize: 20 }} className='column'>
           {secondP}
         </p>
       </div>
