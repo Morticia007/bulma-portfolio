@@ -12,27 +12,14 @@ function Navbar() {
         aria-label='main navigation'
       >
         <div className='navbar-brand'>
-          <a className='navbar-item' href='https://linkedin.com'>
+          <a className='navbar-item' href='https://jacquelynhagman.design'>
             <img
               alt='logo`'
               style={{ maxHeight: 96 }}
               src={logo}
             />
           </a>
-          <a
-            href='https://linkedin.com'
-            role='button'
-            className='navbar-burger'
-            aria-label='menu'
-            aria-expanded='false'
-            data-target='navbarBasicExample'
-          >
-            <span aria-hidden='true'></span>
-            <span aria-hidden='true'></span>
-            <span aria-hidden='true'></span>
-          </a>
         </div>
-
         <div
           style={{ fontWeight: 500 }}
           id='navbarBasicExample'

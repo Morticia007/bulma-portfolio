@@ -669,7 +669,7 @@ function Work() {
         <section id='usability-testing'>
           <div className='content container'>
             <div className='columns'>
-              <div className='column'>
+              <div className='column is-half is-offset-one-quarter has-text-left'>
                 <h3>Usability Testing</h3>
                 <h4>Objectives</h4>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -814,11 +814,11 @@ function Work() {
         <hr />
         <section className='container'>
           <div className='content'>
-            <h1>LESSONS LEARNED</h1>
             <div className='content container'>
               <div className='columns'>
-                <div className='column'>
-                  <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div className='column column is-half is-offset-one-quarter has-text-left'>
+                  <div>
+                  <h1>LESSONS LEARNED</h1>
                     <div style={{ maxWidth: 700 }}>
                       <ul>
                         <li>Agile design is the only way to go!</li>
