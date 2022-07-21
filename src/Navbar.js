@@ -15,7 +15,7 @@ function Navbar() {
           <a className='navbar-item' href='https://jacquelynhagman.design'>
             <img
               alt='logo`'
-              style={{ maxHeight: 96 }}
+              style={{ maxHeight: 86 }}
               src={logo}
             />
           </a>
