@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Splash from './assets/splash-1.png';
 import Splash2 from './assets/splash-2.png';
 import RightHand from './assets/right-hand-color.png';
-import TaskFlows from './assets/taskflows.png';
+import TaskFlows from './assets/user-flow-1.png';
 import MappingJourney from './assets/mappingjourney.png';
 import FeedLoFi from './assets/feed-lofi.png';
 import FeedHiFi from './assets/feed-hifi.png';
@@ -384,9 +384,11 @@ function Work() {
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Task Flows</h3>
-              <img alt='user task flows' src={TaskFlows} />
+              
             </div>
+           
           </div>
+          <img alt='user task flows' src={TaskFlows} />
           <hr />
         </div>
         <div id='wireframes' className='container-fluid'>
