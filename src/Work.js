@@ -876,20 +876,23 @@ function Work() {
                             </p>
                             <li>
                               Revisit and design the "Anonymous Confessions"
-                              functionality
+                              functionality.
                             </li>
                             <p>
                               I haven't made it a priority to discuss this part
-                              of the application even though you have seen a
-                              couple hints about it along the way, it is
-                              something that wasn't essential for MVP but upon
-                              mentioning it randomly to people I got a lot of
-                              positve feedback. It seemed to spark curiosity
+                              of the application.{' '}
+                              <p>
+                                Even though you have seen a couple hints about
+                                it, it wasn't essential for MVP.
+                              </p>
+                                During user testing there were alot of questions
+                                about it and positve feedback. It seemed to
+                                spark curiosity.
                             </p>
-                            <p>
+                            <h5>
                               If you'd like to know more about this project, I'd
                               love to connect.
-                            </p>
+                            </h5>
                           </ul>
                         </div>
                       </section>
