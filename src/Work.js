@@ -18,15 +18,15 @@ const projectContentList = [
       'As a personal project, I designed WIF as web app forum. It helps the many people who struggle with weight loss to connect with and build supports systems within the forum in order to help increase community and accountability.',
 
     secondP:
-      'I committed to completing this, with an open mind, to find out how I could help this niche of folks and build something useful. This was a steep learning curve for me, as it was my first official project as a Ux/Ui Designer.',
+      'I committed to completing this, with an open mind, to find out how I could help this niche of folks and build something useful. This was a steep learning curve for me, as it was my first official project as a UX/UI Designer.',
   },
   {
     id: uuidv4(),
     heading: 'The Problem',
     firstP:
-      'I used my experience and challenges with helping people with weight loss as a starting point for my research. My initial hypothesis evolved as I began to understand my users and their varying needs. My initial hypothesis was based on my experience with, a variety of people I had helped over the years along with my want to understand why so many people struggle.',
+      'I used my experience and challenges helping people with weight loss as a starting point for my research. My initial hypothesis evolved as I began to understand my users and their varying needs. In the beginning, my assumptions were based on my experience with a variety of people I had helped over the years, along with my want to understand why so many people struggle.',
     secondP:
-      'As a people advocate and healer, I am always curious about the why behind weight gain and how I can help. With all of the information out there, some good some bad, are they just confused? There are so many apps out there already! Is it lack of will power? Is it lack of motivation? Lack of Knowledge? I had to rely on continuous user feedback to improve my designs. Being that this was an Academy project, I was able to adapt to changes easily without impacting a team or business.',
+      'As a people advocate and healer, I am always curious about the why behind weight gain and how I can help. With all of the information out there, some good some bad, are they just confused? There are so many apps out there already! Is it lack of will power? Is it lack of motivation? Lack of Knowledge? I had to rely on continuous user feedback to improve my designs. I was able to adapt to changes easily as they presented themselves.',
   },
   {
     id: uuidv4(),
@@ -219,7 +219,7 @@ function Work() {
                       </ul>
                       <p>Then I had to make a major decision.</p>
                       <p>
-                        Do I try to recreate a noom or weight watchers and hope
+                        Do I try to recreate a Noom or Weight Watchers and hope
                         to make it better?
                       </p>
                     </p>
@@ -249,7 +249,7 @@ function Work() {
                     <p>
                       People who are overweight have had a significant life
                       change, where they moved, lost their community, or were
-                      affected by covid isolation. They struggle with
+                      affected by Covid isolation. They struggle with
                       loneliness, depression, and a loss of accountability,
                       which all lead to lack of motivation.
                     </p>
@@ -356,12 +356,11 @@ function Work() {
                     </p>
                   </ul>
                   <p>
-                    I felt as if I needed to design a fair amount of screens
-                    since a forum has many facets and complexities under the
-                    hood. I also needed to keep my users at the forefront and
-                    make sure the experience was not only smooth, but to keep in
-                    mind the impact I could make by giving them more control
-                    over what forums they want to be active in, and the ability
+                    I felt as if I needed to design numerous screens
+                    since a forum has many facets and complexities, as well as keeping my users at the forefront and
+                    making sure the experience was smooth. 
+                     I also found I could give users more control
+                    over what forums they want to be active in by creating the ability
                     to pass on forums that they had no interest in.
                   </p>
                 </div>
@@ -680,7 +679,7 @@ function Work() {
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 840 }}>
                     <ul>
-                      <li>Determine if termonology makes sense</li>
+                      <li>Determine if terminology makes sense</li>
                       <p>Is it human? </p>
                       <li>Determine if user/task flow is easy</li>
                       <p>Can they complete tasks?</p>
