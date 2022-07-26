@@ -851,11 +851,7 @@ function Work() {
                           This is what I will take more time to research and
                           understand for future projects.
                         </p>
-                        <li>Test</li>
-
-                        <li>Test</li>
-
-                        <li>Re-test</li>
+                        <li>Test throughout</li>
                         <p>
                           Don't ever sell yourself short or make assumptions
                           that back you into a place in your project you can't
