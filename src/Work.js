@@ -68,8 +68,7 @@ function Work() {
                 style={{
                   marginBottom: 80,
                   marginTop: 80,
-                }}
-              >
+                }}>
                 Wellness Intention Forums - WIF
               </h1>
               <p>A Community For Those Who Need It Most</p>
@@ -384,9 +383,7 @@ function Work() {
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Task Flows</h3>
-              
             </div>
-           
           </div>
           <img alt='user task flows' src={TaskFlows} />
           <hr />
@@ -410,9 +407,9 @@ function Work() {
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 400 }}>
-                    <p>Lo-Fi</p>
+                    <h3>Lo-Fi</h3>
                     <p>Splash screen with large call to action.</p>
-                    <p>Mockup</p>
+                    <h3>Mockup</h3>
                     <p>
                       I made a few simple changes to the design to keep it
                       simple with plenty of white space, and a clear route to
@@ -451,9 +448,9 @@ function Work() {
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 400 }}>
-                    <p>Lo-Fi</p>
+                    <h3>Lo-Fi</h3>
                     <p>User home/feed.</p>
-                    <p>Mockup</p>
+                    <h3>Mockup</h3>
                     <p>
                       Added a better navigation function with the segment
                       changer element.
@@ -490,14 +487,14 @@ function Work() {
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 400 }}>
-                    <p>Lo-Fi</p>
+                    <h3>Lo-Fi</h3>
                     <p>
                       Originally I had planned for this to be main navigation.
                       So I placed everything I could think of that could posibly
                       go into this screen, in order to come back and delegate
                       and clean up during iteration .
                     </p>
-                    <p>Mockup</p>
+                    <h3>Mockup</h3>
                     <p>
                       Cleaned this up significantly when I chose to use the
                       segment picker navigation route.
@@ -535,13 +532,13 @@ function Work() {
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 400 }}>
-                    <p>Lo-Fi</p>
+                    <h3>Lo-Fi</h3>
                     <p>
                       Originally I designed this screen for users personal posts
                       to live in, as I was using established forums like reddit,
                       and instagram for inspiration.
                     </p>
-                    <p>Mockup 1</p>
+                    <h3>Mockup 1</h3>
                     <p>
                       During iteration I decided to clean it up and give the
                       user another level of control, to be able to chose if they
@@ -581,13 +578,13 @@ function Work() {
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 400 }}>
-                    <p>Lo-Fi</p>
+                    <h3>Lo-Fi</h3>
                     <p>
                       This screen was a free for all at fist, I hadn't
                       established what content would be most appropriate for the
                       functionality.
                     </p>
-                    <p>Mockup 1</p>
+                    <h3>Mockup 1</h3>
                     <p>
                       As all of the screens evolved, the activity screen seemed
                       to just take form itself. Being that it is for discussion,
@@ -648,15 +645,23 @@ function Work() {
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 350 }}>
                     <ol>
-                      <li>Community Toggle Screen:</li>
+                      <li>
+                        <h6>Community Toggle Screen:</h6>
+                      </li>
                       <p>
                         Interactive toggle screen for user content management.
                       </p>
-                      <li>Account Settings Screen:</li>
+                      <li>
+                        <h6>Account Settings Screen:</h6>
+                      </li>
                       <p>Edit all account settings, and device integration.</p>
-                      <li>Edit Profile Screen:</li>
+                      <li>
+                        <h6>Edit Profile Screen:</h6>
+                      </li>
                       <p>Profile customization.</p>
-                      <li>Post Screen/Overlay:</li>
+                      <li>
+                        <h6>Post Screen/Overlay:</h6>
+                      </li>
                       <p>Crosspost capability.</p>
                     </ol>
                   </div>
@@ -683,13 +688,16 @@ function Work() {
                       <p>Can they see everything? </p>
                       <li>Determine if navigation is easy</li>
                       <p>Can they navigate?</p>
-
+                    </ul>
+                    <p>
                       <h6>
-                        Each usability testing participant was given 5 tasks to
+                        *Each usability testing participant was given 5 tasks to
                         determine if all of the objectives listed above could be
                         validated.
                       </h6>
-                    </ul>
+                    </p>
+                    <p></p>
+                    <p></p>
                     <h4>Usability Testing Feedback Analysis</h4>
                     <ul>
                       <li>
@@ -818,7 +826,7 @@ function Work() {
               <div className='columns'>
                 <div className='column column is-half is-offset-one-quarter has-text-left'>
                   <div>
-                  <h1>LESSONS LEARNED</h1>
+                    <h1>LESSONS LEARNED</h1>
                     <div style={{ maxWidth: 700 }}>
                       <ul>
                         <li>Agile design is the only way to go!</li>
