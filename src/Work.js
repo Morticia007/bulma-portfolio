@@ -26,7 +26,7 @@ const projectContentList = [
     firstP:
       'I used my experience and challenges helping people with weight loss as a starting point for my research. My initial hypothesis evolved as I began to understand my users and their varying needs. In the beginning, my assumptions were based on my experience with a variety of people I had helped over the years, along with my want to understand why so many people struggle.',
     secondP:
-      'As a people advocate and healer, I am always curious about the why behind weight gain and how I can help. With all of the information out there, some good some bad, are they just confused? There are so many apps out there already! Is it lack of will power? Is it lack of motivation? Lack of Knowledge? I had to rely on continuous user feedback to improve my designs. I was able to adapt to changes easily as they presented themselves.',
+      'As a people advocate and healer, I am always curious about the reasons behind weight gain and how I can help. With all of the information out there, some good, some bad, are they just confused? There are so many apps out there already! Is it lack of will power? Is it lack of motivation? Lack of Knowledge? I had to rely on continuous user feedback to improve my designs. I was able to adapt to changes easily as they presented themselves.',
   },
   {
     id: uuidv4(),
