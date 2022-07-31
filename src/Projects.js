@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from './Project';
-import Desktop from './assets/desktop-2.png';
-import ComingSoon from './assets/coming-soon-1.png';
+import Desktop from './assets/Device Mashups-0.png'; 
+import ComingSoon from './assets/Device Mashups.png';
 import ComingSoon2 from './assets/coming-soon-2.png';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -17,13 +17,13 @@ const projectList = [
   },
   {
     id: uuidv4(),
-    projectName: 'ComingSoon',
+    projectName: 'Elder Racing Equipment',
     projectRole: `UX/UI Designer • Product Designer • Researcher`,
     projectImage: ComingSoon,
-    projectSummary: `This project is coming soon This project is coming soon This project is coming soon This project is coming soon`,
+    projectSummary: `This responsive mobile web app is a personal project that provides and amazing new company solutions for contact and purchase of their product.`,
     projectGoal:
-      'Learn how to empower people and improve life through digital products.',
-    projectPage: '',
+      'Discover a solution for a small company who needs a way to solve their organizational painpoints so they can solve for motorized bicycle hobbyists painpoints.',
+    projectPage: 'work2',
   },
   {
     id: uuidv4(),

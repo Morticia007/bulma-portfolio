@@ -1,0 +1,16 @@
+.darkend-image {
+  max-width: 100%;
+  cursor: pointer;
+  filter: brightness(100%);
+  transition: filter 1s ease;
+}
+
+.darkend-image:hover {
+  filter: brightness(50%);
+}
+
+p,
+ul,
+li {
+  font-size: 20px;
+}
