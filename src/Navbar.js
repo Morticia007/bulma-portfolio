@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from './assets/logo-14.png';
@@ -48,9 +49,20 @@ function Navbar() {
               <Link to='about' className='navbar-item'>
                 About
               </Link>
-              <Link to='work' className='navbar-item'>
-                Work
-              </Link>
+              <nav
+                class='navbar'
+                role='navigation'
+                aria-label='dropdown navigation'
+              >
+                <div class='navbar-item has-dropdown is-hoverable'>
+                  <a class='navbar-link'>Work</a>
+
+                  <div class='navbar-dropdown'>
+                    <Link to='wif' class='navbar-item'>WIF</Link>
+                    <Link to='ere' class='navbar-item'>Elder Racing Equipment</Link>
+                  </div>
+                </div>
+              </nav>
               <Link to='contact' className='navbar-item'>
                 Contact
               </Link>

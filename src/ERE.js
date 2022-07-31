@@ -5,6 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Splash from './assets/splash-1.png';
 import Splash2 from './assets/splash-2.png';
 import RightHand from './assets/right-hand-color.png';
+import DeviceMashups from './assets/Device Mashups.png'
 import TaskFlows from './assets/user-flow-1.png';
 import MappingJourney from './assets/mappingjourney.png';
 import FeedLoFi from './assets/feed-lofi.png';
@@ -56,11 +57,11 @@ const projectContentList = [
   },
 ];
 
-function Work() {
+function ERE() {
   return (
     <div>
       <section className='hero is-medium'>
-        <img alt='project 2' src={RightHand} />
+        <img alt='project 2' src={DeviceMashups} />
         <div className='hero-body'>
           <div className='content is-large has-text-centered'>
             <div>
@@ -69,7 +70,7 @@ function Work() {
                   marginBottom: 80,
                   marginTop: 80,
                 }}>
-                Wellness Intention Forums - WIF
+                Elder Racing Equipment
               </h1>
               <p>A Community For Those Who Need It Most</p>
             </div>
@@ -904,4 +905,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default ERE;

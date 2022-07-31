@@ -13,7 +13,7 @@ const projectList = [
     projectImage: Desktop,
     projectSummary: `This responsive mobile web app is a personal project that provides community forums for those struggling to lose weight.`,
     projectGoal: `Learn how to empower and improve health and fitness through community forums for long time strugglers. `,
-    projectPage: 'work',
+    projectPage: 'wif',
   },
   {
     id: uuidv4(),
@@ -23,7 +23,7 @@ const projectList = [
     projectSummary: `This responsive mobile web app is a personal project that provides and amazing new company solutions for contact and purchase of their product.`,
     projectGoal:
       'Discover a solution for a small company who needs a way to solve their organizational painpoints so they can solve for motorized bicycle hobbyists painpoints.',
-    projectPage: 'work2',
+    projectPage: 'ere',
   },
   {
     id: uuidv4(),
