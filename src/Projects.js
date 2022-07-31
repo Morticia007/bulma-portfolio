@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from './Project';
 import Desktop from './assets/Device Mashups-0.png'; 
-import ComingSoon from './assets/Device Mashups.png';
+import Device from './assets/Device Mashups.png';
 import ComingSoon2 from './assets/coming-soon-2.png';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -19,7 +19,7 @@ const projectList = [
     id: uuidv4(),
     projectName: 'Elder Racing Equipment',
     projectRole: `UX/UI Designer • Product Designer • Researcher`,
-    projectImage: ComingSoon,
+    projectImage: Device,
     projectSummary: `This responsive mobile web app is a personal project that provides and amazing new company solutions for contact and purchase of their product.`,
     projectGoal:
       'Discover a solution for a small company who needs a way to solve their organizational painpoints so they can solve for motorized bicycle hobbyists painpoints.',
