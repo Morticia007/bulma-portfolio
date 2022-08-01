@@ -187,7 +187,77 @@ function ERE() {
           </div>
         </div>
         <hr />
+        <div class='content is-normal'>
+          <div className='columns'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
+              <h2> HMW</h2>
+              <div>
+                <div style={{ maxWidth: 840 }}>
+                  <h3>How might we help?</h3>
+                  <p>
+                    <h6>Hobbyists who struggle with:</h6>
+                    <ul>
+                      <li>wrestling with a motor while building</li>
+                      <li>
+                        having to mount and remove the motor to make adjustments
+                      </li>
+                      <li>
+                        the bike falling over during these mounts and dismounts
+                      </li>
+                      <li>
+                        extra motors lying aroud that could definitly use a
+                        stand{' '}
+                      </li>
+                    </ul>
+                    <p>
+                      <h4>Align it with</h4>
+                    </p>
+                    <h6>ERE who struggles with:</h6>
+                    <ul>
+                      <li>unorganized product information requests</li>
+                      <li>unorganized product order requests</li>
+                      <li>lack of payment method</li>
+                      <li>
+                        platform for all these features to essentially live on
+                      </li>
+                    </ul>
+                    <p></p>We need a way to align user goals to business goals
+                    in order to help ERE with their organizational painpoints,
+                    in order to make this product available to solve user
+                    painpoints with their builds. Sounds easy right?
+                    <h6>But...</h6>
+                    <h6>
+                      What about the hobbyist painpoints that come with finding
+                      the products for the build?
+                    </h6>
+                  </p>
+                  <ul>
+                    <li>Lack of products that aren't cheap knockoffs</li>
+                    <li>lack of quality sites to get products from</li>
+                    <li>
+                      lack of knowing the right place to go to get these
+                      products, without needing to be "in the cool kid group"
+                    </li>
+                    <li>
+                      time wasted just trying to find something, anything they
+                      can trust
+                    </li>
+                  </ul>
+
+                  <p>
+                    We need a way to align user goals to business goals in order
+                    to help ERE with their organizational painpoints, in order
+                    to make this product available to solve user painpoints with
+                    their builds <h6>AND</h6>Give them a place they can trust with
+                    resources to find other products they need.{' '}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+      <hr />
       <section>
         <section>
           <div className='content container'>
@@ -729,12 +799,14 @@ function ERE() {
 
                       <p>
                         All participants were given 6 scenerios and tasks to
-                        complate. The tasks were specifically to test for
+                        complate. The tasks were specifically to test for:
                         <ol>
-                          <li>navigation</li>
-                          <li>product details</li>
-                          <li>contact flow</li>
-                          <li>purchase flow </li>
+                          <h6>
+                            <li>navigation</li>
+                            <li>product details</li>
+                            <li>contact flow</li>
+                            <li>purchase flow </li>
+                          </h6>
                         </ol>
                       </p>
 
