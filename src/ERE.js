@@ -925,8 +925,8 @@ function ERE() {
                             like me to proceed
                           </h6>
                           <ol>
-                            <li>What software does he need me to ...</li>
-                            <li>What naming conventions will he ...</li>
+                            <li>What software does he prefer...</li>
+                            <li>What naming conventions does he prefer ...</li>
                             <li>What file types ...</li>
                           </ol>
 
