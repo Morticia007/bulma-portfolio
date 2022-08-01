@@ -245,11 +245,11 @@ function ERE() {
                   </ul>
 
                   <p>
-                    We need a way to align user goals to business goals in order
+                    How might we align user goals to business goals in order
                     to help ERE with their organizational painpoints, in order
                     to make this product available to solve user painpoints with
                     their builds <h6>AND</h6>Give them a place they can trust
-                    with resources to find other products they need.{' '}
+                    with resources to find other products they need?{' '}
                   </p>
                 </div>
               </div>
