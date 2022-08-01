@@ -177,11 +177,7 @@ function ERE() {
                         stand{' '}
                       </li>
                     </ul>
-                    <p>
-                      {' '}
-                    
-                    </p>
-                    I felt a bit better about the health of ERE at that
+                    <p> </p>I felt a bit better about the health of ERE at that
                     point! I thought, okay wow "he is a UX designer for
                     motorized bicycles!"
                   </p>
@@ -727,27 +723,86 @@ function ERE() {
               <div className='columns'>
                 <div className='column column is-half is-offset-one-quarter has-text-left'>
                   <div>
+                    <h1>Usability Testing </h1>
+                    <div style={{ maxWidth: 700 }}>
+                      <h3>4 participants</h3>
+
+                      <p>
+                        All participants were given 6 scenerios and tasks to
+                        complate. The tasks were specifically to test for
+                        <ol>
+                          <li>navigation</li>
+                          <li>product details</li>
+                          <li>contact flow</li>
+                          <li>purchase flow </li>
+                        </ol>
+                      </p>
+
+                      <h4>Participants reported</h4>
+                      <ol>
+                        <li>ease of navigation</li>
+                        <li>
+                          complete understanding and appreciation of product
+                          details
+                        </li>
+                        <li>ease of use in the contact flow</li>
+                        <li>
+                          appreciation for the simplicity of the purchase flow{' '}
+                        </li>
+                      </ol>
+
+                      <p>
+                        To my suprise and delight all participants reported that
+                        the structure of the site fit in with their existing
+                        mental modal and expectations.
+                      </p>
+                      <h5>The phrases most comonly used were</h5>
+                      <ul>
+                        <li>"I loved..."</li>
+                        <li>"I really apreciate..."</li>
+                        <li>"That was exactly..."</li>
+                      </ul>
+                      <h5>
+                        When asked final questions regarding if they would
+                        change anything
+                      </h5>
+                      <p>
+                        The answers were unanimously "no", and then followed up
+                        with why they wouldn't change anything, without being
+                        promted or asked. This validation was a big relief, (and
+                        suprise) since my sprint was quickly coming to a close.
+                      </p>
+                      <p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+          <hr></hr>
+        </section>
+        <section className='container'>
+          <div className='content'>
+            <div className='content container'>
+              <div className='columns'>
+                <div className='column column is-half is-offset-one-quarter has-text-left'>
+                  <div>
                     <h1>LESSONS LEARNED</h1>
                     <div style={{ maxWidth: 700 }}>
                       <ul>
                         <li>Agile design is the only way to go!</li>
                         <p>
-                          Feedback and iteration is the most important part of
-                          design when you are user centric. Without the
-                          feedback, my project may have not tested as well as it
-                          did.
+                          I will stress this consistently. I work best with consistant feedback. I am not a fan of wasting anyones time. I am very aware that at any point in a project without consistently getting feedback, the project could go down the wrong path very easily.
                         </p>
                         <li>Niche Markets are difficult</li>
-                        <p>
-                          ...
-                        </p>
+                        <p>...</p>
                         <li>
                           Framing research questions correctly will be the gold
                           in your sifting pan.
                         </li>
-                        <p>
-                          ...
-                        </p>
+                        <p>...</p>
                         <li>Test throughout</li>
                         <p>
                           Don't ever sell yourself short or make assumptions
