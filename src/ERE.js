@@ -3,7 +3,7 @@ import Content from './Content';
 import Cards from './Cards';
 import { v4 as uuidv4 } from 'uuid';
 import Home from './assets/home.png';
-
+import HomeCTA2 from './assets/home-cta-2.png';
 import Splash2 from './assets/splash-2.png';
 import RightHand from './assets/right-hand-color.png';
 import DeviceMashups from './assets/Device Mashups.png';
@@ -313,12 +313,12 @@ function ERE() {
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
-                  <h2 className='has-text-centered'>Lo-Fi</h2>
-                  <img style={{ height: 700 }} alt='Splash' src={Home} />
+                  <h2 className='has-text-centered'>Home</h2>
+                  <img style={{ height: 700 }} alt='Home' src={Home} />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>Mockup</h2>
-                  <img style={{ height: 700 }} alt='Splash2' src={Splash2} />
+                  <h2 className='has-text-centered'>Home CTA 2</h2>
+                  <img style={{ height: 700 }} alt='HomeCTA2' src={HomeCTA2} />
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
