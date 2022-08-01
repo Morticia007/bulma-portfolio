@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Splash from './assets/splash-1.png';
 import Splash2 from './assets/splash-2.png';
 import RightHand from './assets/right-hand-color.png';
-import DeviceMashups from './assets/Device Mashups.png'
+import DeviceMashups from './assets/Device Mashups.png';
 import TaskFlows from './assets/user-flow-1.png';
 import MappingJourney from './assets/mappingjourney.png';
 import FeedLoFi from './assets/feed-lofi.png';
@@ -48,7 +48,7 @@ const projectContentList = [
     id: uuidv4(),
     heading: 'Understanding The User',
     firstP:
-      'Joining these bicycle groups was the only way I was going to get a glimpse into this niche market. I had a hard time getting research participants, because of the type of users I needed to find. Luckily some of the contacts the owner gave me followed through, and a nice young man from sweden, I found in a bicycle group on reddit, came through.',
+      'Joining these bicycle groups was the only way I was going to get a glimpse into this niche market. I had a hard time getting research participants, because of the type of users I needed to find. Luckily some of the contacts the owner gave me followed through, and a nice young man from Sweden, I found in a bicycle group on reddit, came through.',
     secondP: `I identified specific people who are hobbyist in this market to learn more about their love of the hobby and painpoints. I also identified a business owner, to get a birds eye view from the business side to the hobbyist side. I felt like I needed every angle I could possibly take to understand the solution I was attempting to find.`,
   },
 ];
@@ -85,7 +85,7 @@ function ERE() {
               <h1>BREAKING DOWN THE PROCESS</h1>
               <h2>WEEK 1 | RESEARCH</h2>
               <p>
-                To understand my undertaking and how I could help this small
+                To understand this undertaking and how I could help this small
                 business, I needed to understand their customers first. I
                 prioritized my focus on first finding out:
                 <ul>
@@ -119,45 +119,39 @@ function ERE() {
 
         <div className='content container'>
           <div className='columns'>
-            <div className='column'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
               <h1>Justin's Story</h1>
               <p>
-                As a person dealing with weight gain and isolation, I want to
-                have access to a community, where I can meet people just like
-                me. People who struggle with weight, loneliness and lack of
-                motivation. So we can all be accountability partners and a
-                support system for each other, in our journey together.
+                As a busy mechanic who just wants to build fun projects in my
+                spare time, I want to have access to quality parts and quality websites that are secure. People who build motorized bicycles,
+                do it in their spare time while working 40 hours a week.  So it would be nice to find a company that I can trust, and that delivers the products I need, especially if the products and/or the site save me time.
               </p>
               <p>
-                As you can see Darko needs
+                As you can see Justin needs 
                 <ol>
-                  <li>community</li>
-                  <li>accountability partner</li>
-                  <li>support</li>
-                  <li>people going through the same thing</li>
+                  <li>quality</li>
+                  <li>consistancy</li>
+                  <li>security</li>
+                  <li>a way to save time</li>
                 </ol>
                 His frustrations are
                 <ol>
-                  <li>loneliness </li>
-                  <li>guilt</li>
-                  <li>food association</li>
+                  <li>low quality sites </li>
+                  <li>lack of contact options for questions</li>
+                  <li>build difficulties</li>
                 </ol>
               </p>
             </div>
-            <div className='column'>
-              <img
-                alt='Archetype'
-                src={(Archetype)}
-              />
-            </div>
           </div>
+
+          <img alt='project' src='https://i.ibb.co/J3VpCns/Archetype-ERE.png' />
         </div>
         <hr />
 
         <div class='content is-normal'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h2> | RESEARCH</h2>
+              <h2> COMPETITIVE RESEARCH</h2>
               <div>
                 <div style={{ maxWidth: 840 }}>
                   <p>
@@ -182,78 +176,10 @@ function ERE() {
             </div>
           </div>
         </div>
-        <div className='columns'>
-          <Cards />
-        </div>
         <hr />
       </section>
       <section>
-        <hr />
         <section>
-          <div className='content container'>
-            <div className='columns'>
-              <div className='column is-half is-offset-one-quarter has-text-left'>
-                <h1>Pivot</h1>
-                <div>
-                  <div style={{ maxWidth: 840 }}>
-                    <p>
-                      As I was reviewing all the data I had gathered I made a
-                      huge discovery.
-                      <p>If the potential users pain points were</p>
-                      <ul>
-                        <li>lack of community</li>
-                        <li>loneliness</li>
-                        <li>coping mechanisms</li>
-                      </ul>
-                      And their pain points with applications for weight loss
-                      were
-                      <ul>
-                        <li>stressful</li>
-                        <li>expensive</li>
-                        <li>need more features</li>
-                        <li>too confusing</li>
-                      </ul>
-                      <p>Then I had to make a major decision.</p>
-                      <p>
-                        Do I try to recreate a Noom or Weight Watchers and hope
-                        to make it better?
-                      </p>
-                    </p>
-                    <p>
-                      I needed to revisit the original problem statement. At
-                      this point we already know at least one of my assumptions
-                      had been debunked by the research. I needed a new problem
-                      statement that aligned more with the evolving scope of my
-                      project.
-                    </p>
-                    <p>
-                      All the while keeping in mind the new problem statement.
-                      What can I do to create community, bring people together,
-                      and not have to charge them?
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='content container'>
-            <div className='columns'>
-              <div className='column is-half is-offset-one-quarter has-text-left'>
-                <h1>Problem Statement Revised</h1>
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 840 }}>
-                    <p>
-                      People who are overweight have had a significant life
-                      change, where they moved, lost their community, or were
-                      affected by Covid isolation. They struggle with
-                      loneliness, depression, and a loss of accountability,
-                      which all lead to lack of motivation.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
           <div className='content container'>
             <div className='columns'>
               <div className='column is-half is-offset-one-quarter has-text-left'>
@@ -281,7 +207,7 @@ function ERE() {
         <div className='content container'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h1>Design Evolution</h1>
+              <h1>Week 2 | Design Evolution</h1>
 
               <h3>Feature Prioritization</h3>
               <div>
