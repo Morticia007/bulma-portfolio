@@ -300,382 +300,118 @@ function ERE() {
           <hr />
         </div>
         <div id='wireframes' className='container-fluid'>
-          <section id='splash' style={{ marginBottom: 100 }}>
+          <section id='home' style={{ marginBottom: 100 }}>
             <div className='content'>
-              <h1 className='has-text-centered'>Wireframes</h1>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Splash Screen
+                Interactive Prototype
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
                   <h2 className='has-text-centered'>Home</h2>
-                  <img style={{ height: 700 }} alt='Home' src={Home} />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Home CTA 2</h2>
-                  <img style={{ height: 700 }} alt='HomeCTA2' src={HomeCTA2} />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 400 }}>
-                    <h3>Lo-Fi</h3>
-                    <p>Splash screen with large call to action.</p>
-                    <h3>Mockup</h3>
-                    <p>
-                      I made a few simple changes to the design to keep it
-                      simple with plenty of white space, and a clear route to
-                      the CTA
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id='feed' style={{ marginBottom: 100 }}>
-            <div className='content'>
-              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Feed Screen
-              </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>HomeCTA3</h2>
                   <img
                     style={{ maxHeight: 700 }}
-                    alt='project 5'
+                    alt='project 9'
                     height='500'
-                    src={HomeCTA3}
+                    src={require('./assets/home.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Home CTA2</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 10'
+                    height='500'
+                    src={require('./assets/home-cta-2.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Home CTA3 </h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 11'
+                    height='500'
+                    src={require('./assets/home-cta-3.png')}
                   />
                 </div>
                 <div>
                   <h2 className='has-text-centered'>Testimonials</h2>
                   <img
                     style={{ maxHeight: 700 }}
-                    alt='project 6'
+                    alt='project 11'
                     height='500'
-                    src={Testimonals}
+                    src={require('./assets/testimonials.png')}
                   />
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 400 }}>
-                    <h3>Lo-Fi</h3>
-                    <p>User home/feed.</p>
-                    <h3>Mockup</h3>
-                    <p>
-                      Added a better navigation function with the segment
-                      changer element.
-                    </p>
+                  <div style={{ maxWidth: 350 }}>
+                    <ol>
+                      <li>
+                        <h6>Community Toggle Screen:</h6>
+                      </li>
+                      <p>
+                        Interactive toggle screen for user content management.
+                      </p>
+                      <li>
+                        <h6>Account Settings Screen:</h6>
+                      </li>
+                      <p>Edit all account settings, and device integration.</p>
+                      <li>
+                        <h6>Edit Profile Screen:</h6>
+                      </li>
+                      <p>Profile customization.</p>
+                      <li>
+                        <h6>Post Screen/Overlay:</h6>
+                      </li>
+                      <p>Crosspost capability.</p>
+                    </ol>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-
-          <section id='hamburger' style={{ marginBottom: 100 }}>
+          <section id='about' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Hamburger Screen
+                Interactive Prototype
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>Footer</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 7'
-                    height='500'
-                    src={require('./assets/footer.png')}
-                  />
-                </div>
                 <div>
                   <h2 className='has-text-centered'>About</h2>
                   <img
                     style={{ maxHeight: 700 }}
-                    alt='project 8'
+                    alt='project 9'
                     height='500'
-                    src={require('./assets/about-mission.png')}
+                    src={require('./assets/about.png')}
                   />
                 </div>
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 400 }}>
-                    <h3>Lo-Fi</h3>
-                    <p>
-                      Originally I had planned for this to be main navigation.
-                      So I placed everything I could think of that could posibly
-                      go into this screen, in order to come back and delegate
-                      and clean up during iteration .
-                    </p>
-                    <h3>Mockup</h3>
-                    <p>
-                      Cleaned this up significantly when I chose to use the
-                      segment picker navigation route.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id='profile' style={{ marginBottom: 100 }}>
-            <div className='content'>
-              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Profile Screen
-              </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
                   <h2 className='has-text-centered'>About Story</h2>
                   <img
                     style={{ maxHeight: 700 }}
-                    alt='project 9'
+                    alt='project 10'
                     height='500'
                     src={require('./assets/about-story.png')}
                   />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>Mockup 1</h2>
+                  <h2 className='has-text-centered'>Resources </h2>
                   <img
                     style={{ maxHeight: 700 }}
-                    alt='project 10'
+                    alt='project 11'
                     height='500'
                     src={require('./assets/about-resources.png')}
                   />
-                
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 400 }}>
-                    <h3>Lo-Fi</h3>
-                    <p>
-                      Originally I designed this screen for users personal posts
-                      to live in, as I was using established forums like reddit,
-                      and instagram for inspiration.
-                    </p>
-                    <h3>Mockup 1</h3>
-                    <p>
-                      During iteration I decided to clean it up and give the
-                      user another level of control, to be able to chose if they
-                      want to see those things by adjusting it to a menu. this
-                      was also to cut down on clutter and not confuse the user.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id='activity' style={{ marginBottom: 100 }}>
-            <div className='content'>
-              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Activity Screen
-              </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>Product Page</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 9'
-                    height='500'
-                    src={require('./assets/product-page.png')}
-                  />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>P1 Details</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 10'
-                    height='500'
-                    src={require('./assets/p1-details.png')}
-                  />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 400 }}>
-                    <h3>Lo-Fi</h3>
-                    <p>
-                      This screen was a free for all at fist, I hadn't
-                      established what content would be most appropriate for the
-                      functionality.
-                    </p>
-                    <h3>Mockup 1</h3>
-                    <p>
-                      As all of the screens evolved, the activity screen seemed
-                      to just take form itself. Being that it is for discussion,
-                      I looked back into my research participants and what
-                      seemed important for them, also looking at what other
-                      applications they would be using, the data that could be
-                      possible and added them respectfully.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id='interactive-prototype' style={{ marginBottom: 100 }}>
-            <div className='content'>
-              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Interactive Prototype
-              </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>P2 Details</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 9'
-                    height='500'
-                    src={require('./assets/p2-details.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Cart</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 10'
-                    height='500'
-                    src={require('./assets/cart.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Authentication </h2>
-                  <img
+                  <h2 className='has-text-centered'>Footer</h2>
+                  <img  
                     style={{ maxHeight: 700 }}
                     alt='project 11'
                     height='500'
-                    src={require('./assets/auth.png')}
+                    src={require('./assets/footer.png')}
                   />
                 </div>
-                <div>
-                  <h2 className='has-text-centered'>Shipping</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/shipping.png')}
-                  />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 350 }}>
-                    <ol>
-                      <li>
-                        <h6>Community Toggle Screen:</h6>
-                      </li>
-                      <p>
-                        Interactive toggle screen for user content management.
-                      </p>
-                      <li>
-                        <h6>Account Settings Screen:</h6>
-                      </li>
-                      <p>Edit all account settings, and device integration.</p>
-                      <li>
-                        <h6>Edit Profile Screen:</h6>
-                      </li>
-                      <p>Profile customization.</p>
-                      <li>
-                        <h6>Post Screen/Overlay:</h6>
-                      </li>
-                      <p>Crosspost capability.</p>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id='interactive-prototype' style={{ marginBottom: 100 }}>
-            <div className='content'>
-              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Interactive Prototype
-              </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>Payment</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 9'
-                    height='500'
-                    src={require('./assets/payment.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Confirmation</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 10'
-                    height='500'
-                    src={require('./assets/confirmation.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>FAQ</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/faq.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Info Request</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/info-request.png')}
-                  />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 350 }}>
-                    <ol>
-                      <li>
-                        <h6>Community Toggle Screen:</h6>
-                      </li>
-                      <p>
-                        Interactive toggle screen for user content management.
-                      </p>
-                      <li>
-                        <h6>Account Settings Screen:</h6>
-                      </li>
-                      <p>Edit all account settings, and device integration.</p>
-                      <li>
-                        <h6>Edit Profile Screen:</h6>
-                      </li>
-                      <p>Profile customization.</p>
-                      <li>
-                        <h6>Post Screen/Overlay:</h6>
-                      </li>
-                      <p>Crosspost capability.</p>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id='interactive-prototype' style={{ marginBottom: 100 }}>
-            <div className='content'>
-              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Interactive Prototype
-              </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>Bulk Request</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 9'
-                    height='500'
-                    src={require('./assets/bulk.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Success</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 10'
-                    height='500'
-                    src={require('./assets/success.png')}
-                  />
-                </div>
-           
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 350 }}>
