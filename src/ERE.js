@@ -123,11 +123,15 @@ function ERE() {
               <h1>Justin's Story</h1>
               <p>
                 As a busy mechanic who just wants to build fun projects in my
-                spare time, I want to have access to quality parts and quality websites that are secure. People who build motorized bicycles,
-                do it in their spare time while working 40 hours a week.  So it would be nice to find a company that I can trust, and that delivers the products I need, especially if the products and/or the site save me time.
+                spare time, I want to have access to quality parts and quality
+                websites that are secure. People who build motorized bicycles,
+                do it in their spare time while working 40 hours a week. So it
+                would be nice to find a company that I can trust, and that
+                delivers the products I need, especially if the products and/or
+                the site save me time.
               </p>
               <p>
-                As you can see Justin needs 
+                As you can see Justin needs
                 <ol>
                   <li>quality</li>
                   <li>consistancy</li>
@@ -520,6 +524,146 @@ function ERE() {
             </div>
           </section>
 
+          <section id='interactive-prototype' style={{ marginBottom: 100 }}>
+            <div className='content'>
+              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                Interactive Prototype
+              </h2>
+              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                <div>
+                  <h2 className='has-text-centered'>Prototype 1</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 9'
+                    height='500'
+                    src={require('./assets/communities-hifi.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Prototype 2</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 10'
+                    height='500'
+                    src={require('./assets/settings-hifi.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Prototype 3</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 11'
+                    height='500'
+                    src={require('./assets/editprofile-hifi.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Prototype 4</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 11'
+                    height='500'
+                    src={require('./assets/postoverlay-hifi.png')}
+                  />
+                </div>
+
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ maxWidth: 350 }}>
+                    <ol>
+                      <li>
+                        <h6>Community Toggle Screen:</h6>
+                      </li>
+                      <p>
+                        Interactive toggle screen for user content management.
+                      </p>
+                      <li>
+                        <h6>Account Settings Screen:</h6>
+                      </li>
+                      <p>Edit all account settings, and device integration.</p>
+                      <li>
+                        <h6>Edit Profile Screen:</h6>
+                      </li>
+                      <p>Profile customization.</p>
+                      <li>
+                        <h6>Post Screen/Overlay:</h6>
+                      </li>
+                      <p>Crosspost capability.</p>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id='interactive-prototype' style={{ marginBottom: 100 }}>
+            <div className='content'>
+              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                Interactive Prototype
+              </h2>
+              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                <div>
+                  <h2 className='has-text-centered'>Prototype 1</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 9'
+                    height='500'
+                    src={require('./assets/communities-hifi.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Prototype 2</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 10'
+                    height='500'
+                    src={require('./assets/settings-hifi.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Prototype 3</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 11'
+                    height='500'
+                    src={require('./assets/editprofile-hifi.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Prototype 4</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 11'
+                    height='500'
+                    src={require('./assets/postoverlay-hifi.png')}
+                  />
+                </div>
+
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ maxWidth: 350 }}>
+                    <ol>
+                      <li>
+                        <h6>Community Toggle Screen:</h6>
+                      </li>
+                      <p>
+                        Interactive toggle screen for user content management.
+                      </p>
+                      <li>
+                        <h6>Account Settings Screen:</h6>
+                      </li>
+                      <p>Edit all account settings, and device integration.</p>
+                      <li>
+                        <h6>Edit Profile Screen:</h6>
+                      </li>
+                      <p>Profile customization.</p>
+                      <li>
+                        <h6>Post Screen/Overlay:</h6>
+                      </li>
+                      <p>Crosspost capability.</p>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
           <section id='interactive-prototype' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
