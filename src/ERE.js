@@ -265,7 +265,7 @@ function ERE() {
               <div className='column is-half is-offset-one-quarter has-text-left'>
                 <h1>Proposed Solution</h1>
                 <div>
-                  <div style={{ maxWidth: 600 }}>
+                  <div style={{ maxWidth: 840 }}>
                     <p>
                       So at this point it only seemed right to start the design
                       process with all the great things I got from my
@@ -434,7 +434,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Home</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 9'
                     height='500'
                     src={require('./assets/home.png')}
@@ -443,7 +443,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Home CTA2</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 10'
                     height='500'
                     src={require('./assets/home-cta-2.png')}
@@ -452,7 +452,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Home CTA3 </h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 11'
                     height='500'
                     src={require('./assets/home-cta-3.png')}
@@ -461,7 +461,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Testimonials</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 11'
                     height='500'
                     src={require('./assets/testimonials.png')}
@@ -505,7 +505,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>About</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 9'
                     height='500'
                     src={require('./assets/about.png')}
@@ -514,7 +514,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>About Story</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 10'
                     height='500'
                     src={require('./assets/about-story.png')}
@@ -523,7 +523,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Resources </h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 11'
                     height='500'
                     src={require('./assets/about-resources.png')}
@@ -532,7 +532,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Footer</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 11'
                     height='500'
                     src={require('./assets/footer.png')}
@@ -578,7 +578,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Products Page</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 9'
                     height='500'
                     src={require('./assets/product-page.png')}
@@ -587,7 +587,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Product 1</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 10'
                     height='500'
                     src={require('./assets/p1-details.png')}
@@ -596,7 +596,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Product 2 </h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 11'
                     height='500'
                     src={require('./assets/p2-details.png')}
@@ -605,7 +605,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Cart</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 11'
                     height='500'
                     src={require('./assets/cart.png')}
@@ -649,7 +649,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Authentication</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 9'
                     height='500'
                     src={require('./assets/auth.png')}
@@ -658,7 +658,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Shipping</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 10'
                     height='500'
                     src={require('./assets/shipping.png')}
@@ -667,7 +667,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Payment </h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 11'
                     height='500'
                     src={require('./assets/payment.png')}
@@ -676,7 +676,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Confirmation</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 11'
                     height='500'
                     src={require('./assets/confirmation.png')}
@@ -720,7 +720,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>FAQ</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 9'
                     height='500'
                     src={require('./assets/faq.png')}
@@ -729,7 +729,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Info Request</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 10'
                     height='500'
                     src={require('./assets/info-request.png')}
@@ -738,7 +738,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Bulk Request </h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 11'
                     height='500'
                     src={require('./assets/bulk.png')}
@@ -747,7 +747,7 @@ function ERE() {
                 <div>
                   <h2 className='has-text-centered'>Success</h2>
                   <img
-                    style={{ maxHeight: 700 }}
+                    style={{ maxHeight: 400 }}
                     alt='project 11'
                     height='500'
                     src={require('./assets/success.png')}
@@ -795,7 +795,7 @@ function ERE() {
                 <div className='column column is-half is-offset-one-quarter has-text-left'>
                   <div>
                     <h1>Usability Testing </h1>
-                    <div style={{ maxWidth: 700 }}>
+                    <div style={{ maxWidth: 840 }}>
                       <h3>4 participants</h3>
 
                       <p>
@@ -867,7 +867,7 @@ function ERE() {
                 <div className='column column is-half is-offset-one-quarter has-text-left'>
                   <div>
                     <h1>LESSONS LEARNED</h1>
-                    <div style={{ maxWidth: 700 }}>
+                    <div style={{ maxWidth: 840 }}>
                       <ul>
                         <li>
                           <h6>Agile design is the only way to go!</h6>
