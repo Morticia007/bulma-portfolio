@@ -828,12 +828,7 @@ function ERE() {
                 </div>
               </div>
             </div>
-            <div>
-              <img
-                alt='testing'
-                src={require('./assets/user-testing-research-13.png')}
-              />
-            </div>
+          
             <hr />
           </div>
         </section>
@@ -849,7 +844,6 @@ function ERE() {
               </div>
             </div>
           </div>
-          <img src={require('./assets/user-testing-research-14.png')} />
         </section>
         <hr />
         <section className='container'>
@@ -865,9 +859,6 @@ function ERE() {
               </div>
             </div>
           </div>
-          <img src={require('./assets/redesign-4.png')} />
-          <img src={require('./assets/redesign-5.png')} />
-          <img src={require('./assets/redesign-6.png')} />
         </section>
         <hr />
         <section className='container'>
@@ -882,7 +873,6 @@ function ERE() {
               </div>
             </div>
           </div>
-          <img src={require('./assets/results-1.png')} />
         </section>
         <hr />
         <section className='container'>
