@@ -796,7 +796,9 @@ function ERE() {
                     <h1>LESSONS LEARNED</h1>
                     <div style={{ maxWidth: 700 }}>
                       <ul>
-                        <li>Agile design is the only way to go!</li>
+                        <li>
+                          <h6>Agile design is the only way to go!</h6>
+                        </li>
                         <p>
                           I will stress this consistently. I work best with
                           consistant feedback. I am not a fan of wasting anyones
@@ -804,9 +806,11 @@ function ERE() {
                           without consistently getting feedback, the project
                           could go down the wrong path very easily.
                         </p>
-                        <li>Niche markets are difficult</li>
+                        <li>
+                          <h6>Niche markets are difficult</h6>
+                        </li>
                         <p>
-                          If I were to go back to the start of this project I
+                          If I were to go back to the start of this project, I
                           would have given myself more time to submerge myself
                           in this community and learn more about this market.
                           Even though the project continued its evolution I am
@@ -814,8 +818,10 @@ function ERE() {
                           would have liked to.{' '}
                         </p>
                         <li>
-                          Framing research questions correctly will be the gold
-                          in your sifting pan.
+                          <h6>
+                            Framing research questions correctly will be the
+                            gold in your sifting pan.
+                          </h6>
                         </li>
                         <p>
                           I said it in my first project and I'll say it again! I
@@ -825,7 +831,9 @@ function ERE() {
                           vs. innovation). It did, however, give me an insight
                           into the passion and innovation of the owner of ERE.
                         </p>
-                        <li>Test throughout</li>
+                        <li>
+                          <h6>Test throughout</h6>
+                        </li>
                         <p>
                           This is another one of my golden rules! If i wouldn't
                           have tested this design throughout the design
@@ -839,15 +847,16 @@ function ERE() {
                           <h1> Next steps</h1>
                           <h4>Get ready for Dev</h4>
 
-                          <p>
+                          <h6>
                             Work with the developer to understand how he would
-                            like me to proceed{' '}
-                            <ol>
-                              <li>What software does he need me to ...</li>
-                              <li>What naming conventions will he ...</li>
-                              <li>What file types ...</li>
-                            </ol>
-                          </p>
+                            like me to proceed
+                          </h6>
+                          <ol>
+                            <li>What software does he need me to ...</li>
+                            <li>What naming conventions will he ...</li>
+                            <li>What file types ...</li>
+                          </ol>
+
                           <ul>
                             <p>
                               ...
