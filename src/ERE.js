@@ -9,7 +9,7 @@ const projectContentList = [
     id: uuidv4(),
     heading: 'Executive Summary',
     firstP:
-      'As a personal project, I designed Elder Racing Equipment as web app. It is a solution for a small company who needs a way to solve their organizational painpoints so they can solve for motorized bicycle hobbyists painpoints.',
+      'As a personal project, I designed Elder Racing Equipment as web app. It is a solution for a small company who needs a way to solve their organizational painpoints so they can solve for motorized bicycle hobbyists pain points.',
 
     secondP:
       'I committed to completing this within a two week sprint. I wanted to challenge myself to create a organizational solution for a great new company who provides solutions specifically for motorized bicycle hobbyists needs. This was super challenging since I was dealing with a very small niche market. The result was solving for two completely different hobbyist pain point sets by solving for the Elder Racing Equipment painpoint.',},
