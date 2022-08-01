@@ -1,7 +1,7 @@
 import React from 'react';
 import Content from './Content';
 import { v4 as uuidv4 } from 'uuid';
-import DeviceMashups from './assets/Device Mashups.png';
+import screens from './assets/screens-2.png';
 import MappingJourney from './assets/user-flow-ere.png';
 
 const projectContentList = [
@@ -49,7 +49,7 @@ function ERE() {
   return (
     <div>
       <section className='hero is-medium'>
-        <img alt='project 2' src={DeviceMashups} />
+        <img alt='project 2' src={screens} />
         <div className='hero-body'>
           <div className='content is-large has-text-centered'>
             <div>
