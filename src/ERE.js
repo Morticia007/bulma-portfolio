@@ -473,15 +473,85 @@ function ERE() {
                     src={require('./assets/p2-details.png')}
                   />
                 </div>
-                  <div>
-                    <h2 className='has-text-centered'>Cart</h2>
-                    <img
-                      style={{ maxHeight: 700 }}
-                      alt='project 11'
-                      height='500'
-                      src={require('./assets/cart.png')}
-                    />
+                <div>
+                  <h2 className='has-text-centered'>Cart</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 11'
+                    height='500'
+                    src={require('./assets/cart.png')}
+                  />
+                </div>
+
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ maxWidth: 350 }}>
+                    <ol>
+                      <li>
+                        <h6>Community Toggle Screen:</h6>
+                      </li>
+                      <p>
+                        Interactive toggle screen for user content management.
+                      </p>
+                      <li>
+                        <h6>Account Settings Screen:</h6>
+                      </li>
+                      <p>Edit all account settings, and device integration.</p>
+                      <li>
+                        <h6>Edit Profile Screen:</h6>
+                      </li>
+                      <p>Profile customization.</p>
+                      <li>
+                        <h6>Post Screen/Overlay:</h6>
+                      </li>
+                      <p>Crosspost capability.</p>
+                    </ol>
                   </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id='auth' style={{ marginBottom: 100 }}>
+            <div className='content'>
+              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                Interactive Prototype
+              </h2>
+              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                <div>
+                  <h2 className='has-text-centered'>Authentication</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 9'
+                    height='500'
+                    src={require('./assets/auth.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Shipping</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 10'
+                    height='500'
+                    src={require('./assets/shipping.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Payment </h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 11'
+                    height='500'
+                    src={require('./assets/payment.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Confirmation</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 11'
+                    height='500'
+                    src={require('./assets/confirmation.png')}
+                  />
+                </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 350 }}>
