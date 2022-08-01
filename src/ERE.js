@@ -2,7 +2,8 @@ import React from 'react';
 import Content from './Content';
 import Cards from './Cards';
 import { v4 as uuidv4 } from 'uuid';
-import Splash from './assets/splash-1.png';
+import Home from './assets/home.png';
+
 import Splash2 from './assets/splash-2.png';
 import RightHand from './assets/right-hand-color.png';
 import DeviceMashups from './assets/Device Mashups.png';
@@ -11,7 +12,6 @@ import MappingJourney from './assets/user-flow-ere.png';
 import FeedLoFi from './assets/feed-lofi.png';
 import FeedHiFi from './assets/feed-hifi.png';
 import Archetype from './assets/archetype-ere.png';
-
 const projectContentList = [
   {
     id: uuidv4(),
@@ -314,7 +314,7 @@ function ERE() {
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
                   <h2 className='has-text-centered'>Lo-Fi</h2>
-                  <img style={{ height: 700 }} alt='Splash' src={Splash} />
+                  <img style={{ height: 700 }} alt='Splash' src={Home} />
                 </div>
                 <div>
                   <h2 className='has-text-centered'>Mockup</h2>
