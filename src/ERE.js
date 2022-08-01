@@ -828,15 +828,15 @@ function ERE() {
                 </div>
               </div>
             </div>
-          
+
             <hr />
           </div>
         </section>
         <section className='container'>
           <div className='content'>
-            <h1>USABILITY SOLUTION</h1>
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
-              <div style={{ maxWidth: 700 }}>
+            <div className='columns'>
+              <div className='column is-half is-offset-one-quarter has-text-left'>
+                <h1>USABILITY SOLUTION</h1>
                 <h4>
                   Below are the solutions I put in place to move the Home/Feed
                   Screen into the revision phase.
@@ -848,9 +848,9 @@ function ERE() {
         <hr />
         <section className='container'>
           <div className='content'>
-            <h1>USABILITY REVISION</h1>
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
-              <div style={{ maxWidth: 750 }}>
+            <div className='columns'>
+              <div className='column is-half is-offset-one-quarter has-text-left'>
+                <h1>USABILITY REVISION</h1>
                 <h4>
                   Below are the stages of revision. Screen featured throughout
                   this stage is the Home/Feed Screen. Main concentration is on
@@ -863,9 +863,9 @@ function ERE() {
         <hr />
         <section className='container'>
           <div className='content'>
-            <h1>RESULTS</h1>
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
-              <div style={{ maxWidth: 700 }}>
+            <div className='columns'>
+              <div className='column is-half is-offset-one-quarter has-text-left'>
+                <h1>RESULTS</h1>
                 <h4>
                   Results during further usability testing achieved the
                   validation label I was going for. Results below.
