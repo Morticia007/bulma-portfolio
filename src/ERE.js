@@ -597,30 +597,30 @@ function ERE() {
                   />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>Prototype 2</h2>
+                  <h2 className='has-text-centered'>Confirmation</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 10'
                     height='500'
-                    src={require('./assets/settings-hifi.png')}
+                    src={require('./assets/confirmation.png')}
                   />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>Prototype 3</h2>
+                  <h2 className='has-text-centered'>FAQ</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 11'
                     height='500'
-                    src={require('./assets/editprofile-hifi.png')}
+                    src={require('./assets/faq.png')}
                   />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>Prototype 4</h2>
+                  <h2 className='has-text-centered'>Info Request</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 11'
                     height='500'
-                    src={require('./assets/postoverlay-hifi.png')}
+                    src={require('./assets/info-request.png')}
                   />
                 </div>
 
@@ -658,41 +658,24 @@ function ERE() {
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
-                  <h2 className='has-text-centered'>Prototype 1</h2>
+                  <h2 className='has-text-centered'>Bulk Request</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 9'
                     height='500'
-                    src={require('./assets/communities-hifi.png')}
+                    src={require('./assets/bulk.png')}
                   />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>Prototype 2</h2>
+                  <h2 className='has-text-centered'>Success</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 10'
                     height='500'
-                    src={require('./assets/settings-hifi.png')}
+                    src={require('./assets/success.png')}
                   />
                 </div>
-                <div>
-                  <h2 className='has-text-centered'>Prototype 3</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/editprofile-hifi.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Prototype 4</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/postoverlay-hifi.png')}
-                  />
-                </div>
+           
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ maxWidth: 350 }}>
