@@ -1,18 +1,12 @@
 import React from 'react';
 import Content from './Content';
-import Cards from './Cards';
 import { v4 as uuidv4 } from 'uuid';
 import Home from './assets/home.png';
 import HomeCTA2 from './assets/home-cta-2.png';
 import HomeCTA3 from './assets/home-cta-3.png';
-import Splash2 from './assets/splash-2.png';
-import RightHand from './assets/right-hand-color.png';
 import DeviceMashups from './assets/Device Mashups.png';
-import TaskFlows from './assets/user-flow-1.png';
 import MappingJourney from './assets/user-flow-ere.png';
-import FeedLoFi from './assets/feed-lofi.png';
-import FeedHiFi from './assets/feed-hifi.png';
-import Archetype from './assets/archetype-ere.png';
+import Testimonals from './assets/testimonials.png';
 const projectContentList = [
   {
     id: uuidv4(),
@@ -345,7 +339,7 @@ function ERE() {
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
-                  <h2 className='has-text-centered'>Lo-Fi</h2>
+                  <h2 className='has-text-centered'>HomeCTA3</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 5'
@@ -354,12 +348,12 @@ function ERE() {
                   />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>Mockup</h2>
+                  <h2 className='has-text-centered'>Testimonials</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 6'
                     height='500'
-                    src={FeedHiFi}
+                    src={Testimonals}
                   />
                 </div>
 
@@ -385,21 +379,21 @@ function ERE() {
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
-                  <h2 className='has-text-centered'>Lo-Fi</h2>
+                  <h2 className='has-text-centered'>Footer</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 7'
                     height='500'
-                    src={require('./assets/hamburger-lofi.png')}
+                    src={require('./assets/footer.png')}
                   />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>Mockup</h2>
+                  <h2 className='has-text-centered'>About</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 8'
                     height='500'
-                    src={require('./assets/hamburger-hifi.png')}
+                    src={require('./assets/about-mission.png')}
                   />
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -429,12 +423,12 @@ function ERE() {
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
-                  <h2 className='has-text-centered'>Lo-Fi</h2>
+                  <h2 className='has-text-centered'>About Story</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 9'
                     height='500'
-                    src={require('./assets/profile-lofi.png')}
+                    src={require('./assets/about-story.png')}
                   />
                 </div>
                 <div>
@@ -443,8 +437,9 @@ function ERE() {
                     style={{ maxHeight: 700 }}
                     alt='project 10'
                     height='500'
-                    src={require('./assets/profile-hifi.png')}
+                    src={require('./assets/about-resources.png')}
                   />
+                
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -475,21 +470,21 @@ function ERE() {
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
-                  <h2 className='has-text-centered'>Lo-Fi</h2>
+                  <h2 className='has-text-centered'>Product Page</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 9'
                     height='500'
-                    src={require('./assets/activity-lofi.png')}
+                    src={require('./assets/product-page.png')}
                   />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>Mockup 1</h2>
+                  <h2 className='has-text-centered'>P1 Details</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 10'
                     height='500'
-                    src={require('./assets/activity-hifi.png')}
+                    src={require('./assets/p1-details.png')}
                   />
                 </div>
 
@@ -523,39 +518,39 @@ function ERE() {
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
-                  <h2 className='has-text-centered'>Prototype 1</h2>
+                  <h2 className='has-text-centered'>P2 Details</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 9'
                     height='500'
-                    src={require('./assets/communities-hifi.png')}
+                    src={require('./assets/p2-details.png')}
                   />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>Prototype 2</h2>
+                  <h2 className='has-text-centered'>Cart</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 10'
                     height='500'
-                    src={require('./assets/settings-hifi.png')}
+                    src={require('./assets/cart.png')}
                   />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>Prototype 3</h2>
+                  <h2 className='has-text-centered'>Authentication </h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 11'
                     height='500'
-                    src={require('./assets/editprofile-hifi.png')}
+                    src={require('./assets/auth.png')}
                   />
                 </div>
                 <div>
-                  <h2 className='has-text-centered'>Prototype 4</h2>
+                  <h2 className='has-text-centered'>Shipping</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 11'
                     height='500'
-                    src={require('./assets/postoverlay-hifi.png')}
+                    src={require('./assets/shipping.png')}
                   />
                 </div>
 
@@ -593,12 +588,12 @@ function ERE() {
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
-                  <h2 className='has-text-centered'>Prototype 1</h2>
+                  <h2 className='has-text-centered'>Payment</h2>
                   <img
                     style={{ maxHeight: 700 }}
                     alt='project 9'
                     height='500'
-                    src={require('./assets/communities-hifi.png')}
+                    src={require('./assets/payment.png')}
                   />
                 </div>
                 <div>
