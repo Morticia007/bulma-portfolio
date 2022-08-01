@@ -7,7 +7,7 @@ import Splash2 from './assets/splash-2.png';
 import RightHand from './assets/right-hand-color.png';
 import DeviceMashups from './assets/Device Mashups.png';
 import TaskFlows from './assets/user-flow-1.png';
-import MappingJourney from './assets/mappingjourney.png';
+import MappingJourney from './assets/user-flow-ere.png';
 import FeedLoFi from './assets/feed-lofi.png';
 import FeedHiFi from './assets/feed-hifi.png';
 import Archetype from './assets/archetype-ere.png';
