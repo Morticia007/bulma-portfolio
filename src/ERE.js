@@ -1,12 +1,9 @@
 import React from 'react';
 import Content from './Content';
 import { v4 as uuidv4 } from 'uuid';
-import Home from './assets/home.png';
-import HomeCTA2 from './assets/home-cta-2.png';
-import HomeCTA3 from './assets/home-cta-3.png';
 import DeviceMashups from './assets/Device Mashups.png';
 import MappingJourney from './assets/user-flow-ere.png';
-import Testimonals from './assets/testimonials.png';
+
 const projectContentList = [
   {
     id: uuidv4(),
