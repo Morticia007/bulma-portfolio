@@ -151,21 +151,39 @@ function ERE() {
               <div>
                 <div style={{ maxWidth: 840 }}>
                   <p>
-                    To understand the competitive landscape and how users
-                    interact with weight loss applications, I looked at two
-                    companies my research participants mentioned and one I knew
-                    that had the functionaity that my participants made clear
-                    were important to them.
+                    At first the challenge was finding a competitor! ERE wasn't
+                    awar of anyone else making these products.Luckily I asked
+                    some pretty good questions in my initial research and found
+                    out there was 1 individual other than ERE that does make an
+                    engine stand.
                   </p>
                   <p>
-                    I identified a some common patterns my participants had in
-                    this areana as well.
+                    Because of the lack of competition, it got me sratching my
+                    head. Is this company in a failing market or are they ahead
+                    of the curve? So I returned back to my interviews and
+                    scoured for some information around the need for this
+                    product. I uncovered all the needs my participants had
+                    divulged including
                     <ul>
-                      <li>Weight loss apps are stressful</li>
-                      <li>Weight loss apps are too expensive</li>
-                      <li>Weight loss apps need more features</li>
-                      <li>Weight loss apps are too confusing</li>
+                      <li>wrestling with a motor while building</li>
+                      <li>
+                        having to mount and remove the motor to make adjustments
+                      </li>
+                      <li>
+                        the bike falling over during these mounts and dismounts
+                      </li>
+                      <li>
+                        extra motors lying aroud that could definitly use a
+                        stand{' '}
+                      </li>
                     </ul>
+                    <p>
+                      {' '}
+                    
+                    </p>
+                    I felt a bit better about the health of ERE at that
+                    point! I thought, okay wow "he is a UX designer for
+                    motorized bicycles!"
                   </p>
                 </div>
               </div>
@@ -183,15 +201,20 @@ function ERE() {
                 <div>
                   <div style={{ maxWidth: 600 }}>
                     <p>
-                      Let's reference our proto persona first before we get to
-                      the possible solution - Darko used Reddit and Discord.
-                      Both of those are somewhat of a community.
+                      So at this point it only seamed right to start the design
+                      process with all the great things I got from my
+                      participants and from ERE.
                     </p>
                     <p>
                       I decided based on everything I had learned up to now, to
-                      build a forum specifically for people who are overweight
-                      and struggle with loneliness, eating disorders, lack of
-                      community and/support.
+                      build an e-commerce web app that made the contact process
+                      easy, along with the purchase process. I wanted to go a
+                      step further though and include some of the gold I had
+                      gathered along the way! While writing the mission
+                      statement and the story about the company it was clear
+                      that the owner of ERE is bound and detemined to make the
+                      hobbyist life easier and more connected. I'll take you on
+                      the golden journey next.
                     </p>
                   </div>
                 </div>
@@ -209,20 +232,40 @@ function ERE() {
               <div>
                 <div style={{ maxWidth: 840 }}>
                   <ul>
-                    <li>Community forums</li>
-                    <p>Solving for: Loss of community/ lonliness/ price.</p>
-                    <li>Account creation</li>
-                    <p>Solving for: Loss of Community.</p>
-                    <li>Ease of navigation</li>
-                    <p> Solving for success. </p>
-                    <li>Posting Capabilities</li>
-                    <p>Solving for lack of connection/community.</p>
-                    <li>Integration</li>
+                    <li>
+                      <h5> Ease of Navigation </h5>
+                    </li>
+                    <p>Solving for: time.</p>
+                    <li>
+                      <h5> Contact Form </h5>
+                    </li>
+                    <p>Solving for: lack of ways to ask important questions.</p>
+                    <li>
+                      <h5> Ease of Purchase </h5>
+                    </li>
+                    <p> Solving for need. </p>
+                    <li>
+                      <h5> Buk order quote form </h5>
+                    </li>
                     <p>
-                      Solving for ease of use and being able to share progress
-                      with their community, having all progress data in one
-                      place/ short cuts.
+                      Solving for businesses who want to commission ERE for a
+                      certain amount of stands per year.
                     </p>
+                    <li>
+                      <h5> Resources </h5>
+                    </li>
+                    <p>
+                      Solving for the time and energy the users take searching
+                      for what they need
+                    </p>
+                    <li>
+                      <h5> Testimonials </h5>
+                    </li>
+                    <p>Solving for confidence in the product quality</p>
+                    <li>
+                      <h5>Our mission and story </h5>
+                    </li>
+                    <p>Solving for confidence in the company</p>
                   </ul>
                 </div>
               </div>
@@ -232,54 +275,72 @@ function ERE() {
         <div className='content container'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h3>Forum MVP</h3>
+              <h3>E-commerce Web App MVP</h3>
               <div>
                 <div style={{ maxWidth: 840 }}>
                   <ul>
-                    <li>Onboarding</li>
-                    <p>Splash screen with CTA/ sign up. </p>
-                    <li>Home/Feed screen</li>
+                    <li>
+                      <h5>Home </h5>
+                    </li>
                     <p>
-                      To see community feed, create post, edit communities they
-                      see in feed.
+                      Home screen with Hero message, multiple CTAs, and
+                      testimonials.{' '}
                     </p>
-                    <li>Hamburger Dropdown</li>
-                    <p>Footer nested inside to save "real estate". </p>
-                    <li>Profile Screen</li>
+                    <li>
+                      <li>
+                        <h5> About Screen </h5>
+                      </li>
+                      <p>Mission, Story, Resources</p>
+                    </li>
+
+                    <li>
+                      <h5> Product page </h5>
+                    </li>
+                    <p>Simple product list and a clear see more option. </p>
+                    <li>
+                      <h5> Product Details Pages </h5>
+                    </li>
                     <p>
-                      For all community, saved, chat, and comment features.{' '}
+                      Price, quantity, customization options, add ons,
+                      description and spec details.{' '}
                     </p>
-                    <li>Activities Screen</li>
+                    <li>
+                      <h5> Cart </h5>
+                    </li>
+                    <p>Standard cart.</p>
+                    <li>
+                      <h5> Authentication Page </h5>
+                    </li>
                     <p>
-                      Integration with fitness applications potential users
-                      already have to see all thier data in one place, with
-                      ability to share in the forums to discuss progress.
+                      This page will eventually evolve into the user being able
+                      to login for faster payment options and account info or
+                      just checking out as a guest.
                     </p>
-                    <li>Community "Toggle" Screen</li>
+                    <li>
+                      <h5> Shipping Details Page </h5>
+                    </li>
+                    <p>Standard shipping page.</p>
+                    <li>
+                      <h5>Payment Screen </h5>
+                    </li>
+                    <p>Multiple payment options.</p>
+                    <li>
+                      <h5> Confirmation Page </h5>
+                    </li>
+                    <p>With confirmation order number for tracking.</p>
+                    <li>
+                      <h5> Multiple Forms for Contact </h5>
+                    </li>
                     <p>
-                      Ability to toggle on or off certain communities in order
-                      to have more control of their experience.
-                    </p>
-                    <li>Settings Screen</li>
-                    <p>
-                      Navigate to all account editing settings.
-                      Profile,anonymous profile, communities, and devices.
-                    </p>
-                    <li>Edit Profile Screen</li>
-                    <p>Ability to edit user profile, and anonymous profile.</p>
-                    <li>Posting Overlay</li>
-                    <p>
-                      Ability to post, with multiple type of post options
-                      feature and cross post feature.
+                      FAQ with Form dropdown, an information request form, and a
+                      Bulk quote request form .
                     </p>
                   </ul>
                   <p>
-                    I felt as if I needed to design numerous screens since a
-                    forum has many facets and complexities, as well as keeping
-                    my users at the forefront and making sure the experience was
-                    smooth. I also found I could give users more control over
-                    what forums they want to be active in by creating the
-                    ability to pass on forums that they had no interest in.
+                    I knew going into this design, being an e-commerce site,
+                    there would be a ton of screens even though I was only
+                    designing an MVP. My main focus for ERE specifically is
+                    contact and purchase.
                   </p>
                 </div>
               </div>
@@ -344,23 +405,24 @@ function ERE() {
                   <div style={{ maxWidth: 350 }}>
                     <ol>
                       <li>
-                        <h6>Community Toggle Screen:</h6>
+                        <h6>Home:</h6>
                       </li>
                       <p>
-                        Interactive toggle screen for user content management.
+                        Big call to action for people who already are determined
+                        to get to the products.
                       </p>
                       <li>
-                        <h6>Account Settings Screen:</h6>
+                        <h6> Home CTA 2:</h6>
                       </li>
-                      <p>Edit all account settings, and device integration.</p>
+                      <p>Learn More.</p>
                       <li>
-                        <h6>Edit Profile Screen:</h6>
+                        <h6>Home CTA 3:</h6>
                       </li>
-                      <p>Profile customization.</p>
+                      <p>More information about the stands.</p>
                       <li>
-                        <h6>Post Screen/Overlay:</h6>
+                        <h6>Testimonials:</h6>
                       </li>
-                      <p>Crosspost capability.</p>
+                      <p>Customers who love the products.</p>
                     </ol>
                   </div>
                 </div>
@@ -414,23 +476,26 @@ function ERE() {
                   <div style={{ maxWidth: 350 }}>
                     <ol>
                       <li>
-                        <h6>Community Toggle Screen:</h6>
+                        <h6>About:</h6>
+                      </li>
+                      <p>Engage the users.</p>
+                      <li>
+                        <h6>About us-Story:</h6>
                       </li>
                       <p>
-                        Interactive toggle screen for user content management.
+                        Let them know what type of company they are supporting .
                       </p>
                       <li>
-                        <h6>Account Settings Screen:</h6>
+                        <h6>Resources:</h6>
                       </li>
-                      <p>Edit all account settings, and device integration.</p>
+                      <p>
+                        Give them an easier way to find other trusted sources
+                        for products
+                      </p>
                       <li>
-                        <h6>Edit Profile Screen:</h6>
+                        <h6>Footer:</h6>
                       </li>
-                      <p>Profile customization.</p>
-                      <li>
-                        <h6>Post Screen/Overlay:</h6>
-                      </li>
-                      <p>Crosspost capability.</p>
+                      <p>More navigation.</p>
                     </ol>
                   </div>
                 </div>
@@ -484,23 +549,24 @@ function ERE() {
                   <div style={{ maxWidth: 350 }}>
                     <ol>
                       <li>
-                        <h6>Community Toggle Screen:</h6>
+                        <h6>Products Page:</h6>
                       </li>
                       <p>
-                        Interactive toggle screen for user content management.
+                        List of products with two choices depending on your
+                        knowledge of the product already.
                       </p>
                       <li>
-                        <h6>Account Settings Screen:</h6>
+                        <h6>Product 1 Details:</h6>
                       </li>
-                      <p>Edit all account settings, and device integration.</p>
+                      <p>Description, specs, customizations and addons.</p>
                       <li>
-                        <h6>Edit Profile Screen:</h6>
+                        <h6>Product 2 Details:</h6>
                       </li>
-                      <p>Profile customization.</p>
+                      <p>Description, specs, customizations and addons.</p>
                       <li>
-                        <h6>Post Screen/Overlay:</h6>
+                        <h6>Cart:</h6>
                       </li>
-                      <p>Crosspost capability.</p>
+                      <p>Standard cart.</p>
                     </ol>
                   </div>
                 </div>
@@ -554,23 +620,24 @@ function ERE() {
                   <div style={{ maxWidth: 350 }}>
                     <ol>
                       <li>
-                        <h6>Community Toggle Screen:</h6>
+                        <h6>Authentication Page:</h6>
                       </li>
                       <p>
-                        Interactive toggle screen for user content management.
+                        Fill in information (in the future-log in for faster
+                        checkout).
                       </p>
                       <li>
-                        <h6>Account Settings Screen:</h6>
+                        <h6>Shipping:</h6>
                       </li>
-                      <p>Edit all account settings, and device integration.</p>
+                      <p>Standard shipping page.</p>
                       <li>
-                        <h6>Edit Profile Screen:</h6>
+                        <h6>Payment Page:</h6>
                       </li>
-                      <p>Profile customization.</p>
+                      <p>Secure payment methods.</p>
                       <li>
-                        <h6>Post Screen/Overlay:</h6>
+                        <h6>Confirmation Page:</h6>
                       </li>
-                      <p>Crosspost capability.</p>
+                      <p>Order number for tracking and shipping reminders.</p>
                     </ol>
                   </div>
                 </div>
@@ -624,23 +691,28 @@ function ERE() {
                   <div style={{ maxWidth: 350 }}>
                     <ol>
                       <li>
-                        <h6>Community Toggle Screen:</h6>
+                        <h6>FAQ:</h6>
                       </li>
                       <p>
-                        Interactive toggle screen for user content management.
+                        In case their question is already answered here. Has a
+                        dropdown at the bottom with the other forms to choose
+                        between if their question isn't answered
                       </p>
                       <li>
-                        <h6>Account Settings Screen:</h6>
+                        <h6>Information Request Form:</h6>
                       </li>
-                      <p>Edit all account settings, and device integration.</p>
+                      <p>Standard information request.</p>
                       <li>
-                        <h6>Edit Profile Screen:</h6>
+                        <h6>Bulk Quote Form:</h6>
                       </li>
-                      <p>Profile customization.</p>
+                      <p>
+                        For customers who are buying in bulk or companies
+                        commissioning for a certain amount of products per year.
+                      </p>
                       <li>
-                        <h6>Post Screen/Overlay:</h6>
+                        <h6>Validation page:</h6>
                       </li>
-                      <p>Crosspost capability.</p>
+                      <p>Give's a success message about their submission.</p>
                     </ol>
                   </div>
                 </div>
@@ -665,20 +737,16 @@ function ERE() {
                           feedback, my project may have not tested as well as it
                           did.
                         </p>
-                        <li>Pivoting is definitely a real thing!</li>
+                        <li>Niche Markets are difficult</li>
                         <p>
-                          Knowing when, why, and how is the hard part. Luckily I
-                          am a pattern person and was able to see that there was
-                          much more of a need for community than another weight
-                          loss application.
+                          ...
                         </p>
                         <li>
                           Framing research questions correctly will be the gold
                           in your sifting pan.
                         </li>
                         <p>
-                          This is what I will take more time to research and
-                          understand for future projects.
+                          ...
                         </p>
                         <li>Test throughout</li>
                         <p>
@@ -692,27 +760,13 @@ function ERE() {
                         <div className='content'>
                           <h1> Next steps</h1>
                           <ul>
-                            <li>Back to user research </li>
+                            <li></li>
+                            <p>...</p>
+                            <li>...</li>
                             <p>
-                              To see if I can uncover more golden information
-                              and dig into why the "Anonymous Confessions" idea
-                              sparked curiosity in so many people along the
-                              project journey.
-                            </p>
-                            <li>
-                              Revisit and design the "Anonymous Confessions"
-                              functionality.
-                            </li>
-                            <p>
-                              I haven't made it a priority to discuss this part
-                              of the application.{' '}
-                              <p>
-                                Even though you have seen a couple hints about
-                                it, it wasn't essential for MVP.
-                              </p>
-                              During user testing there were alot of questions
-                              about it and positve feedback. It seemed to spark
-                              curiosity.
+                              ...
+                              <p>...</p>
+                              ...
                             </p>
                             <h5>
                               If you'd like to know more about this project, I'd
