@@ -773,12 +773,16 @@ function ERE() {
                         suprise) since my sprint was quickly coming to a close.
                       </p>
                       <p>
+                        I also included the owner of ERE in my usability testing
+                        just to give him confidence in the project and to get
+                        the validation I needed from him to recommend the
+                        project for development.
                       </p>
+                      <p></p>
                     </div>
                   </div>
                 </div>
               </div>
-          
             </div>
           </div>
           <hr></hr>
@@ -794,30 +798,57 @@ function ERE() {
                       <ul>
                         <li>Agile design is the only way to go!</li>
                         <p>
-                          I will stress this consistently. I work best with consistant feedback. I am not a fan of wasting anyones time. I am very aware that at any point in a project without consistently getting feedback, the project could go down the wrong path very easily.
+                          I will stress this consistently. I work best with
+                          consistant feedback. I am not a fan of wasting anyones
+                          time. I am very aware that at any point in a project
+                          without consistently getting feedback, the project
+                          could go down the wrong path very easily.
                         </p>
-                        <li>Niche Markets are difficult</li>
-                        <p>...</p>
+                        <li>Niche markets are difficult</li>
+                        <p>
+                          If I were to go back to the start of this project I
+                          would have given myself more time to submerge myself
+                          in this community and learn more about this market.
+                          Even though the project continued its evolution I am
+                          not sure that I was able to uncover as much gold as I
+                          would have liked to.{' '}
+                        </p>
                         <li>
                           Framing research questions correctly will be the gold
                           in your sifting pan.
                         </li>
-                        <p>...</p>
+                        <p>
+                          I said it in my first project and I'll say it again! I
+                          feel I wouldn't have been able to uncover any type of
+                          competitive analysis (which in all reality didn't have
+                          much impact on the project, besides understanding fail
+                          vs. innovation). It did, however, give me an insight
+                          into the passion and innovation of the owner of ERE.
+                        </p>
                         <li>Test throughout</li>
                         <p>
-                          Don't ever sell yourself short or make assumptions
-                          that back you into a place in your project you can't
-                          come back from.
+                          This is another one of my golden rules! If i wouldn't
+                          have tested this design throughout the design
+                          evolution, I would have been met with a ton of
+                          iterations looming over a deadline.
                         </p>
                       </ul>
                       <hr />
                       <section className='container'>
                         <div className='content'>
                           <h1> Next steps</h1>
+                          <h4>Get ready for Dev</h4>
+
+                          <p>
+                            Work with the developer to understand how he would
+                            like me to proceed{' '}
+                            <ol>
+                              <li>What software does he need me to ...</li>
+                              <li>What naming conventions will he ...</li>
+                              <li>What file types ...</li>
+                            </ol>
+                          </p>
                           <ul>
-                            <li></li>
-                            <p>...</p>
-                            <li>...</li>
                             <p>
                               ...
                               <p>...</p>
