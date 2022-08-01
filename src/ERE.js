@@ -580,6 +580,76 @@ function ERE() {
               </div>
             </div>
           </section>
+          <section id='contact' style={{ marginBottom: 100 }}>
+            <div className='content'>
+              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                Interactive Prototype
+              </h2>
+              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                <div>
+                  <h2 className='has-text-centered'>FAQ</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 9'
+                    height='500'
+                    src={require('./assets/faq.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Info Request</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 10'
+                    height='500'
+                    src={require('./assets/info-request.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Bulk Request </h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 11'
+                    height='500'
+                    src={require('./assets/bulk.png')}
+                  />
+                </div>
+                <div>
+                  <h2 className='has-text-centered'>Success</h2>
+                  <img
+                    style={{ maxHeight: 700 }}
+                    alt='project 11'
+                    height='500'
+                    src={require('./assets/success.png')}
+                  />
+                </div>
+
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ maxWidth: 350 }}>
+                    <ol>
+                      <li>
+                        <h6>Community Toggle Screen:</h6>
+                      </li>
+                      <p>
+                        Interactive toggle screen for user content management.
+                      </p>
+                      <li>
+                        <h6>Account Settings Screen:</h6>
+                      </li>
+                      <p>Edit all account settings, and device integration.</p>
+                      <li>
+                        <h6>Edit Profile Screen:</h6>
+                      </li>
+                      <p>Profile customization.</p>
+                      <li>
+                        <h6>Post Screen/Overlay:</h6>
+                      </li>
+                      <p>Crosspost capability.</p>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
         <hr />
         <section id='usability-testing'>
