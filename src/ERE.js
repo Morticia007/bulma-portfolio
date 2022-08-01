@@ -304,15 +304,6 @@ function ERE() {
           </div>
           <hr />
         </div>
-        <div className='content container'>
-          <div className='columns'>
-            <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h3>User Task Flows</h3>
-            </div>
-          </div>
-          <img alt='user task flows' src={TaskFlows} />
-          <hr />
-        </div>
         <div id='wireframes' className='container-fluid'>
           <section id='splash' style={{ marginBottom: 100 }}>
             <div className='content'>
