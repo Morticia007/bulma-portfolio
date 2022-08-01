@@ -4,6 +4,7 @@ import Cards from './Cards';
 import { v4 as uuidv4 } from 'uuid';
 import Home from './assets/home.png';
 import HomeCTA2 from './assets/home-cta-2.png';
+import HomeCTA3 from './assets/home-cta-3.png';
 import Splash2 from './assets/splash-2.png';
 import RightHand from './assets/right-hand-color.png';
 import DeviceMashups from './assets/Device Mashups.png';
@@ -349,7 +350,7 @@ function ERE() {
                     style={{ maxHeight: 700 }}
                     alt='project 5'
                     height='500'
-                    src={FeedLoFi}
+                    src={HomeCTA3}
                   />
                 </div>
                 <div>
