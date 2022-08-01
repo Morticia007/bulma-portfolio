@@ -10,50 +10,46 @@ import TaskFlows from './assets/user-flow-1.png';
 import MappingJourney from './assets/mappingjourney.png';
 import FeedLoFi from './assets/feed-lofi.png';
 import FeedHiFi from './assets/feed-hifi.png';
+import Archetype from './assets/archetype-ere.png';
 
 const projectContentList = [
   {
     id: uuidv4(),
     heading: 'Executive Summary',
     firstP:
-      'As a personal project, I designed WIF as web app forum. It helps the many people who struggle with weight loss to connect with and build supports systems within the forum in order to help increase community and accountability.',
+      'As a personal project, I designed Elder Racing Equipment as web app. It is a solution for a small company who needs a way to solve their organizational painpoints so they can solve for motorized bicycle hobbyists painpoints.',
 
     secondP:
-      'I committed to completing this, with an open mind, to find out how I could help this niche of folks and build something useful. This was a steep learning curve for me, as it was my first official project as a UX/UI Designer.',
+      'I committed to completing this within a two week sprint. I wanted to challenge myself to create a organizational solution for a great new company who provides solutions specifically for motorized bicycle hobbyists needs. This was super challenging since I was dealing with a very small niche market.',
   },
   {
     id: uuidv4(),
     heading: 'The Problem',
     firstP:
-      'I used my experience and challenges helping people with weight loss as a starting point for my research. My initial hypothesis evolved as I began to understand my users and their varying needs. In the beginning, my assumptions were based on my experience with a variety of people I had helped over the years, along with my want to understand why so many people struggle.',
+      'I had no real inside information or experience with this type of company when taking this project on. Just a small company in need of organizational help.',
     secondP:
-      'As a people advocate and healer, I am always curious about the reasons behind weight gain and how I can help. With all of the information out there, some good, some bad, are they just confused? There are so many apps out there already! Is it lack of will power? Is it lack of motivation? Lack of Knowledge? I had to rely on continuous user feedback to improve my designs. I was able to adapt to changes easily as they presented themselves.',
+      'As a designer who is very user centric, this company being also user centric really caught my attention and inspired me to help them with their needs. I felt like with the common ground we already had, both being inspired by helping people save time and their sanity, we could find a solution one way or another',
   },
   {
     id: uuidv4(),
     heading: 'Initial Problem Statement',
     firstP:
-      'People who are overweight do not have the knowledge around how their body works, their behaviors, and/or the better nutrition decisions to correct the issue.',
-    secondP: `When I began my research, I had some assumptions.
-   
-    1. Despite all the weight loss apps and calorie counter apps on the market today, certain people still struggle.
-    2. We need to change the whole approach to weight loss.
-    3. This will focus on helping the user figure out why they are overweight
-    After my interviews I realized there was much more to this, more than I could have ever imagined.`,
+      'Elder Racing Equipment (ERE) would like to expand beyond receiving messages in Facebook messenger and by text, into a digital space and be able to provide customers with a more organized way to contact and purchase products, in order to have more control over their product sales and information requests.',
+    secondP: `The owner of Elder Racing Equipment expressed that this is a problem for customers who are interested in the product since they can’t visually see the specifications of the product to make purchases. Along with the unorganized information requests and lack of ability to purchase without contacting him directly. This amount of information needed by customers for Elder Racing Equipment at present forces the owner to spend more time on replying to requests and less time on production of products.`,
   },
   {
     id: uuidv4(),
     heading: 'My Role',
     firstP:
-      'I Initiated this project after reading the project briefs and realizing none of them having to do with health, were my cup of tea. So I created my own project, performed user research, designed a responsive web app, and tested my designs with users.',
-    secondP: `I relied heavily on the users because, not only am I very user centric, but if it wasn't for them I would have nothing. No project, no problem, no assumption to test against. This was my chance to learn all the things that I could about people, in a subject I had researched for at least 20 years.`,
+      'I Initiated this project to challenge myself to step out of my comfort zone into a small world way out of my natural reach.  I performed user research, designed a responsive web app, and tested my designs with users.',
+    secondP: `I relied heavily on the owner and any contacts he could throw my way for research purposes. I also joined every motorized bicycle group and forum I could find across social platforms`,
   },
   {
     id: uuidv4(),
     heading: 'Understanding The User',
     firstP:
-      'As someone who lost her mother to cancer, who had struggled with her weight for years prior to that, I am very invested in health. Then as fate would unravel my story, I fell in love with a man who has struggled with weight on and off. At this time in his life, he had gained an uncontrollable amount and was labeled obese. It was very easy for me to identify with the user. I felt such a huge commitment to them, along with an overwhelming emotional connection.',
-    secondP: `I identified people whom were struggling at present with weight loss or had in the past, but had regained the weight. I also identified people who had struggled in the past, but managed to keep it off for 6 or more months.`,
+      'Joining these bicycle groups was the only way I was going to get a glimpse into this niche market. I had a hard time getting research participants, because of the type of users I needed to find. Luckily some of the contacts the owner gave me followed through, and a nice young man from sweden, I found in a bicycle group on reddit, came through.',
+    secondP: `I identified specific people who are hobbyist in this market to learn more about their love of the hobby and painpoints. I also identified a business owner, to get a birds eye view from the business side to the hobbyist side. I felt like I needed every angle I could possibly take to understand the solution I was attempting to find.`,
   },
 ];
 
@@ -72,7 +68,7 @@ function ERE() {
                 }}>
                 Elder Racing Equipment
               </h1>
-              <p>A Community For Those Who Need It Most</p>
+              <p>A web app solution for a niche morized bicycle market</p>
             </div>
           </div>
         </div>
@@ -89,37 +85,33 @@ function ERE() {
               <h1>BREAKING DOWN THE PROCESS</h1>
               <h2>WEEK 1 | RESEARCH</h2>
               <p>
-                To understand my participants and how I could help, I needed to
-                determine their level of mind body connection. I needed to know:
+                To understand my undertaking and how I could help this small
+                business, I needed to understand their customers first. I
+                prioritized my focus on first finding out:
                 <ul>
-                  <li>How they live</li>
-                  <li>What impacts them day to day</li>
-                  <li>If the weight gain was triggered by something</li>
+                  <li>Who they are</li>
+                  <li>Why they need this product</li>
+                  <li>If I could align user needs with the business needs </li>
                 </ul>
-                <p>
-                  As a mortician there is a question always looming in my mind.
-                  What Happened?
-                </p>
               </p>
               <p>
-                Getting to know my research participants was exciting and heart
-                wrenching all at the same time. I found during my research they
-                all had a lot in common. This broke my heart. And on some level
-                I can understand exactly how they must feel. I had a ton of good
-                cries during this phase of my project.
+                It was quite the challenge to get these guys to talk. I say
+                guys, because the hobbyist I was able to find were 100% men.
               </p>
               <p>
-                I was right about the triggering event, but it wasn’t what I
-                thought it would be. I thought it was going to be the death of a
-                loved one. It wasn’t! It was moving, which is a loss if you lose
-                your community like my participants reported. There’s an aspect
-                of grief here that sometimes is overlooked, but I want to bring
-                it to life. We all grieve over losses. No matter what they are.
-                I have found that we don’t let ourselves grieve properly, and
-                then loneliness and depression kicks in. Usually, we associated
-                it with something else going on and try to mask it. With my
-                participants, they associated food with comfort to help ease
-                their pain.
+                The information I did find was pretty specific. They struggle
+                with finding:
+                <ol>
+                  <li>Quality products</li>
+                  <li>Sources they can trust for those products</li>
+                  <li>
+                    Quality sites that don't have "unsecure" in the browser
+                  </li>
+                  <li>
+                    Time to put in all the work thay would need to find the
+                    quality they are searching for
+                  </li>
+                </ol>
               </p>
             </div>
           </div>
@@ -128,7 +120,7 @@ function ERE() {
         <div className='content container'>
           <div className='columns'>
             <div className='column'>
-              <h1>Darko's Story</h1>
+              <h1>Justin's Story</h1>
               <p>
                 As a person dealing with weight gain and isolation, I want to
                 have access to a community, where I can meet people just like
@@ -153,7 +145,10 @@ function ERE() {
               </p>
             </div>
             <div className='column'>
-              <img alt='project' src='https://i.ibb.co/NT8Q5DQ/darko.png' />
+              <img
+                alt='Archetype'
+                src={(Archetype)}
+              />
             </div>
           </div>
         </div>
@@ -162,7 +157,7 @@ function ERE() {
         <div class='content is-normal'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h2>WEEK 2 | RESEARCH</h2>
+              <h2> | RESEARCH</h2>
               <div>
                 <div style={{ maxWidth: 840 }}>
                   <p>
@@ -357,12 +352,12 @@ function ERE() {
                     </p>
                   </ul>
                   <p>
-                    I felt as if I needed to design numerous screens
-                    since a forum has many facets and complexities, as well as keeping my users at the forefront and
-                    making sure the experience was smooth. 
-                     I also found I could give users more control
-                    over what forums they want to be active in by creating the ability
-                    to pass on forums that they had no interest in.
+                    I felt as if I needed to design numerous screens since a
+                    forum has many facets and complexities, as well as keeping
+                    my users at the forefront and making sure the experience was
+                    smooth. I also found I could give users more control over
+                    what forums they want to be active in by creating the
+                    ability to pass on forums that they had no interest in.
                   </p>
                 </div>
               </div>
@@ -881,9 +876,9 @@ function ERE() {
                                 Even though you have seen a couple hints about
                                 it, it wasn't essential for MVP.
                               </p>
-                                During user testing there were alot of questions
-                                about it and positve feedback. It seemed to
-                                spark curiosity.
+                              During user testing there were alot of questions
+                              about it and positve feedback. It seemed to spark
+                              curiosity.
                             </p>
                             <h5>
                               If you'd like to know more about this project, I'd
