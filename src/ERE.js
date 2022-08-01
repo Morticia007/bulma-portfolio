@@ -248,8 +248,8 @@ function ERE() {
                     We need a way to align user goals to business goals in order
                     to help ERE with their organizational painpoints, in order
                     to make this product available to solve user painpoints with
-                    their builds <h6>AND</h6>Give them a place they can trust with
-                    resources to find other products they need.{' '}
+                    their builds <h6>AND</h6>Give them a place they can trust
+                    with resources to find other products they need.{' '}
                   </p>
                 </div>
               </div>
@@ -267,7 +267,7 @@ function ERE() {
                 <div>
                   <div style={{ maxWidth: 600 }}>
                     <p>
-                      So at this point it only seamed right to start the design
+                      So at this point it only seemed right to start the design
                       process with all the great things I got from my
                       participants and from ERE.
                     </p>
@@ -279,8 +279,9 @@ function ERE() {
                       gathered along the way! While writing the mission
                       statement and the story about the company it was clear
                       that the owner of ERE is bound and detemined to make the
-                      hobbyist life easier and more connected. I'll take you on
-                      the golden journey next.
+                      hobbyist life easier and more connected, and the hobbyist
+                      was screaming for help with getting the inside scoop! I'll
+                      take you on the golden journey next.
                     </p>
                   </div>
                 </div>
@@ -346,10 +347,10 @@ function ERE() {
                 <div style={{ maxWidth: 840 }}>
                   <ul>
                     <li>
-                      <h5>Home </h5>
+                      <h5>Home</h5>
                     </li>
                     <p>
-                      Home screen with Hero message, multiple CTAs, and
+                      Home screen with hero message, multiple CTAs, and
                       testimonials.{' '}
                     </p>
                     <li>
@@ -427,7 +428,7 @@ function ERE() {
           <section id='home' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Interactive Prototype
+                Home Screen Flow
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
@@ -498,7 +499,7 @@ function ERE() {
           <section id='about' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Interactive Prototype
+                About Screen Flow
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
@@ -571,7 +572,7 @@ function ERE() {
           <section id='products' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Interactive Prototype
+                Product Screens Flow
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
@@ -642,7 +643,7 @@ function ERE() {
           <section id='auth' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Interactive Prototype
+                Checkout Flow
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
@@ -713,7 +714,7 @@ function ERE() {
           <section id='contact' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Interactive Prototype
+               Contact Flow
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
