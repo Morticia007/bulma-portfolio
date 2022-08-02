@@ -782,7 +782,7 @@ function ERE() {
                       <li>
                         <h6>Validation page:</h6>
                       </li>
-                      <p>Give's a success message about their submission.</p>
+                      <p>Gives a success message about their submission.</p>
                     </ol>
                   </div>
                 </div>
