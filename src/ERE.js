@@ -9,10 +9,10 @@ const projectContentList = [
     id: uuidv4(),
     heading: 'Executive Summary',
     firstP:
-      'As a personal project, I designed Elder Racing Equipment as web app. It is a solution for a small company who needs a way to solve their organizational painpoints so they can solve for motorized bicycle hobbyists pain points.',
+      'As a personal project, I designed Elder Racing Equipment as web app. It is a solution for a small company who needs a way to solve their organizational painpoints so they can solve for motorized bicycle hobbyists painpoints.',
 
     secondP:
-      'I committed to completing this within a two week sprint. I wanted to challenge myself to create a organizational solution for a great new company who provides solutions specifically for motorized bicycle hobbyists needs. This was super challenging since I was dealing with a very small niche market. The result was solving for two completely different hobbyist pain point sets by solving for the Elder Racing Equipment painpoint.',},
+      'I committed to completing this within a two week sprint. I wanted to challenge myself to create a organizational solution for a great new company who provides solutions specifically for motorized bicycle hobbyists needs. This was super challenging since I was dealing with a very small niche market. The result was solving for two completely different hobbyist pain point sets by solving for the Elder Racing Equipment painpoints.',},
   {
     id: uuidv4(),
     heading: 'The Problem',
@@ -25,7 +25,7 @@ const projectContentList = [
     id: uuidv4(),
     heading: 'Initial Problem Statement',
     firstP:
-      'Elder Racing Equipment (ERE) would like to expand beyond receiving messages in Facebook messenger and by text, into a digital space and be able to provide customers with a more organized way to contact and purchase products, in order to have more control over their product sales and information requests.',
+      'Elder Racing Equipment (ERE) needs a way to expand beyond receiving messages in Facebook messenger and by text, into a digital space and be able to provide customers with a more organized way to contact and purchase products, in order to have more control over their product sales and information requests.',
     secondP: `The owner of Elder Racing Equipment expressed that this is a problem for customers who are interested in the product since they can’t visually see the specifications of the product to make purchases. Along with the unorganized information requests and lack of ability to purchase without contacting him directly. This amount of information needed by customers for Elder Racing Equipment at present forces the owner to spend more time on replying to requests and less time on production of products.`,
   },
   {
@@ -220,6 +220,10 @@ function ERE() {
                         platform for all these features to essentially live on
                       </li>
                     </ul>
+                    <h6>
+                      *At this particular moment in my project I realize the
+                      original problem statement is evolving.
+                    </h6>
                     <p></p>We need a way to align user goals to business goals
                     in order to help ERE with their organizational painpoints,
                     in order to make this product available to solve user
@@ -244,9 +248,9 @@ function ERE() {
                   </ul>
 
                   <p>
-                    How might we align user goals to business goals in order
-                    to help ERE with their organizational painpoints, in order
-                    to make this product available to solve user painpoints with
+                    How might we align user goals to business goals in order to
+                    help ERE with their organizational painpoints, in order to
+                    make this product available to solve user painpoints with
                     their builds <h6>AND</h6>Give them a place they can trust
                     with resources to find other products they need?{' '}
                   </p>
@@ -713,7 +717,7 @@ function ERE() {
           <section id='contact' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-               Contact Flow
+                Contact Flow
               </h2>
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
@@ -917,29 +921,56 @@ function ERE() {
                       <section className='container'>
                         <div className='content'>
                           <h1> Next steps</h1>
-                          <h4>Get ready for Dev</h4>
-
-                          <h6>
-                            Work with the developer to understand how he would
-                            like me to proceed
-                          </h6>
                           <ol>
-                            <li>What software does he prefer...</li>
-                            <li>What naming conventions does he prefer ...</li>
-                            <li>What file types ...</li>
+                            <li>
+                              <h6>
+                                Consult with ERE for approval and discuss the timeline for
+                                development
+                              </h6>
+                            </li>
+                            <li>
+                              <h6>Get project ready for Development.</h6>
+                            </li>
+                            <li>
+                              <h6>
+                                Meet with the developer, respecting EREs
+                                timeline, and determine how we will proceed.
+                              </h6>
+                            </li>
                           </ol>
-
+                          <h4>In my spare time:</h4>
                           <ul>
-                            <p>
-                              ...
-                              <p>...</p>
-                              ...
-                            </p>
-                            <h5>
-                              If you'd like to know more about this project, I'd
-                              love to connect.
-                            </h5>
+                            <li>
+                              I will continue to try to do more research and get
+                              more of a reach within this community in order to
+                              gather more information and insights.  
+                            </li>
+
+                            <li>
+                              {' '}
+                              I would like to revisit the designs and re-test
+                              with another group of participants.
+                            </li>
+                            <ul>
+                              <li>
+                                <p>
+                                  I Feel like I need more time, since this particular
+                                  group of individuals have proven to be hard to get to.
+                                </p>
+                              </li>
+                              <li>
+                                <p>
+                                  I feel like the usability testing went too
+                                  smoothly and that makes me wonder what I
+                                  missed.{' '}
+                                </p>
+                              </li>
+                            </ul>
                           </ul>
+                          <h5>
+                            If you'd like to know more about this project, or if you are interested in collaborating,  I'd
+                            love to connect.
+                          </h5>
                         </div>
                       </section>
                     </div>
