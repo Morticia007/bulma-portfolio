@@ -802,7 +802,7 @@ function ERE() {
                       <h3>4 participants</h3>
 
                       <p>
-                        All participants were given 6 scenerios and tasks to
+                        All participants were given 7 scenerios and 7 tasks to
                         complate. The tasks were specifically to test for:
                         <ol>
                           <h6>
@@ -810,6 +810,7 @@ function ERE() {
                             <li>product details</li>
                             <li>contact flow</li>
                             <li>purchase flow </li>
+                           
                           </h6>
                         </ol>
                       </p>
@@ -877,10 +878,10 @@ function ERE() {
                         </li>
                         <p>
                           I will stress this consistently. I work best with
-                          consistant feedback. I am not a fan of wasting anyones
-                          time. I am very aware that at any point in a project
-                          without consistently getting feedback, the project
-                          could go down the wrong path very easily.
+                          consistant feedback. I am not a fan of wasting
+                          anyone's time. I am very aware that at any point in a
+                          project without consistently getting feedback, the
+                          project could go down the wrong path very easily.
                         </p>
                         <li>
                           <h6>Niche markets are difficult</h6>
@@ -889,9 +890,9 @@ function ERE() {
                           If I were to go back to the start of this project, I
                           would have given myself more time to submerge myself
                           in this community and learn more about this market.
-                          Even though the project continued its evolution I am
-                          not sure that I was able to uncover as much gold as I
-                          would have liked to.{' '}
+                          Even though the project continued its evolution, I am
+                          not sure that I was able to uncover as much as I would
+                          have liked to.{' '}
                         </p>
                         <li>
                           <h6>
@@ -905,7 +906,8 @@ function ERE() {
                           competitive analysis (which in all reality didn't have
                           much impact on the project, besides understanding fail
                           vs. innovation). It did, however, give me an insight
-                          into the passion and innovation of the owner of ERE.
+                          into the passion, desire to be a source of connection,
+                          and innovation of the owner of ERE.
                         </p>
                         <li>
                           <h6>Test throughout</h6>
@@ -924,8 +926,8 @@ function ERE() {
                           <ol>
                             <li>
                               <h6>
-                                Consult with ERE for approval and discuss the timeline for
-                                development
+                                Consult with ERE for approval and discuss the
+                                timeline for development
                               </h6>
                             </li>
                             <li>
@@ -943,7 +945,7 @@ function ERE() {
                             <li>
                               I will continue to try to do more research and get
                               more of a reach within this community in order to
-                              gather more information and insights.  
+                              gather more information and insights.
                             </li>
 
                             <li>
@@ -954,8 +956,9 @@ function ERE() {
                             <ul>
                               <li>
                                 <p>
-                                  I Feel like I need more time, since this particular
-                                  group of individuals have proven to be hard to get to.
+                                  I Feel like I need more time, since this
+                                  particular group of individuals have proven to
+                                  be hard to get to.
                                 </p>
                               </li>
                               <li>
@@ -968,8 +971,9 @@ function ERE() {
                             </ul>
                           </ul>
                           <h5>
-                            If you'd like to know more about this project, or if you are interested in collaborating,  I'd
-                            love to connect.
+                            If you'd like to know more about this project, or if
+                            you are interested in collaborating, I'd love to
+                            connect.
                           </h5>
                         </div>
                       </section>
