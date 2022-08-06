@@ -26,14 +26,12 @@ const projectContentList = [
     heading: 'My Role',
     firstP:
       'I Initiated this project to challenge myself to step out of my comfort zone into a small world way out of my natural reach.  I performed user research, designed a responsive web app, and tested my designs with users.',
-    secondP: `I relied heavily on the owner and any contacts he could throw my way for research purposes. I also joined every motorized bicycle group and forum I could find across social platforms`,
   },
   {
     id: uuidv4(),
     heading: 'Understanding The User',
     firstP:
-    
-      'Joining these bicycle groups was the only way I was going to get a glimpse into this niche market. I had a hard time getting research participants, because of the type of users I needed to find. Luckily some of the contacts the owner gave me followed through, and a nice young man from Sweden, I found in a bicycle group on reddit, came through.',
+      'I relied heavily on the owner and any contacts he could throw my way for research purposes. I also joined every motorized bicycle group and forum I could find across social platforms. Joining these bicycle groups was the only way I was going to get a glimpse into this niche market. I had a hard time getting research participants, because of the type of users I needed to find. Luckily some of the contacts the owner gave me followed through, and a nice young man from Sweden, I found in a bicycle group on reddit, came through.',
     secondP: `I identified specific people who are hobbyist in this market to learn more about their love of the hobby and painpoints. I also identified a business owner, to get a birds eye view from the business side to the hobbyist side. I felt like I needed every angle I could possibly take to understand the solution I was attempting to find. `,
   },
 ];
@@ -287,125 +285,128 @@ function ERE() {
           <hr />
         </section>
         <div className='content container'>
+          <h1 className='has-text-centered'>Week 2 | Design Evolution</h1>
+          <hr />
+          <h3 className='has-text-centered'>Feature Prioritization</h3>
           <div className='columns is-desktop'>
-            <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h1>Week 2 | Design Evolution</h1>
+            <div className='column is-half has-text-left'>
+              <div style={{ maxWidth: 840 }}>
+                <ul>
+                  <li>
+                    <h5> Ease of Navigation </h5>
+                  </li>
+                  <p>Solving for: time.</p>
+                  <li>
+                    <h5> Contact Form </h5>
+                  </li>
+                  <p>Solving for: lack of ways to ask important questions.</p>
 
-              <h3>Feature Prioritization</h3>
-              <div>
-                <div style={{ maxWidth: 840 }}>
-                  <ul>
-                    <li>
-                      <h5> Ease of Navigation </h5>
-                    </li>
-                    <p>Solving for: time.</p>
-                    <li>
-                      <h5> Contact Form </h5>
-                    </li>
-                    <p>Solving for: lack of ways to ask important questions.</p>
-                    <li>
-                      <h5> Ease of Purchase </h5>
-                    </li>
-                    <p> Solving for need. </p>
-                    <li>
-                      <h5> Buk order quote form </h5>
-                    </li>
-                    <p>
-                      Solving for businesses who want to commission ERE for a
-                      certain amount of stands per year.
-                    </p>
-                    <li>
-                      <h5> Resources </h5>
-                    </li>
-                    <p>
-                      Solving for the time and energy the users take searching
-                      for what they need
-                    </p>
-                    <li>
-                      <h5> Testimonials </h5>
-                    </li>
-                    <p>Solving for confidence in the product quality</p>
-                    <li>
-                      <h5>Our mission and story </h5>
-                    </li>
-                    <p>Solving for confidence in the company</p>
-                  </ul>
-                </div>
+                  <li>
+                    <h5> Testimonials </h5>
+                  </li>
+                  <p>Solving for confidence in the product quality</p>
+                  <li>
+                    <h5>Our mission and story </h5>
+                  </li>
+                  <p>Solving for confidence in the company</p>
+                </ul>
+              </div>
+            </div>
+            <div className='column is-half has-text-left'>
+              <div style={{ maxWidth: 840 }}>
+                <ul>
+                  <li>
+                    <h5> Ease of Purchase </h5>
+                  </li>
+                  <p> Solving for need. </p>
+                  <li>
+                    <h5> Bulk order quote form </h5>
+                  </li>
+                  <p>
+                    Solving for businesses who want to commission ERE for a
+                    certain amount of stands per year.
+                  </p>
+                  <li>
+                    <h5> Resources </h5>
+                  </li>
+                  <p>
+                    Solving for the time and energy the users take searching for
+                    what they need
+                  </p>
+                </ul>
               </div>
             </div>
           </div>
         </div>
         <div className='content container'>
+          <h3 className='has-text-centered'>E-commerce MVP</h3>
           <div className='columns is-desktop'>
-            <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h3>E-commerce Web App MVP</h3>
-              <div>
-                <div style={{ maxWidth: 840 }}>
-                  <ul>
-                    <li>
-                      <h5>Home</h5>
-                    </li>
-                    <p>
-                      Home screen with hero message, multiple CTAs, and
-                      testimonials.{' '}
-                    </p>
-                    <li>
-                      <li>
-                        <h5> About Screen </h5>
-                      </li>
-                      <p>Mission, Story, Resources</p>
-                    </li>
-
-                    <li>
-                      <h5> Product page </h5>
-                    </li>
-                    <p>Simple product list and a clear see more option. </p>
-                    <li>
-                      <h5> Product Details Pages </h5>
-                    </li>
-                    <p>
-                      Price, quantity, customization options, add ons,
-                      description and spec details.{' '}
-                    </p>
-                    <li>
-                      <h5> Cart </h5>
-                    </li>
-                    <p>Standard cart.</p>
-                    <li>
-                      <h5> Authentication Page </h5>
-                    </li>
-                    <p>
-                      This page will eventually evolve into the user being able
-                      to login for faster payment options and account info or
-                      just checking out as a guest.
-                    </p>
-                    <li>
-                      <h5> Shipping Details Page </h5>
-                    </li>
-                    <p>Standard shipping page.</p>
-                    <li>
-                      <h5>Payment Screen </h5>
-                    </li>
-                    <p>Multiple payment options.</p>
-                    <li>
-                      <h5> Confirmation Page </h5>
-                    </li>
-                    <p>With confirmation order number for tracking.</p>
-                    <li>
-                      <h5> Multiple Forms for Contact </h5>
-                    </li>
-                    <p>
-                      FAQ with Form dropdown, an information request form, and a
-                      Bulk quote request form .
-                    </p>
-                  </ul>
+            <div className='column is-half has-text-left'>
+              <div style={{ maxWidth: 840 }}>
+                <ul>
+                  <li>
+                    <h5>Home</h5>
+                  </li>
                   <p>
-                    I knew going into this design, being an e-commerce site,
-                    there would be a ton of screens even though I was only
-                    designing an MVP. My main focus for ERE specifically is
-                    contact and purchase.
+                    Home screen with hero message, multiple CTAs, and
+                    testimonials.
                   </p>
-                </div>
+                  <li>
+                    <li>
+                      <h5> About Screen </h5>
+                    </li>
+                    <p>Mission, Story, Resources</p>
+                  </li>
+
+                  <li>
+                    <h5> Product page </h5>
+                  </li>
+                  <p>Simple product list and a clear see more option. </p>
+                  <li>
+                    <h5> Product Details Pages </h5>
+                  </li>
+                  <p>
+                    Price, quantity, customization options, add ons, description
+                    and spec details.{' '}
+                  </p>
+                  <li>
+                    <h5> Cart </h5>
+                  </li>
+                  <p>Standard cart.</p>
+                </ul>
+              </div>
+            </div>
+            <div className='column is-half has-text-left'>
+              <div style={{ maxWidth: 840 }}>
+                <ul>
+                  <li>
+                    <h5> Authentication Page </h5>
+                  </li>
+                  <p>
+                    This page will eventually evolve into the user being able to
+                    login for faster payment options and account info or just
+                    checking out as a guest.
+                  </p>
+                  <li>
+                    <h5> Shipping Details Page </h5>
+                  </li>
+                  <p>Standard shipping page.</p>
+                  <li>
+                    <h5>Payment Screen </h5>
+                  </li>
+                  <p>Multiple payment options.</p>
+                  <li>
+                    <h5> Confirmation Page </h5>
+                  </li>
+                  <p>With confirmation order number for tracking.</p>
+                  <li>
+                    <h5> Multiple Forms for Contact </h5>
+                  </li>
+                  <p>
+                    FAQ with Form dropdown, an information request form, and a
+                    Bulk quote request form .
+                  </p>
+                </ul>
               </div>
             </div>
           </div>
@@ -854,7 +855,6 @@ function ERE() {
               </div>
             </div>
           </div>
-     
         </section>
         <section className='container'>
           <div className='content'>
