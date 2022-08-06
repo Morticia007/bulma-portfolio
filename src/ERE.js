@@ -69,27 +69,22 @@ function ERE() {
           <div className='columns'>
             <div className='column is-half has-text-left'>
               <p>
-                To understand how I could help this small
-                business, I needed to understand their customers. I focused on discovering:
+                To understand how I could help this small business, I needed to
+                understand their customers. I focused on discovering:
               </p>
               <ul>
                 <li>Who they are</li>
                 <li>Why they need this product</li>
                 <li>If I could align user needs with the business needs </li>
               </ul>
-             
             </div>
             <div className='column is-half has-text-left'>
-              <p>
-                They struggle finding:
-              </p>
+              <p>They struggle finding:</p>
               <ol>
                 <li>Quality products</li>
                 <li>Sources they can trust for those products</li>
                 <li>Quality sites that don't have "unsecure" in the browser</li>
-                <li>
-                  Time to search for products
-                </li>
+                <li>Time to search for products</li>
               </ol>
             </div>
           </div>
@@ -100,13 +95,12 @@ function ERE() {
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h1>Justin's Story</h1>
               <p>
-                As a busy mechanic who wants to build projects in my
-                spare time, I want to have access to quality parts on secure websites.
-                People who build motorized bicycles,
-                do it in their spare time while working 40 hours a week. It
-                would be nice to find a trustworthy company that
-                has the products I need, especially if the products and/or
-                the site save me time.
+                As a busy mechanic who wants to build projects in my spare time,
+                I want to have access to quality parts on secure websites.
+                People who build motorized bicycles, do it in their spare time
+                while working 40 hours a week. It would be nice to find a
+                trustworthy company that has the products I need, especially if
+                the products and/or the site save me time.
               </p>
               <p>
                 As you can see Justin needs
@@ -137,24 +131,24 @@ function ERE() {
             <div className='column is-half has-text-left'>
               <div style={{ maxWidth: 840 }}>
                 <p>
-                  Finding competitors was challenging. ERE wasn't
-                  aware of anyone else making these products. 
-                  I discovered through questions and research
-                  another business that makes an engine
+                  Finding competitors was challenging. ERE wasn't aware of
+                  anyone else making these products. I discovered through
+                  questions and research another business that makes an engine
                   stand similar to what is offered by ERE.
                 </p>
                 <p>
-                  Because of the lack of competition, I questioned if
-                  ERE is in a failing market or if they are ahead of
-                  the curve? I analyzed data collected from user interviews to measure
-                  the need for this product.
+                  Because of the lack of competition, I questioned if ERE is in
+                  a failing market or if they are ahead of the curve? I analyzed
+                  data collected from user interviews to measure the need for
+                  this product.
                 </p>
               </div>
             </div>
             <div className='column is-half has-text-left'>
               <div style={{ maxWidth: 840 }}>
                 <p>
-                  Some of the pain points I discovered during user interviews were:
+                  Some of the pain points I discovered during user interviews
+                  were:
                 </p>
                 <ul>
                   <li>wrestling with a motor while building</li>
@@ -168,7 +162,6 @@ function ERE() {
                     extra motors lying aroud that could definitly use a stand
                   </li>
                 </ul>
-               
               </div>
             </div>
           </div>
@@ -186,9 +179,7 @@ function ERE() {
                   having to mount and remove the motor to make adjustments
                 </li>
                 <li>the bike falling over during mounts and dismounts</li>
-                <li>
-                  extra motors lying around that need a stand
-                </li>
+                <li>extra motors lying around that need a stand</li>
               </ul>
 
               <h4>Align it with</h4>
@@ -201,16 +192,15 @@ function ERE() {
                 <li>platform for all these features to live on</li>
               </ul>
               <h6>
-                *At this moment in my project I realize the original
-                problem statement is evolving.
+                *At this moment in my project I realize the original problem
+                statement is evolving.
               </h6>
             </div>
             <div className='column is-half has-text-left'>
               <p>
-                We need to align user goals to business goals to
-                help ERE with their organizational pain points, in order to make
-                this product available to solve user painpoints with their
-                builds.
+                We need to align user goals to business goals to help ERE with
+                their organizational pain points, in order to make this product
+                available to solve user painpoints with their builds.
               </p>
               <h6>But...</h6>
               <h6>
@@ -222,7 +212,6 @@ function ERE() {
                 <li>lack of quality sites to get products from</li>
                 <li>
                   lack of knowing the right place to go to get these products
-                
                 </li>
                 <li>
                   time wasted just trying to find something, anything they can
@@ -255,16 +244,16 @@ function ERE() {
                       participants and from ERE.
                     </p>
                     <p>
-                      I decided based on everything I had learned, to
-                      build an e-commerce web app that made the contact and payment process
-                      easy. I wanted to go a
-                      step further though and include some of the gold I had
-                      gathered along the way! While writing the mission
-                      statement and the story about the company it was clear
-                      that the owner of ERE is determined to make the
-                      hobbyist life easier and more connected, and the hobbyist
-                      was screaming for help with getting the inside scoop! I'll
-                      take you on the golden journey next.
+                      I decided based on everything I had learned, to build an
+                      e-commerce web app that made the contact and payment
+                      process easy. I wanted to go a step further though and
+                      include some of the gold I had gathered along the way!
+                      While writing the mission statement and the story about
+                      the company it was clear that the owner of ERE is
+                      determined to make the hobbyist life easier and more
+                      connected, and the hobbyist was screaming for help with
+                      getting the inside scoop! I'll take you on the golden
+                      journey next.
                     </p>
                   </div>
                 </div>
@@ -369,9 +358,9 @@ function ERE() {
                     <h5> Authentication Page </h5>
                   </li>
                   <p>
-                    This page will evolve into the user being able to
-                    login for faster payment options and account info or just
-                    checking out as a guest.
+                    This page will evolve into the user being able to login for
+                    faster payment options and account info or just checking out
+                    as a guest.
                   </p>
                   <li>
                     <h5>Shipping Details Page </h5>
@@ -413,7 +402,10 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Home Screen Flow
               </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+              <div
+                className='is-hidden-touch'
+                style={{ display: 'flex', justifyContent: 'space-evenly' }}
+              >
                 <div>
                   <h2 className='has-text-centered'>Home</h2>
                   <img
@@ -458,7 +450,8 @@ function ERE() {
                         <h6>Home:</h6>
                       </li>
                       <p>
-                        Call to action for people ready to get products they need
+                        Call to action for people ready to get products they
+                        need
                       </p>
                       <li>
                         <h6> Home CTA 2:</h6>
@@ -472,6 +465,74 @@ function ERE() {
                         <h6>Testimonials:</h6>
                       </li>
                       <p>Customer product and shopping reviews.</p>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div className='columns is-hidden-desktop'>
+                <div className='column'>
+                  <h2 className='has-text-centered'>Home</h2>
+                  <p className='has-text-centered'>
+                    Call to action for people ready to get products they need
+                  </p>
+                  <img alt='home screen' src={require('./assets/home.png')} />
+                </div>
+                <div className='column'>
+                  <h2 className='has-text-centered'>Home CTA2</h2>
+                  <p className='has-text-centered'>
+                    Learn more about ERE products
+                  </p>
+                  <img
+                    alt='call to action 2'
+                    src={require('./assets/home-cta-2.png')}
+                  />
+                </div>
+                <div className='column'>
+                  <h2 className='has-text-centered'>Home CTA3 </h2>
+                  <p className='has-text-centered'>
+                  More information about engine stands
+                  </p>
+                  <img
+                    alt='call to action 3'
+                    src={require('./assets/home-cta-3.png')}
+                  />
+                </div>
+                <div className='column'>
+                  <h2 className='has-text-centered'>Testimonials</h2>
+                  <p className='has-text-centered'>
+                  Customer product and shopping reviews
+                  </p>
+                  <img
+                    alt='project testimonials'
+                    src={require('./assets/testimonials.png')}
+                  />
+                </div>
+
+                <div
+                  className='is-hidden-touch'
+                  style={{ display: 'flex', flexDirection: 'column' }}
+                >
+                  <div style={{ maxWidth: 350 }}>
+                    <ol>
+                      <li>
+                        <h6>Home:</h6>
+                      </li>
+                      <p>
+                        Call to action for people ready to get products they
+                        need
+                      </p>
+                      <li>
+                        <h6> Home CTA 2:</h6>
+                      </li>
+                      <p>Learn about ERE products</p>
+                      <li>
+                        <h6>Home CTA 3:</h6>
+                      </li>
+                      <p>More information about engine stands</p>
+                      <li>
+                        <h6>Testimonials:</h6>
+                      </li>
+                      <p>Customer product and shopping reviews</p>
                     </ol>
                   </div>
                 </div>
@@ -824,8 +885,9 @@ function ERE() {
                       <p>
                         The answers were unanimously "no", and then followed up
                         with why they wouldn't change anything, without being
-                        prompted or asked. This validation was a big relief, (and
-                        suprise) since my sprint was quickly coming to a close.
+                        prompted or asked. This validation was a big relief,
+                        (and suprise) since my sprint was quickly coming to a
+                        close.
                       </p>
                       <p>
                         I also included the owner of ERE in my usability testing
@@ -854,10 +916,10 @@ function ERE() {
                         </li>
                         <p>
                           I will stress this consistently. I work best with
-                          consistant feedback. I am not a fan of wasting
-                          time. I am aware that at any point in a
-                          project without consistently getting feedback, the
-                          project could go down the wrong path.
+                          consistant feedback. I am not a fan of wasting time. I
+                          am aware that at any point in a project without
+                          consistently getting feedback, the project could go
+                          down the wrong path.
                         </p>
                         <li>
                           <h6>Niche markets are difficult</h6>
@@ -919,13 +981,12 @@ function ERE() {
                           <h4>In my spare time:</h4>
                           <ul>
                             <li>
-                              I will continue do more research and get
-                              more of a reach within this community in order to
-                              gather more information and insights.
+                              I will continue do more research and get more of a
+                              reach within this community in order to gather
+                              more information and insights.
                             </li>
 
                             <li>
-                              
                               I would like to revisit the designs and re-test
                               with another group of participants.
                             </li>
