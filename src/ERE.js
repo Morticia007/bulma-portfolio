@@ -64,6 +64,115 @@ const ereHomeScreenWireframes = [
   },
 ];
 
+const ereAboutScreenWireframes = [
+  {
+    id: uuidv4(),
+    title: 'About Page',
+    subtitle: 'Engage the users',
+    wireFrameImage: require('./assets/about.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'About Story',
+    subtitle: 'Let them know what type of company they are supporting',
+    wireFrameImage: require('./assets/about-story.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Resources',
+    subtitle:
+      'Give them an easier way to find other trusted sources for products',
+    wireFrameImage: require('./assets/about-resources.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Footer',
+    subtitle: 'More navigation',
+    wireFrameImage: require('./assets/footer.png'),
+  },
+];
+
+const ereProductScreenWireframes = [
+  {
+    id: uuidv4(),
+    title: 'Products',
+    subtitle: 'List of products with two choices',
+    wireFrameImage: require('./assets/product-page.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Product 1',
+    subtitle: 'Description, specs, customizations and addons',
+    wireFrameImage: require('./assets/p1-details.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Product 2',
+    subtitle: 'Description, specs, customizations and addons',
+    wireFrameImage: require('./assets/p2-details.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Cart',
+    subtitle: 'Shopping Cart',
+    wireFrameImage: require('./assets/cart.png'),
+  },
+];
+
+const ereCheckoutScreenWireframes = [
+  {
+    id: uuidv4(),
+    title: 'Authentication',
+    subtitle: 'Fill in information (in the future-log in for faster checkout)',
+    wireFrameImage: require('./assets/auth.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Shipping',
+    subtitle: 'Standard shipping page',
+    wireFrameImage: require('./assets/shipping.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Payment',
+    subtitle: 'Secure payment methods',
+    wireFrameImage: require('./assets/payment.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Confirmation',
+    subtitle: 'Order number for tracking and shipping reminders',
+    wireFrameImage: require('./assets/confirmation.png'),
+  },
+];
+
+const ereContactScreenWireframes = [
+  {
+    id: uuidv4(),
+    title: 'FAQ',
+    subtitle: `In case their question is already answered here. Has a dropdown at the bottom with the other forms to choose between if their question isn't answered`,
+    wireFrameImage: require('./assets/faq.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Info Request',
+    subtitle: 'Information Request',
+    wireFrameImage: require('./assets/info-request.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Bulk Request',
+    subtitle: 'Secure payment methods',
+    wireFrameImage: require('./assets/bulk.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Success',
+    subtitle: 'Gives a success message about their submission',
+    wireFrameImage: require('./assets/success.png'),
+  },
+];
+
 function ERE() {
   return (
     <div>
@@ -430,7 +539,7 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Home Screen Flow
               </h2>
-            
+
               <EREWireframes wireFrameData={ereHomeScreenWireframes} />
             </div>
           </section>
@@ -439,72 +548,7 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 About Screen Flow
               </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>About</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 9'
-                    height='500'
-                    src={require('./assets/about.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>About Story</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 10'
-                    height='500'
-                    src={require('./assets/about-story.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Resources </h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/about-resources.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Footer</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/footer.png')}
-                  />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 350 }}>
-                    <ol>
-                      <li>
-                        <h6>About:</h6>
-                      </li>
-                      <p>Engage the users.</p>
-                      <li>
-                        <h6>About us-Story:</h6>
-                      </li>
-                      <p>
-                        Let them know what type of company they are supporting .
-                      </p>
-                      <li>
-                        <h6>Resources:</h6>
-                      </li>
-                      <p>
-                        Give them an easier way to find other trusted sources
-                        for products
-                      </p>
-                      <li>
-                        <h6>Footer:</h6>
-                      </li>
-                      <p>More navigation.</p>
-                    </ol>
-                  </div>
-                </div>
-              </div>
+              <EREWireframes wireFrameData={ereAboutScreenWireframes} />
             </div>
           </section>
           <section id='products' style={{ marginBottom: 100 }}>
@@ -512,70 +556,7 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Product Screens Flow
               </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>Products Page</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 9'
-                    height='500'
-                    src={require('./assets/product-page.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Product 1</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 10'
-                    height='500'
-                    src={require('./assets/p1-details.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Product 2 </h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/p2-details.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Cart</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/cart.png')}
-                  />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 350 }}>
-                    <ol>
-                      <li>
-                        <h6>Products Page:</h6>
-                      </li>
-                      <p>
-                        List of products with two choices depending on your
-                        knowledge of the product.
-                      </p>
-                      <li>
-                        <h6>Product 1 Details:</h6>
-                      </li>
-                      <p>Description, specs, customizations and addons.</p>
-                      <li>
-                        <h6>Product 2 Details:</h6>
-                      </li>
-                      <p>Description, specs, customizations and addons.</p>
-                      <li>
-                        <h6>Cart:</h6>
-                      </li>
-                      <p>Standard cart.</p>
-                    </ol>
-                  </div>
-                </div>
-              </div>
+              <EREWireframes wireFrameData={ereProductScreenWireframes} />
             </div>
           </section>
           <section id='auth' style={{ marginBottom: 100 }}>
@@ -583,70 +564,7 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Checkout Flow
               </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>Authentication</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 9'
-                    height='500'
-                    src={require('./assets/auth.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Shipping</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 10'
-                    height='500'
-                    src={require('./assets/shipping.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Payment </h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/payment.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Confirmation</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/confirmation.png')}
-                  />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 350 }}>
-                    <ol>
-                      <li>
-                        <h6>Authentication Page:</h6>
-                      </li>
-                      <p>
-                        Fill in information (in the future-log in for faster
-                        checkout).
-                      </p>
-                      <li>
-                        <h6>Shipping:</h6>
-                      </li>
-                      <p>Standard shipping page.</p>
-                      <li>
-                        <h6>Payment Page:</h6>
-                      </li>
-                      <p>Secure payment methods.</p>
-                      <li>
-                        <h6>Confirmation Page:</h6>
-                      </li>
-                      <p>Order number for tracking and shipping reminders.</p>
-                    </ol>
-                  </div>
-                </div>
-              </div>
+              <EREWireframes wireFrameData={ereCheckoutScreenWireframes} />
             </div>
           </section>
           <section id='contact' style={{ marginBottom: 100 }}>
@@ -654,74 +572,7 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Contact Flow
               </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>FAQ</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 9'
-                    height='500'
-                    src={require('./assets/faq.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Info Request</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 10'
-                    height='500'
-                    src={require('./assets/info-request.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Bulk Request </h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/bulk.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Success</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/success.png')}
-                  />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 350 }}>
-                    <ol>
-                      <li>
-                        <h6>FAQ:</h6>
-                      </li>
-                      <p>
-                        In case their question is already answered here. Has a
-                        dropdown at the bottom with the other forms to choose
-                        between if their question isn't answered
-                      </p>
-                      <li>
-                        <h6>Information Request Form:</h6>
-                      </li>
-                      <p>Standard information request.</p>
-                      <li>
-                        <h6>Bulk Quote Form:</h6>
-                      </li>
-                      <p>
-                        For customers who are buying in bulk or companies
-                        commissioning for a certain amount of products per year.
-                      </p>
-                      <li>
-                        <h6>Validation page:</h6>
-                      </li>
-                      <p>Gives a success message about their submission.</p>
-                    </ol>
-                  </div>
-                </div>
-              </div>
+              <EREWireframes wireFrameData={ereContactScreenWireframes}/>
             </div>
           </section>
         </div>
