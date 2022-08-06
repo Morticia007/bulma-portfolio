@@ -3,6 +3,7 @@ import Content from './Content';
 import { v4 as uuidv4 } from 'uuid';
 import screens from './assets/screens-2.png';
 import MappingJourney from './assets/user-flow-ere.png';
+import EREWireframes from './EREWireframes';
 
 const projectContentList = [
   {
@@ -33,6 +34,33 @@ const projectContentList = [
     firstP:
       'I relied heavily on the owner and any contacts he could throw my way for research purposes. I also joined every motorized bicycle group and forum I could find across social platforms. Joining these bicycle groups was the only way I was going to get a glimpse into this niche market. I had a hard time getting research participants, because of the type of users I needed to find. Luckily some of the contacts the owner gave me followed through, and a nice young man from Sweden, I found in a bicycle group on reddit, came through.',
     secondP: `I identified specific people who are hobbyist in this market to learn more about their love of the hobby and painpoints. I also identified a business owner, to get a birds eye view from the business side to the hobbyist side. I felt like I needed every angle I could possibly take to understand the solution I was attempting to find. `,
+  },
+];
+
+const ereHomeScreenWireframes = [
+  {
+    id: uuidv4(),
+    title: 'Home',
+    subtitle: 'Call to action for people ready to get products they need',
+    wireFrameImage: require('./assets/home.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Home CTA2',
+    subtitle: 'Learn more about ERE products',
+    wireFrameImage: require('./assets/home-cta-2.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Home CTA3',
+    subtitle: 'More information about engine stands',
+    wireFrameImage: require('./assets/home-cta-3.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Testimonials',
+    subtitle: 'Customer product and shopping reviews',
+    wireFrameImage: require('./assets/testimonials.png'),
   },
 ];
 
@@ -402,141 +430,8 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Home Screen Flow
               </h2>
-              <div
-                className='is-hidden-touch'
-                style={{ display: 'flex', justifyContent: 'space-evenly' }}
-              >
-                <div>
-                  <h2 className='has-text-centered'>Home</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 9'
-                    height='500'
-                    src={require('./assets/home.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Home CTA2</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 10'
-                    height='500'
-                    src={require('./assets/home-cta-2.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Home CTA3 </h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/home-cta-3.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Testimonials</h2>
-                  <img
-                    style={{ maxHeight: 400 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/testimonials.png')}
-                  />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 350 }}>
-                    <ol>
-                      <li>
-                        <h6>Home:</h6>
-                      </li>
-                      <p>
-                        Call to action for people ready to get products they
-                        need
-                      </p>
-                      <li>
-                        <h6> Home CTA 2:</h6>
-                      </li>
-                      <p>Learn More.</p>
-                      <li>
-                        <h6>Home CTA 3:</h6>
-                      </li>
-                      <p>More information about the stands.</p>
-                      <li>
-                        <h6>Testimonials:</h6>
-                      </li>
-                      <p>Customer product and shopping reviews.</p>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-              <div className='columns is-hidden-desktop'>
-                <div className='column'>
-                  <h2 className='has-text-centered'>Home</h2>
-                  <p className='has-text-centered'>
-                    Call to action for people ready to get products they need
-                  </p>
-                  <img alt='home screen' src={require('./assets/home.png')} />
-                </div>
-                <div className='column'>
-                  <h2 className='has-text-centered'>Home CTA2</h2>
-                  <p className='has-text-centered'>
-                    Learn more about ERE products
-                  </p>
-                  <img
-                    alt='call to action 2'
-                    src={require('./assets/home-cta-2.png')}
-                  />
-                </div>
-                <div className='column'>
-                  <h2 className='has-text-centered'>Home CTA3 </h2>
-                  <p className='has-text-centered'>
-                  More information about engine stands
-                  </p>
-                  <img
-                    alt='call to action 3'
-                    src={require('./assets/home-cta-3.png')}
-                  />
-                </div>
-                <div className='column'>
-                  <h2 className='has-text-centered'>Testimonials</h2>
-                  <p className='has-text-centered'>
-                  Customer product and shopping reviews
-                  </p>
-                  <img
-                    alt='project testimonials'
-                    src={require('./assets/testimonials.png')}
-                  />
-                </div>
-
-                <div
-                  className='is-hidden-touch'
-                  style={{ display: 'flex', flexDirection: 'column' }}
-                >
-                  <div style={{ maxWidth: 350 }}>
-                    <ol>
-                      <li>
-                        <h6>Home:</h6>
-                      </li>
-                      <p>
-                        Call to action for people ready to get products they
-                        need
-                      </p>
-                      <li>
-                        <h6> Home CTA 2:</h6>
-                      </li>
-                      <p>Learn about ERE products</p>
-                      <li>
-                        <h6>Home CTA 3:</h6>
-                      </li>
-                      <p>More information about engine stands</p>
-                      <li>
-                        <h6>Testimonials:</h6>
-                      </li>
-                      <p>Customer product and shopping reviews</p>
-                    </ol>
-                  </div>
-                </div>
-              </div>
+            
+              <EREWireframes wireFrameData={ereHomeScreenWireframes} />
             </div>
           </section>
           <section id='about' style={{ marginBottom: 100 }}>
