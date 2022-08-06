@@ -18,14 +18,6 @@ const projectContentList = [
     id: uuidv4(),
     heading: 'The Problem',
     firstP:
-      'I had no real inside information or experience with this type of company when taking this project on. Just a small company in need of organizational help.',
-    secondP:
-      'As a designer who is very user centric, this company being also user centric really caught my attention and inspired me to help them with their needs. I felt like with the common ground we already had, both being inspired by helping people save time and their sanity, we could find a solution one way or another',
-  },
-  {
-    id: uuidv4(),
-    heading: 'Initial Problem Statement',
-    firstP:
       'Elder Racing Equipment (ERE) needs a way to expand beyond receiving messages in Facebook messenger and by text, into a digital space and be able to provide customers with a more organized way to contact and purchase products, in order to have more control over their product sales and information requests.',
     secondP: `The owner of Elder Racing Equipment expressed that this is a problem for customers who are interested in the product since they can’t visually see the specifications of the product to make purchases. Along with the unorganized information requests and lack of ability to purchase without contacting him directly. This amount of information needed by customers for Elder Racing Equipment at present forces the owner to spend more time on replying to requests and less time on production of products.`,
   },
@@ -40,6 +32,7 @@ const projectContentList = [
     id: uuidv4(),
     heading: 'Understanding The User',
     firstP:
+    
       'Joining these bicycle groups was the only way I was going to get a glimpse into this niche market. I had a hard time getting research participants, because of the type of users I needed to find. Luckily some of the contacts the owner gave me followed through, and a nice young man from Sweden, I found in a bicycle group on reddit, came through.',
     secondP: `I identified specific people who are hobbyist in this market to learn more about their love of the hobby and painpoints. I also identified a business owner, to get a birds eye view from the business side to the hobbyist side. I felt like I needed every angle I could possibly take to understand the solution I was attempting to find. `,
   },
