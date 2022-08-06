@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from './Project';
-import Desktop from './assets/Device Mashups-0.png'; 
+import Desktop from './assets/Device Mashups-0.png';
 import Device from './assets/Device Mashups.png';
 import ComingSoon2 from './assets/coming-soon-2.png';
 import { v4 as uuidv4 } from 'uuid';
@@ -39,7 +39,7 @@ const projectList = [
 
 function Projects() {
   return (
-    <section style={{ marginTop: 80 }} className='container'>
+    <section className='section' style={{ marginTop: 80 }}>
       <h1 style={{ marginBottom: 80 }} className='title has-text-centered'>
         Projects
       </h1>

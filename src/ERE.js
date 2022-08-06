@@ -63,7 +63,7 @@ function ERE() {
           <Content key={item.id} {...item} />
         ))}
 
-        <div class='content is-normal'>
+        <div class='section content is-normal'>
           <h1 className='has-text-centered'>BREAKING DOWN THE PROCESS</h1>
           <h2 className='has-text-centered'>WEEK 1 | RESEARCH</h2>
           <div className='columns'>
@@ -95,7 +95,7 @@ function ERE() {
           </div>
         </div>
 
-        <div className='content container'>
+        <div className='section content container'>
           <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h1>Justin's Story</h1>
@@ -130,7 +130,7 @@ function ERE() {
         </div>
         <hr />
 
-        <div class='content is-normal'>
+        <div class='section content is-normal'>
           <h2 className='has-text-centered'> COMPETITIVE RESEARCH</h2>
 
           <div className='columns is-desktop'>
@@ -174,7 +174,7 @@ function ERE() {
           </div>
         </div>
         <hr />
-        <div class='content is-normal'>
+        <div class='section content is-normal'>
           <h2 className='has-text-centered'>HMW</h2>
           <div className='columns is-desktop'>
             <div className='column is-half  has-text-left'>
@@ -242,7 +242,7 @@ function ERE() {
       </section>
       <hr />
       <section>
-        <section>
+        <section className='section'>
           <div className='content container'>
             <div className='columns is-desktop'>
               <div className='column is-half is-offset-one-quarter has-text-left'>
@@ -398,7 +398,7 @@ function ERE() {
           </div>
         </div>
         <hr />
-        <div className='content container'>
+        <div className='section content container'>
           <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Flow</h3>
@@ -407,7 +407,7 @@ function ERE() {
           </div>
           <hr />
         </div>
-        <div id='wireframes' className='container'>
+        <div id='wireframes' className='section container'>
           <section id='home' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
@@ -770,7 +770,7 @@ function ERE() {
           </section>
         </div>
         <hr />
-        <section className='container'>
+        <section className='container section'>
           <div className='content'>
             <div className='content container'>
               <div className='columns'>
@@ -833,7 +833,6 @@ function ERE() {
                         the validation I needed from him to recommend the
                         project for development.
                       </p>
-                     
                     </div>
                   </div>
                 </div>
@@ -841,7 +840,7 @@ function ERE() {
             </div>
           </div>
         </section>
-        <section className='container'>
+        <section className='container section'>
           <div className='content'>
             <div className='content container'>
               <div className='columns'>
