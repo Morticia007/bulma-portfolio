@@ -783,7 +783,7 @@ function WIF() {
               </div>
             </div>
           </div>
-          <img src={require('./assets/user-testing-research-14.png')} />
+          <img src={require('./assets/user-testing-research-14.png')} alt='testing-research' />
         </section>
         <hr />
         <section className='container section'>
@@ -799,9 +799,9 @@ function WIF() {
               </div>
             </div>
           </div>
-          <img src={require('./assets/redesign-4.png')} />
-          <img src={require('./assets/redesign-5.png')} />
-          <img src={require('./assets/redesign-6.png')} />
+          <img src={require('./assets/redesign-4.png')} alt='redesign work 4' />
+          <img src={require('./assets/redesign-5.png')}  alt='redesign work 5' />
+          <img src={require('./assets/redesign-6.png')} alt='redesign work 6' />
         </section>
         <hr />
         <section className='container section'>
