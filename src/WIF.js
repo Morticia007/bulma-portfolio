@@ -77,7 +77,7 @@ function WIF() {
         </div>
       </section>
       <hr />
-      <section className='container'>
+      <section className='section container'>
         {projectContentList.map((item) => (
           <Content key={item.id} {...item} />
         ))}
@@ -193,7 +193,7 @@ function WIF() {
       </section>
       <section>
         <hr />
-        <section>
+        <section className='section'>
           <div className='content container'>
             <div className='columns'>
               <div className='column is-half is-offset-one-quarter has-text-left'>
@@ -282,7 +282,7 @@ function WIF() {
           </div>
           <hr />
         </section>
-        <div className='content container'>
+        <div className='content container section'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h1>Design Evolution</h1>
@@ -311,7 +311,7 @@ function WIF() {
             </div>
           </div>
         </div>
-        <div className='content container'>
+        <div className='content container section'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>Forum MVP</h3>
@@ -369,7 +369,7 @@ function WIF() {
           </div>
           <hr />
         </div>
-        <div className='content container'>
+        <div className='content container section'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Flow</h3>
@@ -378,7 +378,7 @@ function WIF() {
           </div>
           <hr />
         </div>
-        <div className='content container'>
+        <div className='content container section'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Task Flows</h3>
@@ -670,7 +670,7 @@ function WIF() {
           </section>
         </div>
         <hr />
-        <section id='usability-testing'>
+        <section className='section' id='usability-testing'>
           <div className='content container'>
             <div className='columns'>
               <div className='column is-half is-offset-one-quarter has-text-left'>
@@ -771,7 +771,7 @@ function WIF() {
             <hr />
           </div>
         </section>
-        <section className='container'>
+        <section className='container section'>
           <div className='content'>
             <h1>USABILITY SOLUTION</h1>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -786,7 +786,7 @@ function WIF() {
           <img src={require('./assets/user-testing-research-14.png')} />
         </section>
         <hr />
-        <section className='container'>
+        <section className='container section'>
           <div className='content'>
             <h1>USABILITY REVISION</h1>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -804,7 +804,7 @@ function WIF() {
           <img src={require('./assets/redesign-6.png')} />
         </section>
         <hr />
-        <section className='container'>
+        <section className='container section'>
           <div className='content'>
             <h1>RESULTS</h1>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -819,7 +819,7 @@ function WIF() {
           <img src={require('./assets/results-1.png')} />
         </section>
         <hr />
-        <section className='container'>
+        <section className='section'>
           <div className='content'>
             <div className='content container'>
               <div className='columns'>
