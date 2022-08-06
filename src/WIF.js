@@ -816,7 +816,7 @@ function WIF() {
               </div>
             </div>
           </div>
-          <img src={require('./assets/results-1.png')} />
+          <img src={require('./assets/results-1.png')} alt='testing-results'/>
         </section>
         <hr />
         <section className='section'>
