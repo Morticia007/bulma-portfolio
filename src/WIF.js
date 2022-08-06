@@ -2,13 +2,10 @@ import React from 'react';
 import Content from './Content';
 import Cards from './Cards';
 import { v4 as uuidv4 } from 'uuid';
-import Splash from './assets/splash-1.png';
-import Splash2 from './assets/splash-2.png';
 import RightHand from './assets/right-hand-color.png';
 import TaskFlows from './assets/user-flow-1.png';
 import MappingJourney from './assets/mappingjourney.png';
-import FeedLoFi from './assets/feed-lofi.png';
-import FeedHiFi from './assets/feed-hifi.png';
+import WireFrames from './WireFrames';
 
 const projectContentList = [
   {
@@ -56,6 +53,109 @@ const projectContentList = [
   },
 ];
 
+const wifSplashScreenWireframes = [
+  {
+    id: uuidv4(),
+    title: 'Lo-Fi',
+    subtitle: 'Splash screen with large call to action',
+    wireFrameImage: require('./assets/wif-mock-2.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Mockup',
+    subtitle:
+      'I made a few simple changes to the design to keep it simple with plenty of white space, and a clear route to the CTA',
+    wireFrameImage: require('./assets/wif-mock-1.png'),
+  },
+];
+
+const wifFeedScreenWireframes = [
+  {
+    id: uuidv4(),
+    title: 'Lo-Fi',
+    subtitle: 'User home/feed',
+    wireFrameImage: require('./assets/feed-lofi.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Mockup',
+    subtitle:
+      'Added a better navigation function with the segment changer element',
+    wireFrameImage: require('./assets/feed-hifi.png'),
+  },
+];
+
+const wifiProfileScreenWireframes = [
+  {
+    id: uuidv4(),
+    title: 'Lo-Fi',
+    subtitle: 'Originally I designed this screen for users personal posts to live in, as I was using established forums like reddit, and instagram for inspiration',
+    wireFrameImage: require('./assets/profile-lofi.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Mockup',
+    subtitle: 'During iteration I decided to clean it up and give the user another level of control, to be able to chose if they want to see those things by adjusting it to a menu. this was also to cut down on clutter and not confuse the user',
+    wireFrameImage: require('./assets/profile-hifi.png'),
+  },
+];
+
+const wifHamburgerScreenWireframes = [
+  {
+    id: uuidv4(),
+    title: 'Lo-Fi',
+    subtitle:`Originally I had planned for this to be main navigation. So I placed everything I could think of that could posibly go into this screen, in order to come back and delegate and clean up during iteration`,
+    wireFrameImage: require('./assets/hamburger-lofi.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Mockup',
+    subtitle: 'Cleaned this up significantly when I chose to use the segment picker navigation route',
+    wireFrameImage: require('./assets/hamburger-hifi.png'),
+  },
+];
+
+const wifActivityScreenWireframes = [
+  {
+    id: uuidv4(),
+    title: 'Lo-Fi',
+    subtitle:`This screen was a free for all at fist, I hadn't established what content would be most appropriate for the functionality`,
+    wireFrameImage: require('./assets/activity-lofi.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Mockup',
+    subtitle: 'As all of the screens evolved, the activity screen seemed to just take form itself. Being that it is for discussion, I looked back into my research participants and what seemed important for them, also looking at what other applications they would be using, the data that could be possible and added them respectfully',
+    wireFrameImage: require('./assets/activity-hifi.png'),
+  },
+];
+
+const wifPrototypeScreens = [
+  {
+    id: uuidv4(),
+    title: 'Prototype 1',
+    subtitle:`Interactive toggle screen for user content management`,
+    wireFrameImage: require('./assets/communities-hifi.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Prototype 2',
+    subtitle: 'Edit all account settings, and device integration',
+    wireFrameImage: require('./assets/settings-hifi.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Prototype 3',
+    subtitle: 'Profile customization',
+    wireFrameImage: require('./assets/editprofile-hifi.png'),
+  },
+  {
+    id: uuidv4(),
+    title: 'Prototype 4',
+    subtitle: 'Crosspost capability',
+    wireFrameImage: require('./assets/postoverlay-hifi.png'),
+  },
+];
 function WIF() {
   return (
     <div>
@@ -68,7 +168,8 @@ function WIF() {
                 style={{
                   marginBottom: 80,
                   marginTop: 80,
-                }}>
+                }}
+              >
                 Wellness Intention Forums - WIF
               </h1>
               <p>A Community For Those Who Need It Most</p>
@@ -356,12 +457,12 @@ function WIF() {
                     </p>
                   </ul>
                   <p>
-                    I felt as if I needed to design numerous screens
-                    since a forum has many facets and complexities, as well as keeping my users at the forefront and
-                    making sure the experience was smooth. 
-                     I also found I could give users more control
-                    over what forums they want to be active in by creating the ability
-                    to pass on forums that they had no interest in.
+                    I felt as if I needed to design numerous screens since a
+                    forum has many facets and complexities, as well as keeping
+                    my users at the forefront and making sure the experience was
+                    smooth. I also found I could give users more control over
+                    what forums they want to be active in by creating the
+                    ability to pass on forums that they had no interest in.
                   </p>
                 </div>
               </div>
@@ -387,36 +488,14 @@ function WIF() {
           <img alt='user task flows' src={TaskFlows} />
           <hr />
         </div>
-        <div id='wireframes' className='container-fluid'>
+        <div id='wireframes' className='section container'>
           <section id='splash' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h1 className='has-text-centered'>Wireframes</h1>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Splash Screen
               </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>Lo-Fi</h2>
-                  <img style={{ height: 700 }} alt='Splash' src={Splash} />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Mockup</h2>
-                  <img style={{ height: 700 }} alt='Splash2' src={Splash2} />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 400 }}>
-                    <h3>Lo-Fi</h3>
-                    <p>Splash screen with large call to action.</p>
-                    <h3>Mockup</h3>
-                    <p>
-                      I made a few simple changes to the design to keep it
-                      simple with plenty of white space, and a clear route to
-                      the CTA
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <WireFrames wireFrameData={wifSplashScreenWireframes} />
             </div>
           </section>
 
@@ -425,38 +504,7 @@ function WIF() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Feed Screen
               </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>Lo-Fi</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 5'
-                    height='500'
-                    src={FeedLoFi}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Mockup</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 6'
-                    height='500'
-                    src={FeedHiFi}
-                  />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 400 }}>
-                    <h3>Lo-Fi</h3>
-                    <p>User home/feed.</p>
-                    <h3>Mockup</h3>
-                    <p>
-                      Added a better navigation function with the segment
-                      changer element.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <WireFrames wireFrameData={wifFeedScreenWireframes} />
             </div>
           </section>
 
@@ -465,42 +513,7 @@ function WIF() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Hamburger Screen
               </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>Lo-Fi</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 7'
-                    height='500'
-                    src={require('./assets/hamburger-lofi.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Mockup</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 8'
-                    height='500'
-                    src={require('./assets/hamburger-hifi.png')}
-                  />
-                </div>
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 400 }}>
-                    <h3>Lo-Fi</h3>
-                    <p>
-                      Originally I had planned for this to be main navigation.
-                      So I placed everything I could think of that could posibly
-                      go into this screen, in order to come back and delegate
-                      and clean up during iteration .
-                    </p>
-                    <h3>Mockup</h3>
-                    <p>
-                      Cleaned this up significantly when I chose to use the
-                      segment picker navigation route.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <WireFrames wireFrameData={wifHamburgerScreenWireframes} />
             </div>
           </section>
 
@@ -509,44 +522,7 @@ function WIF() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Profile Screen
               </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>Lo-Fi</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 9'
-                    height='500'
-                    src={require('./assets/profile-lofi.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Mockup 1</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 10'
-                    height='500'
-                    src={require('./assets/profile-hifi.png')}
-                  />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 400 }}>
-                    <h3>Lo-Fi</h3>
-                    <p>
-                      Originally I designed this screen for users personal posts
-                      to live in, as I was using established forums like reddit,
-                      and instagram for inspiration.
-                    </p>
-                    <h3>Mockup 1</h3>
-                    <p>
-                      During iteration I decided to clean it up and give the
-                      user another level of control, to be able to chose if they
-                      want to see those things by adjusting it to a menu. this
-                      was also to cut down on clutter and not confuse the user.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <WireFrames wireFrameData={wifiProfileScreenWireframes}/>
             </div>
           </section>
 
@@ -555,46 +531,7 @@ function WIF() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Activity Screen
               </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>Lo-Fi</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 9'
-                    height='500'
-                    src={require('./assets/activity-lofi.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Mockup 1</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 10'
-                    height='500'
-                    src={require('./assets/activity-hifi.png')}
-                  />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 400 }}>
-                    <h3>Lo-Fi</h3>
-                    <p>
-                      This screen was a free for all at fist, I hadn't
-                      established what content would be most appropriate for the
-                      functionality.
-                    </p>
-                    <h3>Mockup 1</h3>
-                    <p>
-                      As all of the screens evolved, the activity screen seemed
-                      to just take form itself. Being that it is for discussion,
-                      I looked back into my research participants and what
-                      seemed important for them, also looking at what other
-                      applications they would be using, the data that could be
-                      possible and added them respectfully.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <WireFrames wireFrameData={wifActivityScreenWireframes} />
             </div>
           </section>
 
@@ -603,69 +540,7 @@ function WIF() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Interactive Prototype
               </h2>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div>
-                  <h2 className='has-text-centered'>Prototype 1</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 9'
-                    height='500'
-                    src={require('./assets/communities-hifi.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Prototype 2</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 10'
-                    height='500'
-                    src={require('./assets/settings-hifi.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Prototype 3</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/editprofile-hifi.png')}
-                  />
-                </div>
-                <div>
-                  <h2 className='has-text-centered'>Prototype 4</h2>
-                  <img
-                    style={{ maxHeight: 700 }}
-                    alt='project 11'
-                    height='500'
-                    src={require('./assets/postoverlay-hifi.png')}
-                  />
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 350 }}>
-                    <ol>
-                      <li>
-                        <h6>Community Toggle Screen:</h6>
-                      </li>
-                      <p>
-                        Interactive toggle screen for user content management.
-                      </p>
-                      <li>
-                        <h6>Account Settings Screen:</h6>
-                      </li>
-                      <p>Edit all account settings, and device integration.</p>
-                      <li>
-                        <h6>Edit Profile Screen:</h6>
-                      </li>
-                      <p>Profile customization.</p>
-                      <li>
-                        <h6>Post Screen/Overlay:</h6>
-                      </li>
-                      <p>Crosspost capability.</p>
-                    </ol>
-                  </div>
-                </div>
-              </div>
+              <WireFrames wireFrameData={wifPrototypeScreens} />
             </div>
           </section>
         </div>
@@ -783,7 +658,10 @@ function WIF() {
               </div>
             </div>
           </div>
-          <img src={require('./assets/user-testing-research-14.png')} alt='testing-research' />
+          <img
+            src={require('./assets/user-testing-research-14.png')}
+            alt='testing-research'
+          />
         </section>
         <hr />
         <section className='container section'>
@@ -800,7 +678,7 @@ function WIF() {
             </div>
           </div>
           <img src={require('./assets/redesign-4.png')} alt='redesign work 4' />
-          <img src={require('./assets/redesign-5.png')}  alt='redesign work 5' />
+          <img src={require('./assets/redesign-5.png')} alt='redesign work 5' />
           <img src={require('./assets/redesign-6.png')} alt='redesign work 6' />
         </section>
         <hr />
@@ -816,7 +694,7 @@ function WIF() {
               </div>
             </div>
           </div>
-          <img src={require('./assets/results-1.png')} alt='testing-results'/>
+          <img src={require('./assets/results-1.png')} alt='testing-results' />
         </section>
         <hr />
         <section className='section'>
@@ -880,9 +758,9 @@ function WIF() {
                                 Even though you have seen a couple hints about
                                 it, it wasn't essential for MVP.
                               </p>
-                                During user testing there were alot of questions
-                                about it and positve feedback. It seemed to
-                                spark curiosity.
+                              During user testing there were alot of questions
+                              about it and positve feedback. It seemed to spark
+                              curiosity.
                             </p>
                             <h5>
                               If you'd like to know more about this project, I'd
