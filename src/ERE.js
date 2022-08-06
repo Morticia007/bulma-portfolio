@@ -12,7 +12,8 @@ const projectContentList = [
       'As a personal project, I designed Elder Racing Equipment as web app. It is a solution for a small company who needs a way to solve their organizational painpoints so they can solve for motorized bicycle hobbyists painpoints.',
 
     secondP:
-      'I committed to completing this within a two week sprint. I wanted to challenge myself to create a organizational solution for a great new company who provides solutions specifically for motorized bicycle hobbyists needs. This was super challenging since I was dealing with a very small niche market. The result was solving for two completely different hobbyist pain point sets by solving for the Elder Racing Equipment painpoints.',},
+      'I committed to completing this within a two week sprint. I wanted to challenge myself to create a organizational solution for a great new company who provides solutions specifically for motorized bicycle hobbyists needs. This was super challenging since I was dealing with a very small niche market. The result was solving for two completely different hobbyist pain point sets by solving for the Elder Racing Equipment painpoints.',
+  },
   {
     id: uuidv4(),
     heading: 'The Problem',
@@ -56,7 +57,8 @@ function ERE() {
                 style={{
                   marginBottom: 80,
                   marginTop: 80,
-                }}>
+                }}
+              >
                 Elder Racing Equipment
               </h1>
               <p>A web app solution for a niche morized bicycle market</p>
@@ -108,8 +110,8 @@ function ERE() {
           </div>
         </div>
 
-        <div className='content container'>
-          <div className='columns'>
+        <div className='content container is-fluis'>
+          <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h1>Justin's Story</h1>
               <p>
@@ -144,118 +146,116 @@ function ERE() {
         <hr />
 
         <div class='content is-normal'>
-          <div className='columns'>
-            <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h2> COMPETITIVE RESEARCH</h2>
-              <div>
-                <div style={{ maxWidth: 840 }}>
-                  <p>
-                    At first the challenge was finding a competitor! ERE wasn't
-                    awar of anyone else making these products.Luckily I asked
-                    some pretty good questions in my initial research and found
-                    out there was 1 individual other than ERE that does make an
-                    engine stand.
-                  </p>
-                  <p>
-                    Because of the lack of competition, it got me sratching my
-                    head. Is this company in a failing market or are they ahead
-                    of the curve? So I returned back to my interviews and
-                    scoured for some information around the need for this
-                    product. I uncovered all the needs my participants had
-                    divulged including
-                    <ul>
-                      <li>wrestling with a motor while building</li>
-                      <li>
-                        having to mount and remove the motor to make adjustments
-                      </li>
-                      <li>
-                        the bike falling over during these mounts and dismounts
-                      </li>
-                      <li>
-                        extra motors lying aroud that could definitly use a
-                        stand{' '}
-                      </li>
-                    </ul>
-                    <p> </p>I felt a bit better about the health of ERE at that
-                    point! I thought, okay wow "he is a UX designer for
-                    motorized bicycles!"
-                  </p>
-                </div>
+          <h2 className='has-text-centered'> COMPETITIVE RESEARCH</h2>
+
+          <div className='columns is-desktop'>
+            <div className='column is-half has-text-left'>
+              <div style={{ maxWidth: 840 }}>
+                <p>
+                  At first the challenge was finding a competitor! ERE wasn't
+                  awar of anyone else making these products.Luckily I asked some
+                  pretty good questions in my initial research and found out
+                  there was 1 individual other than ERE that does make an engine
+                  stand.
+                </p>
+                <p>
+                  Because of the lack of competition, it got me sratching my
+                  head. Is this company in a failing market or are they ahead of
+                  the curve? So I returned back to my interviews and scoured for
+                  some information around the need for this product.
+                </p>
+              </div>
+            </div>
+            <div className='column is-half has-text-left'>
+              <div style={{ maxWidth: 840 }}>
+                <p>
+                  I uncovered all the needs my participants had divulged
+                  including
+                </p>
+                <ul>
+                  <li>wrestling with a motor while building</li>
+                  <li>
+                    having to mount and remove the motor to make adjustments
+                  </li>
+                  <li>
+                    the bike falling over during these mounts and dismounts
+                  </li>
+                  <li>
+                    extra motors lying aroud that could definitly use a stand
+                  </li>
+                </ul>
+                <p>
+                  I felt a bit better about the health of ERE at that point! I
+                  thought, okay wow "he is a UX designer for motorized
+                  bicycles!"
+                </p>
               </div>
             </div>
           </div>
         </div>
         <hr />
-        <div class='content is-normal'>
-          <div className='columns'>
-            <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h2> HMW</h2>
-              <div>
-                <div style={{ maxWidth: 840 }}>
-                  <h3>How might we help?</h3>
-                  <p>
-                    <h6>Hobbyists who struggle with:</h6>
-                    <ul>
-                      <li>wrestling with a motor while building</li>
-                      <li>
-                        having to mount and remove the motor to make adjustments
-                      </li>
-                      <li>
-                        the bike falling over during these mounts and dismounts
-                      </li>
-                      <li>
-                        extra motors lying aroud that could definitly use a
-                        stand{' '}
-                      </li>
-                    </ul>
-                    <p>
-                      <h4>Align it with</h4>
-                    </p>
-                    <h6>ERE who struggles with:</h6>
-                    <ul>
-                      <li>unorganized product information requests</li>
-                      <li>unorganized product order requests</li>
-                      <li>lack of payment method</li>
-                      <li>
-                        platform for all these features to essentially live on
-                      </li>
-                    </ul>
-                    <h6>
-                      *At this particular moment in my project I realize the
-                      original problem statement is evolving.
-                    </h6>
-                    <p></p>We need a way to align user goals to business goals
-                    in order to help ERE with their organizational painpoints,
-                    in order to make this product available to solve user
-                    painpoints with their builds. Sounds easy right?
-                    <h6>But...</h6>
-                    <h6>
-                      What about the hobbyist painpoints that come with finding
-                      the products for the build?
-                    </h6>
-                  </p>
-                  <ul>
-                    <li>Lack of products that aren't cheap knockoffs</li>
-                    <li>lack of quality sites to get products from</li>
-                    <li>
-                      lack of knowing the right place to go to get these
-                      products, without needing to be "in the cool kid group"
-                    </li>
-                    <li>
-                      time wasted just trying to find something, anything they
-                      can trust
-                    </li>
-                  </ul>
+        <div class='container content is-normal'>
+          <div className='columns is-desktop'>
+            <div className='column is-half  has-text-left'>
+              <h2>HMW</h2>
+              <h3>How might we help?</h3>
+              <h6>Hobbyists who struggle with:</h6>
+              <ul>
+                <li>wrestling with a motor while building</li>
+                <li>
+                  having to mount and remove the motor to make adjustments
+                </li>
+                <li>the bike falling over during these mounts and dismounts</li>
+                <li>
+                  extra motors lying aroud that could definitly use a stand{' '}
+                </li>
+              </ul>
 
-                  <p>
-                    How might we align user goals to business goals in order to
-                    help ERE with their organizational painpoints, in order to
-                    make this product available to solve user painpoints with
-                    their builds <h6>AND</h6>Give them a place they can trust
-                    with resources to find other products they need?{' '}
-                  </p>
-                </div>
-              </div>
+              <h4>Align it with</h4>
+
+              <h6>ERE who struggles with:</h6>
+              <ul>
+                <li>unorganized product information requests</li>
+                <li>unorganized product order requests</li>
+                <li>lack of payment method</li>
+                <li>platform for all these features to essentially live on</li>
+              </ul>
+              <h6>
+                *At this particular moment in my project I realize the original
+                problem statement is evolving.
+              </h6>
+            </div>
+            <div className='column is-half  has-text-left'>
+              <p>
+                We need a way to align user goals to business goals in order to
+                help ERE with their organizational painpoints, in order to make
+                this product available to solve user painpoints with their
+                builds. Sounds easy right?
+              </p>
+              <h6>But...</h6>
+              <h6>
+                What about the hobbyist painpoints that come with finding the
+                products for the build?
+              </h6>
+              <ul>
+                <li>Lack of products that aren't cheap knockoffs</li>
+                <li>lack of quality sites to get products from</li>
+                <li>
+                  lack of knowing the right place to go to get these products,
+                  without needing to be "in the cool kid group"
+                </li>
+                <li>
+                  time wasted just trying to find something, anything they can
+                  trust
+                </li>
+              </ul>
+              <p>
+                How might we align user goals to business goals in order to help
+                ERE with their organizational painpoints, in order to make this
+                product available to solve user painpoints with their builds{' '}
+                <h6>AND</h6>Give them a place they can trust with resources to
+                find other products they need?{' '}
+              </p>
             </div>
           </div>
         </div>
@@ -264,7 +264,7 @@ function ERE() {
       <section>
         <section>
           <div className='content container'>
-            <div className='columns'>
+            <div className='columns is-desktop'>
               <div className='column is-half is-offset-one-quarter has-text-left'>
                 <h1>Proposed Solution</h1>
                 <div>
@@ -294,7 +294,7 @@ function ERE() {
           <hr />
         </section>
         <div className='content container'>
-          <div className='columns'>
+          <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h1>Week 2 | Design Evolution</h1>
 
@@ -343,7 +343,7 @@ function ERE() {
           </div>
         </div>
         <div className='content container'>
-          <div className='columns'>
+          <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>E-commerce Web App MVP</h3>
               <div>
@@ -419,7 +419,7 @@ function ERE() {
           <hr />
         </div>
         <div className='content container'>
-          <div className='columns'>
+          <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Flow</h3>
               <img alt='user mapping journey' src={MappingJourney} />
@@ -427,7 +427,7 @@ function ERE() {
           </div>
           <hr />
         </div>
-        <div id='wireframes' className='container-fluid'>
+        <div id='wireframes' className='container'>
           <section id='home' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
@@ -810,7 +810,6 @@ function ERE() {
                             <li>product details</li>
                             <li>contact flow</li>
                             <li>purchase flow </li>
-                           
                           </h6>
                         </ol>
                       </p>
