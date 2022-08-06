@@ -1,6 +1,6 @@
 import React from 'react';
 
-function EREWireFrameItem({ title, subtitle, wireFrameImage }) {
+function WireFrameItem({ title, subtitle, wireFrameImage }) {
   return (
     <div className='column'>
       <h2 className='has-text-centered'>{title}</h2>
@@ -10,7 +10,7 @@ function EREWireFrameItem({ title, subtitle, wireFrameImage }) {
   );
 }
 
-function EREWireFrameListItem({ title, subtitle }) {
+function WireFrameListItem({ title, subtitle }) {
   return (
     <>
       <li>
@@ -21,11 +21,11 @@ function EREWireFrameListItem({ title, subtitle }) {
   );
 }
 
-function EREWireframes({ wireFrameData }) {
+function WireFrames({ wireFrameData }) {
   return (
     <div className='columns'>
       {wireFrameData.map((item) => (
-        <EREWireFrameItem
+        <WireFrameItem
           key={item.id}
           title={item.title}
           subtitle={item.subtitle}
@@ -37,7 +37,7 @@ function EREWireframes({ wireFrameData }) {
         <div>
           <ol>
             {wireFrameData.map((item) => (
-              <EREWireFrameListItem
+              <WireFrameListItem
                 key={item.id}
                 title={item.title}
                 subtitle={item.subtitle}
@@ -50,4 +50,4 @@ function EREWireframes({ wireFrameData }) {
   );
 }
 
-export default EREWireframes;
+export default WireFrames;

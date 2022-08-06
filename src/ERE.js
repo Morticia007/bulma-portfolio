@@ -3,7 +3,7 @@ import Content from './Content';
 import { v4 as uuidv4 } from 'uuid';
 import screens from './assets/screens-2.png';
 import MappingJourney from './assets/user-flow-ere.png';
-import EREWireframes from './EREWireframes';
+import WireFrames from './WireFrames';
 
 const projectContentList = [
   {
@@ -62,6 +62,7 @@ const ereHomeScreenWireframes = [
     subtitle: 'Customer product and shopping reviews',
     wireFrameImage: require('./assets/testimonials.png'),
   },
+ 
 ];
 
 const ereAboutScreenWireframes = [
@@ -539,8 +540,7 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Home Screen Flow
               </h2>
-
-              <EREWireframes wireFrameData={ereHomeScreenWireframes} />
+              <WireFrames wireFrameData={ereHomeScreenWireframes} />
             </div>
           </section>
           <section id='about' style={{ marginBottom: 100 }}>
@@ -548,7 +548,7 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 About Screen Flow
               </h2>
-              <EREWireframes wireFrameData={ereAboutScreenWireframes} />
+              <WireFrames wireFrameData={ereAboutScreenWireframes} />
             </div>
           </section>
           <section id='products' style={{ marginBottom: 100 }}>
@@ -556,7 +556,7 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Product Screens Flow
               </h2>
-              <EREWireframes wireFrameData={ereProductScreenWireframes} />
+              <WireFrames wireFrameData={ereProductScreenWireframes} />
             </div>
           </section>
           <section id='auth' style={{ marginBottom: 100 }}>
@@ -564,7 +564,7 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Checkout Flow
               </h2>
-              <EREWireframes wireFrameData={ereCheckoutScreenWireframes} />
+              <WireFrames wireFrameData={ereCheckoutScreenWireframes} />
             </div>
           </section>
           <section id='contact' style={{ marginBottom: 100 }}>
@@ -572,7 +572,7 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Contact Flow
               </h2>
-              <EREWireframes wireFrameData={ereContactScreenWireframes}/>
+              <WireFrames wireFrameData={ereContactScreenWireframes}/>
             </div>
           </section>
         </div>
