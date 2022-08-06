@@ -62,7 +62,6 @@ const ereHomeScreenWireframes = [
     subtitle: 'Customer product and shopping reviews',
     wireFrameImage: require('./assets/testimonials.png'),
   },
- 
 ];
 
 const ereAboutScreenWireframes = [
