@@ -73,44 +73,44 @@ function ERE() {
         ))}
 
         <div class='content is-normal'>
+          <h1 className='has-text-centered'>BREAKING DOWN THE PROCESS</h1>
+          <h2 className='has-text-centered'>WEEK 1 | RESEARCH</h2>
           <div className='columns'>
-            <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h1>BREAKING DOWN THE PROCESS</h1>
-              <h2>WEEK 1 | RESEARCH</h2>
+            <div className='column is-half has-text-left'>
               <p>
                 To understand this undertaking and how I could help this small
                 business, I needed to understand their customers first. I
                 prioritized my focus on first finding out:
-                <ul>
-                  <li>Who they are</li>
-                  <li>Why they need this product</li>
-                  <li>If I could align user needs with the business needs </li>
-                </ul>
               </p>
+              <ul>
+                <li>Who they are</li>
+                <li>Why they need this product</li>
+                <li>If I could align user needs with the business needs </li>
+              </ul>
               <p>
                 It was quite the challenge to get these guys to talk. I say
                 guys, because the hobbyist I was able to find were 100% men.
               </p>
+            </div>
+            <div className='column is-half has-text-left'>
               <p>
                 The information I did find was pretty specific. They struggle
                 with finding:
-                <ol>
-                  <li>Quality products</li>
-                  <li>Sources they can trust for those products</li>
-                  <li>
-                    Quality sites that don't have "unsecure" in the browser
-                  </li>
-                  <li>
-                    Time to put in all the work thay would need to find the
-                    quality they are searching for
-                  </li>
-                </ol>
               </p>
+              <ol>
+                <li>Quality products</li>
+                <li>Sources they can trust for those products</li>
+                <li>Quality sites that don't have "unsecure" in the browser</li>
+                <li>
+                  Time to put in all the work thay would need to find the
+                  quality they are searching for
+                </li>
+              </ol>
             </div>
           </div>
         </div>
 
-        <div className='content container is-fluis'>
+        <div className='content container'>
           <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h1>Justin's Story</h1>
@@ -194,10 +194,10 @@ function ERE() {
           </div>
         </div>
         <hr />
-        <div class='container content is-normal'>
+        <div class='content is-normal'>
+          <h2 className='has-text-centered'>HMW</h2>
           <div className='columns is-desktop'>
             <div className='column is-half  has-text-left'>
-              <h2>HMW</h2>
               <h3>How might we help?</h3>
               <h6>Hobbyists who struggle with:</h6>
               <ul>
@@ -225,7 +225,7 @@ function ERE() {
                 problem statement is evolving.
               </h6>
             </div>
-            <div className='column is-half  has-text-left'>
+            <div className='column is-half has-text-left'>
               <p>
                 We need a way to align user goals to business goals in order to
                 help ERE with their organizational painpoints, in order to make
@@ -254,7 +254,7 @@ function ERE() {
                 ERE with their organizational painpoints, in order to make this
                 product available to solve user painpoints with their builds{' '}
                 <h6>AND</h6>Give them a place they can trust with resources to
-                find other products they need?{' '}
+                find other products they need?
               </p>
             </div>
           </div>
@@ -416,8 +416,8 @@ function ERE() {
               </div>
             </div>
           </div>
-          <hr />
         </div>
+        <hr />
         <div className='content container'>
           <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
@@ -861,7 +861,7 @@ function ERE() {
               </div>
             </div>
           </div>
-          <hr></hr>
+     
         </section>
         <section className='container'>
           <div className='content'>
