@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import screens from './assets/screens-2.png';
 import MappingJourney from './assets/user-flow-ere.png';
 import WireFrames from './WireFrames';
+import ModalImage from 'react-modal-image';
 
 const projectContentList = [
   {
@@ -528,7 +529,11 @@ function ERE() {
           <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Flow</h3>
-              <img alt='user mapping journey' src={MappingJourney} />
+              <ModalImage
+                small={MappingJourney}
+                large={MappingJourney}
+                alt='Diagram of User Flow'
+              />
             </div>
           </div>
           <hr />
@@ -571,7 +576,7 @@ function ERE() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Contact Flow
               </h2>
-              <WireFrames wireFrameData={ereContactScreenWireframes}/>
+              <WireFrames wireFrameData={ereContactScreenWireframes} />
             </div>
           </section>
         </div>
