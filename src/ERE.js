@@ -221,7 +221,7 @@ function ERE() {
               <ol>
                 <li>Quality products</li>
                 <li>Sources they can trust for those products</li>
-                <li>Quality sites that don't have "unsecure" in the browser</li>
+                <li>Quality sites that don't have unsecure in the browser</li>
                 <li>Time to search for products</li>
               </ol>
             </div>
