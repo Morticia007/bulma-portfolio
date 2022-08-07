@@ -701,7 +701,7 @@ function ERE() {
                           <h6>Test throughout</h6>
                         </li>
                         <p>
-                          This is another one of my golden rules! If i wouldn't
+                          This is another one of my golden rules! If I wouldn't
                           have tested this design throughout the design
                           evolution, I would have been met with a ton of
                           iterations looming over a deadline.
