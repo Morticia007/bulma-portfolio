@@ -6,6 +6,7 @@ import RightHand from './assets/right-hand-color.png';
 import TaskFlows from './assets/user-flow-1.png';
 import MappingJourney from './assets/mappingjourney.png';
 import WireFrames from './WireFrames';
+import ModalImage from 'react-modal-image';
 
 const projectContentList = [
   {
@@ -89,13 +90,15 @@ const wifiProfileScreenWireframes = [
   {
     id: uuidv4(),
     title: 'Lo-Fi',
-    subtitle: 'Originally I designed this screen for users personal posts to live in, as I was using established forums like reddit, and instagram for inspiration',
+    subtitle:
+      'Originally I designed this screen for users personal posts to live in, as I was using established forums like reddit, and instagram for inspiration',
     wireFrameImage: require('./assets/profile-lofi.png'),
   },
   {
     id: uuidv4(),
     title: 'Mockup',
-    subtitle: 'During iteration I decided to clean it up and give the user another level of control, to be able to chose if they want to see those things by adjusting it to a menu. this was also to cut down on clutter and not confuse the user',
+    subtitle:
+      'During iteration I decided to clean it up and give the user another level of control, to be able to chose if they want to see those things by adjusting it to a menu. this was also to cut down on clutter and not confuse the user',
     wireFrameImage: require('./assets/profile-hifi.png'),
   },
 ];
@@ -104,13 +107,14 @@ const wifHamburgerScreenWireframes = [
   {
     id: uuidv4(),
     title: 'Lo-Fi',
-    subtitle:`Originally I had planned for this to be main navigation. So I placed everything I could think of that could posibly go into this screen, in order to come back and delegate and clean up during iteration`,
+    subtitle: `Originally I had planned for this to be main navigation. So I placed everything I could think of that could posibly go into this screen, in order to come back and delegate and clean up during iteration`,
     wireFrameImage: require('./assets/hamburger-lofi.png'),
   },
   {
     id: uuidv4(),
     title: 'Mockup',
-    subtitle: 'Cleaned this up significantly when I chose to use the segment picker navigation route',
+    subtitle:
+      'Cleaned this up significantly when I chose to use the segment picker navigation route',
     wireFrameImage: require('./assets/hamburger-hifi.png'),
   },
 ];
@@ -119,13 +123,14 @@ const wifActivityScreenWireframes = [
   {
     id: uuidv4(),
     title: 'Lo-Fi',
-    subtitle:`This screen was a free for all at fist, I hadn't established what content would be most appropriate for the functionality`,
+    subtitle: `This screen was a free for all at fist, I hadn't established what content would be most appropriate for the functionality`,
     wireFrameImage: require('./assets/activity-lofi.png'),
   },
   {
     id: uuidv4(),
     title: 'Mockup',
-    subtitle: 'As all of the screens evolved, the activity screen seemed to just take form itself. Being that it is for discussion, I looked back into my research participants and what seemed important for them, also looking at what other applications they would be using, the data that could be possible and added them respectfully',
+    subtitle:
+      'As all of the screens evolved, the activity screen seemed to just take form itself. Being that it is for discussion, I looked back into my research participants and what seemed important for them, also looking at what other applications they would be using, the data that could be possible and added them respectfully',
     wireFrameImage: require('./assets/activity-hifi.png'),
   },
 ];
@@ -134,7 +139,7 @@ const wifPrototypeScreens = [
   {
     id: uuidv4(),
     title: 'Prototype 1',
-    subtitle:`Interactive toggle screen for user content management`,
+    subtitle: `Interactive toggle screen for user content management`,
     wireFrameImage: require('./assets/communities-hifi.png'),
   },
   {
@@ -474,7 +479,11 @@ function WIF() {
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Flow</h3>
-              <img alt='user mapping journey' src={MappingJourney} />
+              <ModalImage
+                small={MappingJourney}
+                large={MappingJourney}
+                alt='Diagram of User Flow'
+              />
             </div>
           </div>
           <hr />
@@ -485,7 +494,11 @@ function WIF() {
               <h3>User Task Flows</h3>
             </div>
           </div>
-          <img alt='user task flows' src={TaskFlows} />
+          <ModalImage
+            small={TaskFlows}
+            large={TaskFlows}
+            alt='Diagram of User Flow'
+          />
           <hr />
         </div>
         <div id='wireframes' className='section container'>
@@ -522,7 +535,7 @@ function WIF() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Profile Screen
               </h2>
-              <WireFrames wireFrameData={wifiProfileScreenWireframes}/>
+              <WireFrames wireFrameData={wifiProfileScreenWireframes} />
             </div>
           </section>
 
