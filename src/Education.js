@@ -2,7 +2,7 @@ import React from 'react';
 
 function Education() {
   return (
-    <div className='container'>
+    <div className='container section'>
       <h1 style={{ marginBottom: 80, marginTop: 80 }}>Education</h1>
       <div className='block'>
         <h5 style={{ marginBottom: 4 }} className='subtitle'>

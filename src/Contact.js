@@ -15,7 +15,7 @@ function Contact() {
   if (submit) {
     if (deleteNotification) {
       return (
-        <div style={{ marginTop: 80 }} className='container content is-medium'>
+        <div style={{ marginTop: 80 }} className='section container content is-medium'>
           <h1>I'd love to connect!</h1>
           <h1>Send me a message</h1>
           <form>
@@ -49,14 +49,14 @@ function Contact() {
       );
     }
     return (
-      <div class='notification is-success is-light'>
+      <div class='section notification is-success is-light'>
         <button onClick={handleDelete} class='delete'></button>
         Your email has been sent!
       </div>
     );
   }
   return (
-    <div style={{ marginTop: 80 }} className='container content is-medium'>
+    <div style={{ marginTop: 80 }} className='section container content is-medium'>
       <h1>I'd love to connect!</h1>
       <h1>Send me a message</h1>
       <form>

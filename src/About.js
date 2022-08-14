@@ -22,7 +22,7 @@ function About() {
           </div>
         </div>
       </section>
-      <div className='container'>
+      <div className='container section'>
         <h1 style={{ marginBottom: 80, marginTop: 80 }}>About Me</h1>
         <p style={{ maxWidth: 750 }}>
           I’m based in Dallas Texas. I enjoy working with holistic, wellness,

@@ -1,77 +1,140 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logo from './assets/logo-14.png';
+import './Sidebar.css';
+import { slide as Menu } from 'react-burger-menu';
+class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      menuOpen: false,
+    };
+  }
 
-function Navbar() {
-  return (
-    <>
-      <div className='container-fluid is-hidden-desktop'>
-        <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-          <Link to='/' className='navbar-item'>
-            <img alt='logo' src={logo} />
-          </Link>
-          <Link style={{ marginLeft: 'auto' }} to='/' className='navbar-item'>
-            Home
-          </Link>
-          <Link to='about' className='navbar-item'>
-            About
-          </Link>
-          <Link to='work' className='navbar-item'>
-            Work
-          </Link>
-          <Link to='contact' className='navbar-item'>
-            Contact
-          </Link>
-        </div>
-      </div>
-      <div className='container-fluid is-hidden-mobile'>
-        <nav
-          style={{ height: 96 }}
-          className='navbar is-spaced'
-          role='navigation'
-          aria-label='main navigation'
-        >
-          <div className='navbar-brand'>
-            <a className='navbar-item' href='https://jacquelynhagman.design'>
-              <img alt='logo`' style={{ maxHeight: 86 }} src={logo} />
-            </a>
-          </div>
-          <div
-            style={{ fontWeight: 500 }}
-            id='navbarBasicExample'
-            className='navbar-menu'
+  // This keeps your state in sync with the opening/closing of the menu
+  // via the default means, e.g. clicking the X, pressing the ESC key etc.
+  handleStateChange(state) {
+    this.setState({ menuOpen: state.isOpen });
+  }
+
+  // This can be used to close the menu, e.g. when a user clicks a menu item
+  closeMenu() {
+    this.setState({ menuOpen: false });
+  }
+
+  // This can be used to toggle the menu, e.g. when using a custom icon
+  // Tip: You probably want to hide either/both default icons if using a custom icon
+  // See https://github.com/negomi/react-burger-menu#custom-icons
+  toggleMenu() {
+    this.setState((state) => ({ menuOpen: !state.menuOpen }));
+  }
+  render() {
+    return (
+      <>
+        <div style={{ marginBottom: 100 }}>
+          <nav
+            style={{ height: 100 }}
+            className='navbar is-spaced is-fixed-top'
+            role='navigation'
+            aria-label='main navigation'
           >
-            <div className='navbar-end'>
-              <Link to='/' className='navbar-item'>
-                Home
-              </Link>
-              <Link to='about' className='navbar-item'>
-                About
-              </Link>
-              <nav
-                class='navbar'
-                role='navigation'
-                aria-label='dropdown navigation'
+            <div className='is-hidden-desktop'>
+              <Menu
+                left
+                isOpen={this.state.menuOpen}
+                onStateChange={(state) => this.handleStateChange(state)}
               >
-                <div class='navbar-item has-dropdown is-hoverable'>
-                  <a class='navbar-link'>Work</a>
+                <Link
+                  onClick={() => this.closeMenu()}
+                  to='/'
+                  className='navbar-item'
+                >
+                  Home
+                </Link>
+        
+                <Link
+                  onClick={() => this.closeMenu()}
+                  to='about'
+                  className='navbar-item'
+                >
+                  About
+                </Link>
+                <Link
+                  onClick={() => this.closeMenu()}
+                  to='wif'
+                  className='navbar-item'
+                >
+                  WIF
+                </Link>
+                <Link
+                  onClick={() => this.closeMenu()}
+                  to='ere'
+                  className='navbar-item'
+                >
+                  ERE
+                </Link>
+               
 
-                  <div class='navbar-dropdown'>
-                    <Link to='wif' class='navbar-item'>WIF</Link>
-                    <Link to='ere' class='navbar-item'>Elder Racing Equipment</Link>
-                  </div>
-                </div>
-              </nav>
-              <Link to='contact' className='navbar-item'>
-                Contact
-              </Link>
+                <nav
+                  class='navbar'
+                  role='navigation'
+                  aria-label='dropdown navigation'
+                ></nav>
+                <Link
+                  onClick={() => this.closeMenu()}
+                  to='contact'
+                  className='navbar-item'
+                >
+                  Contact
+                </Link>
+              </Menu>
             </div>
-          </div>
-        </nav>
-      </div>
-    </>
-  );
+            <div className='navbar-brand is-hidden-touch'>
+              <a className='navbar-item' href='https://jacquelynhagman.design'>
+                <img alt='logo`' style={{ maxHeight: 86 }} src={logo} />
+              </a>
+            </div>
+            <div
+              style={{ fontWeight: 500 }}
+              id='navbarBasicExample'
+              className='navbar-menu'
+            >
+              <div className='navbar-end'>
+                <Link to='/' className='navbar-item'>
+                  Home
+                </Link>
+                <Link to='about' className='navbar-item'>
+                  About
+                </Link>
+                <nav
+                  class='navbar'
+                  role='navigation'
+                  aria-label='dropdown navigation'
+                >
+                  <div class='navbar-item has-dropdown is-hoverable'>
+                    <a class='navbar-link'>Work</a>
+
+                    <div class='navbar-dropdown'>
+                      <Link to='wif' class='navbar-item'>
+                        WIF
+                      </Link>
+                      <Link to='ere' class='navbar-item'>
+                        Elder Racing Equipment
+                      </Link>
+                    </div>
+                  </div>
+                </nav>
+                <Link to='contact' className='navbar-item'>
+                  Contact
+                </Link>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </>
+    );
+  }
 }
 
 export default Navbar;
