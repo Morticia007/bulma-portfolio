@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import logo from './assets/logo-14.png';
 import './Sidebar.css';
 import { slide as Menu } from 'react-burger-menu';
+
 class Navbar extends Component {
   constructor(props) {
     super(props);
@@ -52,7 +53,7 @@ class Navbar extends Component {
                 >
                   Home
                 </Link>
-        
+
                 <Link
                   onClick={() => this.closeMenu()}
                   to='about'
@@ -73,6 +74,13 @@ class Navbar extends Component {
                   className='navbar-item'
                 >
                   ERE
+                </Link>
+                <Link
+                  onClick={() => this.closeMenu()}
+                  to='linkedin'
+                  className='navbar-item'
+                >
+                  LinkedIn Chat Reply
                 </Link>
                
 
@@ -121,6 +129,9 @@ class Navbar extends Component {
                       </Link>
                       <Link to='ere' class='navbar-item'>
                         Elder Racing Equipment
+                      </Link>
+                      <Link to='linkedin' class='navbar-item'>
+                        LinkedIn Chat Reply
                       </Link>
                     </div>
                   </div>

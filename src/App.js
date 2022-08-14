@@ -6,6 +6,7 @@ import WIF from './WIF';
 import ERE from './ERE';
 import Contact from './Contact';
 
+import LinkedIn from './LinkedIn';
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='wif' element={<WIF />} />
         <Route path='ere' element={<ERE />} />
+        <Route path='linkedin' element={<LinkedIn />} />
         <Route path='contact' element={<Contact />} />
       </Routes>
     </div>
