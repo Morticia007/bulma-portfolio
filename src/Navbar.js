@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 import logo from './assets/logo-14.png';
 import './Sidebar.css';
 import { slide as Menu } from 'react-burger-menu';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { faChevronDown , faChevronRight} from '@fortawesome/free-solid-svg-icons'
 class Navbar extends Component {
   constructor(props) {
     super(props);
     this.state = {
       menuOpen: false,
+      workClicked: false,
     };
   }
 
@@ -30,6 +32,12 @@ class Navbar extends Component {
   toggleMenu() {
     this.setState((state) => ({ menuOpen: !state.menuOpen }));
   }
+
+  handleWorkClick = () => {
+    console.log(this.state.workClicked);
+    console.log('workClicked');
+    this.setState((state) => ({ workClicked: !state.workClicked }));
+  };
   render() {
     return (
       <>
@@ -61,28 +69,37 @@ class Navbar extends Component {
                 >
                   About
                 </Link>
-                <Link
-                  onClick={() => this.closeMenu()}
-                  to='wif'
-                  className='navbar-item'
-                >
-                  WIF
-                </Link>
-                <Link
-                  onClick={() => this.closeMenu()}
-                  to='ere'
-                  className='navbar-item'
-                >
-                  ERE
-                </Link>
-                <Link
-                  onClick={() => this.closeMenu()}
-                  to='linkedin'
-                  className='navbar-item'
-                >
-                  LinkedIn Chat Reply
-                </Link>
-               
+                <div onClick={this.handleWorkClick} className='navbar-item'>
+                  Work <FontAwesomeIcon style={{marginLeft: 20 }} icon={this.state.workClicked ? faChevronDown : faChevronRight}/>
+                  {this.state.workClicked ? (
+                    <div>
+                      <Link
+                      style={{color: '#D1D1D1'}}
+                        onClick={() => this.closeMenu()}
+                        to='wif' 
+                        className='navbar-item'
+                      >
+                        WIF
+                      </Link>
+                      <Link
+                       style={{color: '#D1D1D1'}}
+                        onClick={() => this.closeMenu()}
+                        to='ere'
+                        className='navbar-item'
+                      >
+                        ERE
+                      </Link>
+                      <Link
+                       style={{color: '#D1D1D1'}}
+                        onClick={() => this.closeMenu()}
+                        to='linkedin'
+                        className='navbar-item'
+                      >
+                        LinkedIn Chat Reply
+                      </Link>
+                    </div>
+                  ) : null}
+                </div>
 
                 <nav
                   class='navbar'
