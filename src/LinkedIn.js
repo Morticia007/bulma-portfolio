@@ -11,30 +11,30 @@ const projectContentList = [
     id: uuidv4(),
     heading: 'Executive Summary',
     firstP:
-      'As a personal project, I designed Elder Racing Equipment as web app. It is a solution for a small company who needs a way to solve their organizational painpoints so they can solve for motorized bicycle hobbyists painpoints.',
+      'As a personal project, I decided to try to challenge myself with copywork to add a feature to Linkedin ',
 
     secondP:
-      'I committed to completing this within a two week sprint. I wanted to challenge myself to create a organizational solution for a great new company who provides solutions specifically for motorized bicycle hobbyists needs. This was super challenging since I was dealing with a very small niche market. The result was solving for two completely different hobbyist pain point sets by solving for the Elder Racing Equipment painpoints.',
+      'I committed to completing this within a two week sprint. I wanted to challenge myself to create a new chat reply feature',
   },
   {
     id: uuidv4(),
     heading: 'The Problem',
     firstP:
-      'Elder Racing Equipment (ERE) needs a way to expand beyond receiving messages in Facebook messenger and by text, into a digital space and be able to provide customers with a more organized way to contact and purchase products, in order to have more control over their product sales and information requests.',
-    secondP: `The owner of Elder Racing Equipment expressed that this is a problem for customers who are interested in the product since they can’t visually see the specifications of the product to make purchases. Along with the unorganized information requests and lack of ability to purchase without contacting him directly. This amount of information needed by customers for Elder Racing Equipment at present forces the owner to spend more time on replying to requests and less time on production of products.`,
+      'Busy professionals need a way to communicate effectively with other busy professionals to mitigate miscommunication and save them time and unnecessary effort during a conversation.',
+    secondP: ``,
   },
   {
     id: uuidv4(),
     heading: 'My Role',
     firstP:
-      'I Initiated this project to challenge myself to step out of my comfort zone into a small world way out of my natural reach.  I performed user research, designed a responsive web app, and tested my designs with users.',
+      'I Initiated this project to challenge myself to see if I can effectively make improvements to products that already exist on a large scale. I performed user research, designed components for the desktop web app and mobile app, and tested my designs with users.',
   },
   {
     id: uuidv4(),
     heading: 'Understanding The User',
     firstP:
-      'I relied heavily on the owner and any contacts he could throw my way for research purposes. I also joined every motorized bicycle group and forum I could find across social platforms. Joining these bicycle groups was the only way I was going to get a glimpse into this niche market. I had a hard time getting research participants, because of the type of users I needed to find. Luckily some of the contacts the owner gave me followed through, and a nice young man from Sweden, I found in a bicycle group on reddit, came through.',
-    secondP: `I identified specific people who are hobbyist in this market to learn more about their love of the hobby and painpoints. I also identified a business owner, to get a birds eye view from the business side to the hobbyist side. I felt like I needed every angle I could possibly take to understand the solution I was attempting to find. `,
+      'My research participants were linkedin users.',
+    secondP: `. `,
   },
 ];
 
