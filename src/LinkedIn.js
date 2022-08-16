@@ -642,17 +642,17 @@ function LinkedIn() {
                           <h1> Next steps</h1>
                           <ol>
                             <li>
-                              <h6>
+                              <p>
                                 Move into the Iteration Phase 
-                              </h6>
+                              </p>
                             </li>
                             <li>
-                              <h6>Build out new screens and components to add to my existing prototype</h6>
+                              <p>Build out new screens and components to add to my existing prototype</p>
                             </li>
                             <li>
-                              <h6>
+                              <p>
                                 Re-test final prototype
-                              </h6>
+                              </p>
                             </li>
                           </ol>
                          

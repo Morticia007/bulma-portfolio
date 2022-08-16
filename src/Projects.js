@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './Project';
 import Desktop from './assets/Device Mashups-0.png';
 import Device from './assets/Device Mashups.png';
-import ComingSoon2 from './assets/coming-soon-2.png';
+import Linkedin from './assets/linkedin-cover.png';
 import { v4 as uuidv4 } from 'uuid';
 
 const projectList = [
@@ -27,12 +27,12 @@ const projectList = [
   },
   {
     id: uuidv4(),
-    projectName: 'ComingSoon2',
+    projectName: 'Add a Feature',
     projectRole: `UX/UI Designer • Product Designer • Researcher`,
-    projectImage: ComingSoon2,
-    projectSummary: `This project is coming soon This project is coming soon This project is coming soon This project is coming soon`,
+    projectImage: Linkedin,
+    projectSummary: `This project is an 'Add a Feature' project that introduces 'chat reply' to the existing chat feature in Linkedin`,
     projectGoal:
-      'Learn how to empower people and improve life through digital products.',
+      'Add a feature to improve an existing application.',
     projectPage: '',
   },
 ];
