@@ -2,7 +2,8 @@ import React from 'react';
 import Content from './Content';
 import { v4 as uuidv4 } from 'uuid';
 import screens from './assets/screens-2.png';
-import MappingJourney from './assets/user-flow-ere.png';
+import Desktopflow from './assets/desktop-flow.png';
+import Mobileflow from './assets/mobile-flow.png';
 import WireFrames from './WireFrames';
 import ModalImage from 'react-modal-image';
 
@@ -178,7 +179,7 @@ function LinkedIn() {
   return (
     <div>
       <section className='hero is-medium'>
-        <img alt='project 2' src={screens} />
+        <img alt='project 2' src={require('./assets/linkedin-cover.png')} />
         <div className='hero-body'>
           <div className='content is-large has-text-centered'>
             <div>
@@ -186,8 +187,7 @@ function LinkedIn() {
                 style={{
                   marginBottom: 80,
                   marginTop: 80,
-                }}
-              >
+                }}>
                 LinkedIn Chat Reply
               </h1>
               <p>Chat Reply For LinkedIn</p>
@@ -207,22 +207,34 @@ function LinkedIn() {
           <div className='columns'>
             <div className='column is-half has-text-left'>
               <p>
-                To understand how I could help this small business, I needed to
-                understand their customers. I focused on discovering:
+                To understand how I could impliment this new feature I needed to
+                know:
               </p>
               <ul>
-                <li>Who they are</li>
-                <li>Why they need this product</li>
-                <li>If I could align user needs with the business needs </li>
+                <li>
+                  How often participants used the chat feature on Linkedin
+                </li>
+                <li>
+                  If they had difficulty with clarity or effective communication
+                </li>
+                <li>What other chat platforms they use in thier daily life </li>
+                <li>How they rated the other platforms </li>
+                <li>Why they rated them the way they did </li>
+                <li>Platforms they have abondoned and why </li>
               </ul>
             </div>
             <div className='column is-half has-text-left'>
-              <p>They struggle finding:</p>
+              <p>
+                Features that other chat platforms used that the users found
+                important:
+              </p>
               <ol>
-                <li>Quality products</li>
-                <li>Sources they can trust for those products</li>
-                <li>Quality sites that don't have unsecure in the browser</li>
-                <li>Time to search for products</li>
+                <li>Chat Reply - Priority</li>
+                <li>Edit - Priority</li>
+                <li>Delete - Priority</li>
+                <li>Reactions - Priority</li>
+                <li>Call feature - Priority</li>
+                <li>Alerts - Priority</li>
               </ol>
             </div>
           </div>
@@ -231,138 +243,91 @@ function LinkedIn() {
         <div className='section content container'>
           <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h1>Justin's Story</h1>
+              <h1>COMPETITIVE RESEARCH</h1>
               <p>
-                As a busy mechanic who wants to build projects in my spare time,
-                I want to have access to quality parts on secure websites.
-                People who build motorized bicycles, do it in their spare time
-                while working 40 hours a week. It would be nice to find a
-                trustworthy company that has the products I need, especially if
-                the products and/or the site save me time.
+                Features will make or break a chat application. When asking
+                about platforms that the participants used it was pretty clear
+                that the preferred platforms had very similar features, options,
+                application choices.
               </p>
-              <p>
-                As you can see Justin needs
-                <ol>
-                  <li>quality</li>
-                  <li>consistancy</li>
-                  <li>security</li>
-                  <li>a way to save time</li>
-                </ol>
-                His frustrations are
-                <ol>
-                  <li>low quality sites </li>
-                  <li>lack of contact options for questions</li>
-                  <li>build difficulties</li>
-                </ol>
-              </p>
+
+              <ol>
+                <li>chat reply</li>
+                <li>edit</li>
+                <li>call feature</li>
+                <li>mute</li>
+
+                <li>delete instead of edit (whatsapp) </li>
+                <li>web app and mobile app</li>
+                <li>free</li>
+              </ol>
             </div>
           </div>
 
-          <img alt='project' src='https://i.ibb.co/J3VpCns/Archetype-ERE.png' />
+          <img
+            alt='competitive analysis'
+            src='https://i.ibb.co/PDx7TRG/v1-Competitive-Analysis.png'
+          />
         </div>
         <hr />
 
         <div class='section content is-normal'>
-          <h2 className='has-text-centered'> COMPETITIVE RESEARCH</h2>
+          <h2 className='has-text-centered'>
+            {' '}
+            Insights | Pain points | Take aways
+          </h2>
 
           <div className='columns is-desktop'>
             <div className='column is-half has-text-left'>
               <div style={{ maxWidth: 840 }}>
-                <p>
-                  Finding competitors was challenging. ERE wasn't aware of
-                  anyone else making these products. I discovered through
-                  questions and research another business that makes an engine
-                  stand similar to what is offered by ERE.
-                </p>
-                <p>
-                  Because of the lack of competition, I questioned if ERE is in
-                  a failing market or if they are ahead of the curve? I analyzed
-                  data collected from user interviews to measure the need for
-                  this product.
-                </p>
-              </div>
-            </div>
-            <div className='column is-half has-text-left'>
-              <div style={{ maxWidth: 840 }}>
-                <p>
-                  Some of the pain points I discovered during user interviews
-                  were:
-                </p>
+                <h4>Insights:</h4>
+                <ol>
+                  <li>Features determine use vs. abandon</li>
+                  <li>There are many commonly used Chat apps</li>
+                  <li>Features that save time and effort are crucial</li>
+                  <li>
+                    Clarity is especially important when users are communicating
+                  </li>
+                  <li>
+                    Users really like the choice of browser web app/desktop app/
+                    mobile app
+                  </li>
+                </ol>
+                <h4>Pain Points:</h4>
                 <ul>
-                  <li>wrestling with a motor while building</li>
-                  <li>
-                    having to mount and remove the motor to make adjustments
-                  </li>
-                  <li>
-                    the bike falling over during these mounts and dismounts
-                  </li>
-                  <li>
-                    extra motors lying aroud that could definitly use a stand
-                  </li>
+                  <li>taking extra effort</li>
+                  <li>taking extra time</li>
+                  <li>lack of organization</li>
+                  <li>lack of features they think are important</li>
                 </ul>
               </div>
             </div>
-          </div>
-        </div>
-        <hr />
-        <div class='section content is-normal'>
-          <h2 className='has-text-centered'>HMW</h2>
-          <div className='columns is-desktop'>
-            <div className='column is-half  has-text-left'>
-              <h3>How might we help?</h3>
-              <h6>Hobbyists who struggle with:</h6>
-              <ul>
-                <li>wrestling with a motor while building</li>
-                <li>
-                  having to mount and remove the motor to make adjustments
-                </li>
-                <li>the bike falling over during mounts and dismounts</li>
-                <li>extra motors lying around that need a stand</li>
-              </ul>
-
-              <h4>Align it with</h4>
-
-              <h6>ERE who struggles with:</h6>
-              <ul>
-                <li>unorganized product information requests</li>
-                <li>unorganized product order requests</li>
-                <li>lack of payment method</li>
-                <li>platform for all these features to live on</li>
-              </ul>
-              <h6>
-                *At this moment in my project I realize the original problem
-                statement is evolving.
-              </h6>
-            </div>
             <div className='column is-half has-text-left'>
-              <p>
-                We need to align user goals to business goals to help ERE with
-                their organizational pain points, in order to make this product
-                available to solve user painpoints with their builds.
-              </p>
-              <h6>But...</h6>
-              <h6>
-                What about hobbyists pain points that come with finding the
-                products for the build?
-              </h6>
-              <ul>
-                <li>Lack of products that aren't cheap knockoffs</li>
-                <li>lack of quality sites to get products from</li>
-                <li>
-                  lack of knowing the right place to go to get these products
-                </li>
-                <li>
-                  time wasted just trying to find something, anything they can
-                  trust
-                </li>
-              </ul>
-              <p>
-                How might we align user goals to business goals in order to help
-                ERE with their organizational painpoints, in order to make this
-                product available to solve user painpoints with their builds
-                <h6>AND</h6>Give them a place they can trust with resources to
-                find other products they need?
-              </p>
+              <div style={{ maxWidth: 840 }}>
+                <h4> Take aways:</h4>
+                <ul>
+                  <li>
+                    Linkedin chat rated very low in favorite or preferred chat
+                    applications
+                  </li>
+                  <li>Whatsapp rated highest in favorite or most used</li>
+                  <li>
+                    Features are the most important thing that determines usage
+                  </li>
+                  <li>
+                    Time and effort that it takes a user while using an app will
+                    either keep them coming back or deter them from using
+                  </li>
+                  <li>
+                    The more helpful features the chat app has, the better it is
+                  </li>
+                  <li>
+                    If the user doesn’t have access to features that help
+                    clarity in communication the user is less likely to continue
+                    to use that chat app
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -373,25 +338,13 @@ function LinkedIn() {
           <div className='content container'>
             <div className='columns is-desktop'>
               <div className='column is-half is-offset-one-quarter has-text-left'>
-                <h1>Proposed Solution</h1>
+                <h1 className='has-text-centered'>Proposed Solution</h1>
                 <div>
                   <div style={{ maxWidth: 840 }}>
                     <p>
-                      So at this point it only seemed right to start the design
-                      process with all the great things I got from my
-                      participants and from ERE.
-                    </p>
-                    <p>
-                      I decided based on everything I had learned, to build an
-                      e-commerce web app that made the contact and payment
-                      process easy. I wanted to go a step further though and
-                      include some of the gold I had gathered along the way!
-                      While writing the mission statement and the story about
-                      the company it was clear that the owner of ERE is
-                      determined to make the hobbyist life easier and more
-                      connected, and the hobbyist was screaming for help with
-                      getting the inside scoop! I'll take you on the golden
-                      journey next.
+                      I decided based user research to go ahead and start the
+                      design process to add the chat reply feature to the
+                      already existing Linkedin design system.
                     </p>
                   </div>
                 </div>
@@ -403,27 +356,28 @@ function LinkedIn() {
         <div className='content container'>
           <h1 className='has-text-centered'>Week 2 | Design Evolution</h1>
           <hr />
-          <h3 className='has-text-centered'>Feature Prioritization</h3>
+          <h3 className='has-text-centered'>Component Prioritization</h3>
           <div className='columns is-desktop'>
             <div className='column is-half has-text-left'>
-              <div style={{ maxWidth: 840 }}>
+              <div style={{ maxWidth: 640 }}>
                 <ul>
                   <li>
-                    <h5> Ease of Navigation </h5>
+                    <p>
+                      {' '}
+                      Build out chat components for web app to recreate Linkedin{' '}
+                    </p>
                   </li>
-                  <p>Solving for: time</p>
+
                   <li>
-                    <h5> Contact Form </h5>
+                    <p>Build out the reactions bar with emojis and elipses </p>
                   </li>
-                  <p>Solving for: difficulty asking questions</p>
+
                   <li>
-                    <h5> Testimonials </h5>
+                    <p>
+                      {' '}
+                      Build out options card component and add the reply feature
+                    </p>
                   </li>
-                  <p>Solving for: confidence product quality</p>
-                  <li>
-                    <h5>Our mission and story </h5>
-                  </li>
-                  <p>Solving for confidence in the company</p>
                 </ul>
               </div>
             </div>
@@ -431,61 +385,57 @@ function LinkedIn() {
               <div style={{ maxWidth: 840 }}>
                 <ul>
                   <li>
-                    <h5> Ease of Purchase </h5>
+                    <p>
+                      Build out chat components for mobile app to recreate
+                      Linkedin{' '}
+                    </p>
                   </li>
-                  <p> Solving for need. </p>
+
                   <li>
-                    <h5>Bulk order quote form </h5>
+                    <p>
+                      Build out the emojis/options card component and add the
+                      reply feature{' '}
+                    </p>
                   </li>
-                  <p>
-                    Solving for businesses who need to order products in bulk
-                  </p>
+
                   <li>
-                    <h5> Resources </h5>
+                    <p>
+                      Combine the components into prototype for testing the new
+                      feature{' '}
+                    </p>
                   </li>
-                  <p>
-                    Solving for the time it takes users to search for products
-                  </p>
                 </ul>
               </div>
             </div>
           </div>
         </div>
         <div className='content container'>
-          <h3 className='has-text-centered'>E-commerce MVP</h3>
+          <h3 className='has-text-centered'> MVP</h3>
           <div className='columns is-desktop'>
             <div className='column is-half has-text-left'>
               <div style={{ maxWidth: 840 }}>
                 <ul>
                   <li>
-                    <h5>Home</h5>
-                  </li>
-                  <p>
-                    Home screen with hero message, multiple CTAs, and
-                    testimonials.
-                  </p>
-                  <li>
-                    <li>
-                      <h5>About Screen </h5>
-                    </li>
-                    <p>Mission, Story, Resources</p>
+                    <p>Desktop Home Screen</p>
                   </li>
 
                   <li>
-                    <h5>Product page </h5>
+                    <li>
+                      <p>Messages List Components</p>
+                    </li>
                   </li>
-                  <p>Simple product list and a clear see more options </p>
+
                   <li>
-                    <h5> Product Details Pages </h5>
+                    <p>Messages Thread Components </p>
                   </li>
-                  <p>
-                    Price, quantity, customization options, add ons, description
-                    and spec details.
-                  </p>
+
                   <li>
-                    <h5> Cart </h5>
+                    <p> Reactions Components </p>
                   </li>
-                  <p>Standard cart.</p>
+
+                  <li>
+                    <p>Options Card Component </p>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -493,32 +443,20 @@ function LinkedIn() {
               <div style={{ maxWidth: 840 }}>
                 <ul>
                   <li>
-                    <h5> Authentication Page </h5>
+                    <p> Mobile Home Screen </p>
                   </li>
-                  <p>
-                    This page will evolve into the user being able to login for
-                    faster payment options and account info or just checking out
-                    as a guest.
-                  </p>
+
                   <li>
-                    <h5>Shipping Details Page </h5>
+                    <p>Messages List Components </p>
                   </li>
-                  <p>Standard shipping page.</p>
+
                   <li>
-                    <h5>Payment Screen </h5>
+                    <p>Messages Thread Components </p>
                   </li>
-                  <p>Multiple payment options.</p>
+
                   <li>
-                    <h5>Confirmation Page </h5>
+                    <p>Reactions/Options Components </p>
                   </li>
-                  <p>With confirmation order number for tracking.</p>
-                  <li>
-                    <h5> Multiple Forms for Contact </h5>
-                  </li>
-                  <p>
-                    FAQ with Form dropdown, an information request form, and a
-                    Bulk quote request form .
-                  </p>
                 </ul>
               </div>
             </div>
@@ -530,8 +468,13 @@ function LinkedIn() {
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Flow</h3>
               <ModalImage
-                small={MappingJourney}
-                large={MappingJourney}
+                small={Desktopflow}
+                large={Desktopflow}
+                alt='Diagram of User Flow'
+              />
+              <ModalImage
+                small={Mobileflow}
+                large={Mobileflow}
                 alt='Diagram of User Flow'
               />
             </div>
