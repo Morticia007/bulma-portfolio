@@ -465,7 +465,7 @@ function LinkedIn() {
         <hr />
         <div className='section content container'>
           <div className='columns is-desktop'>
-            <div className='column is-half is-offset-one-quarter has-text-left'>
+            <div className='has-text-centered'>
               <h3>User Flow</h3>
               <ModalImage
                 small={Desktopflow}
@@ -532,62 +532,72 @@ function LinkedIn() {
                   <div>
                     <h1>Usability Testing </h1>
                     <div style={{ maxWidth: 840 }}>
-                      <h3>4 participants</h3>
-
+                      <h5>14 participants</h5>
+                      <p>I used maze to test with users</p>
                       <p>
-                        All participants were given 7 scenarios and 7 tasks to
+                        All participants were given 2 scenarios and 2 tasks to
                         complete. The tasks test for:
                         <ol>
-                          <h6>
-                            <li>navigation</li>
-                            <li>product details</li>
-                            <li>contact flow</li>
-                            <li>purchase flow </li>
-                          </h6>
+                          <li>Opening the messages</li>
+                          <li>New chat reply feature</li>
                         </ol>
                       </p>
 
-                      <h4>Participants reported</h4>
-                      <ol>
-                        <li>ease of navigation</li>
+                      <ul>
+                        <li>At first it seemed testers were doing okay </li>
                         <li>
-                          complete understanding and appreciation of product
-                          details
+                          Then the results started taking a terrible nose dive
                         </li>
-                        <li>ease of use in the contact flow</li>
+                        <li>Users were going way off the assumed path </li>
                         <li>
-                          appreciation for the simplicity of the purchase flow
+                          I got feedback that the test was broken and the
+                          testers were getting trapped becuase the test screen
+                          was not scaling correctly
                         </li>
-                      </ol>
+                      </ul>
 
                       <p>
-                        To my suprise and delight all participants reported that
-                        the structure of the site fit in with their existing
-                        mental modal and expectations.
+                        So I stopped the test right away to look at the results.
+                        To my suprise the path most testers were taking (when
+                        the test was working) was not the path I had built out.
+                        These participants didn't even make it to the second
+                        task because they either didn't know the path I had
+                        built out or they were frustrated and bounced. This
+                        insight was so vital! Once the test had broken no one
+                        was getting to the second task at all due to the scaling
+                        issue. so I figured out a small hidden trick in maze to
+                        make sure it scaled correctly and ran it again.
                       </p>
-                      <h5>The phrases most comonly used were</h5>
+                      <h3>Second Test</h3>
+                      <h5>5 Participants</h5>
                       <ul>
-                        <li>"I loved..."</li>
-                        <li>"I really apreciate..."</li>
-                        <li>"That was exactly..."</li>
+                        <li>Users were still going off the path</li>
+                        <li>60% made it to the second task</li>
+                        <li>
+                          It was confirmed, I was going to have to build out the
+                          other path users preferred to get an accurate result
+                          for the new chat feature
+                        </li>
                       </ul>
-                      <h5>
-                        When asked final questions regarding if they would
-                        change anything
-                      </h5>
                       <p>
-                        The answers were unanimously "no", and then followed up
-                        with why they wouldn't change anything, without being
-                        prompted or asked. This validation was a big relief,
-                        (and suprise) since my sprint was quickly coming to a
-                        close.
+                        I did, however, despite the test mishaps recieve very
+                        positive feedback on the need for the feature, and the
+                        overall idea.
                       </p>
-                      <p>
-                        I also included the owner of ERE in my usability testing
-                        just to give him confidence in the project and to get
-                        the validation I needed from him to recommend the
-                        project for development.
-                      </p>
+
+                      <h3>Recommendation for Iteration/Rebuild </h3>
+                      <ul>
+                        <li>Home Screen - hook up message bubble in navbar </li>
+                        <li>
+                          Build out the screen that message bubble in the
+                          navbar connects to.
+                        </li>
+                        <li>Build out the components this new screen will require</li>
+                        <li>
+                          Hook it up to my existing protoype to see if this will
+                          help get a more accurate gauge on the feature
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -605,49 +615,25 @@ function LinkedIn() {
                     <div style={{ maxWidth: 840 }}>
                       <ul>
                         <li>
-                          <h6>Agile design is the only way to go!</h6>
+                          <h6>You cannot-I repeat-cannot test a new feature in an existing platform and not account for all paths users take to get there!</h6>
                         </li>
                         <p>
-                          I will stress this consistently. I work best with
-                          consistant feedback. I am not a fan of wasting time. I
-                          am aware that at any point in a project without
-                          consistently getting feedback, the project could go
-                          down the wrong path.
+                          Users want what they want! This is not negative at all! It teaches us valuable lessons about mental models. If I were to test this with 100 people, my assumption is that only 30 would make it to the new feature to test it. Reason: I didn't account for the more likely path that the other 70 people would choose. 
+                          I am curious now though, if I ran it again with only the new path hooked up would the results of that test be 70 made it and 30 never making it? Unfortunately with the constraint of two weeks I set for myself, at this time I will just move into the revision phase and test both paths. I will definitely revisit this and test the second path alone to see if my assumptions are correct or if I will uncover more gold!
                         </p>
                         <li>
-                          <h6>Niche markets are difficult</h6>
+                          <h6>Attempting an 'Adding a Feature Project' is priceless</h6>
                         </li>
                         <p>
-                          If I were to go back to the start of this project, I
-                          would have given myself more time to submerge myself
-                          in this community and learn more about this market.
-                          Even though the project continued its evolution, I am
-                          not sure that I was able to uncover as much as I would
-                          have liked to.
+                         I think I learned more than I ever have about users, user/task flows, mental models, and design systems than I could of ever expected. Users are used to these platforms already and use them daily, so when they aren't given what they are used to test results can get skewed very quickly.
                         </p>
+                        
+                         
                         <li>
-                          <h6>
-                            Framing research questions correctly will be the
-                            gold in your sifting pan.
-                          </h6>
+                          <h6>Test Throughout</h6>
                         </li>
                         <p>
-                          I said it in my first project and I'll say it again! I
-                          feel I wouldn't have been able to uncover any type of
-                          competitive analysis (which in all reality didn't have
-                          much impact on the project, besides understanding fail
-                          vs. innovation). It did, however, give me an insight
-                          into the passion, desire to be a source of connection,
-                          and innovation of the owner of ERE.
-                        </p>
-                        <li>
-                          <h6>Test throughout</h6>
-                        </li>
-                        <p>
-                          This is another one of my golden rules! If I wouldn't
-                          have tested this design throughout the design
-                          evolution, I would have been met with a ton of
-                          iterations looming over a deadline.
+                          This was a bit more difficult to accomplish in this project, and it showed me that no matter what, I should always test no matter how difficult it is. Even if it's by asking participants to just open the existing platform and show me how they navigate it. If I would have implimented this step I would have made the realization much earlier,  that there was an important step I was missing in this project.
                         </p>
                       </ul>
                       <hr />
@@ -657,49 +643,19 @@ function LinkedIn() {
                           <ol>
                             <li>
                               <h6>
-                                Consult with ERE for approval and discuss the
-                                timeline for development
+                                Move into the Iteration Phase 
                               </h6>
                             </li>
                             <li>
-                              <h6>Get project ready for development.</h6>
+                              <h6>Build out new screens and components to add to my existing prototype</h6>
                             </li>
                             <li>
                               <h6>
-                                Meet with the developer, respecting EREs
-                                timeline, and determine how we will proceed.
+                                Re-test final prototype
                               </h6>
                             </li>
                           </ol>
-                          <h4>In my spare time:</h4>
-                          <ul>
-                            <li>
-                              I will continue do more research and get more of a
-                              reach within this community in order to gather
-                              more information and insights.
-                            </li>
-
-                            <li>
-                              I would like to revisit the designs and re-test
-                              with another group of participants.
-                            </li>
-                            <ul>
-                              <li>
-                                <p>
-                                  I feel like I need more time, since this
-                                  particular group of individuals have proven to
-                                  be hard to get to.
-                                </p>
-                              </li>
-                              <li>
-                                <p>
-                                  I feel like the usability testing went too
-                                  smoothly and that makes me wonder what I
-                                  missed.
-                                </p>
-                              </li>
-                            </ul>
-                          </ul>
+                         
                           <h5>
                             If you'd like to know more about this project, or if
                             you are interested in collaborating, I'd love to
