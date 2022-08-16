@@ -33,8 +33,7 @@ const projectContentList = [
   {
     id: uuidv4(),
     heading: 'Understanding The User',
-    firstP:
-      'My research participants were linkedin users.',
+    firstP: 'My research participants were linkedin users.',
     secondP: `. `,
   },
 ];
@@ -46,7 +45,6 @@ const ereHomeScreenWireframes = [
     subtitle: '',
     wireFrameImage: require('./assets/laptop-mockup-row-1.png'),
   },
-  
 ];
 
 const ereAboutScreenWireframes = [
@@ -170,7 +168,8 @@ function LinkedIn() {
                 style={{
                   marginBottom: 80,
                   marginTop: 80,
-                }}>
+                }}
+              >
                 LinkedIn Chat Reply
               </h1>
               <p>Chat Reply For LinkedIn</p>
@@ -188,7 +187,7 @@ function LinkedIn() {
           <h1 className='has-text-centered'>BREAKING DOWN THE PROCESS</h1>
           <h2 className='has-text-centered'>WEEK 1 | RESEARCH</h2>
           <div className='columns'>
-            <div className='column is-half has-text-left'>
+            <div className='column is-half is-offset-one-quarter has-text-leff'>
               <p>
                 To understand how I could impliment this new feature I needed to
                 know:
@@ -206,19 +205,21 @@ function LinkedIn() {
                 <li>Platforms they have abondoned and why </li>
               </ul>
             </div>
-            <div className='column is-half has-text-left'>
+          </div>
+          <div className='columns'>
+            <div className='column is-half is-offset-one-quarter has-text-leff'>
               <p>
                 Features that other chat platforms used that the users found
                 important:
               </p>
-              <ol>
+              <ul>
                 <li>Chat Reply - Priority</li>
                 <li>Edit - Priority</li>
                 <li>Delete - Priority</li>
                 <li>Reactions - Priority</li>
                 <li>Call feature - Priority</li>
                 <li>Alerts - Priority</li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
@@ -226,24 +227,26 @@ function LinkedIn() {
         <div className='section content container'>
           <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h1>COMPETITIVE RESEARCH</h1>
+              <h1 className='has-text-centered'>COMPETITIVE RESEARCH</h1>
               <p>
                 Features will make or break a chat application. When asking
                 about platforms that the participants used it was pretty clear
                 that the preferred platforms had very similar features, options,
                 application choices.
               </p>
-
-              <ol>
-                <li>chat reply</li>
-                <li>edit</li>
-                <li>call feature</li>
-                <li>mute</li>
-
-                <li>delete instead of edit (whatsapp) </li>
-                <li>web app and mobile app</li>
-                <li>free</li>
-              </ol>
+              <div className='columns'>
+                <ul className='column is-half'>
+                  <li>chat reply</li>
+                  <li>edit</li>
+                  <li>call feature</li>
+                  <li>mute</li>
+                </ul>
+                <ul>
+                  <li>delete instead of edit (whatsapp) </li>
+                  <li>web app and mobile app</li>
+                  <li>free</li>
+                </ul>
+              </div>
             </div>
           </div>
 
