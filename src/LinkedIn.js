@@ -42,36 +42,19 @@ const projectContentList = [
 const ereHomeScreenWireframes = [
   {
     id: uuidv4(),
-    title: 'Home',
-    subtitle: 'Call to action for people ready to get products they need',
-    wireFrameImage: require('./assets/home.png'),
+    title: '',
+    subtitle: '',
+    wireFrameImage: require('./assets/laptop-mockup-row-1.png'),
   },
-  {
-    id: uuidv4(),
-    title: 'Home CTA2',
-    subtitle: 'Learn more about ERE products',
-    wireFrameImage: require('./assets/home-cta-2.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Home CTA3',
-    subtitle: 'More information about engine stands',
-    wireFrameImage: require('./assets/home-cta-3.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Testimonials',
-    subtitle: 'Customer product and shopping reviews',
-    wireFrameImage: require('./assets/testimonials.png'),
-  },
+  
 ];
 
 const ereAboutScreenWireframes = [
   {
     id: uuidv4(),
-    title: 'About Page',
-    subtitle: 'Engage the users',
-    wireFrameImage: require('./assets/about.png'),
+    title: 'Home CTA2',
+    subtitle: 'Learn more about ERE products',
+    wireFrameImage: require('./assets/laptop-mockup-row-2.png'),
   },
   {
     id: uuidv4(),
@@ -485,41 +468,49 @@ function LinkedIn() {
           <section id='home' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Home Screen Flow
+                Emoji/Options Dropdown Component
               </h2>
-              <WireFrames wireFrameData={ereHomeScreenWireframes} />
+              <img src={require('./assets/laptop-mockup-row-1.png')} />
             </div>
           </section>
           <section id='about' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                About Screen Flow
+                Scrim
               </h2>
-              <WireFrames wireFrameData={ereAboutScreenWireframes} />
+              <img src={require('./assets/laptop-mockup-row-2.png')} />
             </div>
           </section>
           <section id='products' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Product Screens Flow
+                Chat Reply Bubble
               </h2>
-              <WireFrames wireFrameData={ereProductScreenWireframes} />
+              <img src={require('./assets/laptop-mockup-row-3.png')} />
             </div>
           </section>
           <section id='auth' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Checkout Flow
+                Emoji/Options Component
               </h2>
-              <WireFrames wireFrameData={ereCheckoutScreenWireframes} />
+              <img src={require('./assets/mobile-mockup-row-1.png')} />
             </div>
           </section>
           <section id='contact' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Contact Flow
+                Scrim
               </h2>
-              <WireFrames wireFrameData={ereContactScreenWireframes} />
+              <img src={require('./assets/mobile-mockup-row-2.png')} />
+            </div>
+          </section>
+          <section id='contact' style={{ marginBottom: 100 }}>
+            <div className='content'>
+              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                Chat Reply Bubble
+              </h2>
+              <img src={require('./assets/mobile-mockup-row-3.png')} />
             </div>
           </section>
         </div>
@@ -589,10 +580,12 @@ function LinkedIn() {
                       <ul>
                         <li>Home Screen - hook up message bubble in navbar </li>
                         <li>
-                          Build out the screen that message bubble in the
-                          navbar connects to.
+                          Build out the screen that message bubble in the navbar
+                          connects to.
                         </li>
-                        <li>Build out the components this new screen will require</li>
+                        <li>
+                          Build out the components this new screen will require
+                        </li>
                         <li>
                           Hook it up to my existing protoype to see if this will
                           help get a more accurate gauge on the feature
@@ -615,25 +608,56 @@ function LinkedIn() {
                     <div style={{ maxWidth: 840 }}>
                       <ul>
                         <li>
-                          <h6>You cannot-I repeat-cannot test a new feature in an existing platform and not account for all paths users take to get there!</h6>
+                          <h6>
+                            You cannot-I repeat-cannot test a new feature in an
+                            existing platform and not account for all paths
+                            users take to get there!
+                          </h6>
                         </li>
                         <p>
-                          Users want what they want! This is not negative at all! It teaches us valuable lessons about mental models. If I were to test this with 100 people, my assumption is that only 30 would make it to the new feature to test it. Reason: I didn't account for the more likely path that the other 70 people would choose. 
-                          I am curious now though, if I ran it again with only the new path hooked up would the results of that test be 70 made it and 30 never making it? Unfortunately with the constraint of two weeks I set for myself, at this time I will just move into the revision phase and test both paths. I will definitely revisit this and test the second path alone to see if my assumptions are correct or if I will uncover more gold!
+                          Users want what they want! This is not negative at
+                          all! It teaches us valuable lessons about mental
+                          models. If I were to test this with 100 people, my
+                          assumption is that only 30 would make it to the new
+                          feature to test it. Reason: I didn't account for the
+                          more likely path that the other 70 people would
+                          choose. I am curious now though, if I ran it again
+                          with only the new path hooked up would the results of
+                          that test be 70 made it and 30 never making it?
+                          Unfortunately with the constraint of two weeks I set
+                          for myself, at this time I will just move into the
+                          revision phase and test both paths. I will definitely
+                          revisit this and test the second path alone to see if
+                          my assumptions are correct or if I will uncover more
+                          gold!
                         </p>
                         <li>
-                          <h6>Attempting an 'Adding a Feature Project' is priceless</h6>
+                          <h6>
+                            Attempting an 'Adding a Feature Project' is
+                            priceless
+                          </h6>
                         </li>
                         <p>
-                         I think I learned more than I ever have about users, user/task flows, mental models, and design systems than I could of ever expected. Users are used to these platforms already and use them daily, so when they aren't given what they are used to test results can get skewed very quickly.
+                          I think I learned more than I ever have about users,
+                          user/task flows, mental models, and design systems
+                          than I could of ever expected. Users are used to these
+                          platforms already and use them daily, so when they
+                          aren't given what they are used to test results can
+                          get skewed very quickly.
                         </p>
-                        
-                         
+
                         <li>
                           <h6>Test Throughout</h6>
                         </li>
                         <p>
-                          This was a bit more difficult to accomplish in this project, and it showed me that no matter what, I should always test no matter how difficult it is. Even if it's by asking participants to just open the existing platform and show me how they navigate it. If I would have implimented this step I would have made the realization much earlier,  that there was an important step I was missing in this project.
+                          This was a bit more difficult to accomplish in this
+                          project, and it showed me that no matter what, I
+                          should always test no matter how difficult it is. Even
+                          if it's by asking participants to just open the
+                          existing platform and show me how they navigate it. If
+                          I would have implimented this step I would have made
+                          the realization much earlier, that there was an
+                          important step I was missing in this project.
                         </p>
                       </ul>
                       <hr />
@@ -642,20 +666,19 @@ function LinkedIn() {
                           <h1> Next steps</h1>
                           <ol>
                             <li>
-                              <p>
-                                Move into the Iteration Phase 
-                              </p>
-                            </li>
-                            <li>
-                              <p>Build out new screens and components to add to my existing prototype</p>
+                              <p>Move into the Iteration Phase</p>
                             </li>
                             <li>
                               <p>
-                                Re-test final prototype
+                                Build out new screens and components to add to
+                                my existing prototype
                               </p>
+                            </li>
+                            <li>
+                              <p>Retest final prototype</p>
                             </li>
                           </ol>
-                         
+
                           <h5>
                             If you'd like to know more about this project, or if
                             you are interested in collaborating, I'd love to

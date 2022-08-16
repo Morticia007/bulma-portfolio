@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './Project';
 import Desktop from './assets/Device Mashups-0.png';
 import Device from './assets/Device Mashups.png';
-import Linkedin from './assets/linkedin-cover.png';
+import Linkedin from './assets/laptop-4.png';
 import { v4 as uuidv4 } from 'uuid';
 
 const projectList = [
