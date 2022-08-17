@@ -227,39 +227,34 @@ function LinkedIn() {
           <h3 className='has-text-centered'>Component Prioritization</h3>
           <div className='columns is-desktop'>
             <div className='column is-half has-text-left'>
-              <div style={{ maxWidth: 640 }}>
-                <ul>
-                  <li>
-                    Build out chat components for web app to recreate Linkedin{' '}
-                  </li>
+              <ul>
+                <li>
+                  Build out chat components for web app to recreate Linkedin{' '}
+                </li>
 
-                  <li>Build out the reactions bar with emojis and elipses</li>
+                <li>Build out the reactions bar with emojis and elipses</li>
 
-                  <li>
-                    Build out options card component and add the reply feature
-                  </li>
-                </ul>
-              </div>
+                <li>
+                  Build out options card component and add the reply feature
+                </li>
+              </ul>
             </div>
             <div className='column is-half has-text-left'>
-              <div style={{ maxWidth: 840 }}>
-                <ul>
-                  <li>
-                    Build out chat components for mobile app to recreate
-                    Linkedin
-                  </li>
+              <ul>
+                <li>
+                  Build out chat components for mobile app to recreate Linkedin
+                </li>
 
-                  <li>
-                    Build out the emojis/options card component and add the
-                    reply feature
-                  </li>
+                <li>
+                  Build out the emojis/options card component and add the reply
+                  feature
+                </li>
 
-                  <li>
-                    Combine the components into prototype for testing the new
-                    feature
-                  </li>
-                </ul>
-              </div>
+                <li>
+                  Combine the components into prototype for testing the new
+                  feature
+                </li>
+              </ul>
             </div>
           </div>
         </div>
