@@ -33,7 +33,7 @@ const projectList = [
     projectSummary: `This project is an 'Add a Feature' project that introduces 'chat reply' to the existing chat feature in Linkedin`,
     projectGoal:
       'Add a feature to improve an existing application.',
-    projectPage: '',
+    projectPage: 'linkedin',
   },
 ];
 
