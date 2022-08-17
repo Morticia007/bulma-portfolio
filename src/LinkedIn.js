@@ -38,124 +38,6 @@ const projectContentList = [
   },
 ];
 
-const ereHomeScreenWireframes = [
-  {
-    id: uuidv4(),
-    title: '',
-    subtitle: '',
-    wireFrameImage: require('./assets/laptop-mockup-row-1.png'),
-  },
-];
-
-const ereAboutScreenWireframes = [
-  {
-    id: uuidv4(),
-    title: 'Home CTA2',
-    subtitle: 'Learn more about ERE products',
-    wireFrameImage: require('./assets/laptop-mockup-row-2.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'About Story',
-    subtitle: 'Let them know what type of company they are supporting',
-    wireFrameImage: require('./assets/about-story.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Resources',
-    subtitle:
-      'Give them an easier way to find other trusted sources for products',
-    wireFrameImage: require('./assets/about-resources.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Footer',
-    subtitle: 'More navigation',
-    wireFrameImage: require('./assets/footer.png'),
-  },
-];
-
-const ereProductScreenWireframes = [
-  {
-    id: uuidv4(),
-    title: 'Products',
-    subtitle: 'List of products with two choices',
-    wireFrameImage: require('./assets/product-page.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Product 1',
-    subtitle: 'Description, specs, customizations and addons',
-    wireFrameImage: require('./assets/p1-details.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Product 2',
-    subtitle: 'Description, specs, customizations and addons',
-    wireFrameImage: require('./assets/p2-details.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Cart',
-    subtitle: 'Shopping Cart',
-    wireFrameImage: require('./assets/cart.png'),
-  },
-];
-
-const ereCheckoutScreenWireframes = [
-  {
-    id: uuidv4(),
-    title: 'Authentication',
-    subtitle: 'Fill in information (in the future-log in for faster checkout)',
-    wireFrameImage: require('./assets/auth.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Shipping',
-    subtitle: 'Standard shipping page',
-    wireFrameImage: require('./assets/shipping.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Payment',
-    subtitle: 'Secure payment methods',
-    wireFrameImage: require('./assets/payment.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Confirmation',
-    subtitle: 'Order number for tracking and shipping reminders',
-    wireFrameImage: require('./assets/confirmation.png'),
-  },
-];
-
-const ereContactScreenWireframes = [
-  {
-    id: uuidv4(),
-    title: 'FAQ',
-    subtitle: `In case their question is already answered here. Has a dropdown at the bottom with the other forms to choose between if their question isn't answered`,
-    wireFrameImage: require('./assets/faq.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Info Request',
-    subtitle: 'Information Request',
-    wireFrameImage: require('./assets/info-request.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Bulk Request',
-    subtitle: 'Secure payment methods',
-    wireFrameImage: require('./assets/bulk.png'),
-  },
-  {
-    id: uuidv4(),
-    title: 'Success',
-    subtitle: 'Gives a success message about their submission',
-    wireFrameImage: require('./assets/success.png'),
-  },
-];
-
 function LinkedIn() {
   return (
     <div>
@@ -348,21 +230,13 @@ function LinkedIn() {
               <div style={{ maxWidth: 640 }}>
                 <ul>
                   <li>
-                    <p>
-                      {' '}
-                      Build out chat components for web app to recreate Linkedin{' '}
-                    </p>
+                    Build out chat components for web app to recreate Linkedin{' '}
                   </li>
 
-                  <li>
-                    <p>Build out the reactions bar with emojis and elipses </p>
-                  </li>
+                  <li>Build out the reactions bar with emojis and elipses</li>
 
                   <li>
-                    <p>
-                      {' '}
-                      Build out options card component and add the reply feature
-                    </p>
+                    Build out options card component and add the reply feature
                   </li>
                 </ul>
               </div>
@@ -371,24 +245,18 @@ function LinkedIn() {
               <div style={{ maxWidth: 840 }}>
                 <ul>
                   <li>
-                    <p>
-                      Build out chat components for mobile app to recreate
-                      Linkedin{' '}
-                    </p>
+                    Build out chat components for mobile app to recreate
+                    Linkedin
                   </li>
 
                   <li>
-                    <p>
-                      Build out the emojis/options card component and add the
-                      reply feature{' '}
-                    </p>
+                    Build out the emojis/options card component and add the
+                    reply feature
                   </li>
 
                   <li>
-                    <p>
-                      Combine the components into prototype for testing the new
-                      feature{' '}
-                    </p>
+                    Combine the components into prototype for testing the new
+                    feature
                   </li>
                 </ul>
               </div>
