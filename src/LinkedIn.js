@@ -226,7 +226,7 @@ function LinkedIn() {
           <hr />
           <h3 className='has-text-centered'>Component Prioritization</h3>
           <div className='columns is-desktop'>
-            <div className='column is-half has-text-left'>
+            <div className='column is-half is-offset-one-quarter'>
               <ul>
                 <li>
                   Build out chat components for web app to recreate Linkedin{' '}
@@ -237,10 +237,6 @@ function LinkedIn() {
                 <li>
                   Build out options card component and add the reply feature
                 </li>
-              </ul>
-            </div>
-            <div className='column is-half has-text-left'>
-              <ul>
                 <li>
                   Build out chat components for mobile app to recreate Linkedin
                 </li>
@@ -261,8 +257,8 @@ function LinkedIn() {
         <div className='content container'>
           <h3 className='has-text-centered'> MVP</h3>
           <div className='columns is-desktop'>
-            <div className='column is-half has-text-left'>
-              <div style={{ maxWidth: 840 }}>
+            <div className='column is-offset-one-quarter has-text-left'>
+              <div>
                 <ul>
                   <li>
                     <p>Desktop Home Screen</p>
@@ -289,25 +285,23 @@ function LinkedIn() {
               </div>
             </div>
             <div className='column is-half has-text-left'>
-              <div style={{ maxWidth: 840 }}>
-                <ul>
-                  <li>
-                    <p> Mobile Home Screen </p>
-                  </li>
+              <ul>
+                <li>
+                  <p> Mobile Home Screen </p>
+                </li>
 
-                  <li>
-                    <p>Messages List Components </p>
-                  </li>
+                <li>
+                  <p>Messages List Components </p>
+                </li>
 
-                  <li>
-                    <p>Messages Thread Components </p>
-                  </li>
+                <li>
+                  <p>Messages Thread Components </p>
+                </li>
 
-                  <li>
-                    <p>Reactions/Options Components </p>
-                  </li>
-                </ul>
-              </div>
+                <li>
+                  <p>Reactions/Options Components </p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
