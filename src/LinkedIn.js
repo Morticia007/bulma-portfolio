@@ -375,7 +375,7 @@ function LinkedIn() {
         <hr />
         <section className='container section'>
           <div className='content'>
-            <div className='content container'>
+            
               <div className='columns'>
                 <div className='column column is-half is-offset-one-quarter has-text-left'>
                   <div>
@@ -434,7 +434,7 @@ function LinkedIn() {
                         overall idea.
                       </p>
 
-                      <h3>Recommendation for Iteration/Rebuild </h3>
+                      <h1>Recommendation for Iteration/Rebuild </h1>
                       <ul>
                         <li>Home Screen - hook up message bubble in navbar </li>
                         <li>
@@ -453,15 +453,14 @@ function LinkedIn() {
                   </div>
                 </div>
               </div>
-            </div>
+            
           </div>
         </section>
         <hr />
         <section className='container section'>
           <div className='content'>
-            <div className='content container'>
               <div className='columns'>
-                <div className='column column is-half is-offset-one-quarter has-text-left'>
+                <div className='column is-half is-offset-one-quarter has-text-left'>
                   <div>
                     <h1>Lessons Learned</h1>
 
@@ -545,7 +544,7 @@ function LinkedIn() {
                   </div>
                 </div>
               </div>
-            </div>
+            
           </div>
         </section>
       </section>
