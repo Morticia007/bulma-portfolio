@@ -373,176 +373,170 @@ function LinkedIn() {
         <hr />
         <section className='container section'>
           <div className='content'>
-            
-              <div className='columns'>
-                <div className='column column is-half is-offset-one-quarter has-text-left'>
-                  <div>
-                    <h1>Usability Testing </h1>
-                    <div style={{ maxWidth: 840 }}>
-                      <h5>14 participants</h5>
-                      <p>I used maze to test with users</p>
-                      <p>
-                        All participants were given 2 scenarios and 2 tasks to
-                        complete. The tasks test for:
-                        <ol>
-                          <li>Opening the messages</li>
-                          <li>New chat reply feature</li>
-                        </ol>
-                      </p>
+            <div className='columns'>
+              <div className='column column is-half is-offset-one-quarter has-text-left'>
+                <div>
+                  <h1>Usability Testing </h1>
+                  <div style={{ maxWidth: 840 }}>
+                    <h5>14 participants</h5>
+                    <p>I used maze to test with users</p>
+                    <p>
+                      All participants were given 2 scenarios and 2 tasks to
+                      complete. The tasks test for:
+                      <ol>
+                        <li>Opening the messages</li>
+                        <li>New chat reply feature</li>
+                      </ol>
+                    </p>
 
-                      <ul>
-                        <li>At first it seemed testers were doing okay </li>
-                        <li>
-                          Then the results started taking a terrible nose dive
-                        </li>
-                        <li>Users were going way off the assumed path </li>
-                        <li>
-                          I got feedback that the test was broken and the
-                          testers were getting trapped becuase the test screen
-                          was not scaling correctly
-                        </li>
-                      </ul>
+                    <ul>
+                      <li>At first it seemed testers were doing okay </li>
+                      <li>
+                        Then the results started taking a terrible nose dive
+                      </li>
+                      <li>Users were going way off the assumed path </li>
+                      <li>
+                        I got feedback that the test was broken and the testers
+                        were getting trapped becuase the test screen was not
+                        scaling correctly
+                      </li>
+                    </ul>
 
-                      <p>
-                        So I stopped the test right away to look at the results.
-                        To my suprise the path most testers were taking (when
-                        the test was working) was not the path I had built out.
-                        These participants didn't even make it to the second
-                        task because they either didn't know the path I had
-                        built out or they were frustrated and bounced. This
-                        insight was so vital! Once the test had broken no one
-                        was getting to the second task at all due to the scaling
-                        issue. so I figured out a small hidden trick in maze to
-                        make sure it scaled correctly and ran it again.
-                      </p>
-                      <h3>Second Test</h3>
-                      <h5>5 Participants</h5>
-                      <ul>
-                        <li>Users were still going off the path</li>
-                        <li>60% made it to the second task</li>
-                        <li>
-                          It was confirmed, I was going to have to build out the
-                          other path users preferred to get an accurate result
-                          for the new chat feature
-                        </li>
-                      </ul>
-                      <p>
-                        I did, however, despite the test mishaps recieve very
-                        positive feedback on the need for the feature, and the
-                        overall idea.
-                      </p>
+                    <p>
+                      So I stopped the test right away to look at the results.
+                      To my suprise the path most testers were taking (when the
+                      test was working) was not the path I had built out. These
+                      participants didn't even make it to the second task
+                      because they either didn't know the path I had built out
+                      or they were frustrated and bounced. This insight was so
+                      vital! Once the test had broken no one was getting to the
+                      second task at all due to the scaling issue. so I figured
+                      out a small hidden trick in maze to make sure it scaled
+                      correctly and ran it again.
+                    </p>
+                    <h3>Second Test</h3>
+                    <h5>5 Participants</h5>
+                    <ul>
+                      <li>Users were still going off the path</li>
+                      <li>60% made it to the second task</li>
+                      <li>
+                        It was confirmed, I was going to have to build out the
+                        other path users preferred to get an accurate result for
+                        the new chat feature
+                      </li>
+                    </ul>
+                    <p>
+                      I did, however, despite the test mishaps recieve very
+                      positive feedback on the need for the feature, and the
+                      overall idea.
+                    </p>
 
-                      <h1>Recommendation for Iteration/Rebuild </h1>
-                      <ul>
-                        <li>Home Screen - hook up message bubble in navbar </li>
-                        <li>
-                          Build out the screen that message bubble in the navbar
-                          connects to.
-                        </li>
-                        <li>
-                          Build out the components this new screen will require
-                        </li>
-                        <li>
-                          Hook it up to my existing protoype to see if this will
-                          help get a more accurate gauge on the feature
-                        </li>
-                      </ul>
-                    </div>
+                    <h1>Recommendation for Iteration/Rebuild </h1>
+                    <ul>
+                      <li>Home Screen - hook up message bubble in navbar </li>
+                      <li>
+                        Build out the screen that message bubble in the navbar
+                        connects to.
+                      </li>
+                      <li>
+                        Build out the components this new screen will require
+                      </li>
+                      <li>
+                        Hook it up to my existing protoype to see if this will
+                        help get a more accurate gauge on the feature
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-            
+            </div>
           </div>
         </section>
         <hr />
         <section className='container section'>
           <div className='content'>
-              <div className='columns'>
-                <div className='column is-half is-offset-one-quarter has-text-left'>
-                  <div>
-                    <h1>Lessons Learned</h1>
+            <div className='columns'>
+              <div className='column is-half is-offset-one-quarter has-text-left'>
+                <div>
+                  <h1>Lessons Learned</h1>
 
-                    <div style={{ maxWidth: 840 }}>
-                      <h4>
-                        You cannot-I repeat-cannot test a new feature in an
-                        existing platform and not account for all paths users
-                        take to get there!
-                      </h4>
+                  <div style={{ maxWidth: 840 }}>
+                    <h4>
+                      You cannot-I repeat-cannot test a new feature in an
+                      existing platform and not account for all paths users take
+                      to get there!
+                    </h4>
 
-                      <p>
-                        Users want what they want! This is not negative at all!
-                        It teaches us valuable lessons about mental models. If I
-                        were to test this with 100 people, my assumption is that
-                        only 30 would make it to the new feature to test it.
-                        Reason: I didn't account for the more likely path that
-                        the other 70 people would choose. I am curious now
-                        though, if I ran it again with only the new path hooked
-                        up would the results of that test be 70 made it and 30
-                        never making it? Unfortunately with the constraint of
-                        two weeks I set for myself, at this time I will just
-                        move into the revision phase and test both paths. I will
-                        definitely revisit this and test the second path alone
-                        to see if my assumptions are correct or if I will
-                        uncover more gold!
-                      </p>
+                    <p>
+                      Users want what they want! This is not negative at all! It
+                      teaches us valuable lessons about mental models. If I were
+                      to test this with 100 people, my assumption is that only
+                      30 would make it to the new feature to test it. Reason: I
+                      didn't account for the more likely path that the other 70
+                      people would choose. I am curious now though, if I ran it
+                      again with only the new path hooked up would the results
+                      of that test be 70 made it and 30 never making it?
+                      Unfortunately with the constraint of two weeks I set for
+                      myself, at this time I will just move into the revision
+                      phase and test both paths. I will definitely revisit this
+                      and test the second path alone to see if my assumptions
+                      are correct or if I will uncover more gold!
+                    </p>
 
-                      <h4>
-                        Attempting an 'Adding a Feature Project' is priceless
-                      </h4>
+                    <h4>
+                      Attempting an 'Adding a Feature Project' is priceless
+                    </h4>
 
-                      <p>
-                        I think I learned more than I ever have about users,
-                        user/task flows, mental models, and design systems than
-                        I could of ever expected. Users are used to these
-                        platforms already and use them daily, so when they
-                        aren't given what they are used to test results can get
-                        skewed very quickly.
-                      </p>
+                    <p>
+                      I think I learned more than I ever have about users,
+                      user/task flows, mental models, and design systems than I
+                      could of ever expected. Users are used to these platforms
+                      already and use them daily, so when they aren't given what
+                      they are used to test results can get skewed very quickly.
+                    </p>
 
-                      <h4>Test Throughout</h4>
+                    <h4>Test Throughout</h4>
 
-                      <p>
-                        This was a bit more difficult to accomplish in this
-                        project, and it showed me that no matter what, I should
-                        always test no matter how difficult it is. Even if it's
-                        by asking participants to just open the existing
-                        platform and show me how they navigate it. If I would
-                        have implimented this step I would have made the
-                        realization much earlier, that there was an important
-                        step I was missing in this project.
-                      </p>
+                    <p>
+                      This was a bit more difficult to accomplish in this
+                      project, and it showed me that no matter what, I should
+                      always test no matter how difficult it is. Even if it's by
+                      asking participants to just open the existing platform and
+                      show me how they navigate it. If I would have implimented
+                      this step I would have made the realization much earlier,
+                      that there was an important step I was missing in this
+                      project.
+                    </p>
 
-                    
-                      <section className='container'>
-                        <div className='content'>
-                          <h1> Next steps</h1>
-                          <ol>
-                            <li>
-                              <p>Move into the Iteration Phase</p>
-                            </li>
-                            <li>
-                              <p>
-                                Build out new screens and components to add to
-                                my existing prototype
-                              </p>
-                            </li>
-                            <li>
-                              <p>Retest final prototype</p>
-                            </li>
-                          </ol>
+                    <section className='container'>
+                      <div className='content'>
+                        <h1> Next steps</h1>
+                        <ol>
+                          <li>
+                            <p>Move into the Iteration Phase</p>
+                          </li>
+                          <li>
+                            <p>
+                              Build out new screens and components to add to my
+                              existing prototype
+                            </p>
+                          </li>
+                          <li>
+                            <p>Retest final prototype</p>
+                          </li>
+                        </ol>
 
-                          <h5>
-                            If you'd like to know more about this project, or if
-                            you are interested in collaborating, I'd love to
-                            connect.
-                          </h5>
-                        </div>
-                      </section>
-                    </div>
+                        <h5>
+                          If you'd like to know more about this project, or if
+                          you are interested in collaborating, I'd love to
+                          connect.
+                        </h5>
+                      </div>
+                    </section>
                   </div>
                 </div>
               </div>
-            
+            </div>
           </div>
         </section>
       </section>
