@@ -4,40 +4,36 @@ import { Link } from 'react-router-dom';
 import logo from './assets/logo-14.png';
 import './Sidebar.css';
 import { slide as Menu } from 'react-burger-menu';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faChevronDown , faChevronRight} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faChevronDown,
+  faChevronRight,
+} from '@fortawesome/free-solid-svg-icons';
+
 class Navbar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      menuOpen: false,
-      workClicked: false,
-    };
-  }
+  
+  state = {
+    menuOpen: false,
+    workClicked: false,
+  };
 
-  // This keeps your state in sync with the opening/closing of the menu
-  // via the default means, e.g. clicking the X, pressing the ESC key etc.
-  handleStateChange(state) {
+  handleStateChange = (state) => {
     this.setState({ menuOpen: state.isOpen });
-  }
+  };
 
-  // This can be used to close the menu, e.g. when a user clicks a menu item
-  closeMenu() {
+  closeMenu = () => {
     this.setState({ menuOpen: false });
-  }
+  };
 
-  // This can be used to toggle the menu, e.g. when using a custom icon
-  // Tip: You probably want to hide either/both default icons if using a custom icon
-  // See https://github.com/negomi/react-burger-menu#custom-icons
-  toggleMenu() {
+  toggleMenu = () => {
     this.setState((state) => ({ menuOpen: !state.menuOpen }));
-  }
+  };
 
   handleWorkClick = () => {
     console.log(this.state.workClicked);
-    console.log('workClicked');
     this.setState((state) => ({ workClicked: !state.workClicked }));
   };
+
   render() {
     return (
       <>
@@ -70,19 +66,25 @@ class Navbar extends Component {
                   About
                 </Link>
                 <div onClick={this.handleWorkClick} className='navbar-item'>
-                  Work <FontAwesomeIcon style={{marginLeft: 20 }} icon={this.state.workClicked ? faChevronDown : faChevronRight}/>
+                  Work
+                  <FontAwesomeIcon
+                    style={{ marginLeft: 20 }}
+                    icon={
+                      this.state.workClicked ? faChevronDown : faChevronRight
+                    }
+                  />
                   {this.state.workClicked ? (
                     <div>
                       <Link
-                      style={{color: '#D1D1D1'}}
+                        style={{ color: '#D1D1D1' }}
                         onClick={() => this.closeMenu()}
-                        to='wif' 
+                        to='wif'
                         className='navbar-item'
                       >
                         WIF
                       </Link>
                       <Link
-                       style={{color: '#D1D1D1'}}
+                        style={{ color: '#D1D1D1' }}
                         onClick={() => this.closeMenu()}
                         to='ere'
                         className='navbar-item'
@@ -90,7 +92,7 @@ class Navbar extends Component {
                         ERE
                       </Link>
                       <Link
-                       style={{color: '#D1D1D1'}}
+                        style={{ color: '#D1D1D1' }}
                         onClick={() => this.closeMenu()}
                         to='linkedin'
                         className='navbar-item'

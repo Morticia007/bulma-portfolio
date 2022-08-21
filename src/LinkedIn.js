@@ -66,10 +66,10 @@ function LinkedIn() {
         ))}
 
         <div class='section content is-normal'>
-          <h1 className='has-text-centered'>BREAKING DOWN THE PROCESS</h1>
-          <h2 className='has-text-centered'>WEEK 1 | RESEARCH</h2>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-leff'>
+              <h1 className='has-text-left'>BREAKING DOWN THE PROCESS</h1>
+              <h2 className='has-text-left'>WEEK 1 | RESEARCH</h2>
               <p>
                 To understand how I could impliment this new feature I needed to
                 know:
@@ -109,7 +109,7 @@ function LinkedIn() {
         <div className='section content container'>
           <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h1 className='has-text-centered'>COMPETITIVE RESEARCH</h1>
+              <h1 className='has-text-left'>COMPETITIVE RESEARCH</h1>
               <p>
                 Features will make or break a chat application. When asking
                 about platforms that the participants used it was pretty clear
@@ -140,10 +140,7 @@ function LinkedIn() {
         <hr />
 
         <div class='section content is-normal'>
-          <h2 className='has-text-centered'>
-            {' '}
-            Insights | Pain points | Take aways
-          </h2>
+          <h2 className='has-text-left'>Insights | Pain points | Take aways</h2>
 
           <div className='columns is-desktop'>
             <div className='column is-half has-text-left'>
@@ -224,10 +221,10 @@ function LinkedIn() {
         <div className='content container'>
           <h1 className='has-text-centered'>Week 2 | Design Evolution</h1>
           <hr />
-          <h3 className='has-text-centered'>Component Prioritization</h3>
           <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter'>
               <ul>
+                <h3>Component Prioritization</h3>
                 <li>
                   Build out chat components for web app to recreate Linkedin{' '}
                 </li>
@@ -255,11 +252,11 @@ function LinkedIn() {
           </div>
         </div>
         <div className='content container'>
-          <h3 className='has-text-centered'> MVP</h3>
           <div className='columns is-desktop'>
-            <div className='column is-offset-one-quarter has-text-left'>
+            <div className='column is-offset-one-quarter'>
               <div>
                 <ul>
+                  <h3>MVP</h3>
                   <li>
                     <p>Desktop Home Screen</p>
                   </li>
@@ -286,6 +283,7 @@ function LinkedIn() {
             </div>
             <div className='column is-half has-text-left'>
               <ul>
+                <h3 style={{ color: 'white' }}>a</h3>
                 <li>
                   <p> Mobile Home Screen </p>
                 </li>
@@ -458,69 +456,66 @@ function LinkedIn() {
             </div>
           </div>
         </section>
+        <hr />
         <section className='container section'>
           <div className='content'>
             <div className='content container'>
               <div className='columns'>
                 <div className='column column is-half is-offset-one-quarter has-text-left'>
                   <div>
-                    <h1>LESSONS LEARNED</h1>
-                    <div style={{ maxWidth: 840 }}>
-                      <ul>
-                        <li>
-                          <h6>
-                            You cannot-I repeat-cannot test a new feature in an
-                            existing platform and not account for all paths
-                            users take to get there!
-                          </h6>
-                        </li>
-                        <p>
-                          Users want what they want! This is not negative at
-                          all! It teaches us valuable lessons about mental
-                          models. If I were to test this with 100 people, my
-                          assumption is that only 30 would make it to the new
-                          feature to test it. Reason: I didn't account for the
-                          more likely path that the other 70 people would
-                          choose. I am curious now though, if I ran it again
-                          with only the new path hooked up would the results of
-                          that test be 70 made it and 30 never making it?
-                          Unfortunately with the constraint of two weeks I set
-                          for myself, at this time I will just move into the
-                          revision phase and test both paths. I will definitely
-                          revisit this and test the second path alone to see if
-                          my assumptions are correct or if I will uncover more
-                          gold!
-                        </p>
-                        <li>
-                          <h6>
-                            Attempting an 'Adding a Feature Project' is
-                            priceless
-                          </h6>
-                        </li>
-                        <p>
-                          I think I learned more than I ever have about users,
-                          user/task flows, mental models, and design systems
-                          than I could of ever expected. Users are used to these
-                          platforms already and use them daily, so when they
-                          aren't given what they are used to test results can
-                          get skewed very quickly.
-                        </p>
+                    <h1>Lessons Learned</h1>
 
-                        <li>
-                          <h6>Test Throughout</h6>
-                        </li>
-                        <p>
-                          This was a bit more difficult to accomplish in this
-                          project, and it showed me that no matter what, I
-                          should always test no matter how difficult it is. Even
-                          if it's by asking participants to just open the
-                          existing platform and show me how they navigate it. If
-                          I would have implimented this step I would have made
-                          the realization much earlier, that there was an
-                          important step I was missing in this project.
-                        </p>
-                      </ul>
-                      <hr />
+                    <div style={{ maxWidth: 840 }}>
+                      <h4>
+                        You cannot-I repeat-cannot test a new feature in an
+                        existing platform and not account for all paths users
+                        take to get there!
+                      </h4>
+
+                      <p>
+                        Users want what they want! This is not negative at all!
+                        It teaches us valuable lessons about mental models. If I
+                        were to test this with 100 people, my assumption is that
+                        only 30 would make it to the new feature to test it.
+                        Reason: I didn't account for the more likely path that
+                        the other 70 people would choose. I am curious now
+                        though, if I ran it again with only the new path hooked
+                        up would the results of that test be 70 made it and 30
+                        never making it? Unfortunately with the constraint of
+                        two weeks I set for myself, at this time I will just
+                        move into the revision phase and test both paths. I will
+                        definitely revisit this and test the second path alone
+                        to see if my assumptions are correct or if I will
+                        uncover more gold!
+                      </p>
+
+                      <h4>
+                        Attempting an 'Adding a Feature Project' is priceless
+                      </h4>
+
+                      <p>
+                        I think I learned more than I ever have about users,
+                        user/task flows, mental models, and design systems than
+                        I could of ever expected. Users are used to these
+                        platforms already and use them daily, so when they
+                        aren't given what they are used to test results can get
+                        skewed very quickly.
+                      </p>
+
+                      <h4>Test Throughout</h4>
+
+                      <p>
+                        This was a bit more difficult to accomplish in this
+                        project, and it showed me that no matter what, I should
+                        always test no matter how difficult it is. Even if it's
+                        by asking participants to just open the existing
+                        platform and show me how they navigate it. If I would
+                        have implimented this step I would have made the
+                        realization much earlier, that there was an important
+                        step I was missing in this project.
+                      </p>
+
+                    
                       <section className='container'>
                         <div className='content'>
                           <h1> Next steps</h1>
@@ -550,7 +545,6 @@ function LinkedIn() {
                   </div>
                 </div>
               </div>
-              <hr />
             </div>
           </div>
         </section>
