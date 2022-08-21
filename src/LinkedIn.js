@@ -1,10 +1,8 @@
 import React from 'react';
 import Content from './Content';
 import { v4 as uuidv4 } from 'uuid';
-import screens from './assets/screens-2.png';
 import Desktopflow from './assets/desktop-flow.png';
 import Mobileflow from './assets/mobile-flow.png';
-import WireFrames from './WireFrames';
 import ModalImage from 'react-modal-image';
 
 const projectContentList = [
