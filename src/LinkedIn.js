@@ -375,7 +375,7 @@ function LinkedIn() {
               <ModalImage
                 small={require('./assets/laptop-mockup-row-3-small.png')}
                 large={require('./assets/laptop-mockup-row-3-large.png')}
-                imageBackgroundColor='white'
+                imageBackgroundColor='none'
 
               />
             </div>
