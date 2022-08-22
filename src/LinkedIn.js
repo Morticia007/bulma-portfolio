@@ -173,7 +173,7 @@ function LinkedIn() {
                     vs. networking in chats
                   </li>
                   <li>
-                    lLack of features they think are important- chat reply,
+                    Lack of features they think are important- chat reply,
                     edit, delete
                   </li>
                 </ul>
