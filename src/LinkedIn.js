@@ -31,7 +31,7 @@ const projectContentList = [
   {
     id: uuidv4(),
     heading: 'Understanding The User',
-    firstP: 'My research participants were linkedin users.',
+    firstP: 'My research participants were either avid linkedin users that used the chat daily, Linkedin users that used chat weekly, or Linkedin used linked in chat atleast once a month. For a control group I made sure one of my users was an ex Linkedin user who had abandoned the app after technical difficulties.  .',
     secondP: `. `,
   },
 ];
