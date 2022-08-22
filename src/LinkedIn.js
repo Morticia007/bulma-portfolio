@@ -48,8 +48,7 @@ function LinkedIn() {
                 style={{
                   marginBottom: 80,
                   marginTop: 80,
-                }}
-              >
+                }}>
                 LinkedIn Chat Reply
               </h1>
               <p>Chat Reply For LinkedIn</p>
@@ -158,10 +157,25 @@ function LinkedIn() {
                 </ol>
                 <h4>Pain Points:</h4>
                 <ul>
-                  <li>taking extra effort</li>
-                  <li>taking extra time</li>
-                  <li>lack of organization</li>
-                  <li>lack of features they think are important</li>
+                  <li>
+                    Taking extra effort- to clarify what they are communicating
+                    when they don’t have a feature to reply directly to a
+                    specific message
+                  </li>
+                  <li>
+                    Taking extra time- to to clarify to whom they are replying
+                    and what message they are replying to in the thread, when
+                    they don’t have a feature to reply directly to a specific
+                    message
+                  </li>
+                  <li>
+                    Lack of organization- ways to find or differentiate friends
+                    vs. networking in chats
+                  </li>
+                  <li>
+                    lLack of features they think are important- chat reply,
+                    edit, delete
+                  </li>
                 </ul>
               </div>
             </div>
