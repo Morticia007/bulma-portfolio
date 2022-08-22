@@ -326,13 +326,16 @@ function LinkedIn() {
                 small={require('./assets/userflow-s-desktop.png')}
                 large={require('./assets/userflow-L-desktop.png')}
                 alt='Diagram of User Flow'
-                imageBackgroundColor='white'
+                imageBackgroundColor='none'
+               
               />
               <ModalImage
                 small={require('./assets/userflow-s-mobile.png')}
                 large={require('./assets/userflow-L-mobile.png')}
                 alt='Diagram of User Flow'
-                imageBackgroundColor='white'
+                imageBackgroundColor='none'
+
+               
               />
             </div>
           </div>
@@ -347,7 +350,8 @@ function LinkedIn() {
               <ModalImage
                 small={require('./assets/laptop-mockup-row-1-small.png')}
                 large={require('./assets/laptop-mockup-row-1-large.png')}
-                imageBackgroundColor='white'
+                imageBackgroundColor='none'
+
               />
             </div>
           </section>
@@ -359,7 +363,6 @@ function LinkedIn() {
               <ModalImage
                 small={require('./assets/laptop-mockup-row-2-small.png')}
                 large={require('./assets/laptop-mockup-row-2-large.png')}
-                imageBackgroundColor='white'
               />
             </div>
           </section>
@@ -371,7 +374,7 @@ function LinkedIn() {
               <ModalImage
                 small={require('./assets/laptop-mockup-row-3-small.png')}
                 large={require('./assets/laptop-mockup-row-3-large.png')}
-                imageBackgroundColor='white'
+               
               />
             </div>
           </section>
@@ -383,7 +386,7 @@ function LinkedIn() {
               <ModalImage
                 small={require('./assets/mobile-mockup-row-1.png')}
                 large={require('./assets/mobile-mockup-row-1-large.png')}
-                imageBackgroundColor='white'
+             
               />
             </div>
           </section>
@@ -395,7 +398,7 @@ function LinkedIn() {
               <ModalImage
                 small={require('./assets/mobile-mockup-row-2.png')}
                 large={require('./assets/mobile-mockup-row-2-large.png')}
-                imageBackgroundColor='white'
+                
               />
             </div>
           </section>
@@ -407,7 +410,6 @@ function LinkedIn() {
               <ModalImage
                 small={require('./assets/mobile-mockup-row-3.png')}
                 large={require('./assets/mobile-mockup-row-3-large.png')}
-                imageBackgroundColor='white'
               />
             </div>
           </section>
