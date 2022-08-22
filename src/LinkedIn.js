@@ -31,7 +31,8 @@ const projectContentList = [
   {
     id: uuidv4(),
     heading: 'Understanding The User',
-    firstP: 'My research participants were either avid linkedin users that used the chat daily, Linkedin users that used chat weekly, or Linkedin used linked in chat atleast once a month. For a control group I made sure one of my users was an ex Linkedin user who had abandoned the app after technical difficulties.  .',
+    firstP:
+      'My research participants were either avid linkedin users that used the chat daily, Linkedin users that used chat weekly, or Linkedin used linked in chat atleast once a month. For a control group I made sure one of my users was an ex Linkedin user who had abandoned the app after technical difficulties.  .',
     secondP: `. `,
   },
 ];
@@ -48,7 +49,8 @@ function LinkedIn() {
                 style={{
                   marginBottom: 80,
                   marginTop: 80,
-                }}>
+                }}
+              >
                 LinkedIn Chat Reply
               </h1>
               <p>Chat Reply For LinkedIn</p>
@@ -173,8 +175,8 @@ function LinkedIn() {
                     vs. networking in chats
                   </li>
                   <li>
-                    Lack of features they think are important- chat reply,
-                    edit, delete
+                    Lack of features they think are important- chat reply, edit,
+                    delete
                   </li>
                 </ul>
               </div>
@@ -321,14 +323,16 @@ function LinkedIn() {
             <div className='has-text-centered'>
               <h3>User Flow</h3>
               <ModalImage
-                small={Desktopflow}
-                large={Desktopflow}
+                small={require('./assets/userflow-s-desktop.png')}
+                large={require('./assets/userflow-L-desktop.png')}
                 alt='Diagram of User Flow'
+                imageBackgroundColor='white'
               />
               <ModalImage
-                small={Mobileflow}
-                large={Mobileflow}
+                small={require('./assets/userflow-s-mobile.png')}
+                large={require('./assets/userflow-L-mobile.png')}
                 alt='Diagram of User Flow'
+                imageBackgroundColor='white'
               />
             </div>
           </div>
@@ -340,7 +344,11 @@ function LinkedIn() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Emoji/Options Dropdown Component
               </h2>
-              <img src={require('./assets/laptop-mockup-row-1.png')} />
+              <ModalImage
+                small={require('./assets/laptop-mockup-row-1-small.png')}
+                large={require('./assets/laptop-mockup-row-1-large.png')}
+                imageBackgroundColor='white'
+              />
             </div>
           </section>
           <section id='about' style={{ marginBottom: 100 }}>
@@ -348,7 +356,11 @@ function LinkedIn() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Scrim
               </h2>
-              <img src={require('./assets/laptop-mockup-row-2.png')} />
+              <ModalImage
+                small={require('./assets/laptop-mockup-row-2-small.png')}
+                large={require('./assets/laptop-mockup-row-2-large.png')}
+                imageBackgroundColor='white'
+              />
             </div>
           </section>
           <section id='products' style={{ marginBottom: 100 }}>
@@ -356,7 +368,11 @@ function LinkedIn() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Chat Reply Bubble
               </h2>
-              <img src={require('./assets/laptop-mockup-row-3.png')} />
+              <ModalImage
+                small={require('./assets/laptop-mockup-row-3-small.png')}
+                large={require('./assets/laptop-mockup-row-3-large.png')}
+                imageBackgroundColor='white'
+              />
             </div>
           </section>
           <section id='auth' style={{ marginBottom: 100 }}>
@@ -364,7 +380,11 @@ function LinkedIn() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Emoji/Options Component
               </h2>
-              <img src={require('./assets/mobile-mockup-row-1.png')} />
+              <ModalImage
+                small={require('./assets/mobile-mockup-row-1.png')}
+                large={require('./assets/mobile-mockup-row-1-large.png')}
+                imageBackgroundColor='white'
+              />
             </div>
           </section>
           <section id='contact' style={{ marginBottom: 100 }}>
@@ -372,7 +392,11 @@ function LinkedIn() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Scrim
               </h2>
-              <img src={require('./assets/mobile-mockup-row-2.png')} />
+              <ModalImage
+                small={require('./assets/mobile-mockup-row-2.png')}
+                large={require('./assets/mobile-mockup-row-2-large.png')}
+                imageBackgroundColor='white'
+              />
             </div>
           </section>
           <section id='contact' style={{ marginBottom: 100 }}>
@@ -380,7 +404,11 @@ function LinkedIn() {
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Chat Reply Bubble
               </h2>
-              <img src={require('./assets/mobile-mockup-row-3.png')} />
+              <ModalImage
+                small={require('./assets/mobile-mockup-row-3.png')}
+                large={require('./assets/mobile-mockup-row-3-large.png')}
+                imageBackgroundColor='white'
+              />
             </div>
           </section>
         </div>
