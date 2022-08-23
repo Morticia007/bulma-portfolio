@@ -161,6 +161,7 @@ const wifPrototypeScreens = [
     wireFrameImage: require('./assets/postoverlay-hifi.png'),
   },
 ];
+
 function WIF() {
   return (
     <div>
@@ -182,13 +183,13 @@ function WIF() {
           </div>
         </div>
       </section>
-      <hr />
+
       <section className='section container'>
         {projectContentList.map((item) => (
           <Content key={item.id} {...item} />
         ))}
 
-        <div class='content is-normal'>
+        <div class='content'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h1>BREAKING DOWN THE PROCESS</h1>
@@ -241,15 +242,23 @@ function WIF() {
                 motivation. So we can all be accountability partners and a
                 support system for each other, in our journey together.
               </p>
+            </div>
+            <div className='column'>
+              <img alt='project' src='https://i.ibb.co/NT8Q5DQ/darko.png' />
+            </div>
+          </div>
+
+          <div className='columns'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
               <p>
-                As you can see Darko needs
+                <h3>Darko's needs</h3>
                 <ol>
                   <li>community</li>
                   <li>accountability partner</li>
                   <li>support</li>
                   <li>people going through the same thing</li>
                 </ol>
-                His frustrations are
+                <h3>His frustrations are</h3>
                 <ol>
                   <li>loneliness </li>
                   <li>guilt</li>
@@ -257,12 +266,8 @@ function WIF() {
                 </ol>
               </p>
             </div>
-            <div className='column'>
-              <img alt='project' src='https://i.ibb.co/NT8Q5DQ/darko.png' />
-            </div>
           </div>
         </div>
-        <hr />
 
         <div class='content is-normal'>
           <div className='columns'>
@@ -295,100 +300,92 @@ function WIF() {
         <div className='columns'>
           <Cards />
         </div>
-        <hr />
-      </section>
-      <section>
-        <hr />
-        <section className='section'>
-          <div className='content container'>
-            <div className='columns'>
-              <div className='column is-half is-offset-one-quarter has-text-left'>
-                <h1>Pivot</h1>
-                <div>
-                  <div style={{ maxWidth: 840 }}>
+        <div className='content container'>
+          <div className='columns'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
+              <h1>Pivot</h1>
+              <div>
+                <div style={{ maxWidth: 840 }}>
+                  <p>
+                    As I was reviewing all the data I had gathered I made a huge
+                    discovery.
+                    <p>If the potential users pain points were</p>
+                    <ul>
+                      <li>lack of community</li>
+                      <li>loneliness</li>
+                      <li>coping mechanisms</li>
+                    </ul>
+                    And their pain points with applications for weight loss were
+                    <ul>
+                      <li>stressful</li>
+                      <li>expensive</li>
+                      <li>need more features</li>
+                      <li>too confusing</li>
+                    </ul>
+                    <p>Then I had to make a major decision.</p>
                     <p>
-                      As I was reviewing all the data I had gathered I made a
-                      huge discovery.
-                      <p>If the potential users pain points were</p>
-                      <ul>
-                        <li>lack of community</li>
-                        <li>loneliness</li>
-                        <li>coping mechanisms</li>
-                      </ul>
-                      And their pain points with applications for weight loss
-                      were
-                      <ul>
-                        <li>stressful</li>
-                        <li>expensive</li>
-                        <li>need more features</li>
-                        <li>too confusing</li>
-                      </ul>
-                      <p>Then I had to make a major decision.</p>
-                      <p>
-                        Do I try to recreate a Noom or Weight Watchers and hope
-                        to make it better?
-                      </p>
+                      Do I try to recreate a Noom or Weight Watchers and hope to
+                      make it better?
                     </p>
-                    <p>
-                      I needed to revisit the original problem statement. At
-                      this point we already know at least one of my assumptions
-                      had been debunked by the research. I needed a new problem
-                      statement that aligned more with the evolving scope of my
-                      project.
-                    </p>
-                    <p>
-                      All the while keeping in mind the new problem statement.
-                      What can I do to create community, bring people together,
-                      and not have to charge them?
-                    </p>
-                  </div>
+                  </p>
+                  <p>
+                    I needed to revisit the original problem statement. At this
+                    point we already know at least one of my assumptions had
+                    been debunked by the research. I needed a new problem
+                    statement that aligned more with the evolving scope of my
+                    project.
+                  </p>
+                  <p>
+                    All the while keeping in mind the new problem statement.
+                    What can I do to create community, bring people together,
+                    and not have to charge them?
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className='content container'>
-            <div className='columns'>
-              <div className='column is-half is-offset-one-quarter has-text-left'>
-                <h1>Problem Statement Revised</h1>
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 840 }}>
-                    <p>
-                      People who are overweight have had a significant life
-                      change, where they moved, lost their community, or were
-                      affected by Covid isolation. They struggle with
-                      loneliness, depression, and a loss of accountability,
-                      which all lead to lack of motivation.
-                    </p>
-                  </div>
+        </div>
+        <div className='content container'>
+          <div className='columns'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
+              <h1>Problem Statement Revised</h1>
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ maxWidth: 840 }}>
+                  <p>
+                    People who are overweight have had a significant life
+                    change, where they moved, lost their community, or were
+                    affected by Covid isolation. They struggle with loneliness,
+                    depression, and a loss of accountability, which all lead to
+                    lack of motivation.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className='content container'>
-            <div className='columns'>
-              <div className='column is-half is-offset-one-quarter has-text-left'>
-                <h1>Proposed Solution</h1>
-                <div>
-                  <div style={{ maxWidth: 600 }}>
-                    <p>
-                      Let's reference our proto persona first before we get to
-                      the possible solution - Darko used Reddit and Discord.
-                      Both of those are somewhat of a community.
-                    </p>
-                    <p>
-                      I decided based on everything I had learned up to now, to
-                      build a forum specifically for people who are overweight
-                      and struggle with loneliness, eating disorders, lack of
-                      community and/support.
-                    </p>
-                  </div>
+        </div>
+        <div className='content container'>
+          <div className='columns'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
+              <h1>Proposed Solution</h1>
+              <div>
+                <div style={{ maxWidth: 600 }}>
+                  <p>
+                    Let's reference our proto persona first before we get to the
+                    possible solution - Darko used Reddit and Discord. Both of
+                    those are somewhat of a community.
+                  </p>
+                  <p>
+                    I decided based on everything I had learned up to now, to
+                    build a forum specifically for people who are overweight and
+                    struggle with loneliness, eating disorders, lack of
+                    community and/support.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <hr />
-        </section>
-        <div className='content container section'>
+        </div>
+        <div className='content container'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h1>Design Evolution</h1>
@@ -417,7 +414,7 @@ function WIF() {
             </div>
           </div>
         </div>
-        <div className='content container section'>
+        <div className='content container'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>Forum MVP</h3>
@@ -473,9 +470,8 @@ function WIF() {
               </div>
             </div>
           </div>
-          <hr />
         </div>
-        <div className='content container section'>
+        <div className='content container'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Flow</h3>
@@ -486,9 +482,8 @@ function WIF() {
               />
             </div>
           </div>
-          <hr />
         </div>
-        <div className='content container section'>
+        <div className='content container'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h3>User Task Flows</h3>
@@ -499,9 +494,8 @@ function WIF() {
             large={TaskFlows}
             alt='Diagram of User Flow'
           />
-          <hr />
         </div>
-        <div id='wireframes' className='section container'>
+        <div id='wireframes' className='container'>
           <section id='splash' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h1 className='has-text-centered'>Wireframes</h1>
@@ -557,239 +551,212 @@ function WIF() {
             </div>
           </section>
         </div>
-        <hr />
-        <section className='section' id='usability-testing'>
-          <div className='content container'>
-            <div className='columns'>
-              <div className='column is-half is-offset-one-quarter has-text-left'>
-                <h3>Usability Testing</h3>
-                <h4>Objectives</h4>
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ maxWidth: 840 }}>
-                    <ul>
-                      <li>Determine if terminology makes sense</li>
-                      <p>Is it human? </p>
-                      <li>Determine if user/task flow is easy</li>
-                      <p>Can they complete tasks?</p>
-                      <li>Determine accesibility</li>
-                      <p>Can they see everything? </p>
-                      <li>Determine if navigation is easy</li>
-                      <p>Can they navigate?</p>
-                    </ul>
+        <div className='content container'>
+          <div className='columns'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
+              <h3>Usability Testing</h3>
+              <h4>Objectives</h4>
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ maxWidth: 840 }}>
+                  <ul>
+                    <li>Determine if terminology makes sense</li>
+                    <p>Is it human? </p>
+                    <li>Determine if user/task flow is easy</li>
+                    <p>Can they complete tasks?</p>
+                    <li>Determine accesibility</li>
+                    <p>Can they see everything? </p>
+                    <li>Determine if navigation is easy</li>
+                    <p>Can they navigate?</p>
+                  </ul>
+                  <p>
+                    <h6>
+                      *Each usability testing participant was given 5 tasks to
+                      determine if all of the objectives listed above could be
+                      validated.
+                    </h6>
+                  </p>
+                  <p></p>
+                  <p></p>
+                  <h4>Usability Testing Feedback Analysis</h4>
+                  <ul>
+                    <li>
+                      Couldn’t find edit communities section in filter bar
+                    </li>
                     <p>
-                      <h6>
-                        *Each usability testing participant was given 5 tasks to
-                        determine if all of the objectives listed above could be
-                        validated.
-                      </h6>
+                      Seemed to get stuck on the viewing now dropdown when
+                      tasked to edit communities.
                     </p>
-                    <p></p>
-                    <p></p>
-                    <h4>Usability Testing Feedback Analysis</h4>
-                    <ul>
-                      <li>
-                        Couldn’t find edit communities section in filter bar
-                      </li>
-                      <p>
-                        Seemed to get stuck on the viewing now dropdown when
-                        tasked to edit communities.
-                      </p>
-                      <li>
-                        Confused by the plus icon in the floating button for
-                        posting
-                      </li>
-                      <p>
-                        When tasked to create a post, were reluctant to choose
-                        the floating button. Once given help they reported they
-                        thought it was what they were supposed to do, but were
-                        thrown off by the plus icon on the floating button.
-                      </p>
-                      <li>Were attracted to the viewing now dropdown</li>
-                      <p>
-                        Thats Great! Except when that's not the place you were
-                        hoping they would chose when tasked with something other
-                        than finding the viewing now dropdown.
-                      </p>
-                      <li>
-                        Reported to really enjoy the experience despite the few
-                        small fumbles.
-                      </li>
-                      <p>
-                        I was pleased by the feedback I got overall. The
-                        participants liked the look and simplicity of the web
-                        app. They validated many functions and gave me great
-                        feedback on the objectives that didn't make it to
-                        validation.
-                      </p>
-                    </ul>
-                    <h4>Recommendations for Iteration</h4>
-                    <ul>
-                      <li>
-                        Filter Bar Revision
-                        <ol>
-                          <li>Edit Communities</li>
-                          <li>Viewing Now</li>
-                        </ol>
-                      </li>
-                      <li>
-                        Button Revision
-                        <ol>
-                          <li>Change Icon</li>
-                        </ol>
-                      </li>
-                    </ul>
-                    <div style={{ display: 'flex', flexDirection: 'column' }}>
-                      <div style={{ maxWidth: 700 }}>
-                        <h4>
-                          The next steps in my usability research are just
-                          easier to show than tell.
-                        </h4>
-                      </div>
-                    </div>
-                  </div>
+                    <li>
+                      Confused by the plus icon in the floating button for
+                      posting
+                    </li>
+                    <p>
+                      When tasked to create a post, were reluctant to choose the
+                      floating button. Once given help they reported they
+                      thought it was what they were supposed to do, but were
+                      thrown off by the plus icon on the floating button.
+                    </p>
+                    <li>Were attracted to the viewing now dropdown</li>
+                    <p>
+                      Thats Great! Except when that's not the place you were
+                      hoping they would chose when tasked with something other
+                      than finding the viewing now dropdown.
+                    </p>
+                    <li>
+                      Reported to really enjoy the experience despite the few
+                      small fumbles.
+                    </li>
+                    <p>
+                      I was pleased by the feedback I got overall. The
+                      participants liked the look and simplicity of the web app.
+                      They validated many functions and gave me great feedback
+                      on the objectives that didn't make it to validation.
+                    </p>
+                  </ul>
+                  <h4>Recommendations for Iteration</h4>
+                  <ul>
+                    <li>
+                      Filter Bar Revision
+                      <ol>
+                        <li>Edit Communities</li>
+                        <li>Viewing Now</li>
+                      </ol>
+                    </li>
+                    <li>
+                      Button Revision
+                      <ol>
+                        <li>Change Icon</li>
+                      </ol>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <div>
-              <img
-                alt='testing'
-                src={require('./assets/user-testing-research-13.png')}
-              />
-            </div>
-            <hr />
           </div>
-        </section>
-        <section className='container section'>
-          <div className='content'>
-            <h1>USABILITY SOLUTION</h1>
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
-              <div style={{ maxWidth: 700 }}>
-                <h4>
-                  Below are the solutions I put in place to move the Home/Feed
-                  Screen into the revision phase.
-                </h4>
-              </div>
+          <div>
+          <h1>ITERATION STEPS</h1>
+            <h4>
+              The next steps in my usability research are just easier to show
+              than tell.
+            </h4>
+            <img
+              alt='testing'
+              src={require('./assets/user-testing-research-13.png')}
+            />
+          </div>
+        </div>
+        <div className='container content'>
+          <h1>USABILITY SOLUTION</h1>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ maxWidth: 700 }}>
+              <h4>
+                Below are the solutions I put in place to move the Home/Feed
+                Screen into the revision phase.
+              </h4>
             </div>
           </div>
+
           <img
             src={require('./assets/user-testing-research-14.png')}
             alt='testing-research'
           />
-        </section>
-        <hr />
-        <section className='container section'>
-          <div className='content'>
-            <h1>USABILITY REVISION</h1>
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
-              <div style={{ maxWidth: 750 }}>
-                <h4>
-                  Below are the stages of revision. Screen featured throughout
-                  this stage is the Home/Feed Screen. Main concentration is on
-                  the Filter Bar and Floating Button.
-                </h4>
-              </div>
+        </div>
+        <div className='container content'>
+          <h1>USABILITY REVISION</h1>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ maxWidth: 750 }}>
+              <h4>
+                Below are the stages of revision. Screen featured throughout
+                this stage is the Home/Feed Screen. Main concentration is on the
+                Filter Bar and Floating Button.
+              </h4>
             </div>
           </div>
+
           <img src={require('./assets/redesign-4.png')} alt='redesign work 4' />
           <img src={require('./assets/redesign-5.png')} alt='redesign work 5' />
           <img src={require('./assets/redesign-6.png')} alt='redesign work 6' />
-        </section>
-        <hr />
-        <section className='container section'>
-          <div className='content'>
-            <h1>RESULTS</h1>
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
-              <div style={{ maxWidth: 700 }}>
-                <h4>
-                  Results during further usability testing achieved the
-                  validation label I was going for. Results below.
-                </h4>
-              </div>
+        </div>
+
+        <div className='content container'>
+          <h1>RESULTS</h1>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ maxWidth: 700 }}>
+              <h4>
+                Results during further usability testing achieved the validation
+                label I was going for. Results below.
+              </h4>
             </div>
           </div>
           <img src={require('./assets/results-1.png')} alt='testing-results' />
-        </section>
-        <hr />
-        <section className='section'>
-          <div className='content'>
-            <div className='content container'>
-              <div className='columns'>
-                <div className='column column is-half is-offset-one-quarter has-text-left'>
-                  <div>
-                    <h1>LESSONS LEARNED</h1>
-                    <div style={{ maxWidth: 700 }}>
-                      <ul>
-                        <li>Agile design is the only way to go!</li>
-                        <p>
-                          Feedback and iteration is the most important part of
-                          design when you are user centric. Without the
-                          feedback, my project may have not tested as well as it
-                          did.
-                        </p>
-                        <li>Pivoting is definitely a real thing!</li>
-                        <p>
-                          Knowing when, why, and how is the hard part. Luckily I
-                          am a pattern person and was able to see that there was
-                          much more of a need for community than another weight
-                          loss application.
-                        </p>
-                        <li>
-                          Framing research questions correctly will be the gold
-                          in your sifting pan.
-                        </li>
-                        <p>
-                          This is what I will take more time to research and
-                          understand for future projects.
-                        </p>
-                        <li>Test throughout</li>
-                        <p>
-                          Don't ever sell yourself short or make assumptions
-                          that back you into a place in your project you can't
-                          come back from.
-                        </p>
-                      </ul>
-                      <hr />
-                      <section className='container'>
-                        <div className='content'>
-                          <h1> Next steps</h1>
-                          <ul>
-                            <li>Back to user research </li>
-                            <p>
-                              To see if I can uncover more golden information
-                              and dig into why the "Anonymous Confessions" idea
-                              sparked curiosity in so many people along the
-                              project journey.
-                            </p>
-                            <li>
-                              Revisit and design the "Anonymous Confessions"
-                              functionality.
-                            </li>
-                            <p>
-                              I haven't made it a priority to discuss this part
-                              of the application.{' '}
-                              <p>
-                                Even though you have seen a couple hints about
-                                it, it wasn't essential for MVP.
-                              </p>
-                              During user testing there were alot of questions
-                              about it and positve feedback. It seemed to spark
-                              curiosity.
-                            </p>
-                            <h5>
-                              If you'd like to know more about this project, I'd
-                              love to connect.
-                            </h5>
-                          </ul>
-                        </div>
-                      </section>
-                    </div>
-                  </div>
+        </div>
+        <div className='content container'>
+          <div className='columns'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
+              <h1>LESSONS LEARNED</h1>
+              <div style={{ maxWidth: 700 }}>
+                <ul>
+                  <li>Agile design is the only way to go!</li>
+                  <p>
+                    Feedback and iteration is the most important part of design
+                    when you are user centric. Without the feedback, my project
+                    may have not tested as well as it did.
+                  </p>
+                  <li>Pivoting is definitely a real thing!</li>
+                  <p>
+                    Knowing when, why, and how is the hard part. Luckily I am a
+                    pattern person and was able to see that there was much more
+                    of a need for community than another weight loss
+                    application.
+                  </p>
+                  <li>
+                    Framing research questions correctly will be the gold in
+                    your sifting pan.
+                  </li>
+                  <p>
+                    This is what I will take more time to research and
+                    understand for future projects.
+                  </p>
+                  <li>Test throughout</li>
+                  <p>
+                    Don't ever sell yourself short or make assumptions that back
+                    you into a place in your project you can't come back from.
+                  </p>
+                </ul>
+
+                <div className='content container'>
+                  <h1> Next steps</h1>
+                  <ul>
+                    <li>Back to user research </li>
+                    <p>
+                      To see if I can uncover more golden information and dig
+                      into why the "Anonymous Confessions" idea sparked
+                      curiosity in so many people along the project journey.
+                    </p>
+                    <li>
+                      Revisit and design the "Anonymous Confessions"
+                      functionality.
+                    </li>
+                    <p>
+                      I haven't made it a priority to discuss this part of the
+                      application.{' '}
+                      <p>
+                        Even though you have seen a couple hints about it, it
+                        wasn't essential for MVP.
+                      </p>
+                      During user testing there were alot of questions about it
+                      and positve feedback. It seemed to spark curiosity.
+                    </p>
+                    <h5>
+                      If you'd like to know more about this project, I'd love to
+                      connect.
+                    </h5>
+                  </ul>
                 </div>
               </div>
-              <hr />
             </div>
           </div>
-        </section>
+        </div>
       </section>
     </div>
   );
