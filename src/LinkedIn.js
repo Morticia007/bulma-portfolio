@@ -327,31 +327,27 @@ function LinkedIn() {
                 large={require('./assets/userflow-L-desktop.png')}
                 alt='Diagram of User Flow'
                 imageBackgroundColor='none'
-               
               />
               <ModalImage
                 small={require('./assets/userflow-s-mobile.png')}
                 large={require('./assets/userflow-L-mobile.png')}
                 alt='Diagram of User Flow'
                 imageBackgroundColor='none'
-
-               
               />
             </div>
           </div>
           <hr />
         </div>
-        <div id='wireframes' className='section container'>
+        <div id='wireframes' className='section'>
           <section id='home' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
                 Emoji/Options Dropdown Component
               </h2>
               <ModalImage
-                small={require('./assets/laptop-mockup-row-1-small.png')}
+                small={require('./assets/laptop-mockup-row-1-small.jpg')}
                 large={require('./assets/laptop-mockup-row-1-large.png')}
                 imageBackgroundColor='none'
-
               />
             </div>
           </section>
@@ -361,7 +357,7 @@ function LinkedIn() {
                 Scrim
               </h2>
               <ModalImage
-                small={require('./assets/laptop-mockup-row-2-small.png')}
+                small={require('./assets/laptop-mockup-row-2-small.jpg')}
                 large={require('./assets/laptop-mockup-row-2-large.png')}
                 imageBackgroundColor='white'
               />
@@ -373,52 +369,51 @@ function LinkedIn() {
                 Chat Reply Bubble
               </h2>
               <ModalImage
-                small={require('./assets/laptop-mockup-row-3-small.png')}
+                small={require('./assets/laptop-mockup-row-3-small.jpg')}
                 large={require('./assets/laptop-mockup-row-3-large.png')}
                 imageBackgroundColor='none'
-
               />
             </div>
           </section>
-          <section id='auth' style={{ marginBottom: 100 }}>
-            <div className='content'>
-              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Emoji/Options Component
-              </h2>
-              <ModalImage
-                small={require('./assets/mobile-mockup-row-1.png')}
-                large={require('./assets/mobile-mockup-row-1-large.png')}
-                imageBackgroundColor='white'
 
-              />
-            </div>
-          </section>
-          <section id='contact' style={{ marginBottom: 100 }}>
-            <div className='content'>
-              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Scrim
-              </h2>
-              <ModalImage
-                small={require('./assets/mobile-mockup-row-2.png')}
-                large={require('./assets/mobile-mockup-row-2-large.png')}
-                imageBackgroundColor='white'
-
-              />
-            </div>
-          </section>
-          <section id='contact' style={{ marginBottom: 100 }}>
-            <div className='content'>
-              <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
-                Chat Reply Bubble
-              </h2>
-              <ModalImage
-                small={require('./assets/mobile-mockup-row-3.png')}
-                large={require('./assets/mobile-mockup-row-3-large.png')}
-                imageBackgroundColor='white'
-
-              />
-            </div>
-          </section>
+          <div className='container'>
+            <section id='auth' style={{ marginBottom: 100 }}>
+              <div className='content'>
+                <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                  Emoji/Options Component
+                </h2>
+                <ModalImage
+                  small={require('./assets/mobile-mockup-row-1.png')}
+                  large={require('./assets/mobile-mockup-row-1-large.png')}
+                  imageBackgroundColor='white'
+                />
+              </div>
+            </section>
+            <section id='contact' style={{ marginBottom: 100 }}>
+              <div className='content'>
+                <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                  Scrim
+                </h2>
+                <ModalImage
+                  small={require('./assets/mobile-mockup-row-2.png')}
+                  large={require('./assets/mobile-mockup-row-2-large.png')}
+                  imageBackgroundColor='white'
+                />
+              </div>
+            </section>
+            <section id='contact' style={{ marginBottom: 100 }}>
+              <div className='content'>
+                <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
+                  Chat Reply Bubble
+                </h2>
+                <ModalImage
+                  small={require('./assets/mobile-mockup-row-3.png')}
+                  large={require('./assets/mobile-mockup-row-3-large.png')}
+                  imageBackgroundColor='white'
+                />
+              </div>
+            </section>
+          </div>
         </div>
         <hr />
         <section className='container section'>
