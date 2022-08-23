@@ -345,7 +345,7 @@ function LinkedIn() {
                 Emoji/Options Dropdown Component
               </h2>
               <ModalImage
-                small={require('./assets/laptop-mockup-row-1-small.jpg')}
+                small={require('./assets/laptop-mockup-row-1-small.png')}
                 large={require('./assets/laptop-mockup-row-1-large.png')}
                 imageBackgroundColor='none'
               />
@@ -357,7 +357,8 @@ function LinkedIn() {
                 Scrim
               </h2>
               <ModalImage
-                small={require('./assets/laptop-mockup-row-2-small.jpg')}
+
+                small={require('./assets/laptop-mockup-row-2-small.png')}
                 large={require('./assets/laptop-mockup-row-2-large.png')}
                 imageBackgroundColor='white'
               />
@@ -369,7 +370,7 @@ function LinkedIn() {
                 Chat Reply Bubble
               </h2>
               <ModalImage
-                small={require('./assets/laptop-mockup-row-3-small.jpg')}
+                small={require('./assets/laptop-mockup-row-3-small.png')}
                 large={require('./assets/laptop-mockup-row-3-large.png')}
                 imageBackgroundColor='none'
               />
