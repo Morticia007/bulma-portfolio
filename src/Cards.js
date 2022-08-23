@@ -22,7 +22,7 @@ function Cards() {
                   <h2>Disadvantages</h2>
                   <li>Expensive</li>
                   <li>Difficult to Cancel</li>
-                  <li>Promotes Diet Cultur</li>
+                  <li>Promotes Diet Culture</li>
                 </ul>
               </div>
             </div>
