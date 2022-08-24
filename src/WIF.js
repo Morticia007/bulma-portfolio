@@ -634,7 +634,7 @@ function WIF() {
             </div>
           </div>
           <div>
-          <h1>ITERATION STEPS</h1>
+            <h1>ITERATION STEPS</h1>
             <h4>
               The next steps in my usability research are just easier to show
               than tell.
@@ -693,65 +693,60 @@ function WIF() {
         <div className='content container'>
           <div className='columns'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h1>LESSONS LEARNED</h1>
+              <h1>Lessons Learned</h1>
               <div style={{ maxWidth: 700 }}>
-                <ul>
-                  <li>Agile design is the only way to go!</li>
-                  <p>
-                    Feedback and iteration is the most important part of design
-                    when you are user centric. Without the feedback, my project
-                    may have not tested as well as it did.
-                  </p>
-                  <li>Pivoting is definitely a real thing!</li>
-                  <p>
-                    Knowing when, why, and how is the hard part. Luckily I am a
-                    pattern person and was able to see that there was much more
-                    of a need for community than another weight loss
-                    application.
-                  </p>
-                  <li>
-                    Framing research questions correctly will be the gold in
-                    your sifting pan.
-                  </li>
-                  <p>
-                    This is what I will take more time to research and
-                    understand for future projects.
-                  </p>
-                  <li>Test throughout</li>
-                  <p>
-                    Don't ever sell yourself short or make assumptions that back
-                    you into a place in your project you can't come back from.
-                  </p>
-                </ul>
+                <h4>Agile design is the only way to go!</h4>
+                <p>
+                  Feedback and iteration is the most important part of design
+                  when you are user centric. Without the feedback, my project
+                  may have not tested as well as it did.
+                </p>
+                <h4>Pivoting is definitely a real thing!</h4>
+                <p>
+                  Knowing when, why, and how is the hard part. Luckily I am a
+                  pattern person and was able to see that there was much more of
+                  a need for community than another weight loss application.
+                </p>
+                <h4>
+                  Framing research questions correctly will be the gold in your
+                  sifting pan.
+                </h4>
+                <p>
+                  This is what I will take more time to research and understand
+                  for future projects.
+                </p>
+                <h4>Test throughout</h4>
+                <p>
+                  Don't ever sell yourself short or make assumptions that back
+                  you into a place in your project you can't come back from.
+                </p>
 
                 <div className='content container'>
                   <h1> Next steps</h1>
-                  <ul>
-                    <li>Back to user research </li>
-                    <p>
-                      To see if I can uncover more golden information and dig
-                      into why the "Anonymous Confessions" idea sparked
-                      curiosity in so many people along the project journey.
-                    </p>
-                    <li>
-                      Revisit and design the "Anonymous Confessions"
-                      functionality.
-                    </li>
-                    <p>
-                      I haven't made it a priority to discuss this part of the
-                      application.{' '}
-                      <p>
-                        Even though you have seen a couple hints about it, it
-                        wasn't essential for MVP.
-                      </p>
-                      During user testing there were alot of questions about it
-                      and positve feedback. It seemed to spark curiosity.
-                    </p>
-                    <h5>
-                      If you'd like to know more about this project, I'd love to
-                      connect.
-                    </h5>
-                  </ul>
+
+                  <h4>Back to user research </h4>
+                  <p>
+                    To see if I can uncover more golden information and dig into
+                    why the "Anonymous Confessions" idea sparked curiosity in so
+                    many people along the project journey.
+                  </p>
+                  <h4>
+                    Revisit and design the "Anonymous Confessions"
+                    functionality.
+                  </h4>
+                  <p>
+                    I haven't made it a priority to discuss this part of the
+                    application. Even though you have seen a couple hints about
+                    it, it wasn't essential for MVP.
+                  </p>
+                  <p>
+                    During user testing there were alot of questions about it
+                    and positve feedback. It seemed to spark curiosity.
+                  </p>
+                  <h5>
+                    If you'd like to know more about this project, I'd love to
+                    connect.
+                  </h5>
                 </div>
               </div>
             </div>

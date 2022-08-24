@@ -638,54 +638,46 @@ function ERE() {
         </div>
         <div className='content container'>
           <div className='columns'>
-            <div className='column column is-half is-offset-one-quarter has-text-left'>
-              <h1>LESSONS LEARNED</h1>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
+              <h1>Lessons Learned</h1>
               <div style={{ maxWidth: 840 }}>
-                <ul>
-                  <li>
-                    <h6>Agile design is the only way to go!</h6>
-                  </li>
-                  <p>
-                    I will stress this consistently. I work best with consistant
-                    feedback. I am not a fan of wasting time. I am aware that at
-                    any point in a project without consistently getting
-                    feedback, the project could go down the wrong path.
-                  </p>
-                  <li>
-                    <h6>Niche markets are difficult</h6>
-                  </li>
-                  <p>
-                    If I were to go back to the start of this project, I would
-                    have given myself more time to submerge myself in this
-                    community and learn more about this market. Even though the
-                    project continued its evolution, I am not sure that I was
-                    able to uncover as much as I would have liked to.
-                  </p>
-                  <li>
-                    <h6>
-                      Framing research questions correctly will be the gold in
-                      your sifting pan.
-                    </h6>
-                  </li>
-                  <p>
-                    I said it in my first project and I'll say it again! I feel
-                    I wouldn't have been able to uncover any type of competitive
-                    analysis (which in all reality didn't have much impact on
-                    the project, besides understanding fail vs. innovation). It
-                    did, however, give me an insight into the passion, desire to
-                    be a source of connection, and innovation of the owner of
-                    ERE.
-                  </p>
-                  <li>
-                    <h6>Test throughout</h6>
-                  </li>
-                  <p>
-                    This is another one of my golden rules! If I wouldn't have
-                    tested this design throughout the design evolution, I would
-                    have been met with a ton of iterations looming over a
-                    deadline.
-                  </p>
-                </ul>
+                <h4>Agile design is the only way to go!</h4>
+                <p>
+                  I will stress this consistently. I work best with consistant
+                  feedback. I am not a fan of wasting time. I am aware that at
+                  any point in a project without consistently getting feedback,
+                  the project could go down the wrong path.
+                </p>
+                <h4>Niche markets are difficult</h4>
+                <p>
+                  If I were to go back to the start of this project, I would
+                  have given myself more time to submerge myself in this
+                  community and learn more about this market. Even though the
+                  project continued its evolution, I am not sure that I was able
+                  to uncover as much as I would have liked to.
+                </p>
+
+                <h4>
+                  Framing research questions correctly will be the gold in your
+                  sifting pan.
+                </h4>
+                <p>
+                  I said it in my first project and I'll say it again! I feel I
+                  wouldn't have been able to uncover any type of competitive
+                  analysis (which in all reality didn't have much impact on the
+                  project, besides understanding fail vs. innovation). It did,
+                  however, give me an insight into the passion, desire to be a
+                  source of connection, and innovation of the owner of ERE.
+                </p>
+
+                <h4>Test throughout</h4>
+
+                <p>
+                  This is another one of my golden rules! If I wouldn't have
+                  tested this design throughout the design evolution, I would
+                  have been met with a ton of iterations looming over a
+                  deadline.
+                </p>
 
                 <div className='content container'>
                   <div className='content'>
