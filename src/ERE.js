@@ -195,17 +195,17 @@ function ERE() {
           </div>
         </div>
       </section>
-      <hr />
+
       <section className='container'>
         {projectContentList.map((item) => (
           <Content key={item.id} {...item} />
         ))}
 
-        <div class='section content is-normal'>
-          <h1 className='has-text-centered'>BREAKING DOWN THE PROCESS</h1>
-          <h2 className='has-text-centered'>WEEK 1 | RESEARCH</h2>
+        <div class='content'>
           <div className='columns'>
-            <div className='column is-half has-text-left'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
+              <h1>BREAKING DOWN THE PROCESS</h1>
+              <h2>WEEK 1 | RESEARCH</h2>
               <p>
                 To understand how I could help this small business, I needed to
                 understand their customers. I focused on discovering:
@@ -215,8 +215,6 @@ function ERE() {
                 <li>Why they need this product</li>
                 <li>If I could align user needs with the business needs </li>
               </ul>
-            </div>
-            <div className='column is-half has-text-left'>
               <p>They struggle finding:</p>
               <ol>
                 <li>Quality products</li>
@@ -228,7 +226,7 @@ function ERE() {
           </div>
         </div>
 
-        <div className='section content container'>
+        <div className='content container'>
           <div className='columns is-desktop'>
             <div className='column is-half is-offset-one-quarter has-text-left'>
               <h1>Justin's Story</h1>
@@ -260,7 +258,6 @@ function ERE() {
 
           <img alt='project' src='https://i.ibb.co/J3VpCns/Archetype-ERE.png' />
         </div>
-        <hr />
 
         <div class='section content is-normal'>
           <h2 className='has-text-centered'> COMPETITIVE RESEARCH</h2>
@@ -304,7 +301,7 @@ function ERE() {
             </div>
           </div>
         </div>
-        <hr />
+
         <div class='section content is-normal'>
           <h2 className='has-text-centered'>HMW</h2>
           <div className='columns is-desktop'>
@@ -366,48 +363,41 @@ function ERE() {
             </div>
           </div>
         </div>
-      </section>
-      <hr />
-      <section>
-        <section className='section'>
-          <div className='content container'>
-            <div className='columns is-desktop'>
-              <div className='column is-half is-offset-one-quarter has-text-left'>
-                <h1>Proposed Solution</h1>
-                <div>
-                  <div style={{ maxWidth: 840 }}>
-                    <p>
-                      So at this point it only seemed right to start the design
-                      process with all the great things I got from my
-                      participants and from ERE.
-                    </p>
-                    <p>
-                      I decided based on everything I had learned, to build an
-                      e-commerce web app that made the contact and payment
-                      process easy. I wanted to go a step further though and
-                      include some of the gold I had gathered along the way!
-                      While writing the mission statement and the story about
-                      the company it was clear that the owner of ERE is
-                      determined to make the hobbyist life easier and more
-                      connected, and the hobbyist was screaming for help with
-                      getting the inside scoop! I'll take you on the golden
-                      journey next.
-                    </p>
-                  </div>
+        <div className='content container'>
+          <div className='columns is-desktop'>
+            <div className='column is-half is-offset-one-quarter has-text-left'>
+              <h1>Proposed Solution</h1>
+              <div>
+                <div style={{ maxWidth: 840 }}>
+                  <p>
+                    So at this point it only seemed right to start the design
+                    process with all the great things I got from my participants
+                    and from ERE.
+                  </p>
+                  <p>
+                    I decided based on everything I had learned, to build an
+                    e-commerce web app that made the contact and payment process
+                    easy. I wanted to go a step further though and include some
+                    of the gold I had gathered along the way! While writing the
+                    mission statement and the story about the company it was
+                    clear that the owner of ERE is determined to make the
+                    hobbyist life easier and more connected, and the hobbyist
+                    was screaming for help with getting the inside scoop! I'll
+                    take you on the golden journey next.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <hr />
-        </section>
+        </div>
         <div className='content container'>
           <h1 className='has-text-centered'>Week 2 | Design Evolution</h1>
-          <hr />
-          <h3 className='has-text-centered'>Feature Prioritization</h3>
           <div className='columns is-desktop'>
             <div className='column is-half has-text-left'>
               <div style={{ maxWidth: 840 }}>
                 <ul>
+                  <h3 className='has-text-left'>Feature Prioritization</h3>
+
                   <li>
                     <h5> Ease of Navigation </h5>
                   </li>
@@ -430,6 +420,8 @@ function ERE() {
             <div className='column is-half has-text-left'>
               <div style={{ maxWidth: 840 }}>
                 <ul>
+                  <h3 className='has-text-left'>&nbsp;</h3>
+
                   <li>
                     <h5> Ease of Purchase </h5>
                   </li>
@@ -452,11 +444,11 @@ function ERE() {
           </div>
         </div>
         <div className='content container'>
-          <h3 className='has-text-centered'>E-commerce MVP</h3>
           <div className='columns is-desktop'>
             <div className='column is-half has-text-left'>
               <div style={{ maxWidth: 840 }}>
                 <ul>
+                  <h3 className='has-text-left'>E-commerce MVP</h3>
                   <li>
                     <h5>Home</h5>
                   </li>
@@ -492,6 +484,7 @@ function ERE() {
             <div className='column is-half has-text-left'>
               <div style={{ maxWidth: 840 }}>
                 <ul>
+                  <h3 className='has-text-left'>&nbsp;</h3>
                   <li>
                     <h5> Authentication Page </h5>
                   </li>
@@ -524,11 +517,10 @@ function ERE() {
             </div>
           </div>
         </div>
-        <hr />
-        <div className='section content container'>
+        <div className='content container'>
           <div className='columns is-desktop'>
-            <div className='column is-half is-offset-one-quarter has-text-left'>
-              <h3>User Flow</h3>
+            <div className='column'>
+              <h3 className='has-text-centered'>User Flow</h3>
               <ModalImage
                 small={MappingJourney}
                 large={MappingJourney}
@@ -536,9 +528,8 @@ function ERE() {
               />
             </div>
           </div>
-          <hr />
         </div>
-        <div id='wireframes' className='section container'>
+        <div id='wireframes' className='container'>
           <section id='home' style={{ marginBottom: 100 }}>
             <div className='content'>
               <h2 style={{ marginBottom: 50 }} className='has-text-centered'>
@@ -580,198 +571,180 @@ function ERE() {
             </div>
           </section>
         </div>
-        <hr />
-        <section className='container section'>
-          <div className='content'>
-            <div className='content container'>
-              <div className='columns'>
-                <div className='column column is-half is-offset-one-quarter has-text-left'>
-                  <div>
-                    <h1>Usability Testing </h1>
-                    <div style={{ maxWidth: 840 }}>
-                      <h3>4 participants</h3>
+        <div className='content container'>
+          <div className='columns'>
+            <div className='column column is-half is-offset-one-quarter has-text-left'>
+              <div>
+                <h1>Usability Testing </h1>
+                <div style={{ maxWidth: 840 }}>
+                  <h3>4 participants</h3>
 
-                      <p>
-                        All participants were given 7 scenarios and 7 tasks to
-                        complete. The tasks test for:
-                        <ol>
-                          <h6>
-                            <li>navigation</li>
-                            <li>product details</li>
-                            <li>contact flow</li>
-                            <li>purchase flow </li>
-                          </h6>
-                        </ol>
-                      </p>
+                  <p>
+                    All participants were given 7 scenarios and 7 tasks to
+                    complete. The tasks test for:
+                    <ol>
+                      <h6>
+                        <li>navigation</li>
+                        <li>product details</li>
+                        <li>contact flow</li>
+                        <li>purchase flow </li>
+                      </h6>
+                    </ol>
+                  </p>
 
-                      <h4>Participants reported</h4>
-                      <ol>
-                        <li>ease of navigation</li>
-                        <li>
-                          complete understanding and appreciation of product
-                          details
-                        </li>
-                        <li>ease of use in the contact flow</li>
-                        <li>
-                          appreciation for the simplicity of the purchase flow
-                        </li>
-                      </ol>
+                  <h4>Participants reported</h4>
+                  <ol>
+                    <li>ease of navigation</li>
+                    <li>
+                      complete understanding and appreciation of product details
+                    </li>
+                    <li>ease of use in the contact flow</li>
+                    <li>
+                      appreciation for the simplicity of the purchase flow
+                    </li>
+                  </ol>
 
-                      <p>
-                        To my suprise and delight all participants reported that
-                        the structure of the site fit in with their existing
-                        mental modal and expectations.
-                      </p>
-                      <h5>The phrases most comonly used were</h5>
+                  <p>
+                    To my suprise and delight all participants reported that the
+                    structure of the site fit in with their existing mental
+                    modal and expectations.
+                  </p>
+                  <h5>The phrases most comonly used were</h5>
+                  <ul>
+                    <li>"I loved..."</li>
+                    <li>"I really apreciate..."</li>
+                    <li>"That was exactly..."</li>
+                  </ul>
+                  <h5>
+                    When asked final questions regarding if they would change
+                    anything
+                  </h5>
+                  <p>
+                    The answers were unanimously "no", and then followed up with
+                    why they wouldn't change anything, without being prompted or
+                    asked. This validation was a big relief, (and suprise) since
+                    my sprint was quickly coming to a close.
+                  </p>
+                  <p>
+                    I also included the owner of ERE in my usability testing
+                    just to give him confidence in the project and to get the
+                    validation I needed from him to recommend the project for
+                    development.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='content container'>
+          <div className='columns'>
+            <div className='column column is-half is-offset-one-quarter has-text-left'>
+              <h1>LESSONS LEARNED</h1>
+              <div style={{ maxWidth: 840 }}>
+                <ul>
+                  <li>
+                    <h6>Agile design is the only way to go!</h6>
+                  </li>
+                  <p>
+                    I will stress this consistently. I work best with consistant
+                    feedback. I am not a fan of wasting time. I am aware that at
+                    any point in a project without consistently getting
+                    feedback, the project could go down the wrong path.
+                  </p>
+                  <li>
+                    <h6>Niche markets are difficult</h6>
+                  </li>
+                  <p>
+                    If I were to go back to the start of this project, I would
+                    have given myself more time to submerge myself in this
+                    community and learn more about this market. Even though the
+                    project continued its evolution, I am not sure that I was
+                    able to uncover as much as I would have liked to.
+                  </p>
+                  <li>
+                    <h6>
+                      Framing research questions correctly will be the gold in
+                      your sifting pan.
+                    </h6>
+                  </li>
+                  <p>
+                    I said it in my first project and I'll say it again! I feel
+                    I wouldn't have been able to uncover any type of competitive
+                    analysis (which in all reality didn't have much impact on
+                    the project, besides understanding fail vs. innovation). It
+                    did, however, give me an insight into the passion, desire to
+                    be a source of connection, and innovation of the owner of
+                    ERE.
+                  </p>
+                  <li>
+                    <h6>Test throughout</h6>
+                  </li>
+                  <p>
+                    This is another one of my golden rules! If I wouldn't have
+                    tested this design throughout the design evolution, I would
+                    have been met with a ton of iterations looming over a
+                    deadline.
+                  </p>
+                </ul>
+
+                <div className='content container'>
+                  <div className='content'>
+                    <h1> Next steps</h1>
+                    <ol>
+                      <li>
+                        <h6>
+                          Consult with ERE for approval and discuss the timeline
+                          for development
+                        </h6>
+                      </li>
+                      <li>
+                        <h6>Get project ready for development.</h6>
+                      </li>
+                      <li>
+                        <h6>
+                          Meet with the developer, respecting EREs timeline, and
+                          determine how we will proceed.
+                        </h6>
+                      </li>
+                    </ol>
+                    <h4>In my spare time:</h4>
+                    <ul>
+                      <li>
+                        I will continue do more research and get more of a reach
+                        within this community in order to gather more
+                        information and insights.
+                      </li>
+
+                      <li>
+                        I would like to revisit the designs and re-test with
+                        another group of participants.
+                      </li>
                       <ul>
-                        <li>"I loved..."</li>
-                        <li>"I really apreciate..."</li>
-                        <li>"That was exactly..."</li>
+                        <li>
+                          <p>
+                            I feel like I need more time, since this particular
+                            group of individuals have proven to be hard to get
+                            to.
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            I feel like the usability testing went too smoothly
+                            and that makes me wonder what I missed.
+                          </p>
+                        </li>
                       </ul>
-                      <h5>
-                        When asked final questions regarding if they would
-                        change anything
-                      </h5>
-                      <p>
-                        The answers were unanimously "no", and then followed up
-                        with why they wouldn't change anything, without being
-                        prompted or asked. This validation was a big relief,
-                        (and suprise) since my sprint was quickly coming to a
-                        close.
-                      </p>
-                      <p>
-                        I also included the owner of ERE in my usability testing
-                        just to give him confidence in the project and to get
-                        the validation I needed from him to recommend the
-                        project for development.
-                      </p>
-                    </div>
+                    </ul>
+                    <h5>
+                      If you'd like to know more about this project, or if you
+                      are interested in collaborating, I'd love to connect.
+                    </h5>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <section className='container section'>
-          <div className='content'>
-            <div className='content container'>
-              <div className='columns'>
-                <div className='column column is-half is-offset-one-quarter has-text-left'>
-                  <div>
-                    <h1>LESSONS LEARNED</h1>
-                    <div style={{ maxWidth: 840 }}>
-                      <ul>
-                        <li>
-                          <h6>Agile design is the only way to go!</h6>
-                        </li>
-                        <p>
-                          I will stress this consistently. I work best with
-                          consistant feedback. I am not a fan of wasting time. I
-                          am aware that at any point in a project without
-                          consistently getting feedback, the project could go
-                          down the wrong path.
-                        </p>
-                        <li>
-                          <h6>Niche markets are difficult</h6>
-                        </li>
-                        <p>
-                          If I were to go back to the start of this project, I
-                          would have given myself more time to submerge myself
-                          in this community and learn more about this market.
-                          Even though the project continued its evolution, I am
-                          not sure that I was able to uncover as much as I would
-                          have liked to.
-                        </p>
-                        <li>
-                          <h6>
-                            Framing research questions correctly will be the
-                            gold in your sifting pan.
-                          </h6>
-                        </li>
-                        <p>
-                          I said it in my first project and I'll say it again! I
-                          feel I wouldn't have been able to uncover any type of
-                          competitive analysis (which in all reality didn't have
-                          much impact on the project, besides understanding fail
-                          vs. innovation). It did, however, give me an insight
-                          into the passion, desire to be a source of connection,
-                          and innovation of the owner of ERE.
-                        </p>
-                        <li>
-                          <h6>Test throughout</h6>
-                        </li>
-                        <p>
-                          This is another one of my golden rules! If I wouldn't
-                          have tested this design throughout the design
-                          evolution, I would have been met with a ton of
-                          iterations looming over a deadline.
-                        </p>
-                      </ul>
-                      <hr />
-                      <section className='container'>
-                        <div className='content'>
-                          <h1> Next steps</h1>
-                          <ol>
-                            <li>
-                              <h6>
-                                Consult with ERE for approval and discuss the
-                                timeline for development
-                              </h6>
-                            </li>
-                            <li>
-                              <h6>Get project ready for development.</h6>
-                            </li>
-                            <li>
-                              <h6>
-                                Meet with the developer, respecting EREs
-                                timeline, and determine how we will proceed.
-                              </h6>
-                            </li>
-                          </ol>
-                          <h4>In my spare time:</h4>
-                          <ul>
-                            <li>
-                              I will continue do more research and get more of a
-                              reach within this community in order to gather
-                              more information and insights.
-                            </li>
-
-                            <li>
-                              I would like to revisit the designs and re-test
-                              with another group of participants.
-                            </li>
-                            <ul>
-                              <li>
-                                <p>
-                                  I feel like I need more time, since this
-                                  particular group of individuals have proven to
-                                  be hard to get to.
-                                </p>
-                              </li>
-                              <li>
-                                <p>
-                                  I feel like the usability testing went too
-                                  smoothly and that makes me wonder what I
-                                  missed.
-                                </p>
-                              </li>
-                            </ul>
-                          </ul>
-                          <h5>
-                            If you'd like to know more about this project, or if
-                            you are interested in collaborating, I'd love to
-                            connect.
-                          </h5>
-                        </div>
-                      </section>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <hr />
-            </div>
-          </div>
-        </section>
+        </div>
       </section>
     </div>
   );
